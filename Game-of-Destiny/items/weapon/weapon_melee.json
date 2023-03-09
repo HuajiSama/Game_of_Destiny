@@ -63,8 +63,8 @@
 		"techniques": ["tec_judo_break","DEF_DISARM","tec_brawl_power"],
 		"flags" : ["UNARMED_WEAPON", "DURABLE_MELEE", "STURDY", "OUTER", "WATERPROOF"]
 	},{
-		"//":"定位：力量系终极武装─高达甲的搭配，小说中具备离合领域，以能源冲击表现，补强爆发/穿透力。",
-		"//":"远程武器穿戴时默认部位为躯干，没法改到手上，因此以离合手甲作为容器。",
+		"//1":"定位：力量系终极武装─高达甲的搭配，小说中具备离合领域，以能源冲击表现，补强爆发/穿透力。",
+		"//2":"远程武器穿戴时默认部位为躯干，没法改到手上，因此以离合手甲作为容器。",
 		"id" : "GS_wp_str5_glove",
 		"type":"GENERIC",
 		"category" : "GS_weapon",

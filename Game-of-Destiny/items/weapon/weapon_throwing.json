@@ -1,6 +1,6 @@
 [
 	{
-		"//":"定位：初、中期快速掌握的中威力远程，后期威力不足，以掷斧兵为灵感诞生，平衡/debug最费事的装备之一。",
+		"//1":"定位：初、中期快速掌握的中威力远程，后期威力不足，以掷斧兵为灵感诞生，平衡/debug最费事的装备之一。",
 		"type": "GUN",
 		"id": "GS_wp_dex2_glove_throwing",
 		"category" : "GS_weapon",
@@ -29,7 +29,7 @@
 		  [ "BURST", "连掷", 2 ]
 		],
 		"armor_data" : {
-			"covers" : ["HANDS"],	"//":"近期版本远程武器穿戴默认躯干位。",
+			"covers" : ["HANDS"],	"//2":"近期版本远程武器穿戴默认躯干位。",
 			"coverage" : 0,
 			"material_thickness" : 1
 			},

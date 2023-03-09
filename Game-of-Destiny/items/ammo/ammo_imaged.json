@@ -36,10 +36,10 @@
 		  "dispersion": 1.1
 		},
 		
-		"volume": 0,	"//":"设定为不占重量体积",
+		"volume": 0,	"//1":"设定为不占重量体积",
 		"weight": 0,
 		"price": 0,
-		"count": 10,	"//":"制造一次数量=10",
+		"count": 10,	"//2":"制造一次数量=10",
 		"extend": { "effects": [ "NEVER_MISFIRES" ] },
 		"delete": { "effects": [ "COOKOFF" ] }
 	},{

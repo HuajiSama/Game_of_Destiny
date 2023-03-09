@@ -184,8 +184,8 @@
 		"built_in_mods" : ["mechanic_umbrella_spear"],
 		"valid_mod_locations": [[ "mechanism", 1 ]]	
 	},{
-		"//":"此模式可f指定2格内目标进行物理攻击",
-		"//":"无法切换各模式的stat/technique,实现(枪/剑)形态切换,残念",
+		"//1":"此模式可f指定2格内目标进行物理攻击",
+		"//2":"无法切换各模式的stat/technique,实现(枪/剑)形态切换,残念",
 		"id": "mechanic_umbrella_spear",
 		"type": "TOOL",
 		"category": "weapons",

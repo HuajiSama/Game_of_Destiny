@@ -99,7 +99,7 @@
 "built_in_mods":["grip","pistol_grip","arrowrest","bow_stabilizer"],
 "valid_mod_locations":[["accessories",2],["grip",1],["rail",1],["sights",1],["underbarrel",1]]
 },{
-"id":"archer_bag",
+"id":"archer_bag2",
 "copy-from":"survivor_runner_pack",
 "type":"ARMOR",
 "name":"弓箭手背包",
