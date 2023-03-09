@@ -6,20 +6,19 @@
 		"category" : "OTHER",
 		"difficulty" : 6,
 		"time" : 60,
-		"qualities": 
-			[ 
-				[ { "id": "SAW_W", "level": 2 } ],
-				[ { "id": "HAMMER", "level": 2 } ],
-				[ { "id": "HAMMER_FINE", "level": 1 } ]
-			],
-        "components" :
-			[
-				[ [ "2x4", 25 ] ],
-				[ [ "nail", 50 ] ]
-			],
+		"qualities": [ 
+			[ { "id": "SAW_W", "level": 2 } ],
+			[ { "id": "HAMMER", "level": 2 } ],
+			[ { "id": "HAMMER_FINE", "level": 1 } ]
+		],
+    "components" : [
+			[ [ "2x4", 25 ] ],
+			[ [ "nail", 50 ] ]
+		],
 		"pre_special" : "check_down_OK",
 		"post_terrain" : "t_stairs_down"
-	},{
+	},
+	{
 		"type" : "construction",
 		"id" : "bulid_shkt",
 		"description" : "建设：上行楼梯",
