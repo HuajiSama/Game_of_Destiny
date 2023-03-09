@@ -47,32 +47,33 @@
 		"charges" : 2,
 		"stack_size" : 2,
 		"fun" : -50
-	},{
-        "id": "GS_comestible_enhance_potion",
-        "type": "COMESTIBLE",
-        "category" : "GS_drug",
-        "symbol": "~",
-        "color": "red",
-        "name": "熊魔药剂",
-        "name_plural" : "熊魔药剂",
-        "description" : "以天命消弭丧尸病毒对宿主细胞的破坏性，短时间强化身体爆发力的药剂，力量+5、敏捷+3、速度+15、体力恢复+8，持续10分钟。",
-        "price": 20000,
-        "weight": 250,
-        "volume": 1,
-        "comestible_type": "DRINK",
-        "container": "flask_glass",
-        "quench": 10,
-        "charges": 1,
+	},
+	{
+		"id": "GS_comestible_enhance_potion",
+		"type": "COMESTIBLE",
+		"comestible_type": "DRINK",
+		"category" : "GS_drug",
+		"name": "熊魔药剂",
+		"description" : "以天命消弭丧尸病毒对宿主细胞的破坏性，短时间强化身体爆发力的药剂，力量+5、敏捷+3、速度+15、体力恢复+8，持续10分钟。",
+		"weight": 250,
+		"volume": 1,
+		"price": 20000,
+ 		"symbol": "~",
+		"color": "red",
+		"container": "flask_glass",
+		"quench": 10,
+		"charges": 1,
 		"stack_size" : 2,		
-        "phase": "liquid",
-		"flags" : [ "USE_ON_NPC" ],
-		"//":"目前似乎仅限action-heal能直接使用于NPC",
-        "use_action" : {
-            "type" : "consume_drug",
-            "activation_message" : "你喝下熊魔药剂，源源不绝的活力涌出，效果持续10分钟。",
-            "effects" : [ { "id" : "medic_enhance", "duration" : 100 } ]
-        }
-	},{
+		"phase": "liquid",
+		"use_action" : {
+			"type" : "consume_drug",
+			"activation_message" : "你喝下熊魔药剂，源源不绝的活力涌出，效果持续10分钟。",
+			"effects" : [ { "id" : "medic_enhance", "duration" : 100 } ]
+		},
+		"flags" : [ "NPC_SAFE" ],
+		"//":"目前似乎仅限action-heal能直接使用于NPC（现在不清楚）"
+	},
+	{
         "id": "GS_comestible_cure_potion",
         "type": "COMESTIBLE",
         "category" : "GS_drug",
