@@ -3,77 +3,80 @@
 		"type" : "material",
 		"ident" : "super_mt",
 		"name" : "超凡材质",
-        "repaired_with" : "destiny_copper",
+    "repaired_with" : "destiny_copper",
+		"density" : 1.0,
 		"bash_resist" : 5,
 		"cut_resist" : 5,
-		"bash_dmg_verb" : "chipped",
-		"cut_dmg_verb" : "shattered",
-		"dmg_adj" :
-			[
-            "marked",
-            "chipped",
-            "cracked",
-            "shattered"
-			],
+		"bullet_resist": 5,
 		"acid_resist" : 10,
 		"elec_resist" : 10,
 		"fire_resist" : 20,
 		"chip_resist" : 25,
-		"density" : 1,
-        "burn_data": [
-            { "immune": true },
-            { "immune": true },
-            { "immune": true }
-        ]
-	},{
+		"bash_dmg_verb" : "chipped",
+		"cut_dmg_verb" : "shattered",
+		"dmg_adj" : [
+      "marked",
+      "chipped",
+      "cracked",
+      "shattered"
+		],
+    "burn_data": [
+      { "immune": true },
+      { "immune": true },
+      { "immune": true }
+    ]
+	},
+	{
 		"type" : "material",
 		"ident" : "merit_mt",
 		"name" : "功德之气",
-        "repaired_with" : "merit",
+    "repaired_with" : "merit",
+		"density" : 1.0,
 		"bash_resist" : 10,
 		"cut_resist" : 10,
-        "bash_dmg_verb" : "dented",
-        "cut_dmg_verb" : "scratched",
-        "dmg_adj" : [
-            "marked",
-            "dented",
-            "smashed",
-            "shattered"
-        ],
+		"bullet_resist": 10,
 		"acid_resist" : 25,
 		"elec_resist" : 25,
 		"fire_resist" : 25,
 		"chip_resist" : 25,
-		"density" : 1,
-        "burn_data": [
-            { "immune": true },
-            { "immune": true },
-            { "immune": true }
-        ]		
+		"bash_dmg_verb" : "dented",
+    "cut_dmg_verb" : "scratched",
+    "dmg_adj" : [
+      "marked",
+      "dented",
+      "smashed",
+      "shattered"
+    ],
+    "burn_data": [
+      { "immune": true },
+      { "immune": true },
+      { "immune": true }
+    ]		
 	},{
 		"type" : "material",
 		"ident" : "GS_int_sheild",
 		"name" : "音波屏障",
-        "repaired_with" : "destiny_copper",
+    "repaired_with" : "destiny_copper",
+		"density" : 1.0,
 		"bash_resist" : 8,
 		"cut_resist" : 8,
-        "bash_dmg_verb" : "dented",
-        "cut_dmg_verb" : "scratched",
-        "dmg_adj" : [
-            "marked",
-            "dented",
-            "smashed",
-            "shattered"
-        ],
+		"bullet_resist": 8,
 		"acid_resist" : 10,
 		"elec_resist" : 10,
 		"fire_resist" : 10,
 		"chip_resist" : 10,
-		"density" : 1,
-        "burn_data": [
-            { "immune": true },
-            { "immune": true },
-            { "immune": true }
-        ]		
+		"bash_dmg_verb" : "dented",
+    "cut_dmg_verb" : "scratched",
+    "dmg_adj" : [
+      "marked",
+      "dented",
+      "smashed",
+      "shattered"
+    ],
+    "burn_data": [
+      { "immune": true },
+      { "immune": true },
+      { "immune": true }
+    ]		
 	}
 ]
