@@ -5,7 +5,6 @@
 		"comestible_type" : "MED",
 		"category" : "GS_drug",
 		"name" : "不专业绷带",
-		"name_plural" : "不专业绷带",
 		"description" : "简单布料附上少许天命，却有不科学的治疗效果，不专业的绷带，才是好绷带！",
 		"weight" : 70,
 		"volume" : 1,
@@ -25,8 +24,9 @@
 				"move_cost" : 300,
 				"effects" : [ { "id" : "pkill1", "duration" : 30 } ]
 			},	
-		"flags" : [ "USE_ON_NPC" ]
-	},{
+		"flags" : [ "NPC_SAFE" ]
+	},
+	{
 		"type" : "COMESTIBLE",
 		"category" : "chems",
 		"id" : "GS_comestible_zombievirus",
