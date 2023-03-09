@@ -1,0 +1,210 @@
+[
+	{
+		"type" : "recipe",
+		"result": "clay_canister",
+		"id_suffix": "from element_earth",	
+		"category": "CC_OTHER",
+		"subcategory": "CSC_OTHER_CONTAINERS",
+		"skill_used": "fabrication",		
+		"skills_required": [["GS_int",2],["fabrication",1]],
+		"difficulty": 0,
+		"time": 5000,
+		"book_learn" : [[ "GS_book_alchemy1",0]],
+		"tools": [
+			[
+			  [ "fire", -1 ]
+			]
+		  ],
+		"components": 
+		[
+			[
+				[ "clay_lump", 2 ],
+				[ "element_earth", 2 ]
+			],
+			[
+				[ "water", 1 ],
+				[ "water_clean", 1 ],
+				[ "element_water", 1 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "jug_clay",
+		"id_suffix": "from element_earth",	
+		"category": "CC_OTHER",
+		"subcategory": "CSC_OTHER_CONTAINERS",
+		"skill_used": "fabrication",		
+		"skills_required": [["GS_int",2],["fabrication",1]],
+		"difficulty": 0,
+		"time": 5000,
+		"book_learn" : [[ "GS_book_alchemy1",0]],
+		"tools": [
+			[
+			  [ "fire", -1 ]
+			]
+		  ],
+		"components": 
+		[
+			[
+				[ "clay_lump", 6 ],
+				[ "element_earth", 6 ]
+			],
+			[
+				[ "water", 3 ],
+				[ "water_clean", 3 ],
+				[ "element_water", 3 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "bottle_plastic",
+		"id_suffix": "from element_plastic",		
+		"category": "CC_OTHER",
+		"subcategory": "CSC_OTHER_CONTAINERS",
+		"skill_used": "fabrication",		
+		"skills_required": [["GS_int",4],["fabrication",3]],
+		"difficulty": 0,
+		"time": 500,
+		"book_learn" : [[ "GS_book_alchemy2",0]],
+		"components": 
+		[
+			[
+			[ "element_plastic", 2 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "jug_plastic",
+		"id_suffix": "from element_plastic",		
+		"category": "CC_OTHER",
+		"subcategory": "CSC_OTHER_CONTAINERS",
+		"skill_used": "fabrication",		
+		"skills_required": [["GS_int",4],["fabrication",3]],
+		"difficulty": 0,
+		"time": 1000,
+		"book_learn" : [[ "GS_book_alchemy2",0]],
+		"components": 
+		[
+			[
+			[ "element_plastic", 15 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "canister_empty",
+		"id_suffix": "from element steel",	
+		"category": "CC_OTHER",
+		"subcategory": "CSC_OTHER_CONTAINERS",
+		"skill_used": "fabrication",		
+		"skills_required": [["GS_int",6],["fabrication",5]],
+		"difficulty": 0,
+		"time": 500,
+		"book_learn" : [[ "GS_book_alchemy3",0]],
+		"components": 
+		[
+			[
+			[ "element_steel", 1 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "metal_tank_little",
+		"id_suffix": "from element steel",	
+		"category": "CC_OTHER",
+		"subcategory": "CSC_OTHER_CONTAINERS",
+		"skill_used": "fabrication",		
+		"skills_required": [["GS_int",6],["fabrication",5]],
+		"difficulty": 0,
+		"time": 1500,
+		"book_learn" : [[ "GS_book_alchemy3",0]],
+		"components": 
+		[
+			[
+			[ "element_steel", 3 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "metal_tank",
+		"id_suffix": "from element steel",	
+		"category": "CC_OTHER",
+		"subcategory": "CSC_OTHER_CONTAINERS",
+		"skill_used": "fabrication",		
+		"skills_required": [["GS_int",6],["fabrication",5]],
+		"difficulty": 0,
+		"time": 2000,
+		"book_learn" : [[ "GS_book_alchemy3",0]],
+		"components": 
+		[
+			[
+			[ "element_steel", 6 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "flask_glass",
+		"id_suffix": "from shard, GOD mod",	
+		"category": "CC_OTHER",
+		"subcategory": "CSC_OTHER_CONTAINERS",
+		"skill_used": "fabrication",		
+		"skills_required": [ ["GS_int",4],["fabrication",3] ],
+		"difficulty": 0,
+		"time": 1000,
+		"book_learn" : [[ "glassblowing_book",0]],
+		"tools": [
+			[
+			  [ "surface_heat", 15, "LIST" ]
+			]
+		],
+		"components": 
+		[
+			[
+				[ "glass_shard", 5 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "bottle_glass",
+		"id_suffix": "from shard, GOD mod",	
+		"category": "CC_OTHER",
+		"subcategory": "CSC_OTHER_CONTAINERS",
+		"skill_used": "fabrication",		
+		"skills_required": [ ["GS_int",4],["fabrication",3] ],
+		"difficulty": 0,
+		"time": 1000,
+		"book_learn" : [[ "glassblowing_book",0]],
+		"tools": [
+			[
+			  [ "surface_heat", 35, "LIST" ]
+			]
+		],
+		"components": 
+		[
+			[
+				[ "glass_shard", 15 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "jar_glass",
+		"id_suffix": "from shard, GOD mod",	
+		"category": "CC_OTHER",
+		"subcategory": "CSC_OTHER_CONTAINERS",
+		"skill_used": "fabrication",		
+		"skills_required": [ ["GS_int",4],["fabrication",3] ],
+		"difficulty": 0,
+		"time": 3000,
+		"book_learn" : [[ "glassblowing_book",0]],
+		"tools": [
+			[
+			  [ "surface_heat", 25, "LIST" ]
+			]
+		],
+		"components": 
+		[
+			[
+				[ "glass_shard", 10 ]
+			]
+		]
+	}
+]

@@ -1,0 +1,226 @@
+[
+	{
+		"type" : "recipe",
+		"result": "GS_wp_str2_glove",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_武装",
+		"skill_used": "unarmed",
+		"skills_required": [[ "GS_str", 4 ],[ "melee", 0 ]],
+		"difficulty": 0,
+		"time": 60000,
+		"autolearn": true,
+		"components": 
+		[
+			[
+			 [ "GS_basic_str", 2 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "GS_wp_str3_glove",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_武装",
+		"skill_used": "unarmed",
+		"skills_required": [[ "GS_str", 6 ],[ "melee", 2 ]],
+		"difficulty": 0,
+		"time": 60000,
+		"autolearn": true,
+		"components": 
+		[
+			[
+			 [ "GS_wp_str2_glove", 1 ]
+			],
+			[
+			 [ "GS_basic_str", 2 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "GS_wp_str4_glove",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_武装",
+		"skill_used": "unarmed",
+		"skills_required": [[ "GS_str", 8 ],[ "melee", 4 ]],
+		"difficulty": 0,
+		"time": 60000,
+		"autolearn": true,
+		"components":
+		[
+			[
+			 [ "GS_wp_str3_glove", 1 ]
+			],
+			[
+			 [ "GS_basic_str", 3 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "GS_wp_str5_glove",
+		"byproducts": [ ["GS_wp_str5_glove_holster"] ],
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_武装",
+		"skill_used": "unarmed",
+		"skills_required": [[ "GS_str", 10 ],[ "melee", 6 ]],
+		"difficulty": 0,
+		"time": 60000,
+		"autolearn": true,
+		"components":
+		[
+			[
+			 [ "GS_wp_str4_glove", 1 ]
+			],
+			[
+			 [ "GS_basic_str", 4 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "GS_wp_str2_reveager_spear",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_武装",
+		"skill_used": "stabbing",
+		"skills_required": [[ "GS_str", 4 ],[ "GS_dex", 4 ],[ "melee", 3 ]],
+		"difficulty": 0,
+		"time": 60000,
+		"autolearn": true,
+		"components":
+		[
+			[
+			 [ "GS_basic_str", 2 ]
+			],
+			[
+			 [ "GS_basic_dex", 2 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "GS_wp_str4_reveager_spear",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_武装",
+		"skill_used": "stabbing",
+		"skills_required": [[ "GS_str", 8 ],[ "GS_dex", 8 ],[ "melee", 5 ]],
+		"difficulty": 0,
+		"time": 60000,
+		"autolearn": true,
+		"components":
+		[
+			[
+			 [ "GS_wp_str2_reveager_spear", 1 ]
+			],
+			[
+			 [ "GS_basic_str", 2 ]
+			],
+			[
+			 [ "GS_basic_dex", 2 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "GS_wp_str3_katana_bloodly",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_武装",
+		"skill_used": "cutting",
+		"skills_required": [[ "GS_str", 4 ],[ "GS_per", 4 ],[ "melee", 3 ]],
+		"difficulty": 0,
+		"time": 60000,
+		"autolearn": true,
+		"components":
+		[
+			[
+			 [ "GS_basic_str", 2 ]
+			],
+			[
+			 [ "GS_basic_per", 2 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "GS_wp_str5_katana_Muramasa",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_武装",
+		"skill_used": "cutting",
+		"skills_required": [[ "GS_str", 8 ],[ "GS_per", 8 ],[ "melee", 5 ]],
+		"difficulty": 0,
+		"time": 60000,
+		"autolearn": true,
+		"components":
+		[
+			[
+			 [ "GS_wp_str3_katana_bloodly", 1 ]
+			],
+			[
+			 [ "GS_basic_str", 2 ]
+			],
+			[
+			 [ "GS_basic_per", 2 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "GS_wp_merit2_sword_dispel",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_武装",
+		"skill_used": "speech",
+		"skills_required": [["GS_per",4],["speech",6]],
+		"difficulty": 0,
+		"time": 60000,
+		"book_learn" : [[ "GS_book_merit2",0],[ "GS_book_merit3", 0 ]],
+		"qualities":[
+			 {"id":"HAMMER","level":2,"amount":1}
+			],
+		"tools": [ [[ "surface_heat", 50, "LIST" ]] ],
+		"components":
+		[
+			[
+			 [ "scrap_copper", 3 ],
+			 [ "copper", 300 ]
+			],
+			[
+			 [ "destiny_silver", 1 ]
+			],
+			[
+			 [ "merit", 25 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "GS_wp_merit3_emperor_sword",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_武装",
+		"skill_used": "speech",
+		"skills_required": [["GS_per",6],["speech",10]],
+		"difficulty": 0,
+		"time": 60000,
+		"book_learn" : [[ "GS_book_merit3",0]],
+		"qualities":[
+			 {"id":"HAMMER","level":3,"amount":1},
+			 {"id":"CHISEL","level":3}
+			],
+		"tools": [
+			  [
+			  ["tongs", -1]
+			  ],
+			  [
+			  ["anvil", -1]
+			  ],
+			  [
+			  ["swage", -1]
+			  ],
+			  [
+			  ["forge", 200], [ "oxy_torch", 40]
+			  ]
+			],
+		"components":
+		[
+			[
+			 [ "GS_wp_merit2_sword_dispel", 1 ]
+			],
+			[
+			 [ "destiny_silver", 2 ]
+			],
+			[
+			 [ "merit", 50 ]
+			]
+		]
+	}
+]

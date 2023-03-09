@@ -1,0 +1,180 @@
+[
+	{
+		"type" : "recipe",
+		"result": "GS_wp_dex2_bow",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_武装",
+		"skill_used": "gun",
+		"skills_required": [[ "GS_dex", 4 ],[ "archery", 0 ]],
+		"difficulty": 0,
+		"time": 60000,
+		"autolearn": true,
+		"components": 
+		[
+			[
+			 [ "GS_basic_dex", 2 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "GS_wp_dex3_bow",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_武装",
+		"skill_used": "gun",
+		"skills_required": [[ "GS_dex", 6 ],[ "archery", 2 ]],
+		"difficulty": 0,
+		"time": 60000,
+		"autolearn": true,
+		"components": 
+		[
+			[
+			 [ "GS_wp_dex2_bow", 1 ]
+			],
+			[
+			 [ "GS_basic_dex", 2 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "GS_wp_dex4_bow",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_武装",
+		"skill_used": "gun",
+		"skills_required": [[ "GS_dex", 8 ],[ "archery", 4 ]],
+		"difficulty": 0,
+		"time": 60000,
+		"autolearn": true,
+		"components": 
+		[
+			[
+			 [ "GS_wp_dex3_bow", 1 ]
+			],
+			[
+			 [ "GS_basic_dex", 3 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "GS_wp_dex5_bow",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_武装",
+		"skill_used": "gun",
+		"skills_required": [[ "GS_dex", 10 ],[ "archery", 6 ]],
+		"difficulty": 0,
+		"time": 60000,
+		"autolearn": true,
+		"components": 
+		[
+			[
+			 [ "GS_wp_dex4_bow", 1 ]
+			],
+			[
+			 [ "GS_basic_dex", 4 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "GS_wp_mechanic_umbrella",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_武装",	
+		"skill_used": "fabrication",		
+		"skills_required": [[ "GS_int", 8 ],["mechanics", 8]],		
+		"difficulty": 0,
+		"time": 60000,
+		"book_learn" : [[ "GS_book_int_mechanic", 0 ]],
+		"tools": 
+			[
+				[
+				 [ "GS_book_int_mechanic", -1 ]
+				]
+			],
+		"components": 
+		[
+			[
+			 [ "GS_basic_int", 4]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "GS_book_int5_alchemy_gun_readme",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_武装",	
+		"skill_used": "gun",		
+		"skills_required": [[ "GS_int", 10 ],["fabrication", 8]],		
+		"difficulty": 0,
+		"time": 10000,
+		"autolearn": true,
+		"components": 
+		[
+			[
+			[ "destiny_copper", 1]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "GS_wp_int5_alchemy_gun",	
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_武装",
+		"skill_used": "gun",		
+		"skills_required": [[ "GS_int", 10 ],["fabrication", 8]],	
+		"difficulty": 0,
+		"time": 60000,
+		"book_learn" : [[ "GS_book_int5_alchemy_gun_readme", 0 ]],
+		"tools": 
+			[
+				[
+				 [ "GS_book_int5_alchemy_gun_readme", -1 ]
+				]
+			],
+		"components": 
+		[
+			[
+			 [ "GS_basic_int", 4 ]			
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "GS_wp_merit2_crossbow",	
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_武装",
+		"skill_used": "fabrication",		
+		"skills_required": [["GS_per",4],["speech",6]],
+		"difficulty": 0,
+		"time": 60000,
+		"book_learn" : [[ "GS_book_merit2", 0 ],[ "GS_book_merit3", 0 ]],
+		"components": 
+		[
+			[
+			 [ "crossbow", 1 ]			
+			],
+			[
+			 [ "destiny_silver", 1 ]
+			],
+			[
+			 [ "merit", 25 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "GS_wp_merit3_crossbow",	
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_武装",
+		"skill_used": "fabrication",
+		"skills_required": [["GS_per",6],["speech",10]],
+		"difficulty": 0,
+		"time": 60000,
+		"book_learn" : [[ "GS_book_merit3", 0 ]],
+		"components":
+		[
+			[
+			 [ "GS_wp_merit2_crossbow", 1 ]			
+			],
+			[
+			 [ "destiny_silver", 2 ]
+			],
+			[
+			 [ "merit", 50 ]
+			]
+		]
+	}
+]

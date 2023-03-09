@@ -1,0 +1,25 @@
+[
+	{
+		"type" : "MONSTER",
+		"id" : "mon_worm",
+		"copy-from" : "mon_worm",
+		"death_drops": "destiny_coin_drops2"
+	},{
+		"type" : "MONSTER",
+		"id" : "mon_dark_wyrm",
+		"copy-from" : "mon_dark_wyrm",
+		"death_drops": "destiny_coin_drops3"
+	},{
+		"type" : "MONSTER",
+		"id" : "mon_graboid", 	"//": "地魔蟲,10X",
+		"copy-from" : "mon_graboid",
+		"death_drops": 
+		{
+			"subtype": "collection",
+			"groups": [
+				[ "destiny_coin_drops4", 100 ],
+				[ "destiny_coin_drops4", 100 ]
+			]
+		}
+	}
+]

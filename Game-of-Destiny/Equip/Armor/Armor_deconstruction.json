@@ -1,0 +1,223 @@
+[
+	{
+		"type" : "uncraft",
+		"result": "GS_basic_str",
+		"time": 0,
+		"flags": [ "BLIND_EASY" ],
+		"components": [
+			[ 
+			 [ "destiny_copper", 75 ]
+			]
+		]
+	},{
+		"type" : "uncraft",
+		"result": "GS_basic_dex",
+		"time": 0,
+		"flags": [ "BLIND_EASY" ],
+		"components": [
+			[ 
+			 [ "destiny_copper", 75 ]
+			]	
+		]		
+	},{
+		"type" : "uncraft",
+		"result": "GS_basic_int",
+		"time": 0,
+		"flags": [ "BLIND_EASY" ],
+		"components": [
+			[ 
+			 [ "destiny_copper", 75 ]
+			]	
+		]
+	},{
+		"type" : "uncraft",
+		"result": "GS_basic_per",
+		"time": 0,
+		"flags": [ "BLIND_EASY" ],
+		"components": [
+			[ 
+			 [ "destiny_copper", 75 ]
+			]	
+		]
+	},{
+		"type" : "uncraft",
+		"result": "GS_eq_str3_shield",
+		"time" : 0,
+		"flags": [ "BLIND_EASY" ],
+		"components": [		
+			[
+			 [ "destiny_copper", 150 ]
+			]
+		]
+	},{
+		"type" : "uncraft",
+		"result": "GS_eq_str4_shield",
+		"time" : 0,
+		"flags": [ "BLIND_EASY" ],
+		"components": [
+			[ 
+			 [ "GS_eq_str3_shield", 1 ]
+			],
+			[ 
+			 [ "destiny_copper", 150 ]
+			]			
+		]
+	},{
+		"type" : "uncraft",
+		"result": "GS_eq_str4_armor_thorns",
+		"time" : 0,
+		"flags": [ "BLIND_EASY" ],
+		"components": [
+			[ 
+			 [ "destiny_copper", 200 ]
+			]			
+		]
+	},{
+		"type" : "uncraft",
+		"result": "GS_eq_str5_armor_gundam",
+		"time" : 0,
+		"flags": [ "BLIND_EASY" ],
+		"components": [
+			[ 
+			 [ "GS_eq_str4_armor_thorns", 1 ]
+			],
+			[ 
+			 [ "GS_eq_str4_shield", 1 ]
+			],
+			[ 
+			 [ "destiny_copper", 200 ]
+			]			
+		]
+	},{
+		"type" : "uncraft",
+		"result": "GS_eq_dex3_amulet_teleport",
+		"time" : 0,
+		"flags": [ "BLIND_EASY" ],
+		"components": [
+			[
+			 [ "destiny_copper", 100 ]
+			]
+		]		
+	},{
+		"type" : "uncraft",
+		"result": "GS_eq_dex2_amulet_speed",
+		"time" : 0,
+		"flags": [ "BLIND_EASY" ],
+		"components": [
+			[
+			 [ "destiny_copper", 100 ]
+			]
+		]
+	},{
+		"type" : "uncraft",
+		"result": "GS_eq_dex4_amulet_speed",
+		"time" : 0,
+		"flags": [ "BLIND_EASY" ],
+		"components": [
+			[
+			 [ "GS_eq_dex2_amulet_speed", 1 ]
+			],
+			[
+			 [ "destiny_copper", 150 ]
+			]
+		]
+	},{
+		"type" : "uncraft",
+		"result": "GS_eq_int2_bell",
+		"time" : 0,
+		"flags": [ "BLIND_EASY" ],
+		"components": [
+			[
+			 [ "destiny_copper", 100 ]
+			]
+		]
+	},{
+		"type" : "uncraft",
+		"result": "GS_eq_int3_bell",
+		"time" : 0,
+		"flags": [ "BLIND_EASY" ],
+		"components": [
+			[
+			 [ "GS_eq_int2_bell", 1 ]
+			],
+			[
+			 [ "destiny_copper", 100 ]
+			]
+		]
+	},{
+		"type" : "uncraft",
+		"result": "GS_eq_per2_song",
+		"time" : 0,
+		"flags": [ "BLIND_EASY" ],
+		"components": [
+			[
+			 [ "destiny_copper", 100 ]
+			]
+		]
+	},{
+		"type" : "uncraft",
+		"result": "GS_eq_per3_song",
+		"time" : 0,
+		"flags": [ "BLIND_EASY" ],
+		"components": [
+			[
+			 [ "GS_eq_per2_song", 1 ]
+			],
+			[
+			 [ "destiny_copper", 100 ]
+			]
+		]
+	},{
+		"type" : "uncraft",
+		"result": "GS_eq_per2_necklace_unseen",
+		"time" : 0,
+		"flags": [ "BLIND_EASY" ],
+		"components": [
+			[
+			 [ "destiny_copper", 100 ]
+			]
+		]
+	},{
+		"type" : "uncraft",
+		"result": "GS_eq_per4_robe_quiet",
+		"time" : 0,
+		"flags": [ "BLIND_EASY" ],
+		"components": [
+			[
+			 [ "GS_eq_per2_necklace_unseen", 1 ]
+			],
+			[
+			 [ "GS_eq_int3_bell", 1 ]
+			],
+			[
+			 [ "destiny_copper", 150 ]
+			]
+		]
+	},{
+		"type" : "uncraft",
+		"result": "GS_eq_merit2_soul",
+		"time" : 0,
+		"flags": [ "BLIND_EASY" ],
+		"components": [
+			[
+			 [ "GS_eq_merit1_soul", 1 ]
+			],
+			[
+			 [ "merit", 20 ]
+			]
+		]
+	},{
+		"type" : "uncraft",
+		"result": "GS_eq_merit3_soul",
+		"time" : 0,
+		"flags": [ "BLIND_EASY" ],
+		"components": [
+			[
+			 [ "GS_eq_merit2_soul", 1 ]
+			],
+			[
+			 [ "merit", 30 ]
+			]
+		]		
+	}
+]

@@ -1,0 +1,36 @@
+[
+	{
+		"type" : "recipe",
+		"result": "GS_container1",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_道具",
+		"skill_used": "survival",		
+		"skills_required": [[ "GS_int", 4 ],[ "fabrication", 3 ]],  
+		"difficulty": 0,
+		"time": 15000,
+		"autolearn": true,
+		"components":
+		[
+			[
+			 [ "destiny_copper", 50 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "GS_container2",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_道具",
+		"skill_used": "survival",		
+		"skills_required": [[ "GS_int", 6 ],[ "fabrication", 6 ]],  
+		"difficulty": 0,
+		"time": 15000,
+		"autolearn": true,
+		"reversible": true,
+		"components":
+		[
+			[
+			 [ "GS_container1", 5 ]
+			]
+		]	
+	}
+]

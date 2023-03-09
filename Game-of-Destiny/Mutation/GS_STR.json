@@ -1,0 +1,219 @@
+[
+	{
+        "type" : "mutation_category",
+        "id" : "SP_STRENGTH1",
+        "name" : "力量系特质(初级)",
+        "threshold_mut" : "THRESH_SP_STRENGTH1",
+        "mutagen_message" : "你努力地集中意念，引导能量强化神经系统，凝结力量特质。",
+        "iv_message" : "你努力地集中意念，引导能量强化神经系统，凝结力量特质。",
+        "memorial_message" : "你努力地集中意念，引导能量强化神经系统，凝结力量特质。"
+    },{		
+        "type" : "mutation_category",
+        "id" : "SP_STRENGTH2",
+        "name" : "力量系特质(中级)",
+        "threshold_mut" : "THRESH_SP_STRENGTH2",
+        "mutagen_message" : "你努力地集中意念，引导能量强化神经系统，凝结力量特质。",
+		"iv_message" : "你努力地集中意念，引导能量强化神经系统，凝结力量特质。",
+        "memorial_message" : "你努力地集中意念，引导能量强化神经系统，凝结力量特质。"
+    },{
+        "type" : "mutation_category",
+        "id" : "SP_STRENGTH3",
+        "name" : "力量系特质(高级)",
+        "threshold_mut" : "THRESH_SP_STRENGTH3",
+        "mutagen_message" : "你努力地集中意念，引导能量强化神经系统，凝结力量特质。",
+        "iv_message" : "你努力地集中意念，引导能量强化神经系统，凝结力量特质。",
+        "memorial_message" : "你努力地集中意念，引导能量强化神经系统，凝结力量特质。"
+    },{
+        "type" : "mutation",
+        "id" : "THRESH_SP_STRENGTH1",
+        "name" : "力量系特质(初级)",
+        "points" : 0,
+        "description" : "debug专用",
+        "valid": false,
+        "purifiable": false,
+        "threshold": true
+    },{
+        "type" : "mutation",
+        "id" : "THRESH_SP_STRENGTH2",
+        "name" : "力量系特质(中级)",
+        "points" : 0,
+        "description" : "debug专用",
+        "valid": false,
+        "purifiable": false,
+        "threshold": true
+    },{
+        "type" : "mutation",
+        "id" : "THRESH_SP_STRENGTH3",
+        "name" : "力量系特质(高级)",
+        "points" : 0,
+        "description" : "debug专用",
+        "valid": false,
+        "purifiable": false,
+        "threshold": true
+    },{
+        "id" : "cohesion_strength1",
+        "type" : "COMESTIBLE",
+        "comestible_type" : "MED",		
+		"category" : "GS_feature",
+        "name" : "特质凝结─力量系(初级)",
+		"name_plural": "特质凝结─力量系(初级)",		
+        "description" : "超凡者的基因解锁达到某个水准之后，能依据自身特长，提纯天命能量在体内凝聚特质。\n \n力量系特质：着重于身体强度与爆发力，增强力量、韧性和爆发力。\n \n※凝结特质：力量+2(肌肉发达)、坚韧皮肤、活化肾上腺素。",
+        "symbol" : "!",
+        "color" : "green",
+		"healthy" : 15,
+        "use_action" : {
+         "type" : "mutagen",
+         "mutation_category" : "SP_STRENGTH1"
+        },
+		"flags" : [ "SP_STRENGTH1" ]
+    },{
+        "id" : "cohesion_strength2",
+        "type" : "COMESTIBLE",
+        "comestible_type" : "MED",		
+		"category" : "GS_feature",
+        "name" : "特质凝结─力量系(中级)",
+		"name_plural": "特质凝结─力量系(中级)",		
+        "description" : "超凡者的基因解锁达到某个水准之后，能依据自身特长，提纯天命能量在体内凝聚特质。\n \n力量系特质：着重于身体强度与爆发力，增强力量、生命上限、体能恢复。\n \n※凝结特质：力量+4(孔武有力)、心肺强化、背肌发达(负重+35%)、强壮(HP+20%)。",
+        "symbol" : "!",
+        "color" : "green",
+        "healthy" : 30,
+        "use_action" : {
+         "type" : "mutagen",
+         "mutation_category" : "SP_STRENGTH2"
+        },
+		"flags" : [ "SP_STRENGTH2" ]
+    },{
+        "id" : "cohesion_strength3",
+        "type" : "COMESTIBLE",
+        "comestible_type" : "MED",		
+		"category" : "GS_feature",
+        "name" : "特质凝结─力量系(高级)",
+		"name_plural": "特质凝结─力量系(高级)",		
+        "description" : "超凡者的基因解锁达到某个水准之后，能依据自身特长，提纯天命能量在体内凝聚特质。\n \n力量系特质：着重于身体强度与爆发力，进一步强化自身体能与生命力。\n \n※凝结特质：力量+6(骁勇善战)、精力充沛(Stamia+25%)、不可战胜(HP+40%)。",
+        "symbol" : "!",
+        "color" : "green",
+		"healthy" : 15,
+        "use_action" : {
+         "type" : "mutagen",
+         "mutation_category" : "SP_STRENGTH3"
+        },
+		"flags" : [ "SP_STRENGTH3" ]
+    },{
+        "type" : "mutation",
+        "id" : "STR_UP_2",
+        "name" : "Very Strong",
+        "points" : 2,
+        "description" : "Your muscles are stronger.  Strength + 2",
+        "prereqs" : ["STR_UP"],
+        "changes_to" : ["STR_UP_3", "STR_ALPHA"],
+        "category" : ["SP_STRENGTH1","LIZARD", "CATTLE", "PLANT", "ALPHA"],
+        "passive_mods" : {
+            "str_mod" : 2
+        }
+    },{
+        "type" : "mutation",
+        "id" : "ADRENALINE",
+        "name" : "High Adrenaline",
+        "points" : 1,
+        "description" : "If you are in a very dangerous situation, you may experience a temporary rush which increases your speed and strength significantly.",
+        "starting_trait" : true,
+        "category" : ["SP_STRENGTH1","BEAST", "CHIMERA"]
+    },{
+        "type" : "mutation",
+        "id" : "THICKSKIN",
+        "name" : "Thick-Skinned",
+        "points" : 1,
+        "description" : "Your skin is tough.  Cutting damage is slightly reduced for you.  Slightly decreases wet penalties.",
+        "starting_trait" : true,
+        "category" : ["SP_STRENGTH1","LIZARD", "CATTLE", "CHIMERA", "RAPTOR"],
+        "cancels" : ["THINSKIN"],
+        "wet_protection" : [
+            { "part" : "LEG_L", "neutral" : 2 },
+            { "part" : "LEG_R", "neutral" : 2 },
+            { "part" : "ARM_L", "neutral" : 2 },
+            { "part" : "ARM_R", "neutral" : 2 },
+            { "part" : "TORSO", "neutral" : 4 }
+        ],
+        "armor" : [ { "parts" : "ALL", "cut" : 1 } ]
+    },{
+        "type" : "mutation",
+        "id" : "STR_UP_3",
+        "name" : "Extremely Strong",
+        "points" : 4,
+        "visibility" : 1,
+        "description" : "Your muscles are much stronger.  Strength + 4",
+        "prereqs" : ["STR_UP_2"],
+        "changes_to" : ["STR_UP_4","SP_STR_UP"],
+        "leads_to" : ["MUT_TOUGH"],
+        "category" : ["SP_STRENGTH2","CHIMERA", "LUPINE", "TROGLOBITE"],
+        "passive_mods" : {
+            "str_mod" : 4
+        }
+    },{
+        "type" : "mutation",
+        "id" : "STRONGBACK",
+        "name" : "Strong Back",
+        "points" : 2,
+        "description" : "You are capable of carrying far more than someone with similar strength could.  Your maximum weight carried is increased by 35%.",
+        "starting_trait" : true,
+        "valid" : false,
+		"category" : ["SP_STRENGTH2"],
+        "cancels" : ["BADBACK"]
+    },{
+        "type" : "mutation",
+        "id" : "TOUGH",
+        "name" : "Tough",
+        "points" : 2,
+        "description" : "It takes a lot to bring you down!  You get a 20% bonus to all hit points.",
+        "starting_trait" : true,
+        "valid" : false,
+		"category" : ["SP_STRENGTH2"],
+        "cancels" : ["FLIMSY", "FLIMSY2", "FLIMSY3", "GLASSJAW"],
+        "changes_to" : ["TOUGH2"],
+        "hp_modifier" : 0.2
+    },{
+        "type" : "mutation",
+        "id" : "SP_CARDIOREGEN",
+        "name" : "心肺强化",
+        "points" : 1,
+		"description" : "强大的心肺功能使你拥有良好的换氧率，更容易恢复体力，嘴部累赘-10。",
+        "encumbrance_always" :
+			[
+            [ "MOUTH", -10 ]
+			],
+        "category" : ["SP_STRENGTH2"]
+    },{
+        "type" : "mutation",
+        "id" : "SP_STR_UP",
+        "name" : "骁勇善战",
+        "points" : 6,
+		"description" : "你身上的肌肉已经完全开发，强建有力且富有弹性，隐藏着强悍的爆发力，力量+6。",
+        "prereqs" : ["STR_UP_3"],
+        "passive_mods" : {
+            "str_mod" : 6
+        },
+        "category" : ["SP_STRENGTH3"]
+    },{
+        "type" : "mutation",
+        "id" : "GOODCARDIO",
+        "name" : "Indefatigable",
+        "points" : 2,
+        "description" : "Whether due to exercise and good diet, or due to a natural propensity to physical endurance, you tire due to physical exertion much less readily than others.  Your maximum stamina is 25% higher than usual.",
+        "starting_trait" : true,
+        "valid" : false,
+        "cancels" : ["BADCARDIO"],
+        "changes_to" : ["GOODCARDIO2"],
+        "category" : ["SP_STRENGTH3","FISH", "LUPINE", "MOUSE", "INSECT"]
+    },{
+        "type" : "mutation",
+        "id" : "TOUGH3",
+        "name" : "Unbreakable",
+        "points" : 4,
+        "description" : "Nothing can break you!  You get a 40% bonus to all hit points.",
+        "valid" : false,
+		"category" : ["SP_STRENGTH3"],
+        "cancels" : ["FLIMSY", "FLIMSY2", "FLIMSY3", "GLASSJAW"],
+        "prereqs" : ["TOUGH2"],
+        "hp_modifier" : 0.4
+    }
+]

@@ -1,0 +1,82 @@
+[
+	{
+		"type" : "recipe",
+		"result" : "GOS_imaged_throwing_dagger",
+		"category" : "CC_超凡",
+		"subcategory": "CSC_超凡_弹药",
+		"skill_used": "throw",		
+		"skills_required": ["GS_int", 2],
+		"difficulty" : 0,
+		"time" : 100,
+		"autolearn" : true,
+		"flags": ["BLIND_EASY"],	
+		"components": 
+		[
+			[
+			 [ "destiny_copper", 5 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result" : "GOS_imaged_throwing_axe",
+		"category" : "CC_超凡",
+		"subcategory": "CSC_超凡_弹药",
+		"skill_used": "throw",		
+		"skills_required": ["GS_int", 2],
+		"difficulty" : 0,
+		"time" : 100,
+		"autolearn" : true,
+		"flags": ["BLIND_EASY"],	
+		"components": 
+		[
+			[
+			 [ "destiny_copper", 5 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result" : "throwing_knife",
+		"id_suffix": "alchemy synthesis",
+		"category": "CC_WEAPON",
+		"subcategory": "CSC_WEAPON_RANGED",
+		"skill_used": "fabrication",		
+		"skills_required": ["GS_int",4],
+		"difficulty" : 0,
+		"time" : 15000,
+		"autolearn" : true,
+		"qualities":[{"id":"HAMMER","level":3}],
+		"components": 
+		[
+			[
+			 [ "steel_chunk", 3 ],
+			 [ "scrap", 15 ],
+			 [ "element_steel", 3 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result" : "throwing_axe",
+		"id_suffix": "alchemy synthesis",
+		"category": "CC_WEAPON",
+		"subcategory": "CSC_WEAPON_RANGED",
+		"skill_used": "fabrication",		
+		"skills_required": ["GS_int",4],
+		"difficulty" : 0,
+		"time" : 15000,
+		"autolearn" : true,
+		"qualities":[{"id":"HAMMER","level":3},{"id":"CUT","level":1}],
+		"components": 
+		[
+			[
+			 [ "steel_chunk", 3 ],
+			 [ "scrap", 15 ],
+			 [ "element_steel", 3 ]
+			],
+			[
+			 [ "2x4", 1 ],
+			 [ "stick", 1 ],
+			 [ "element_wood", 1 ]
+			]
+		]
+	}
+]

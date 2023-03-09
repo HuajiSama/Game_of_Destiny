@@ -1,0 +1,98 @@
+[
+	{
+		"type" : "AMMO",
+		"id" : "GS_merit_bolt",
+		"name" : "诛魔箭",
+		"name_plural" : "诛魔箭",
+		"symbol" : "=",
+		"color" : "yellow",
+		"description" : "功德之气加持的弩箭，附带震慑效果，搭配功德之器才能使用。",
+		"material" : "wood",
+		"volume" : 1,
+		"weight" : 30,
+		"ammo_type" : "GOS_merit_ammo",
+		"dispersion" : 120,
+		"loudness": 0,
+		"count" : 5,
+		"stack_size" : 15,
+		"effects": [ "NEVER_MISFIRES", "WIDE", "BEANBAG", "LASER" ]
+	},{
+		"type" : "AMMO",
+		"id" : "arrow_FRAG",
+		"name" : "机关箭",
+		"name_plural" : "机关箭",
+		"symbol" : "=",
+		"color" : "green",
+		"description" : "机关术魔改的箭矢，箭身内藏火药及钢珠，小范围(3x3)杀伤，对无甲目标的伤害很高。",
+		"material" : ["wood","steel","powder"],
+		"volume" : 1,
+		"weight" : 100,
+		"bashing" : 5,
+		"ammo_type" : "arrow",
+		"damage" : 16,
+		"pierce" : 10,
+		"dispersion" : 150,
+		"range" : 5,
+		"loudness": 0,
+		"stack_size" : 10,
+		"explosion": {  
+			"power" : 2,  
+			"distance_factor" : 0.3, 
+			"shrapnel" : 
+				{
+				"count" : 15, 
+				"mass" : 3  
+				}
+			},
+		"effects": [ "CUSTOM_EXPLOSION" ]
+	},{
+		"type" : "AMMO",
+		"id" : "bolt_FRAG",
+		"copy-from": "arrow_FRAG",
+		"name" : "机关矢",
+		"name_plural" : "机关矢",
+		"ammo_type" : "bolt"
+	},{
+		"id" : "arrow_Phoenix_prep",
+		"type" : "AMMO",
+		"ammo_type" : "NULL",
+		"name" : "凤翎匣",
+		"name_plural" : "凤翎匣",  
+		"symbol" : "=",
+		"color" : "black",
+		"description" : "融炼神火之威的羽箭，保存在特制箭匣，用制作选单(&)取箭。 \n \n※此配方可逆转，利用重复拆解记住箭/矢配方。",
+		"material" : ["super_mt"],
+		"volume" : 1,
+		"weight" : 60,
+		"count" : 5,
+		"stack_size" : 10,
+		"flags": ["NO_SALVAGE"]
+	},{
+		"id" : "arrow_Phoenix",
+		"type" : "AMMO",
+		"name" : "凤翎箭",
+		"name_plural" : "凤翎箭",
+		"symbol" : "=",
+		"color" : "red",
+		"description" : "融合南方之精的羽箭，箭头萦绕着神火，击中后引爆。",
+		"material" : ["super_mt"],
+		"volume" : 1,
+		"weight" : 60,
+		"cutting" : 5,
+		"loudness": 30,
+		"ammo_type" : "arrow",
+		"damage" : 25,
+		"pierce" : 12,
+		"range" : 10,
+		"dispersion" : 50,
+		"stack_size" : 10,
+		"effects" : ["NAPALM","FLARE","LASER"]
+	},{
+		"id" : "bolt_Phoenix",
+		"type" : "AMMO",
+		"name" : "凤翎矢",
+		"name_plural" : "凤翎矢",
+		"copy-from": "arrow_Phoenix",
+		"ammo_type" : "bolt"
+	}
+]

@@ -1,0 +1,54 @@
+[
+	{
+		"type" : "MONSTER",
+		"id" : "mon_broken_cyborg", "//": "人頭機器",
+		"copy-from" : "mon_broken_cyborg",
+		"death_drops": {
+			"subtype": "collection",
+			"groups": [
+				[ "default_merit_drops1", 100 ]
+			]
+		}
+	},{
+		"type" : "MONSTER",
+		"id" : "mon_dementia", "//": "瘋人怪",
+		"copy-from" : "mon_dementia",
+		"death_drops": "destiny_coin_drops2"
+	},{
+		"type" : "MONSTER",	
+		"id" : "mon_homunculus", "//": "高攻高閃，4.5X。",
+		"copy-from" : "mon_homunculus",
+		"death_drops": {
+			"subtype": "collection",
+			"groups": [
+				[ "destiny_coin_drops3", 100 ],
+				[ "destiny_coin_drops2", 100 ]
+			]
+		}
+	},{
+		"type" : "MONSTER",	
+		"id" : "mon_blood_sacrifice", "//": "血祭品",
+		"copy-from" : "mon_blood_sacrifice",
+		"death_drops": {
+			"subtype": "collection",
+			"groups": [
+				[ "default_zombie_clothes", 100 ],
+				[ "default_merit_drops2", 100 ]
+			]
+		}
+	},{
+		"type" : "MONSTER",	
+		"id" : "mon_flesh_angel", "//": "血天使",
+		"copy-from" : "mon_flesh_angel",
+		"hp": 300,
+		"melee_dice": 6,
+		"melee_dice_sides": 6,
+		"death_drops": {
+			"subtype": "collection",
+			"groups": [
+				[ "default_zombie_clothes", 100 ],
+				[ "destiny_coin_drops6", 100 ]
+			]
+		}
+	}
+]

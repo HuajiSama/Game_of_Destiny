@@ -1,0 +1,123 @@
+[
+	{
+		"type" : "recipe",
+		"result": "destiny_silver", "//": "天命币兑换",
+		"id_suffix": "from destiny_copper",			
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_资源",
+		"skill_used": "barter",		
+		"difficulty": 0,
+		"time" : 100,
+		"autolearn": true,
+		"flags": ["BLIND_EASY"],
+		"components": 
+		[
+			[
+			[ "destiny_copper", 100 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "destiny_copper",
+		"result_mult": 100,
+		"id_suffix": "from destiny_silver",		
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_资源",
+		"skill_used": "barter",
+		"difficulty": 0,
+		"time" : 100,
+		"autolearn": true,
+		"flags": ["BLIND_EASY"],
+		"components": 
+		[
+			[
+			 [ "destiny_silver", 1 ]
+			]
+		]
+	},{
+		"type" : "uncraft",
+		"result": "destiny_gold",
+		"time": 100,
+		"flags": [ "BLIND_EASY" ],
+		"components": [
+			[ 
+			 [ "destiny_silver", 100 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "destiny_copper", "//": "模拟七贪军吸收天命。",
+		"result_mult": 3,
+		"id_suffix": "from corpse",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_资源",
+		"skill_used": "survival",
+		"skills_required": ["GS_str",3],
+		"difficulty": 0,
+		"time": 1000,
+		"autolearn": true,
+		"flags": ["BLIND_EASY"],
+		"components": 
+		[
+			[
+			["corpse", 1 ]
+			]
+		]
+	},{	
+		"type" : "recipe",
+		"result": "merit",	"//": "渡亡者集功德",
+		"id_suffix": "from corpse",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_资源",
+		"skill_used": "speech",		
+		"skills_required": [["speech", 3],["GS_per", 2]],
+		"difficulty": 0,
+		"time": 3000,
+		"batch_time_factors": [15, 5],
+		"flags": ["BLIND_EASY"],
+		"book_learn" : [ ["GS_book_merit1",0],["GS_book_merit2",0],["GS_book_merit3",0] ],
+		"components": 
+		[
+			[
+			 ["corpse", 1 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "destiny_silver", "//": "功德兑换天命币，效率高于吸收尸体，不可逆。",
+		"id_suffix": "from merit",			
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_资源",
+		"skill_used": "speech",		
+		"skills_required": [["speech",4],["GS_per",4]],
+		"difficulty": 0,
+		"time" : 100,
+		"book_learn" : [ ["GS_book_merit2",0],["GS_book_merit3",0] ],
+		"flags": ["BLIND_EASY"],
+		"components": 
+		[
+			[
+			[ "merit", 25 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "5ghost",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_道具", 
+		"skill_used": "speech",
+		"skills_required": [["speech", 4],["GS_per", 4]],
+		"difficulty": 0,
+		"time": 30000,
+		"book_learn" : [ ["GS_book_merit2",0],["GS_book_merit3",0] ],		
+		"components": 
+		[
+			[
+			[ "merit", 25 ]
+			],
+			[
+			[ "destiny_silver", 1 ]
+			]
+		]
+	}
+]

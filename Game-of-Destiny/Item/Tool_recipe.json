@@ -1,0 +1,465 @@
+[
+	{
+		"type" : "recipe",
+		"result": "GS_eq_int2_bag",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_道具",
+		"skill_used": "survival",		
+		"skills_required": [[ "GS_int", 4 ],[ "fabrication", 2 ]],  
+		"difficulty": 0,
+		"time": 30000,
+		"autolearn": true,
+		"components":
+		[
+			[
+			 [ "GS_basic_int", 2 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "GS_eq_int3_bag",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_道具",
+		"skill_used": "survival",		
+		"skills_required": [[ "GS_int", 6 ],[ "fabrication", 4 ]],  
+		"difficulty": 0,
+		"time": 30000,
+		"autolearn": true,
+		"components":
+		[
+			[
+			 [ "GS_eq_int2_bag", 2 ]
+			],
+			[
+			 [ "destiny_copper", 50 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "GS_eq_int4_bag",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_道具",
+		"skill_used": "survival",		
+		"skills_required": [[ "GS_int", 8 ],[ "fabrication", 6 ]],  
+		"difficulty": 0,
+		"time": 30000,
+		"autolearn": true,
+		"components":
+		[
+			[
+			 [ "GS_eq_int3_bag", 2 ]
+			],
+			[
+			 [ "destiny_copper", 75 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "GS_eq_int5_bag",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_道具",
+		"skill_used": "survival",		
+		"skills_required": [[ "GS_int", 10 ],[ "fabrication", 8 ]],  
+		"difficulty": 0,
+		"time": 30000,
+		"autolearn": true,
+		"components":
+		[
+			[
+			 [ "GS_eq_int4_bag", 2 ]
+			],
+			[
+			 [ "destiny_silver", 1 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "GS_eq_toolbelt",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_道具",
+		"skill_used": "survival",		
+		"skills_required": [[ "GS_int", 4 ],[ "fabrication", 3 ]],  
+		"difficulty": 0,
+		"time": 30000,
+		"autolearn": true,
+		"components":
+		[
+			[
+			 [ "GS_basic_int", 3 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "GS_eq_toolbelt2",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_道具",
+		"skill_used": "survival",		
+		"skills_required": [[ "GS_int", 8 ],[ "fabrication", 6 ]],  
+		"difficulty": 0,
+		"time": 30000,
+		"autolearn": true,
+		"components":
+		[
+			[
+			 [ "GS_eq_toolbelt", 1 ]
+			],
+			[
+			 [ "GS_basic_int", 2 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "GS_eq_support_quiver",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_道具",
+		"skill_used": "survival",		
+		"skills_required": [[ "GS_int", 6 ],[ "fabrication", 3 ]],  
+		"difficulty": 0,
+		"time": 30000,
+		"autolearn": true,
+		"components":
+		[
+			[
+			 [ "destiny_copper", 50 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "GS_eq_support_magpouch",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_道具",
+		"skill_used": "survival",		
+		"skills_required": [[ "GS_int", 6 ],[ "fabrication", 3 ]],  
+		"difficulty": 0,
+		"time": 30000,
+		"autolearn": true,
+		"components":
+		[
+			[
+			 [ "destiny_copper", 50 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "GS_eq_support_bandolier",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_道具",
+		"skill_used": "survival",		
+		"skills_required": [[ "GS_int", 6 ],[ "fabrication", 3 ]],  
+		"difficulty": 0,
+		"time": 30000,
+		"autolearn": true,
+		"components":
+		[
+			[
+			 [ "destiny_copper", 50 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "GS_eq_support_sword",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_道具",
+		"skill_used": "survival",		
+		"skills_required": [[ "GS_int", 8 ],[ "fabrication", 6 ]],  
+		"difficulty": 0,
+		"time": 30000,
+		"autolearn": true,
+		"components":
+		[
+			[
+			 [ "destiny_silver", 1 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "GS_eq_support_gun",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_道具",
+		"skill_used": "survival",		
+		"skills_required": [[ "GS_int", 8 ],[ "fabrication", 6 ]],  
+		"difficulty": 0,
+		"time": 30000,
+		"autolearn": true,
+		"components":
+		[
+			[
+			 [ "destiny_silver", 1 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "GS_tool_welder",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_道具",	
+		"skill_used": "survival",
+		"skills_required": [ ["GS_int", 6], ["mechanics", 6] ],		
+		"difficulty": 0,
+		"time": 30000,
+		"autolearn": true,
+		"components": 
+		[
+			[
+			 [ "GS_basic_int", 3 ]
+			]		
+		]
+	},{
+		"type" : "recipe",
+		"result": "GS_tool_repairkit",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_道具",	
+		"skill_used": "survival",
+		"skills_required": [ ["GS_int", 4], ["fabrication", 3] ],		
+		"difficulty": 0,
+		"time": 30000,
+		"autolearn": true,
+		"components": 
+		[
+			[
+			 [ "GS_basic_int", 2 ]
+			]			
+		]
+	},{
+		"type" : "recipe",
+		"result": "GS_tool_shovel_WJQ500",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_道具",	
+		"skill_used": "survival",
+		"skills_required": [ ["GS_int", 6], ["fabrication", 6] ],		
+		"difficulty": 0,
+		"time": 30000,
+		"autolearn": true,
+		"components": 
+		[
+			[
+			 [ "GS_basic_int", 3 ]
+			]			
+		]
+	},{
+		"type" : "recipe",
+		"result": "GS_tool_fire",		
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_道具",
+		"skill_used": "survival",
+		"skills_required": [ ["GS_per",4] ],
+		"difficulty": 0,
+		"time": 10000,
+		"autolearn": true,
+		"flags": ["BLIND_EASY"],
+		"components":
+		[
+			[
+			  [ "GS_basic_per", 2 ]		  
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "GS_tool_fireblock",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_道具",
+		"skill_used": "survival",
+		"skills_required": [ ["GS_per", 6] ],
+		"difficulty": 0,
+		"time": 10000,
+		"autolearn": true,		
+		"components":
+		[
+			[
+				[ "destiny_copper", 50 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "GS_tool_acidblock",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_道具",
+		"skill_used": "survival",
+		"skills_required": [ ["GS_int", 4] ],
+		"difficulty": 0,
+		"time": 10000,
+		"autolearn": true,		
+		"components":
+		[
+			[
+				[ "destiny_copper", 50 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "GS_tool_shockblock",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_道具",
+		"skill_used": "survival",
+		"skills_required": [ ["GS_int", 6] ],
+		"difficulty": 0,
+		"time": 10000,
+		"autolearn": true,		
+		"components":
+		[
+			[
+				[ "destiny_copper", 50 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "GS_tool_block_hot",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_道具",
+		"skill_used": "survival",
+		"skills_required": [ ["GS_int", 2], ["GS_per", 2] ],
+		"difficulty": 0,
+		"time": 10000,
+		"autolearn": true,
+		"tools": [
+			[
+			  [ "water", -1 ],
+			  [ "water_clean", -1 ],	  
+			  [ "element_water", -1 ]			  
+			]
+		 ],
+		"components":
+		[
+			[
+				[ "destiny_copper", 50 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "GS_tool_block_cold",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_道具",
+		"skill_used": "survival",
+		"skills_required": [ ["GS_int", 2], ["GS_per", 2] ],
+		"difficulty": 0,
+		"time": 10000,
+		"autolearn": true,
+		"tools": [
+			[
+			  [ "fire", -1 ]		  
+			]
+		 ],
+		"components":
+		[
+			[
+				[ "destiny_copper", 50 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "GS_PER_earmuff",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_道具",
+		"skill_used": "survival",		
+		"skills_required": [ "GS_per", 2 ],  
+		"difficulty": 0,
+		"time": 30000,
+		"autolearn": true,
+		"components":
+		[
+			[
+			 [ "GS_basic_per", 1 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "GS_eq_per1_mp3",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_道具",
+		"skill_used": "computer",		
+		"skills_required": [ "GS_per", 2 ],  
+		"difficulty": 0,
+		"time": 30000,
+		"autolearn": true,
+		"components":
+		[
+			[
+			 [ "GS_basic_per", 2 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "GS_eq_per3_mp3",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_道具",
+		"skill_used": "computer",		
+		"skills_required": [ "GS_per", 6 ],  
+		"difficulty": 0,
+		"time": 30000,
+		"autolearn": true,
+		"components":
+		[
+			[
+			 [ "GS_eq_per1_mp3", 1 ]
+			],
+			[
+			 [ "GS_basic_per", 2 ]	
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "GS_tool_per3_crystal",		
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_道具",
+		"skill_used": "survival",
+		"skills_required": [ ["GS_per",4] ],
+		"difficulty": 0,
+		"time": 30000,
+		"autolearn": true,
+		"components":
+		[
+			[
+			  [ "GS_basic_per", 2 ]		  
+			]
+		]
+	},{	
+		"type" : "recipe",
+		"result": "GS_item_per4_godeye",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_道具",
+		"skill_used": "survival",
+		"skills_required": [ ["GS_per", 6] ],
+		"difficulty": 0,
+		"time": 0,
+		"autolearn": true,
+		"tools": [
+			[
+			  [ "GS_tool_per3_crystal", -1 ]
+			]
+		 ],
+		"components":
+		[
+			[
+			  [ "destiny_copper", 5 ]		  
+			]
+		],
+		"flags": ["BLIND_EASY"]
+	},{
+		"type" : "recipe",
+		"result": "GS_eq_legended_badge",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_道具", 
+		"skill_used": "survival",
+		"skills_required": [[ "GS_str", 10 ],[ "GS_dex", 10 ],[ "GS_int", 10 ],[ "GS_per", 10 ]],
+		"difficulty": 0,
+		"time": 60000,
+		"autolearn": true,
+		"components":
+		[
+			[
+			 [ "GS_basic_str", 2 ]
+			],
+			[
+			 [ "GS_basic_dex", 2 ]
+			],
+			[
+			 [ "GS_basic_int", 2 ]
+			],
+			[
+			 [ "GS_basic_per", 2 ]
+			],
+			[
+			 [ "destiny_silver", 10 ]
+			]
+		]
+	}
+]

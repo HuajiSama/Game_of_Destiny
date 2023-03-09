@@ -1,0 +1,85 @@
+[
+	{
+		"type" : "MONSTER",
+		"id" : "mon_triffid",	"//":"食人樹，慢速重甲，神經毒，2X。",
+		"copy-from" : "mon_triffid",
+		"death_drops": {
+			"subtype": "collection",
+			"groups": [
+				[ "destiny_coin_drops1", 100 ],
+				[ "destiny_coin_drops1", 100 ]
+			]
+		}
+	},{
+		"type" : "MONSTER",		"//": "異型花，施放減速buff，1.5X。",
+		"id" : "mon_biollante",
+		"copy-from" : "mon_biollante",
+		"death_drops": {
+		  "subtype": "collection",
+		  "groups": [ [ "biollante", 8 ],[ "destiny_coin_drops2", 100 ] ]
+		}
+	},{
+		"type" : "MONSTER",
+		"id" : "mon_fungal_fighter",		"//": "逗比士，屬性貧弱但具毒素，1.5X。",
+		"copy-from" : "mon_fungal_fighter",
+		"death_drops": 
+		{
+		  "subtype": "collection",
+		  "groups": 
+		    [
+			 [ "fungal_sting", 80 ],
+			 [ "destiny_coin_drops2", 100 ]
+			]
+		}
+	},{
+		"type" : "MONSTER",
+		"id" : "mon_creeper_hub",		"//": "藤蔓延伸者，斬除時藤蔓一同死亡，2.5X。",
+		"copy-from" : "mon_creeper_hub",
+		"death_drops": {
+			"subtype": "collection",
+			"groups": [
+				[ "destiny_coin_drops2", 100 ],
+				[ "destiny_coin_drops1", 100 ]
+			]
+		}
+	},{
+		"type" : "MONSTER",
+		"id" : "mon_vinebeast",		"//": "藤蔓獸，高攻高抗，4.5X。",
+		"copy-from" : "mon_vinebeast",
+		"death_drops": {
+			"subtype": "collection",
+			"groups": [
+				[ "destiny_coin_drops3", 100 ],
+				[ "destiny_coin_drops2", 100 ]
+			]
+		}
+	},{
+		"type" : "MONSTER",
+		"id" : "mon_triffid_queen",
+		"copy-from" : "mon_triffid_queen",
+		"death_drops": "destiny_coin_drops6"
+	},{
+		"type" : "MONSTER",
+		"id" : "mon_triffid_heart", "//": "三尖樹之心，召喚術間隔5→10000，招式添加：緩速buff，擊飛技，近戰能力同藤蔓獸。",
+		"copy-from" : "mon_triffid_heart",
+		"speed": 120,
+		"melee_skill": 8,
+		"melee_dice": 2,
+		"melee_dice_sides": 10,
+		"melee_cut": 4,
+		"special_attacks": 
+			[
+			[ "SPIT_SAP", 5 ],
+			[ "SMASH", 30 ],
+			[ "TRIFFID_HEARTBEAT", 10000 ]
+			],
+		"death_drops": {
+			"subtype": "collection",
+			"groups": [
+				[ "destiny_coin_drops7", 100 ],
+				[ "destiny_coin_drops5", 100 ]
+			]
+		},
+	    "extend": { "flags": [ "PARALYZEVENOM" ] }
+	}
+]

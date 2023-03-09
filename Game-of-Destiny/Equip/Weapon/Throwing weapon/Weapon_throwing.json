@@ -1,0 +1,60 @@
+[
+	{
+		"//":"定位：初、中期快速掌握的中威力远程，后期威力不足，以掷斧兵为灵感诞生，平衡/debug最费事的装备之一。",
+		"type": "GUN",
+		"id": "GS_wp_dex2_glove_throwing",
+		"category" : "GS_weapon",
+		"name": "磁引手套",
+		"description": "利用磁能增加投掷伤害的武装手套，击中头部时追加目盲效果，可连掷2发，(F)切换投掷模式。",
+		"symbol": "(",
+		"color": "brown",
+		"material": ["super_mt"],
+		"weight": 850,
+		"volume": 2,
+		"bashing" : 10,
+		"to_hit": -1,
+		"skill": "throw",
+		"min_strength" : 6,
+		"ranged_damage": 6,
+		"pierce": 2,
+		"range" : 5,
+		"dispersion": 100,
+		"sight_dispersion": 80,
+		"durability": 8,
+		"clip_size": 6,
+		"reload": 25,		
+		"ammo": "thrown",
+		"modes": [
+		  [ "DEFAULT", "投掷", 1 ],
+		  [ "BURST", "连掷", 2 ]
+		],
+		"armor_data" : {
+			"covers" : ["HANDS"],	"//":"近期版本远程武器穿戴默认躯干位。",
+			"coverage" : 0,
+			"material_thickness" : 1
+			},
+        "ammo_effects" : ["NEVER_MISFIRES","WIDE","BLINDS_EYES"],
+		"flags": ["PRIMITIVE_RANGED_WEAPON","RELOAD_ONE","STR_DRAW","UNARMED_WEAPON","DURABLE_MELEE","STURDY","BELTED"]
+	},{
+		"id": "GS_wp_dex4_glove_throwing",
+		"copy-from": "GS_wp_dex2_glove_throwing",
+		"type": "GUN",
+		"name": "磁导手套",
+		"description": "利用磁能增加投掷伤害的武装手套，击中头部追加目盲效果，(F)切换投掷模式，最多可连掷4发。\n \n※武装等级已封顶。",
+		"modes": [
+		  [ "DEFAULT", "投掷", 1 ],
+		  [ "BURST", "2连掷", 2 ],
+		  [ "AUTO", "4连掷", 4 ]
+		],
+		"relative": {
+			"ranged_damage": 4,
+			"pierce" : 3,
+			"clip_size" : 4,
+			"range": 3,
+			"dispersion": -25,
+			"sight_dispersion": -30,
+			"durability": 2,
+			"reload": -10
+			}
+	}
+]

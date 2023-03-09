@@ -1,0 +1,26 @@
+[
+	{
+		"type" : "recipe",
+		"result": "helmet_liner",
+		"id_suffix": "MOD",
+		"category": "CC_ARMOR",
+		"subcategory": "CSC_ARMOR_HEAD",
+		"skill_used": "tailor",
+		"difficulty": 4,
+		"time": 30000,
+		"reversible": false,
+		"autolearn": true,
+		"tools": 
+			[
+				[
+				  [ "sewing_kit", 10 ]
+				]
+			],
+		"components": 
+			[
+				[
+				  [ "rag", 3 ]
+				]
+			]
+	}
+]

@@ -1,0 +1,407 @@
+[
+	{		
+		"type" : "recipe",
+		"result": "genebook_str_1",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_基因",
+		"skill_used": "survival",		
+		"skills_required": ["GS_str", 0],
+		"difficulty": 0,
+		"time": 10000,
+		"autolearn": true,
+		"flags": ["BLIND_EASY"],
+		"components":
+		[
+			[
+			[ "destiny_silver", 1 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "genebook_str_2",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_基因",
+		"skill_used": "survival",		
+		"skills_required": ["GS_str", 2],
+		"difficulty": 0,
+		"time": 10000,
+		"autolearn": true,
+		"flags": ["BLIND_EASY"],
+		"components":
+		[
+			[
+			[ "genebook_str_1", 1 ],
+			[ "destiny_copper", 50 ]
+			],
+			[
+			[ "destiny_silver", 2 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "genebook_str_3",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_基因",
+		"skill_used": "survival",		
+		"skills_required": ["GS_str", 4],
+		"difficulty": 0,
+		"time": 10000,
+		"autolearn": true,
+		"flags": ["BLIND_EASY"],
+		"components":
+		[
+			[
+			[ "genebook_str_2", 1 ],
+			[ "destiny_copper", 100 ]
+			],
+			[
+			[ "destiny_silver", 4 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "genebook_str_4",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_基因",
+		"skill_used": "survival",		
+		"skills_required": ["GS_str", 6],
+		"difficulty": 0,
+		"time": 10000,
+		"autolearn": true,
+		"flags": ["BLIND_EASY"],
+		"components":
+		[
+			[
+			[ "genebook_str_3", 1 ],
+			[ "destiny_copper", 200 ]
+			],
+			[
+			[ "destiny_silver", 8 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "genebook_str_5",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_基因",
+		"skill_used": "survival",		
+		"skills_required": ["GS_str", 8],
+		"difficulty": 0,
+		"time": 10000,
+		"autolearn": true,
+		"flags": ["BLIND_EASY"],
+		"components":
+		[
+			[
+			[ "genebook_str_4", 1 ],
+			[ "destiny_copper", 400 ]
+			],
+			[
+			[ "destiny_silver", 12 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "genebook_dex_1",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_基因",
+		"skill_used": "survival",		
+		"skills_required": ["GS_dex", 0],
+		"difficulty": 0,
+		"time": 10000,
+		"autolearn": true,
+		"flags": ["BLIND_EASY"],
+		"components":
+		[
+			[
+			[ "destiny_silver", 1 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "genebook_dex_2",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_基因",
+		"skill_used": "survival",		
+		"skills_required": ["GS_dex", 2],
+		"difficulty": 0,
+		"time": 10000,
+		"autolearn": true,
+		"flags": ["BLIND_EASY"],
+		"components":
+		[
+			[
+			[ "genebook_dex_1", 1 ],
+			[ "destiny_copper", 50 ]
+			],
+			[
+			[ "destiny_silver", 2 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "genebook_dex_3",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_基因",
+		"skill_used": "survival",		
+		"skills_required": ["GS_dex", 4],
+		"difficulty": 0,
+		"time": 10000,
+		"autolearn": true,
+		"flags": ["BLIND_EASY"],
+		"components":
+		[
+			[
+			[ "genebook_dex_2", 1 ],
+			[ "destiny_copper", 100 ]
+			],
+			[
+			[ "destiny_silver", 4 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "genebook_dex_4",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_基因",
+		"skill_used": "survival",		
+		"skills_required": ["GS_dex", 6],
+		"difficulty": 0,
+		"time": 10000,
+		"autolearn": true,
+		"flags": ["BLIND_EASY"],
+		"components":
+		[
+			[
+			[ "genebook_dex_3", 1 ],
+			[ "destiny_copper", 200 ]
+			],
+			[
+			[ "destiny_silver", 8 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "genebook_dex_5",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_基因",
+		"skill_used": "survival",		
+		"skills_required": ["GS_dex", 8],
+		"difficulty": 0,
+		"time": 10000,
+		"autolearn": true,
+		"flags": ["BLIND_EASY"],
+		"components":
+		[
+			[
+			[ "genebook_dex_4", 1 ],
+			[ "destiny_copper", 400 ]
+			],
+			[
+			[ "destiny_silver", 12 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "genebook_int_1",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_基因",
+		"skill_used": "survival",		
+		"skills_required": ["GS_int", 0],
+		"difficulty": 0,
+		"time": 10000,
+		"autolearn": true,
+		"flags": ["BLIND_EASY"],
+		"components":
+		[
+			[
+			[ "destiny_silver", 1 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "genebook_int_2",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_基因",
+		"skill_used": "survival",		
+		"skills_required": ["GS_int", 2],
+		"difficulty": 0,
+		"time": 10000,
+		"autolearn": true,
+		"flags": ["BLIND_EASY"],
+		"components":
+		[
+			[
+			[ "genebook_int_1", 1 ],
+			[ "destiny_copper", 50 ]
+			],
+			[
+			[ "destiny_silver", 2 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "genebook_int_3",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_基因",
+		"skill_used": "survival",		
+		"skills_required": ["GS_int", 4],
+		"difficulty": 0,
+		"time": 10000,
+		"autolearn": true,
+		"flags": ["BLIND_EASY"],
+		"components":
+		[
+			[
+			[ "genebook_int_2", 1 ],
+			[ "destiny_copper", 100 ]
+			],
+			[
+			[ "destiny_silver", 4 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "genebook_int_4",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_基因",
+		"skill_used": "survival",		
+		"skills_required": ["GS_int", 6],
+		"difficulty": 0,
+		"time": 10000,
+		"autolearn": true,
+		"flags": ["BLIND_EASY"],
+		"components":
+		[
+			[
+			[ "genebook_int_3", 1 ],
+			[ "destiny_copper", 200 ]
+			],
+			[
+			[ "destiny_silver", 8 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "genebook_int_5",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_基因",
+		"skill_used": "survival",		
+		"skills_required": ["GS_int", 8],
+		"difficulty": 0,
+		"time": 10000,
+		"autolearn": true,
+		"flags": ["BLIND_EASY"],
+		"components":
+		[
+			[
+			[ "genebook_int_4", 1 ],
+			[ "destiny_copper", 400 ]
+			],
+			[
+			[ "destiny_silver", 12 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "genebook_per_1",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_基因",
+		"skill_used": "survival",		
+		"skills_required": ["GS_per", 0],
+		"difficulty": 0,
+		"time": 10000,
+		"autolearn": true,
+		"flags": ["BLIND_EASY"],
+		"components":
+		[
+			[
+			[ "destiny_silver", 1 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "genebook_per_2",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_基因",
+		"skill_used": "survival",		
+		"skills_required": ["GS_per", 2],
+		"difficulty": 0,
+		"time": 10000,
+		"autolearn": true,
+		"flags": ["BLIND_EASY"],
+		"components":
+		[
+			[
+			[ "genebook_per_1", 1 ],
+			[ "destiny_copper", 50 ]
+			],
+			[
+			[ "destiny_silver", 2 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "genebook_per_3",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_基因",
+		"skill_used": "survival",		
+		"skills_required": ["GS_per", 4],
+		"difficulty": 0,
+		"time": 10000,
+		"autolearn": true,
+		"flags": ["BLIND_EASY"],
+		"components":
+		[
+			[
+			[ "genebook_per_2", 1 ],
+			[ "destiny_copper", 100 ]
+			],
+			[
+			[ "destiny_silver", 4 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "genebook_per_4",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_基因",
+		"skill_used": "survival",		
+		"skills_required": ["GS_per", 6],
+		"difficulty": 0,
+		"time": 10000,
+		"autolearn": true,
+		"flags": ["BLIND_EASY"],
+		"components":
+		[
+			[
+			[ "genebook_per_3", 1 ],
+			[ "destiny_copper", 200 ]
+			],
+			[
+			[ "destiny_silver", 8 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "genebook_per_5",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_基因",
+		"skill_used": "survival",		
+		"skills_required": ["GS_per", 8],
+		"difficulty": 0,
+		"time": 10000,
+		"autolearn": true,
+		"flags": ["BLIND_EASY"],
+		"components":
+		[
+			[
+			[ "genebook_per_4", 1 ],
+			[ "destiny_copper", 400 ]
+			],
+			[
+			[ "destiny_silver", 12 ]
+			]
+		]		
+	}
+]

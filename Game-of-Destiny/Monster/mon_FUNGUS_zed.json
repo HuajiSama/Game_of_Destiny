@@ -1,0 +1,14 @@
+[
+	{
+		"type" : "MONSTER",
+		"id" : "mon_zombie_fungus",
+		"copy-from" : "mon_zombie_fungus",
+		"death_drops": "destiny_coin_drops1"
+	},
+	{
+		"type" : "MONSTER",
+		"id" : "mon_boomer_fungus",
+		"copy-from" : "mon_boomer_fungus",
+		"death_drops": "destiny_coin_drops2"
+	}
+]

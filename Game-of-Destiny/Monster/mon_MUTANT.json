@@ -1,0 +1,40 @@
+[
+	{
+		"type" : "MONSTER",
+		"id" : "mon_one_eye",
+		"copy-from" : "mon_one_eye",
+		"death_drops": {
+			"subtype": "collection",
+			"groups": [
+				[ "subway", 40 ],
+				[ "sewer", 20 ],
+				[ "trash", 5 ],
+				[ "bedroom", 1 ],
+				[ "dresser", 5 ],
+				[ "ammo", 18 ],
+				[ "destiny_coin_drops3", 100 ]
+			]
+		}
+	},{	
+		"type" : "MONSTER",
+		"id" : "mon_slug_giant",	"//":"噴酸泥蟲",
+		"copy-from" : "mon_slug_giant",
+		"death_drops": "destiny_coin_drops3"
+	},{	
+		"type" : "MONSTER",
+		"id" : "mon_sludge_crawler",	"//":"強再生,高HP.",
+		"copy-from" : "mon_sludge_crawler",
+		"hp": 200,
+		"dodge": 10,
+		"death_drops": "destiny_coin_drops5"
+	},{
+		"type" : "MONSTER",
+		"id" : "mon_amigara_horror",	"//":"掉落(坑爹)神器",
+		"copy-from" : "mon_amigara_horror",
+		"melee_dice": 2,
+		"melee_dice_sides": 15,
+		"armor_bash": 5,
+		"armor_cut": 10,
+		"death_drops": "destiny_coin_drops5"
+	}
+]

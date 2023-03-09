@@ -1,0 +1,98 @@
+[
+	{
+		"type" : "vehicle_part",
+        "id" : "GOS_cargo_1",
+        "name" : "功能空间箱i型",
+        "symbol" : "#",
+        "color" : "brown",
+        "broken_symbol" : "#",
+        "broken_color" : "brown",
+        "damage_modifier" : 50,
+        "durability" : 200,
+        "size" : 600,
+        "item" : "GS_eq_int2_bag",
+        "difficulty" : 0,
+		"folded_volume": 1,
+        "location" : "center",
+        "breaks_into" : [
+            {"item": "destiny_copper", "count": [25, 75]}
+        ],
+        "flags" : ["CARGO", "BOARDABLE", "AISLE", "COVERED", "FOLDABLE","TOOL_NONE"]
+	},
+	{
+		"type" : "vehicle_part",
+        "id" : "GOS_cargo_2",
+        "name" : "功能空间箱ii型",
+        "symbol" : "#",
+        "color" : "light_cyan",
+        "broken_symbol" : "#",
+        "broken_color" : "brown",
+        "damage_modifier" : 50,
+        "durability" : 250,
+        "size" : 1250,
+        "item" : "GS_eq_int3_bag",
+        "difficulty" : 0,
+		"folded_volume": 1,
+        "location" : "center",
+        "breaks_into" : [
+            {"item": "destiny_copper", "count": [75, 125]}
+        ],
+        "flags" : ["CARGO", "BOARDABLE", "AISLE", "COVERED", "FOLDABLE","TOOL_NONE"]
+	},
+	{
+		"type" : "vehicle_part",
+        "id" : "GOS_cargo_3",
+        "name" : "功能空间箱iii型",
+        "symbol" : "#",
+        "color" : "light_blue",
+        "broken_symbol" : "#",
+        "broken_color" : "light_blue",
+        "damage_modifier" : 50,
+        "durability" : 300,
+        "size" : 2500,
+        "item" : "GS_eq_int4_bag",
+        "difficulty" : 0,
+		"folded_volume": 1,
+        "location" : "center",
+        "breaks_into" : [
+            {"item": "destiny_copper", "count": [150, 250]}
+        ],
+        "flags" : ["CARGO", "BOARDABLE", "AISLE", "COVERED", "FOLDABLE","TOOL_NONE"]
+	},{
+		"type" : "vehicle_part",
+        "id" : "GOS_cargo_4",
+        "name" : "功能空间箱iV型",
+        "symbol" : "#",
+        "color" : "light_blue",
+        "broken_symbol" : "#",
+        "broken_color" : "light_blue",
+        "damage_modifier" : 50,
+        "durability" : 350,
+        "size" : 5200,
+        "item" : "GS_eq_int5_bag",
+        "difficulty" : 0,
+		"folded_volume": 1,
+        "location" : "center",
+        "breaks_into" : [
+            {"item": "destiny_copper", "count": [350, 450]}
+        ],
+        "flags" : ["CARGO","BOARDABLE","AISLE","COVERED","FOLDABLE","TOOL_NONE"]
+	},{
+		"type" : "vehicle_part",
+        "id" : "GD_vp_tank1",
+		"name": "功能型空间水箱",
+		"item": "GS_container2",
+		"location": "fuel_source",
+		"symbol": "O",
+		"broken_color": "red",
+		"difficulty": 0,
+		"durability": 200,
+		"size": 25000,
+		"damage_modifier": 80,
+        "breaks_into" : [
+            {"item": "destiny_copper", "count": [100, 125]}
+        ],
+		"folded_volume": 2,
+        "flags" : ["FOLDABLE","TOOL_NONE"]
+	}
+]

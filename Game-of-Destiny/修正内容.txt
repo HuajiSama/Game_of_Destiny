@@ -1,0 +1,24 @@
+1.移除main.lua并将相关内容写入Skill.json
+(移除对属性根据技能增长Mod依赖)
+2.修正Skill.json
+3.修正construction.json
+4.修正tec_dragon_brutal改为tec_dragon_strike
+5.修正tec_judo_grab改为tec_judo_break
+6.修正投掷武器ammo_type问题
+7.冻结载具末日行者，需要使用的玩家可以自行根据当前游戏版本更改或修复部件.
+191214
+1.修正弓手背包copy-from闪退问题
+2.修正变形怪copy-from闪退问题
+3.修正物品hflesh_powder报错问题
+4.修正物品hfleshbologna报错问题
+5.修正物品mannwurst报错问题
+191220
+1.修正超凡者焊枪导致的闪退问题
+200425
+1.修正flat_bonuses格式更改导致的无法加载问题
+2.修正mult_bonuses格式更改导致的无法加载问题
+3.修正construction的id格式更新导致的无法加载问题
+4.修正color_gray导致的报错
+5.修正color_ltgray导致的报错
+6.修正出生场景hospital cabin lmoe forest导致的报错
+7.修复嗜血武士刀等一系列武器防具因ammo为null而出现的报错

@@ -1,0 +1,25 @@
+[
+	{
+		"type" : "MONSTER",
+		"id" : "mon_blob",
+		"copy-from" : "mon_blob",
+		"death_drops": "destiny_coin_drops2"
+	},{
+		"type" : "MONSTER",
+		"id" : "mon_blob_large",
+		"copy-from" : "mon_blob_large",
+		"death_drops": 
+		{
+			"subtype": "collection",
+			"groups": [
+				[ "destiny_coin_drops3", 100 ],
+				[ "destiny_coin_drops_ex1", 100 ]
+			]
+		}
+	},{
+		"type" : "MONSTER",
+		"id" : "mon_blob_brain",
+		"copy-from" : "mon_blob_brain",
+		"death_drops": "destiny_coin_drops6"
+	}
+]

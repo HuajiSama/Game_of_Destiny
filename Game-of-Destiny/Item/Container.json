@@ -1,0 +1,39 @@
+[
+	{
+        "id": "GS_container1",
+        "type": "CONTAINER",
+        "category": "GS_item",
+        "symbol": ")",
+        "color": "blue",
+        "name": "空间水壶",
+		"name_plural" : "空间水壶",
+        "description": "空间系道具，利用折叠空间储存液体的随身水壶(5L)，陪你跋山涉水的好伙伴。",
+        "material": ["super_mt","aluminum"],
+		"volume": 1,
+		"weight": 150,
+        "contains": 20,
+        "rigid": true,
+        "watertight": true,
+        "seals": true,
+        "armor_data" : {},
+        "flags": ["WAIST"]
+	},{
+        "id": "GS_container2",
+        "type": "CONTAINER",
+		"category" : "GS_item",
+        "symbol": ")",
+        "color": "blue",
+        "name": "空间水瓶",
+		"name_plural" : "空间水瓶",
+        "description": "空间系道具，利用折叠空间储存液体的中型水壶(25L)，郊游野餐、煮饭烧水的好伙伴。",
+        "material": ["super_mt","steel"],
+		"volume": 2,
+		"weight": 300,
+        "contains": 100,
+        "armor_data" : {},
+        "rigid": true,
+        "watertight": true,
+        "seals": true,
+        "flags": ["WAIST"]
+	}
+]

@@ -1,0 +1,43 @@
+[
+	{
+		"type": "scenario",
+		"ident": "GS_NEWCOMER",
+		"name": "超凡游戏─新人试炼",
+		"points" : -5,
+		"description": "你阴错阳差闯入了超凡世界与现实的交界，被迫参加一场赌上命运的试炼：丧尸病毒无预警爆发，你必须找出尸变的源头，当然，前提是你能在灾变中活下去...。",
+		"start_name": "医院",
+		"allowed_locs": [
+		"hospital_1",
+      "hospital_2",
+      "hospital_3",
+      "hospital_4",
+      "hospital_5",
+      "hospital_6",
+      "hospital_7",
+      "hospital_8",
+      "hospital_9"
+		],
+		"professions" : ["GS_detective","GS_medic","GS_police","GS_star","GS_sniper"]
+	},{
+		"type": "scenario",
+		"ident": "GS_SCAVENGER",
+		"name": "超凡游戏─废土拾荒者",
+		"points" : -3,
+		"description": "你前往废弃的时空流进行探索，那里的命运已经衰败，一切都在莫非定律的作用下往最坑爹的方向迈进，包括各种灾难与病毒，尽你所能地搜刮天命！选择特定传送点进入这个世界。",
+		"start_name": "废土",
+		"allowed_locs" : ["cabin","lmoe","forest"],
+		"professions" : ["GS_scavenger","GS_wasteland_survivor"],
+		"flags" : ["WIN_START"]
+	},{
+		"type": "scenario",
+		"ident": "GS_OUTCAST",
+		"name": "超凡挑战─末路残生",
+		"points" : -15,
+		"description": "你在某次超凡竞技中触犯天规，因而被散尽天命、抹除一切，最后放逐到不知名的废弃时空。这个时空流的衰败正如同你的命运，你能否在此找到一线生机？",
+		"start_name": "荒林",
+		"allowed_locs": ["forest"],
+		"professions" : ["GS_outcast"],
+		"traits" : ["END_lineage"],	
+		"flags" : ["WIN_START","CHALLENGE"]
+	}
+]

@@ -1,0 +1,41 @@
+[
+	{
+		"type" : "recipe",
+		"result": "meal_bone",
+		"id_suffix": "from element-skeleton",	
+		"category": "CC_FOOD",
+		"subcategory": "CSC_FOOD_OTHER",
+		"skill_used": "fabrication",		
+		"skills_required": [["GS_int",4],["fabrication",3]],
+		"difficulty": 0,
+		"time": 5000,
+		"batch_time_factors": [15, 2],	
+		"book_learn" : [[ "GS_book_alchemy2",0]],
+		"flags": ["BLIND_EASY"],
+		"components": 
+		[
+			[
+			[ "element_skeleton", 1 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "meal_chitin_piece",
+		"id_suffix": "from element_skeleton",	
+		"category": "CC_FOOD",
+		"subcategory": "CSC_FOOD_OTHER",
+		"skill_used": "fabrication",		
+		"skills_required": [["GS_int",4],["fabrication",3]],
+		"difficulty": 0,
+		"time": 5000,
+		"batch_time_factors": [15, 2],	
+		"book_learn" : [[ "GS_book_alchemy2",0]],
+		"flags": ["BLIND_EASY"],
+		"components": 
+		[
+			[
+			[ "element_skeleton", 1 ]
+			]
+		]
+	}
+]

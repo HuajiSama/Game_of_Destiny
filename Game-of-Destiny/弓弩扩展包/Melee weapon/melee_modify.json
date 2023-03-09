@@ -1,0 +1,57 @@
+[
+	{
+        "type":"GENERIC",
+        "id": "cudgel",
+        "name": "cudgel",
+	    "copy-from": "cudgel",
+	    "extend": { "flags": [ "REACH_ATTACK" ] }
+	},{
+        "type":"GENERIC",
+        "id": "q_staff",
+        "name": "quarterstaff",
+	    "copy-from": "q_staff",
+	    "extend": { "flags": [ "REACH_ATTACK" ] }
+	},{
+        "type":"GENERIC",
+        "id": "i_staff",
+        "name": "ironshod quarterstaff",
+	    "copy-from": "i_staff",
+	    "extend": { "flags": [ "REACH_ATTACK" ] }
+	},{
+        "type":"GENERIC",
+        "id": "shock_staff",
+        "name": "powered quarterstaff",
+	    "copy-from": "shock_staff",
+	    "extend": { "flags": [ "REACH_ATTACK" ] }
+	},{
+        "type":"GENERIC",
+        "id": "l-stick",
+        "name": "L-stick (off)",
+	    "copy-from": "l-stick",
+	    "extend": { "flags": [ "REACH_ATTACK" ] }
+	},{
+        "type":"GENERIC",
+        "id": "l-stick_on",
+        "name": "L-sticks (on)",
+	    "copy-from": "l-stick_on",
+	    "extend": { "flags": [ "REACH_ATTACK" ] }
+	},{
+        "type":"GENERIC",
+        "id": "baton",
+        "name": "expandable baton",
+	    "copy-from": "baton",
+	    "extend": { "flags": [ "SHEATH_KNIFE", "BELT_CLIP" ] }
+	},{
+        "type":"GENERIC",
+        "id": "PR24-retracted",
+        "name": "PR-24 baton (retracted)",
+	    "copy-from": "PR24-retracted",
+	    "extend": { "flags": [ "SHEATH_SWORD", "BELT_CLIP" ] }
+	},{
+        "type":"GENERIC",
+        "id": "e_tool",
+        "name": "entrenching tool",
+	    "copy-from": "e_tool",
+	    "extend": { "flags": [ "BELT_CLIP" ] }
+	}
+]

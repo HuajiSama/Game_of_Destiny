@@ -1,0 +1,209 @@
+[
+	{
+        "type" : "mutation_category",
+        "id" : "SP_INTELLIGENT1",
+        "name" : "智力系特质(初级)",
+        "threshold_mut" : "THRESH_SP_INTELLIGENT1",
+        "mutagen_message" : "你努力地集中意念，引导能量强化神经系统，凝结智力特质。",
+        "iv_message" : "你努力地集中意念，引导能量强化神经系统，凝结智力特质。",
+        "memorial_message" : "你努力地集中意念，引导能量强化神经系统，凝结智力特质。"
+    },{		
+        "type" : "mutation_category",
+        "id" : "SP_INTELLIGENT2",
+        "name" : "智力系特质(中级)",
+        "threshold_mut" : "THRESH_SP_INTELLIGENT2",
+        "mutagen_message" : "你努力地集中意念，引导能量强化神经系统，凝结智力特质。",
+		"iv_message" : "你努力地集中意念，引导能量强化神经系统，凝结智力特质。",
+        "memorial_message" : "你努力地集中意念，引导能量强化神经系统，凝结智力特质。"
+    },{
+        "type" : "mutation_category",
+        "id" : "SP_INTELLIGENT3",
+        "name" : "智力系特质(高级)",
+        "threshold_mut" : "THRESH_SP_INTELLIGENT3",
+        "mutagen_message" : "你努力地集中意念，引导能量强化神经系统，凝结智力特质。",
+        "iv_message" : "你努力地集中意念，引导能量强化神经系统，凝结智力特质。",
+        "memorial_message" : "你努力地集中意念，引导能量强化神经系统，凝结智力特质。"
+    },{
+        "type" : "mutation",
+        "id" : "THRESH_SP_INTELLIGENT1",
+        "name" : "智力系特质(初级)",
+        "points" : 0,
+        "description" : "debug专用",
+        "valid": false,
+        "purifiable": false,
+        "threshold": true
+    },{
+        "type" : "mutation",
+        "id" : "THRESH_SP_INTELLIGENT2",
+        "name" : "智力系特质(中级)",
+        "points" : 0,
+        "description" : "debug专用",
+        "valid": false,
+        "purifiable": false,
+        "threshold": true
+    },{
+        "type" : "mutation",
+        "id" : "THRESH_SP_INTELLIGENT3",
+        "name" : "智力系特质(高级)",
+        "points" : 0,
+        "description" : "debug专用",
+        "valid": false,
+        "purifiable": false,
+        "threshold": true
+    },{
+        "id" : "cohesion_intelligent1",
+        "type" : "COMESTIBLE",
+        "comestible_type" : "MED",		
+		"category" : "GS_feature",
+        "name" : "特质凝结─智力系(初级)",
+		"name_plural": "特质凝结─智力系(初级)",		
+        "description" : "超凡者的基因解锁达到某个水准之后，能依据自身特长，提纯天命能量在体内凝聚特质。\n \n智力系特质：着重于强化大脑思维与记忆，强化智能、增进阅读、认知、语言能力。\n \n※凝结特质：智力+2(精明强干)、快速阅读、欺骗精通、自我认知。",
+        "symbol" : "!",
+        "color" : "green",
+		"healthy" : 15,
+        "use_action" : {
+         "type" : "mutagen",
+         "mutation_category" : "SP_INTELLIGENT1"
+        },
+		"flags" : [ "SP_INTELLIGENT1" ]
+    },{
+        "id" : "cohesion_intelligent2",
+        "type" : "COMESTIBLE",
+        "comestible_type" : "MED",		
+		"category" : "GS_feature",
+        "name" : "特质凝结─智力系(中级)",
+		"name_plural": "特质凝结─智力系(中级)",		
+        "description" : "超凡者的基因解锁达到某个水准之后，能依据自身特长，提纯天命能量在体内凝聚特质。\n \n智力系特质：着重于强化大脑思维与记忆，强化智能与记忆力，增进空间认知能力。\n \n※凝结特质：智力+4(算无遗策)、出色记忆、打包专家(携带空间+40%)。",
+        "symbol" : "!",
+        "color" : "green",
+        "healthy" : 30,
+        "use_action" : {
+         "type" : "mutagen",
+         "mutation_category" : "SP_INTELLIGENT2"
+        },
+		"flags" : [ "SP_INTELLIGENT2" ]
+    },{
+        "id" : "cohesion_intelligent3",
+        "type" : "COMESTIBLE",
+        "comestible_type" : "MED",		
+		"category" : "GS_feature",
+        "name" : "特质凝结─智力系(高级)",
+		"name_plural": "特质凝结─智力系(高级)",		
+        "description" : "超凡者的基因解锁达到某个水准之后，能依据自身特长，提纯天命能量在体内凝聚特质。\n \n智力系特质：着重于强化大脑思维与记忆，增强智能与学习力，优化自身基因。\n \n※凝结特质：智力+6(智计百出)、快速学习、优良基因。",
+        "symbol" : "!",
+        "color" : "green",
+		"healthy" : 15,
+        "use_action" : {
+         "type" : "mutagen",
+         "mutation_category" : "SP_INTELLIGENT3"
+        },
+		"flags" : [ "SP_INTELLIGENT3" ]
+    },{
+        "type" : "mutation",
+        "id" : "LIAR",
+        "name" : "Skilled Liar",
+        "points" : 1,
+        "description" : "You have no qualms about bending the truth, and have practically no tells.  Telling lies and otherwise bluffing will be much easier for you.",
+        "starting_trait" : true,
+		"category" : ["SP_INTELLIGENT1"],
+        "cancels" : ["TRUTHTELLER"],
+        "social_modifiers" : {
+            "lie" : 40
+        }
+    },{
+        "type" : "mutation",
+        "id" : "FASTREADER",
+        "name" : "Fast Reader",
+        "points" : 1,
+        "description" : "You're a quick reader, and can get through books a lot faster than most.",
+        "starting_trait" : true,
+        "valid" : false,
+		"category" : ["SP_INTELLIGENT1"],
+        "cancels" : ["ILLITERATE", "SLOWREADER"]
+    },{
+        "type" : "mutation",
+        "id" : "SELFAWARE",
+        "name" : "Self-Aware",
+        "points" : 1,
+        "description" : "You get to see your exact amount of HP remaining and health, instead of only having a vague idea of whether you're in good condition or not.",
+        "starting_trait" : true,
+        "valid" : false,
+        "active" : true,
+        "category" : ["SP_INTELLIGENT1","MEDICAL"]
+    },{
+        "type" : "mutation",
+        "id" : "INT_UP_2",
+        "name" : "Very Smart",
+        "points" : 2,
+        "description" : "You are smarter.  Intelligence + 2",
+        "prereqs" : ["INT_UP"],
+        "changes_to" : ["INT_UP_3"],
+		"category" : ["SP_INTELLIGENT1"],
+        "passive_mods" : {
+            "int_mod" : 2
+        }
+    },{
+        "type" : "mutation",
+        "id" : "PACKMULE",
+        "name" : "Packmule",
+        "points" : 2,
+        "description" : "You can manage to find space for anything!  You can carry 40% more volume.",
+        "starting_trait" : true,
+        "valid" : false,
+		"category" : ["SP_INTELLIGENT2"],
+        "cancels" : ["DISORGANIZED"]
+    },{
+        "type" : "mutation",
+        "id" : "GOODMEMORY",
+        "name" : "Good Memory",
+        "points" : 3,
+        "description" : "You have a an exceptional memory, and find it easy to remember things.  Your skills will erode slightly slower than usual, and you can remember more terrain.",
+        "starting_trait" : true,
+        "valid" : false,
+		"category" : ["SP_INTELLIGENT2"],
+        "cancels" : ["FORGETFUL"]
+    },{
+        "type" : "mutation",
+        "id" : "INT_UP_3",
+        "name" : "Extremely Smart",
+        "points" : 3,
+        "visibility" : 1,
+        "ugliness" : 1,
+        "description" : "You are much smarter, and your skull bulges slightly.  Intelligence + 4",
+        "prereqs" : ["INT_UP_2"],
+        "changes_to" : ["INT_UP_4"],
+        "category" : ["SP_INTELLIGENT2","ELFA"],
+        "passive_mods" : {
+            "int_mod" : 4
+        }
+    },{
+        "type" : "mutation",
+        "id" : "SP_INT_UP",
+        "name" : "智计百出",
+        "points" : 6,
+		"description" : "你完全开发了自己的脑域，你的聪明程度远超过正常人的想像，智力+6。",
+        "prereqs" : ["INT_UP_3"],
+        "passive_mods" : {
+            "int_mod" : 6
+        },
+        "category" : ["SP_INTELLIGENT3"]	
+    },{
+        "type" : "mutation",
+        "id" : "FASTLEARNER",
+        "name" : "Fast Learner",
+        "points" : 3,
+        "description" : "You have a flexible mind, allowing you to learn skills much faster than others.  Note that this only applies to real-world experience, not to skill gain from other sources like books.",
+        "starting_trait" : true,
+        "valid" : false,
+		"category" : ["SP_INTELLIGENT3"],
+        "cancels" : ["SLOWLEARNER"]
+    },{
+        "type" : "mutation",
+        "id" : "ROBUST",
+        "name" : "Robust Genetics",
+        "points" : 3,
+        "description" : "You have a very strong genetic base.  If you mutate, the odds that the mutation will be beneficial are greatly increased.",
+        "starting_trait" : true,
+        "category" : ["SP_INTELLIGENT3","FISH", "SLIME", "ALPHA", "MEDICAL"]
+    }
+]

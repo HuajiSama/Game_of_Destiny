@@ -1,0 +1,13 @@
+[
+	{
+		"type" : "uncraft",
+		"result": "GS_container1",
+		"time": 0,
+		"flags": [ "BLIND_EASY" ],
+		"components": [
+			[ 
+			 [ "destiny_copper", 25 ]
+			]
+		]
+	}
+]

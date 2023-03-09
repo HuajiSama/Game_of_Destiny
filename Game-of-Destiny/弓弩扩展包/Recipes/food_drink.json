@@ -1,0 +1,21 @@
+[
+	{
+		"type" : "recipe",
+		"result": "water_clean",
+		"byproducts": [ [ "water_clean", 4 ] ],
+		"id_suffix": "massive boiling ,Lauriver's extend MOD",
+		"category": "CC_FOOD",
+		"subcategory": "CSC_FOOD_DRINKS",
+		"skill_used": "cooking",
+		"time": 5000,
+		"autolearn": true,
+		"batch_time_factors":[80, 4],
+		"qualities":[ {"id":"BOIL","level":1,"amount":5} ],
+		"tools": [ [ [ "water_boiling_heat", 15, "LIST" ] ] ],
+		"components": [
+			[
+			  [ "water", 5 ]
+			]
+		  ]
+	}
+]

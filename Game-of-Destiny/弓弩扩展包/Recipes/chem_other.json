@@ -1,0 +1,32 @@
+[
+	{
+		"type" : "recipe",
+		"result": "fat_tainted",
+		"id_suffix": "Lauriver's extend MOD",
+		"category": "CC_CHEM",
+		"subcategory": "CSC_CHEM_OTHER",
+		"skill_used": "cooking",
+		"difficulty": 2,
+		"time": 6000,
+		"autolearn": true,
+		"qualities" :
+			[
+				{"id":"COOK","level":1,"amount":1},
+				{"id":"CONTAIN","level":1,"amount":1}
+			],
+		"tools": 
+			[
+				[
+				  [ "hotplate", 3 ],
+				  [ "toolset", 3 ],
+				  [ "fire", -1 ]
+				]
+			],
+		"components": 
+			[
+				[
+				  [ "meat_tainted", 2 ]
+				]
+			]
+	}
+]

@@ -1,0 +1,78 @@
+[
+	{
+		"type":"GENERIC",
+		"category" : "GS_resoure",		
+		"id": "GS_Scavenger_PSK",
+		"name": "探索者生存包",
+		"description": "为探索废土准备的个人生存组(Personal Survival Kit)，坚固的皮背包载满各种野外求生的工具以及少许存粮，你最好在资源耗尽前找到活下去的方法，拆解它获得内容物。",
+		"symbol": "&",
+		"color": "brown",
+		"material": ["leather","iron","plastic"],
+		"weight": 4500,
+		"volume": 20,
+		"armor_data" :
+			{
+			"covers" : ["TORSO"],
+			"coverage" : 30,
+			"material_thickness" : 2,
+			"encumbrance": 10
+			},
+		"flags" : ["BELTED"]
+	},{
+		"type" : "uncraft",
+		"result": "GS_Scavenger_PSK",
+		"time": 2000,
+		"flags": ["BLIND_HARD"],	
+		"components": 
+		[
+			[
+			[ "backpack_leather", 1 ]
+			],
+			[
+			[ "emer_blanket", 1 ]
+			],
+			[
+			[ "folding_poncho", 1 ]
+			],
+			[
+			[ "1st_aid", 3 ]
+			],
+			[
+			[ "antibiotics", 5 ]
+			],
+			[
+			[ "bandages", 6 ]
+			],
+			[
+			[ "mess_kit", 1 ]
+			],
+			[
+			[ "battery", 200 ]
+			],
+			[
+			[ "fire_drill", 1 ]
+			],
+			[
+			[ "knife_hunting", 1 ]
+			],
+			[
+			[ "multitool", 1 ]
+			],
+			[
+			[ "e_tool", 1 ]
+			],
+			[
+			[ "atomic_light", 1 ]
+			],
+			[
+			[ "funnel", 1 ]
+			],
+			[
+			[ "pur_tablets", 15 ]
+			],
+			[
+			[ "pemmican", 8 ]
+			]
+		]		
+	}
+]

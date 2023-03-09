@@ -1,0 +1,591 @@
+[
+	{
+		"//":"dota里第一次回买就会入手的初级物。",
+		"id": "GS_basic_str",
+		"type": "ARMOR",
+		"category" : "GS_equipment",
+		"symbol": "[",
+		"color": "magenta",
+		"name": "力量手环",
+		"name_plural" : "力量手环",
+		"description": "增强力量属性的超凡道具，装备时力量+1，合成进阶武装的基础。",
+		"material": ["super_mt"],
+		"artifact_data" : {
+			"effects_worn": ["AEP_STR_UP", "AEP_STR_DOWN" ]			
+			},
+		"flags" : ["FANCY"]
+	},{
+		"id": "GS_basic_dex",
+		"type": "ARMOR",
+		"category" : "GS_equipment",
+		"symbol": "[",
+		"color": "white",
+		"name": "敏捷之羽",
+		"name_plural" : "敏捷之羽",
+		"description": "增强敏捷属性的超凡道具，装备时敏捷+1，合成进阶武装的基础。",
+		"material": ["super_mt"],
+		"artifact_data" : {
+			"effects_worn": ["AEP_DEX_UP", "AEP_DEX_DOWN" ]			
+			},
+		"flags" : ["FANCY"]
+	},{
+		"id": "GS_basic_int",
+		"type": "ARMOR",
+		"category" : "GS_equipment",
+		"symbol": "[",
+		"color": "blue",
+		"name": "智慧披风",
+		"name_plural" : "智慧披风",
+		"description": "增强智力属性的超凡道具，装备时智力+1，合成进阶武装的基础。",
+		"material": ["super_mt"],
+		"artifact_data" : {
+			"effects_worn": ["AEP_INT_UP", "AEP_INT_DOWN" ]			
+			},
+		"flags" : ["FANCY"]
+	},{
+		"id": "GS_basic_per",
+		"type": "ARMOR",
+		"category" : "GS_equipment",
+		"symbol": "[",
+		"color": "green",
+		"name": "感知护符",
+		"name_plural" : "感知护符",
+		"description": "增强感知属性的超凡道具，装备时感知+1，合成进阶武装的基础。",
+		"material": ["super_mt"],
+		"artifact_data" : {
+			"effects_worn": ["AEP_PER_UP", "AEP_PER_DOWN" ]			
+			},
+		"flags" : ["FANCY"]
+	},{
+		"type" : "ARMOR",
+		"category" : "GS_equipment",		
+		"id" : "GS_eq_str3_shield",
+		"name" : "三相机关盾",
+		"description" : "力量特质凝结的近战武装，由三面小型盾组合而成，可以快速变形成合适的造型保护持盾者。",
+		"symbol" : "[",
+		"color" : "brown",
+		"material" : ["iron","super_mt"],
+		"techniques" : ["WBLOCK_1","BRUTAL"],
+		"volume" : 12,
+		"weight" : 2000,
+		"bashing" : 25,
+        "to_hit" : -1,		
+		"covers" : ["ARM_EITHER", "HAND_EITHER"],		
+		"coverage" : 55,
+		"encumbrance" : 15,
+		"material_thickness" : 3,
+        "environmental_protection" : 5,			
+		"flags" : ["OVERSIZE", "STURDY", "OUTER", "BLOCK_WHILE_WORN", "RESTRICT_HANDS"]
+	},{
+		"type" : "ARMOR",
+		"category" : "GS_equipment",		
+		"id" : "GS_eq_str4_shield",
+		"name" : "三相精钢盾",
+		"description" : "力量特质凝聚的近战武装，由三面精铁盾组合而成，可以快速变形成合适的造型保护持盾者。",
+		"symbol" : "[",
+		"color" : "light_gray",
+		"material" : ["superalloy","super_mt"],
+		"techniques" : ["WBLOCK_2","BRUTAL"],
+		"volume" : 12,
+		"weight" : 2500,
+		"bashing" : 32,
+        "to_hit" : -1,		
+		"covers" : ["ARM_EITHER", "HAND_EITHER"],
+		"coverage" : 80,
+		"encumbrance" : 15,
+		"material_thickness" : 3,
+        "environmental_protection" : 5,			
+		"flags" : ["OVERSIZE", "STURDY", "OUTER", "BLOCK_WHILE_WORN", "RESTRICT_HANDS"]
+	},{
+		"//":"数值参照日式大铠&钢制铠甲，设于两者之间。",
+		"type" : "ARMOR",
+		"category" : "GS_equipment",		
+		"id" : "GS_eq_str4_armor_thorns",
+		"name" : "血荊棘战甲",
+		"description" : "力量特质凝聚的近战武装，充满压迫感的纯黑战甲，表面布满棘刺，能吸收鲜血恢复自身。",
+		"color" : "black",
+		"symbol" : "[",
+		"material" : ["iron","super_mt"],
+		"techniques": [ "WBLOCK_1" ],
+		"weight" : 7500,
+		"volume" : 32,
+		"storage" : 32,
+		"warmth" : 20,
+		"encumbrance" : 8,
+		"covers" : ["TORSO","ARMS","LEGS"],
+		"coverage" : 95,
+		"material_thickness" : 3,
+        "environmental_protection" : 5,			
+		"artifact_data" : {"effects_worn": ["AEP_SAP_LIFE"]},	
+		"flags" : ["OVERSIZE", "STURDY", "RAINPROOF", "SUPER_FANCY"]
+	},{
+        "type" : "TOOL_ARMOR",
+        "id" : "GS_eq_str5_armor_gundam",
+        "category" : "GS_equipment",
+        "name" : "高达战甲",
+        "description" : "力量特质凝聚的近战武装，全覆盖式的动力战甲，融合血荊棘战甲与三相盾的格挡与吸血效果，使用UPS电源充能。\n \n主动技：人间高达，借动力装甲强化使用者的运动能力，力量+3、敏捷+3、速度+15，持续3分钟，消耗100点装备能源。\n \n※武装等级已封顶。",
+        "weight" : 10000,
+        "color" : "light_gray",
+        "symbol" : "[",
+        "material" : ["superalloy","super_mt"],
+		"techniques": [ "WBLOCK_2" ],
+        "volume" : 40,
+        "storage" : 40,
+        "warmth" : 20,
+        "encumbrance" : 10,
+        "covers" : ["HEAD","TORSO","ARMS","LEGS","FEET"],
+        "coverage" : 95,
+        "material_thickness" : 3,
+        "environmental_protection" : 8,
+		"max_charges": 500,
+		"charges_per_use": 100,
+		"ammo": "battery",
+		"artifact_data" : {"effects_worn": ["AEP_SAP_LIFE"]},
+        "flags" : ["USE_UPS","NO_UNLOAD","RAINPROOF","STURDY","OVERSIZE","RAD_RESIST","BLOCK_WHILE_WORN","SUPER_FANCY"],
+		"use_action":
+		[
+			{
+			"type" : "consume_drug",
+			"activation_message" : "高达强化启动！",
+			"moves" : 0,
+			"effects" : [ { "id" : "gundam1", "duration" : 30 } ]
+			}
+		]
+	},{
+		"id": "GS_eq_dex2_amulet_speed",
+		"type": "TOOL",
+		"category" : "GS_item",
+		"symbol": "[",
+		"color": "white",
+		"name": "风行符",
+		"description": "敏捷系天命武装，激活时能增幅装备者的神经传导速率，行动速度+20，每6秒消耗1天命铜币，使用它以激活(a)。",
+		"material": ["super_mt"],
+		"max_charges": 50,
+		"ammo": "destiny_copper_type",
+		"use_action": {
+			"type": "transform",
+			"msg": "神行符光芒闪现，你的行动速度突然加快！",
+			"target": "GS_eq_dex2_amulet_speed_active",
+			"active": true,
+			"moves" : 0,
+			"need_charges": 1,
+			"need_charges_msg": "这件饰品最少要3天命铜币才能发动。"
+			}
+	},{
+		"id": "GS_eq_dex2_amulet_speed_active",
+		"type": "TOOL",
+		"category" : "GS_item",
+		"symbol": "[",
+		"color": "light_gray",
+		"name": "疾行符",
+		"description": "敏捷系天命武装，装备者速度+20，持续消耗天命币，使用它以关闭(a)。",
+		"material": ["super_mt"],
+		"max_charges": 50,
+		"charges_per_use": 1,
+		"turns_per_charge": 1,
+		"ammo": "destiny_copper_type",
+		"use_action": {
+				"type": "transform",
+				"msg": "疾行符加速效果关闭！",
+				"target": "GS_eq_dex2_amulet_speed",
+				"moves" : 0
+			},
+		"artifact_data" : {"effects_carried": ["AEP_SPEED_UP"]},
+		"revert_to": "GS_eq_dex2_amulet_speed"
+	},{
+		"id": "GS_eq_dex3_amulet_teleport",
+		"type": "TOOL",
+		"category" : "GS_item",
+		"symbol": "[",
+		"color": "white",
+		"name": "空间之跃",
+		"description" : "敏捷系天命武装，短距离随机瞬移，禁止在火山口使用。\n \n主动技能：短距随机瞬移，消耗25天命币。",
+		"material" : ["super_mt"],
+		"ammo": "destiny_copper_type",
+		"max_charges": 50,
+		"charges_per_use": 25,
+		"artifact_data" : {"effects_activated": ["AEA_TELEPORT"]},
+		"use_action": "ARTIFACT"
+	},{
+		"type" : "TOOL",
+		"id" : "GS_eq_dex4_amulet_speed",
+		"category" : "GS_item",
+		"name" : "神行符",
+		"color" : "white",
+		"symbol" : "[",
+		"description" : "敏捷系天命武装，主动技能：鬼影神行，短时间内大幅强化反射速度，敏捷+3、速度+40、疲勞+15，激活时消耗25天命币，持续时间1分钟。\n \n※装备等级已封顶。",
+		"material" : ["super_mt"],
+		"max_charges": 100,
+		"charges_per_use": 25,
+		"ammo": "destiny_copper_type",
+		"use_action": [
+			{
+			"type" : "consume_drug",
+			"activation_message" : "子弹时间！眼前的一切动作似乎变慢了，持续时间1分钟。",
+			"effects" : [ { "id" : "dex_speed_1", "duration" :10 } ],
+			"moves" : 0,
+			"stat_adjustments": {"fatigue" : 15}
+			}
+		]
+	},{
+		"//":"定位：低消耗防御Buff，激发2件时9mm冲锋枪只剩微伤。",
+		"id": "GS_eq_int2_bell",
+		"type": "TOOL_ARMOR",
+		"category" : "GS_equipment",
+		"symbol": "$",
+		"color": "yellow",
+		"name": "音波铛",
+		"name_plural" : "音波铛",
+		"description": "铃铛型法器，防御用天命武装，掌控音波特质并将之具现化为屏障，激活时发动结界保护施法者，效果持续3分钟，消耗15天命铜币。",	
+		"material": ["GS_int_sheild"],
+        "volume" : 1,	
+		"weight": 50,
+		"material_thickness" : 1,
+		"environmental_protection" : 5,
+		"max_charges": 15,
+		"ammo": "destiny_copper_type",
+		"flags" : ["STURDY","OUTER"],
+		"use_action": 
+			{
+			"type": "transform",
+			"msg": "你激发了音波铛的符箓，周身荡漾着一个透明护盾，持续时间3分钟。",
+			"target": "GS_eq_int2_bell_active",
+			"moves" : 0,
+			"active": true,
+			"need_charges": 15,
+			"need_charges_msg": "音波铛的能量不足以启动。"
+			}
+	},{
+		"id": "GS_eq_int2_bell_active",
+		"type": "TOOL_ARMOR",
+		"category" : "GS_equipment",
+		"symbol": "$",
+		"color": "yellow",
+		"name": "音波铛",
+		"name_plural" : "音波铛",
+		"description": "音波铛上的符文正在发动，音波结界可以强化防御，能量耗尽后护盾便会消失。",
+		"material": ["GS_int_sheild"],
+        "volume" : 1,
+		"weight": 50,
+		"max_charges": 15,
+		"charges_per_use": 1,
+		"turns_per_charge": 2,
+		"ammo": "destiny_copper_type",
+		"revert_to": "GS_eq_int2_bell",
+		"revert_msg": "音波铛的能量用尽，护盾缓缓消失。",	
+		"covers" : ["HEAD", "MOUTH", "EYES", "TORSO", "ARMS", "HANDS", "LEGS", "FEET"],
+		"flags" : ["ALLOWS_NATURAL_ATTACKS","STURDY","OUTER"],
+		"encumbrance" : 0,
+		"environmental_protection" : 5,		
+		"coverage" : 100,
+		"material_thickness" : 1
+	},{
+		"id": "GS_eq_int3_bell",
+		"type": "TOOL_ARMOR",
+		"category" : "GS_equipment",
+		"symbol": "$",
+		"color": "yellow",
+		"name": "金刚铛",
+		"name_plural" : "金刚铛",
+		"description": "铃铛型法器，防御用天命武装，掌控音波特质并将之具现化为屏障，激活时发动结界保护施法者，效果持续3分钟，消耗15天命铜币。",	
+		"material": ["GS_int_sheild"],
+        "volume" : 1,	
+		"weight": 50,
+		"material_thickness" : 2,
+		"environmental_protection" : 10,
+		"max_charges": 15,
+		"ammo": "destiny_copper_type",
+		"flags" : ["STURDY","OUTER"],
+		"use_action": 
+			{
+			"type": "transform",
+			"msg": "你激发了金刚铛的符箓，周身荡漾着一个透明护盾，持续时间3分钟。",
+			"target": "GS_eq_int3_bell_active",
+			"active": true,
+			"moves" : 0,
+			"need_charges": 15,
+			"need_charges_msg": "金刚铛的能量不足以启动。"
+			}
+	},{
+		"id": "GS_eq_int3_bell_active",
+		"type": "TOOL_ARMOR",
+		"category" : "GS_equipment",
+		"symbol": "$",
+		"color": "yellow",
+		"name": "金刚铛",
+		"name_plural" : "金刚铛",
+		"description": "金刚铛上的符文正在发动，音波结界可以强化防御，能量耗尽后护盾便会消失。",
+		"material": ["GS_int_sheild"],
+        "volume" : 1,
+		"weight": 50,
+		"max_charges": 15,
+		"charges_per_use": 1,
+		"turns_per_charge": 2,
+		"ammo": "destiny_copper_type",
+		"revert_to": "GS_eq_int3_bell",
+		"revert_msg": "金刚铛的能量用尽，护盾缓缓消失。",	
+		"covers" : ["HEAD", "MOUTH", "EYES", "TORSO", "ARMS", "HANDS", "LEGS", "FEET"],
+		"flags" : ["ALLOWS_NATURAL_ATTACKS","STURDY","OUTER"],
+		"encumbrance" : 0,
+		"environmental_protection" : 10,		
+		"coverage" : 100,
+		"material_thickness" : 2
+	},{
+		"id": "GS_eq_per2_song",
+		"type": "TOOL_ARMOR",
+		"category" : "GS_equipment",
+		"symbol": "s",
+		"color": "green",
+		"name": "歌曲渲染",
+		"name_plural" : "歌曲渲染",
+		"description": "感性系特质「动感」的音系技能，通过歌声暂时强化属性，随时间自动充能。\n \n主动技能：战歌，力量、敏捷+2，体力恢复+3，解除「恐惧」效果，持续时间3分钟。",
+		"material": ["super_mt"],
+		"max_charges": 5,
+		"initial_charges": 3,
+		"charges_per_use": 1,
+		"artifact_data" : {"charge_type": "ARTC_TIME"},
+		"use_action": [
+			{
+			"type" : "consume_drug",
+			"activation_message" : "歌曲渲染！提升近战属性及体力回复，持续3分钟。",
+			"moves" : 0,
+			"effects" : [ { "id" : "per_warsong_1", "duration" : 30 } ]
+			}
+		]
+	},{
+		"id": "GS_eq_per3_song",
+		"type": "TOOL_ARMOR",
+		"category" : "GS_equipment",
+		"symbol": "s",
+		"color": "blue",
+		"name": "虎豹雷音",
+		"name_plural" : "虎豹雷音",
+		"description": "力量与感性结合的进阶音系技能，利用音振淬筋炼骨，发动时提升近战属性但降低感知，随时间自动充能。\n \n主动技能：虎豹雷音，力量、敏捷+4，感知-2，体力恢复+5，解除恐惧、震慑、晕眩，持续时间5分钟。\n \n※装备等级已封顶 ",
+		"material": ["super_mt"],
+		"max_charges": 6,
+		"initial_charges": 3,
+		"charges_per_use": 1,
+		"artifact_data" : {"charge_type": "ARTC_TIME"},
+		"use_action": 
+		[
+			{
+			"type" : "consume_drug",
+			"activation_message" : "虎豹雷音！提升近战属性及体力回复，持续5分钟。",
+			"moves" : 0,
+			"effects" : [ { "id" : "per_warsong_2", "duration" : 50 } ]
+			}
+		]
+	},{
+		"//":"定位：高消耗逃命用Buff。",
+		"id": "GS_eq_per2_necklace_unseen",
+		"type": "TOOL_ARMOR",
+		"category" : "GS_equipment",
+		"symbol": "[",
+		"color": "light_gray",
+		"name": "小透明项链",
+		"description": "感性系特质「无」的天命武装，降低装备者的存在感，让敌人的视线难以聚焦在你身上，借此免疫凝视攻击。\n \n主动技能：小透明隐身，激发「无」特质将身体透明化，隐形时力量-3、速度-20，每回合(6秒)消耗2天命币。",
+		"material": ["super_mt"],
+        "volume" : 1,
+		"max_charges": 60,
+		"ammo": "destiny_copper_type",
+		"use_action": {
+			"type": "transform",
+			"msg": "你的身体变得透明，如融入背景般消失不见。",
+			"target": "GS_eq_per2_necklace_invisible",
+			"active": true,
+			"need_charges": 3,
+			"need_charges_msg": "这个饰品需要足够的天命币才能启动。"
+			},
+		"artifact_data" : {"effects_worn": ["AEP_PSYSHIELD"]},		
+		"flags" : ["FANCY"]	
+	},{
+		"id": "GS_eq_per2_necklace_invisible",
+		"type": "TOOL_ARMOR",
+		"category" : "GS_equipment",
+		"symbol": "[",
+		"color": "light_gray",
+		"name": "隐身项链",
+		"description": "激发「无」特质的隐形装备，将身形完全透明化，此状态会飞快地消耗装备能量，并削弱使用者的力量(-3)，隐身时有速度惩罚(-20)。",
+		"material": ["super_mt"],
+        "volume" : 1,
+		"max_charges": 60,
+		"charges_per_use": 2,
+		"turns_per_charge": 1,
+		"ammo": "destiny_copper_type",		
+		"use_action": {
+				"type": "transform",
+				"msg": "隐形效果消失，你的身体显影而出。",
+				"target": "GS_eq_per2_necklace_unseen"
+			},
+		"artifact_data" : {"effects_worn": ["AEP_INVISIBLE","AEP_STEALTH","AEP_PSYSHIELD","AEP_STR_DOWN","AEP_SPEED_DOWN"]},
+		"revert_to": "GS_eq_per2_necklace_unseen",
+		"flags" : ["FANCY"]
+	},{
+		"id": "GS_eq_per4_robe_quiet",
+		"type": "TOOL_ARMOR",
+		"category" : "GS_equipment",
+		"symbol": "[",
+		"color": "white",
+		"name": "灵质轻音袍",
+		"description": "凝聚灵质的半透明符文袍，能够维持符力减轻伤害，还有镇定心神的效果，装备时免疫精神攻击，被动效果：轻音无跡，减轻穿戴者走动的声响，让行动更加隐蔽。\n \n主动技：完美隐形，激发「无」特质使身体完全透明，隐身时没有速度惩罚，每回合(6秒)消耗2天命币。\n \n※装备等级已封顶。",
+		"material": ["GS_int_sheild","super_mt"],
+        "volume" : 15,		
+		"weight": 666,
+        "covers" : ["LEGS", "TORSO", "ARMS"],
+        "coverage" : 95,		
+		"encumbrance" : 5,		
+		"environmental_protection" : 8,
+        "material_thickness" : 2,
+		"artifact_data" : {"effects_worn": ["AEP_PSYSHIELD","AEP_STEALTH"]},		
+		"ammo": "destiny_copper_type",
+		"max_charges": 100,
+		"use_action": {
+			"type": "transform",
+			"msg": "「无」特质发动，你的身体倏地透明。",
+			"target": "GS_eq_per4_robe_quiet_active",
+			"active": true,
+			"need_charges": 3,
+			"need_charges_msg": "灵质轻音袍需要足够的天命币才能启动。"
+			},
+		"flags" : ["VARSIZE","OUTER","STURDY","HOOD","RAD_RESIST","WATERPROOF","RAINPROOF","SUPER_FANCY"]
+	},{
+		"id": "GS_eq_per4_robe_quiet_active",
+		"type": "TOOL_ARMOR",
+		"category" : "GS_equipment",
+		"symbol": "[",
+		"color": "white",
+		"name": "灵质轻音袍",
+		"description": "激发「无」特质的符文袍，让装备者处于不可视的隐形形态，仍会被气味或红外线等侦查技巧感知。",
+		"material": ["GS_int_sheild","super_mt"],
+        "volume" : 15,		
+		"weight": 666,
+        "covers" : ["LEGS", "TORSO", "ARMS"],
+        "coverage" : 90,
+		"encumbrance" : 5,		
+		"environmental_protection" : 8,
+        "material_thickness" : 2,
+		"artifact_data" : {"effects_worn": ["AEP_PSYSHIELD","AEP_STEALTH","AEP_INVISIBLE"]},		
+		"ammo": "destiny_copper_type",
+		"max_charges": 100,
+		"charges_per_use": 2,
+		"turns_per_charge": 1,
+		"use_action": {
+			"type": "transform",
+			"msg": "隐身效果消失，你的身体显影而出。",
+			"target": "GS_eq_per4_robe_quiet"
+			},
+		"revert_to": "GS_eq_per4_robe_quiet",
+		"revert_msg": "轻音袍的能量用尽，隐形效果消失。",	
+		"flags" : ["VARSIZE","OUTER","STURDY","HOOD","RAD_RESIST","WATERPROOF","RAINPROOF","SUPER_FANCY"]
+	},{
+		"id": "GS_eq_merit1_soul",
+		"type": "ARMOR",
+		"category" : "GS_equipment",
+		"symbol": "g",
+		"color": "yellow",
+		"name": "功德灵(初阶)",
+		"description": "对功德之气有亲和力的特殊灵体，不惧阳光与驱邪法术，附身(W)时无视地形侦查，透过感官共享反馈周围事物。",
+		"material": "merit_mt",
+		"artifact_data" : {
+			"effects_worn": ["AEP_CLAIRVOYANCE"]
+		}
+	},{
+		"id": "GS_eq_merit2_furnace",
+		"type": "TOOL",
+		"category" : "GS_tool",
+		"symbol": "&",
+		"color": "black",
+		"name": "炼魂炉(中阶)",
+		"description": "升级灵体的必要道具，将灵仆与灵质放入炼魂炉中温养融炼，一段时间后即可升级(a)。\n \n功德灵(中阶)：亲和功德之气的特殊灵体，不惧阳光及驱邪，可无视障壁侦查四周，保护主人免疫邪魅的精神攻击。",
+		"material": ["merit_mt"],
+		"use_action": {
+			"type": "delayed_transform",
+			"transform_age": 43200, "//": "3 days",
+			"not_ready_msg": "炼魂炉中的灵体还没升级完成。",
+			"msg": "功德灵升级成功！",
+			"moves": 1000,
+			"target": "GS_eq_merit2_soul"
+		}
+	},{
+		"id": "GS_eq_merit2_soul",
+		"type": "ARMOR",
+		"category" : "GS_equipment",
+		"symbol": "g",
+		"color": "yellow",
+		"name": "功德灵(中阶)",
+		"description": "亲和功德之气的特殊灵体，不惧阳光及驱邪，可无视障壁侦查四周，保护主人免疫邪魅的精神攻击。",
+		"material": "merit_mt",
+		"artifact_data" :{
+			"effects_worn": ["AEP_PSYSHIELD","AEP_CLAIRVOYANCE"]			
+		}
+	},{
+		"id": "GS_eq_merit3_furnace",
+		"type": "TOOL",
+		"category" : "GS_tool",
+		"symbol": "&",
+		"color": "black",
+		"name": "炼魂炉(高阶)",
+		"description": "升级灵体的必要道具，将灵仆与灵质放入炼魂炉中温养融炼，一段时间后即可升级。\n \n功德灵(高阶)：亲和功德之气的特殊灵体，不惧阳光及驱邪、无视障壁勘查四周并免疫邪魅的精神攻击。\n主动技能：功德金身，消耗功德之力塑造法相金身，大幅提升防御力及抗性，全能力+6、免疫电击、拥有天人视角。",
+		"material": ["merit_mt"],
+		"use_action": {
+			"type": "delayed_transform",
+			"transform_age": 72000, "//": "5 days",
+			"not_ready_msg": "炼魂炉中的灵体还没升级完成。",
+			"msg": "功德灵升级成功！",
+			"moves": 1000,
+			"target": "GS_eq_merit3_soul"
+		}
+	},{
+		"id": "GS_eq_merit3_soul",
+		"type": "TOOL_ARMOR",
+		"category" : "GS_equipment",
+		"symbol": "g",
+		"color": "yellow",
+		"name": "功德灵(高阶)",
+		"description": "亲和功德之气的特殊灵体，不惧阳光及驱邪、无视障壁勘查四周并免疫邪魅的精神攻击。\n \n主动技能：功德金身，消耗功德之力塑造法相金身，大幅提升防御力及抗性，全能力+6、免疫电击、暂时拥有天人视角，每回合消耗2功德。\n \n※灵体等级已封顶。",
+		"material": "merit_mt",
+		"max_charges": 100,	
+		"ammo": "merit_type",
+		"artifact_data" : {
+			"effects_worn": ["AEP_PSYSHIELD","AEP_CLAIRVOYANCE"]	
+		},
+		"use_action": {
+			"type": "transform",
+			"msg": "功德凝聚，金身显化！",
+			"target": "GS_eq_merit3_soul_active",
+			"active": true,
+			"need_charges": 2,
+			"moves" : 80,
+			"need_charges_msg": "能量不足。"
+		}
+	},{
+		"//":"定位：威力、消耗都是最强的Buff。",
+		"id": "GS_eq_merit3_soul_active",
+		"type": "TOOL_ARMOR",
+		"category" : "GS_equipment",
+		"symbol": "g",
+		"color": "yellow",
+		"name": "功德金身",
+		"description": "以功德之气凝聚的法身，消耗信仰之力获得加成，具有强大的防御及抗性，全属性+6、免疫雷击、拥有天人视角。",
+		"material": "merit_mt",
+		"covers" : ["HEAD", "MOUTH", "EYES", "TORSO", "ARMS", "HANDS", "LEGS", "FEET"],
+		"coverage" : 100,
+		"environmental_protection" : 25,
+		"material_thickness" : 3,
+		"ammo": "merit_type",		
+		"max_charges": 100,
+		"charges_per_use": 2,
+		"turns_per_charge": 1,
+		"revert_to": "GS_eq_merit3_soul",
+		"revert_msg": "功德灵的灵力耗尽，恢复成普通状态。",			
+		"artifact_data" : {"effects_worn": ["AEP_PSYSHIELD","AEP_SUPER_CLAIRVOYANCE","AEP_ALL_UP","AEP_ALL_UP","AEP_ALL_UP","AEP_RESIST_ELECTRICITY","AEP_GLOW","AEP_EXTINGUISH"]	},
+		"use_action": {
+			"type": "transform",
+			"msg": "功德金身中止。",
+			"moves" : 150,
+			"target": "GS_eq_merit3_soul"
+		},
+		"flags" : ["STURDY","OUTER","OVERSIZE","BLOCK_WHILE_WORN","ALLOWS_NATURAL_ATTACKS","RAD_PROOF","ELECTRIC_IMMUNE"]
+
+	}
+]

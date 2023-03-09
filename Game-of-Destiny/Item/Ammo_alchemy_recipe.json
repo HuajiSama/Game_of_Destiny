@@ -1,0 +1,137 @@
+[
+	{
+		"type" : "recipe",
+		"result" : "Element_bullet_casing",
+		"result_mult": 10,
+		"category" : "CC_超凡",
+		"subcategory": "CSC_超凡_弹药",		
+		"skill_used": "fabrication",		
+		"skills_required": [ ["GS_int", 10], ["gun", 5] ],
+		"difficulty" : 3,
+		"time" : 10000,
+		"batch_time_factors": [10,3],
+		"book_learn" : [[ "GS_book_int5_alchemy_gun_readme", 0 ]],		
+		"components":
+		[
+			[
+			 [ "element_steel", 2 ],
+			 [ "steel_chunk", 2 ],
+			 [ "scrap", 10 ]
+			]
+		]	
+	},{
+		"type" : "recipe",
+		"result" : "Element_bullet_water",
+		"category" : "CC_超凡",
+		"subcategory": "CSC_超凡_弹药",
+		"skill_used": "fabrication",		
+		"skills_required": [ ["GS_int", 10], ["gun", 5] ],
+		"difficulty" : 5,
+		"time" : 20000,	
+		"batch_time_factors": [10,3],
+		"book_learn" : [[ "GS_book_int5_alchemy_gun_readme", 0 ]],
+		"components": 
+		[
+			[
+			  [ "element_water", 2 ],
+			  [ "water", 2 ],
+			  [ "water_clean", 2 ]
+			],
+			[
+			  [ "Element_bullet_casing", 10 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result" : "Element_bullet_iron",
+		"category" : "CC_超凡",
+		"subcategory": "CSC_超凡_弹药",
+		"skill_used": "fabrication",		
+		"skills_required": [ ["GS_int", 10], ["gun", 5] ],
+		"difficulty" : 5,
+		"time" : 20000,
+		"batch_time_factors": [10,3],
+		"book_learn" : [[ "GS_book_int5_alchemy_gun_readme", 0 ]],
+		"components": 
+		[
+			[
+			 [ "element_steel", 2 ],
+			 [ "steel_chunk", 2 ],
+			 [ "scrap", 10 ]
+			],
+			[
+			 [ "Element_bullet_casing", 10 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result" : "Element_bullet_shot",
+		"category" : "CC_超凡",
+		"subcategory": "CSC_超凡_弹药",
+		"skill_used": "fabrication",		
+		"skills_required": [ ["GS_int", 10], ["gun", 5] ],
+		"difficulty" : 5,
+		"time" : 20000,	
+		"batch_time_factors": [10,3],
+		"book_learn" : [[ "GS_book_int5_alchemy_gun_readme", 0 ]],
+		"components": 
+		[
+			[
+			  [ "element_water", 1 ],
+			  [ "water", 1 ],
+			  [ "water_clean", 1 ]
+			],
+			[
+			 [ "element_steel", 1 ],
+			  [ "steel_chunk", 1 ],
+			  [ "scrap", 5 ]
+			],
+			[
+			  [ "Element_bullet_casing", 10 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result" : "Element_bullet_flame",
+		"category" : "CC_超凡",
+		"subcategory": "CSC_超凡_弹药",
+		"skill_used": "fabrication",		
+		"skills_required": [ ["GS_int", 10], ["gun", 5] ],
+		"difficulty" : 5,
+		"time" : 20000,		
+		"batch_time_factors": [10,3],
+		"book_learn" : [[ "GS_book_int5_alchemy_gun_readme", 0 ]],		
+		"components": 
+		[
+			[
+			  [ "plasma", 5 ]
+			],
+			[
+			  [ "Element_bullet_casing", 10 ]
+			]
+		]		
+	},{
+		"type" : "recipe",
+		"result": "plasma",
+		"id_suffix": "for element bullet",
+		"category": "CC_CHEM",
+		"subcategory": "CSC_CHEM_OTHER",
+		"skill_used": "cooking",
+		"skills_required": ["GS_int",9],
+		"difficulty": 3,
+		"time": 20000,
+		"book_learn": [ [ "GS_book_int5_alchemy_gun_readme", 0 ] ],
+		"qualities":[ {"id":"CHEM","level":2} ],
+		"components":
+		[
+			[
+				[ "element_water", 10 ],
+				[ "water", 10 ],
+				[ "water_clean", 10 ]	
+			],
+			[
+				[ "metal_tank_little", 1 ]	
+			]			
+		]
+	}
+]

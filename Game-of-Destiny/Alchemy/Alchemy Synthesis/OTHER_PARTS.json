@@ -1,0 +1,55 @@
+[
+	{
+		"type" : "recipe",
+		"result": "frame",
+		"id_suffix": "from element steel",	
+		"category": "CC_OTHER",
+		"subcategory": "CSC_OTHER_PARTS",
+		"skill_used": "fabrication",		
+		"skills_required": [["GS_int",6],["fabrication",5]],
+		"difficulty": 0,
+		"time": 5000,
+		"tools": [
+			[
+			  [ "welder", 25 ],
+			  [ "welder_crude", 50 ],
+			  [ "toolset", 50 ],
+			  [ "forge", 25 ],
+			  [ "oxy_torch", 5]
+			]
+		],
+		"book_learn" : [[ "GS_book_alchemy3",0]],
+		"components": 
+		[
+			[
+			[ "element_steel", 10 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "hdframe",
+		"id_suffix": "from element steel",	
+		"category": "CC_OTHER",
+		"subcategory": "CSC_OTHER_PARTS",
+		"skill_used": "fabrication",		
+		"skills_required": [["GS_int",6],["fabrication",5]],
+		"difficulty": 0,
+		"time": 8000,
+		"tools": [
+			[
+			  [ "welder", 25 ],
+			  [ "welder_crude", 50 ],
+			  [ "toolset", 50 ],
+			  [ "forge", 25 ],
+			  [ "oxy_torch", 5]
+			]
+		],
+		"book_learn" : [[ "GS_book_alchemy3",0]],
+		"components": 
+		[
+			[
+			[ "element_steel", 20 ]
+			]
+		]
+	}
+]

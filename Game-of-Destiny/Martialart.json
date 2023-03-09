@@ -1,0 +1,95 @@
+[
+	{
+        "type" : "martial_art",
+        "id" : "style_warlock",
+        "name" : "法师秘术",
+        "description": "智力幻想系的战斗术，以科学异能强化实战能力，依智力属性提升攻击力与抗性(物理、电、火、酸)。",
+        "initiate": [ "你激发了法师秘术，元素在你身边不停的跃动着。", "%s 激发法师秘术。" ],
+		"arm_block" : 99,
+        "leg_block" : 99,
+        "static_buffs" : [
+            {
+                "id" : "warlock_static",
+                "name" : "奧术防御",
+                "description" : "[智力]提升输出伤害&特殊抗性。",
+                "unarmed_allowed" : true,
+				"melee_allowed" : true,	
+                "flat_bonuses" : [
+				   [ "damage", "bash", 0.33 ],
+				   [ "damage", "cut", 0.33 ],
+				   [ "damage", "stab", 0.33 ],
+				   [ "damage", "electric", 1 ],
+				   [ "damage", "heat", 1 ],
+				   [ "damage", "acid", 1 ]
+				]
+            }
+		],
+        "techniques" : [
+		    "warlock_bash",
+            "warlock_wide"
+        ]
+   },{
+		"type" : "technique",
+		"id" : "warlock_bash",
+		"name" : "秘法冲击",
+        "unarmed_allowed" : true,
+		"melee_allowed" : true,
+        "min_GS_int" : 8,
+        "crit_tec" : true,
+        "bash_mult" : 1.5,
+        "knockback_dist" : 1,
+        "knockback_spread" : 1,
+        "messages" : [
+            "你蓄积咒力冲击 %s ！",
+            "<npcname> 蓄积咒力冲击 %s！"
+        ]
+	},{
+        "type" : "technique",	
+	    "id" : "warlock_wide",
+        "name" : "闪电风暴",
+        "unarmed_allowed" : true,
+		"melee_allowed" : true,
+        "min_GS_int" : 10,
+        "crit_tec" : true,
+        "mult_bonuses" : [
+             [ "movecost", 1.5 ],
+			 [ "damage", "bash", 1.75 ],
+			 [ "damage", "cut", 1.75 ]
+        ],
+        "messages" : [
+            "你凝聚咒力使出闪电风暴，横扫 %s 及周围的敌人",
+            "<npcname> 使出闪电风暴，横扫 %s 及周围的敌人"
+        ],
+        "stun_dur" : 2,
+        "aoe" : "wide"
+	},{
+		"id": "manual_warlock",
+		"type": "BOOK",
+		"name": "法师秘术",
+		"description": "智力幻想系的战斗术，以科学异能强化实战能力，依智力属性提升攻击力与抗性(物理、电、火、酸)。",
+		"symbol": "?",
+		"color": "blue",
+		"material": ["paper"],
+		"intelligence" : 12,
+		"time" : 30,
+		"required_level" : 0,
+		"use_action": "MA_MANUAL"
+	},{
+		"type" : "recipe",
+		"result": "manual_warlock",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_无界",
+		"skill_used": "melee",
+		"skills_required": [["GS_int", 6],["GS_per", 6]],	
+		"difficulty": 0,
+		"time": 30000,
+		"reversible": false,
+		"autolearn": true,
+		"components": 
+		[
+			[
+			[ "destiny_silver", 2 ]
+			]
+		]
+	}
+]

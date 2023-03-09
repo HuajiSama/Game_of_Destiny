@@ -1,0 +1,111 @@
+[
+	{
+		"type" : "uncraft",
+		"result": "GS_wp_dex2_bow",
+		"time" : 0,
+		"flags": [ "BLIND_EASY" ],
+		"components": [
+			[ 
+			 [ "destiny_copper", 100 ]
+			]			
+		]
+	},{
+		"type" : "uncraft",
+		"result": "GS_wp_dex3_bow",
+		"time" : 0,
+		"flags": [ "BLIND_EASY" ],
+		"components": [
+			[ 
+			 [ "GS_wp_dex2_bow", 1 ]
+			],
+			[ 
+			 [ "destiny_copper", 100 ]
+			]
+		]
+	},{
+		"type" : "uncraft",
+		"result": "GS_wp_dex4_bow",
+		"time" : 0,
+		"flags": [ "BLIND_EASY" ],
+		"components": [
+			[ 
+			 [ "GS_wp_dex3_bow", 1 ]
+			],
+			[ 
+			 [ "destiny_copper", 150 ]
+			]
+		]
+	},{
+		"type" : "uncraft",
+		"result": "GS_wp_dex5_bow",
+		"time" : 0,
+		"flags": [ "BLIND_EASY" ],
+		"components": [
+			[ 
+			 [ "GS_wp_dex4_bow", 1 ]
+			],
+			[ 
+			 [ "destiny_copper", 200 ]
+			]
+		]
+	},{
+		"type" : "uncraft",
+		"result": "GS_wp_dex5_bow_snipe",
+		"time" : 0,
+		"flags": [ "BLIND_EASY" ],
+		"components": [
+			[ 
+			 [ "destiny_copper", 200 ]
+			]
+		]
+	},{
+		"type" : "uncraft",
+		"result": "GS_wp_mechanic_umbrella",
+		"time" : 0,
+		"flags": [ "BLIND_EASY" ],
+		"components": [
+			[ 
+			 [ "destiny_copper", 200 ]
+			]
+		]
+	},{
+		"type" : "uncraft",
+		"result": "GS_wp_int5_alchemy_gun",
+		"time" : 0,
+		"flags": [ "BLIND_EASY" ],
+		"components": [
+			[ 
+			 [ "destiny_copper", 200 ]
+			]
+		]
+	},{
+		"type" : "uncraft",
+		"result": "GS_wp_merit2_crossbow",
+		"time" : 0,
+		"flags": [ "BLIND_EASY" ],
+		"components": [
+			[ 
+			 [ "destiny_copper", 50 ]
+			],
+			[ 
+			 [ "merit", 25 ]
+			]
+		]
+	},{
+		"type" : "uncraft",
+		"result": "GS_wp_merit3_crossbow",
+		"time" : 0,
+		"flags": [ "BLIND_EASY" ],
+		"components": [
+			[ 
+			 [ "GS_wp_merit2_crossbow", 1 ]
+			],
+			[ 
+			 [ "destiny_copper", 100 ]
+			],
+			[ 
+			 [ "merit", 50 ]
+			]
+		]
+	}
+]

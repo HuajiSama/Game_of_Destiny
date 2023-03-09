@@ -1,0 +1,137 @@
+[
+	{
+		"type" : "uncraft",
+		"result": "GS_wp_str2_glove",
+		"time" : 0,
+		"flags": [ "BLIND_EASY" ],
+		"components": [
+			[ 
+			 [ "destiny_copper", 100 ]
+			]			
+		]	
+	},{
+		"type" : "uncraft",
+		"result": "GS_wp_str3_glove",
+		"time" : 0,
+		"flags": [ "BLIND_EASY" ],
+		"components": [
+			[ 
+			 [ "GS_wp_str2_glove", 1 ]
+			],		
+			[
+			 [ "destiny_copper", 100 ]
+			]
+		]
+	},{
+		"type" : "uncraft",
+		"result": "GS_wp_str4_glove",
+		"time" : 0,
+		"flags": [ "BLIND_EASY" ],
+		"components": [
+			[ 
+			 [ "GS_wp_str3_glove", 1 ]
+			],
+			[
+			 [ "destiny_copper", 150 ]
+			]
+		]
+	},{
+		"type" : "uncraft",
+		"result": "GS_wp_str5_glove",
+		"time" : 0,
+		"flags": [ "BLIND_EASY" ],
+		"components": [
+			[
+			 [ "GS_wp_str4_glove", 1 ]
+			],		
+			[
+			 [ "destiny_copper", 150 ]
+			]
+		]
+	},{
+		"type" : "uncraft",
+		"result": "GS_wp_str5_glove_holster",
+		"time" : 0,
+		"flags": [ "BLIND_EASY" ],
+		"components": [
+			[
+			 [ "destiny_copper", 50 ]
+			]
+		]
+	},{
+		"type" : "uncraft",
+		"result": "GS_wp_str2_reveager_spear",
+		"time" : 0,
+		"flags": [ "BLIND_EASY" ],
+		"components": [
+			[
+			 [ "destiny_copper", 200 ]
+			]
+		]
+	},{
+		"type" : "uncraft",
+		"result": "GS_wp_str4_reveager_spear",
+		"time" : 0,
+		"flags": [ "BLIND_EASY" ],
+		"components": [
+			[
+			 [ "GS_wp_str2_reveager_spear", 1 ]
+			],
+			[
+			 [ "destiny_copper", 200 ]
+			]
+		]
+	},{
+		"type" : "uncraft",
+		"result": "GS_wp_str3_katana_bloodly",
+		"time" : 0,
+		"flags": [ "BLIND_EASY" ],
+		"components": [
+			[
+			 [ "destiny_copper", 200 ]
+			]
+		]
+	},{
+		"type" : "uncraft",
+		"result": "GS_wp_str5_katana_Muramasa",
+		"time" : 0,
+		"flags": [ "BLIND_EASY" ],
+		"components": [
+			[
+			 [ "GS_wp_str3_katana_bloodly", 1 ]
+			],
+			[
+			 [ "destiny_copper", 200 ]
+			]
+		]
+	},{
+		"type" : "uncraft",
+		"result": "GS_wp_merit2_sword_dispel",
+		"time" : 0,
+		"flags": [ "BLIND_EASY" ],
+		"components": [
+			[
+			 [ "destiny_copper", 50 ]
+			],
+			[
+			 [ "merit", 25 ]
+			]			
+		]
+	},{
+		"type" : "uncraft",
+		"result": "GS_wp_merit3_emperor_sword",
+		"time" : 0,
+		"flags": [ "BLIND_EASY" ],
+		"components": [
+			[
+			 [ "GS_wp_merit2_sword_dispel", 1 ]
+			],
+			[
+			 [ "destiny_copper", 100 ]
+			],
+			[
+			 [ "merit", 50 ]
+			]
+		]
+	}
+]

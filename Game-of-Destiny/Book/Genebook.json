@@ -1,0 +1,152 @@
+[
+	{
+        "abstract": "GeneBook",
+		"type" : "BOOK",
+ 		"category" : "GS_feature",
+		"name" : "基因解锁",
+		"material" : ["super_mt"],
+        "symbol": "?",
+        "color": "blue",
+		"required_level" : 0
+	},{
+		"type" : "BOOK",
+		"id" : "genebook_str_1",
+		"copy-from": "GeneBook",
+		"name" : "基因解锁：超凡力量(第一层)",
+		"description" : "人体95%以上的基因处于沉睡蜷曲的状态，包含许多现代人类退化失去的能力，超凡者必须将缠绕成超螺旋狀的DNA解开以激活基因原本的能力。\n \n基因解锁能帮助提升属性、逐步掌握超凡能力。\n \n力量系：强化身体素质、擅于近身攻防。",
+		"time" : 150,
+		"max_level" : 2,
+		"skill" : "GS_str"
+	},{
+		"type" : "BOOK",
+		"id" : "genebook_str_2",
+		"copy-from": "genebook_str_1",
+		"name" : "基因解锁：超凡力量(第二层)",
+		"description" : "人体处于沉睡蜷曲的DNA超螺旋前前后后翻转折叠了5次，正好对应超凡者基因解锁的5个階段，将缠绕成超螺旋的DNA解开以释放基因原本的力量。\n \n第二階解锁开始凝聚特质与天命武装。",
+		"time" : 240,
+		"max_level" : 4
+	},{
+		"type" : "BOOK",
+		"id" : "genebook_str_3",
+		"copy-from": "genebook_str_1",
+		"name" : "基因解锁：超凡力量(第三层)",
+		"description" : "原本长达2米的DNA折叠蜷缩成极小的超螺旋，从第三层解锁开始，基因链会突破细胞膜互相勾连成网，造成体表暂时如血染般通红，古代修行者称为伐毛洗髓、脱胎换骨。",
+		"time" : 300,
+		"max_level" : 6
+	},{
+		"type" : "BOOK",
+		"id" : "genebook_str_4",
+		"copy-from": "genebook_str_1",
+		"name" : "基因解锁：超凡力量(第四层)",
+		"description" : "第四层基因解锁，体內的基因链展开的长度已经超出细胞，穿过细胞膜互相串连，将每个细胞的能量凝聚成网络，对能力的操控大幅提升，能将力量灌注到体表末端达到毫末境。",
+		"time" : 360,
+		"max_level" : 8
+	},{
+		"type" : "BOOK",
+		"id" : "genebook_str_5",
+		"copy-from": "genebook_str_1",
+		"name" : "基因解锁：超凡力量(第五层)",
+		"description" : "完美态的100%基因解锁，彻底开发基因链的生物潜能，体內的基因网络共鸣振荡，无时无刻凝聚着细胞力量，配合使用者的意念激发，对超凡能力的掌控程度已精细入微。",
+		"time" : 420,
+		"max_level" : 10
+	},{
+		"type" : "BOOK",
+		"id" : "genebook_dex_1",
+		"copy-from": "GeneBook",
+		"name" : "基因解锁：超凡敏捷(第一层)",
+		"description" : "人体95%以上的基因处于沉睡蜷曲的状态，包含许多现代人类退化失去的能力，超凡者必须将缠绕成超螺旋狀的DNA解开以激活基因原本的能力。\n \n基因解锁能帮助提升属性、逐步掌握超凡能力。\n \n敏捷系：强化反射速度、擅于远程攻击。",
+		"time" : 150,
+		"max_level" : 2,
+		"skill" : "GS_dex"
+	},{
+		"type" : "BOOK",
+		"id" : "genebook_dex_2",
+		"copy-from": "genebook_str_2",
+		"name" : "基因解锁：超凡敏捷(第二层)",
+		"skill" : "GS_dex"
+	},{
+		"type" : "BOOK",
+		"id" : "genebook_dex_3",
+		"copy-from": "genebook_str_3",
+		"name" : "基因解锁：超凡敏捷(第三层)",
+		"skill" : "GS_dex"
+	},{
+		"type" : "BOOK",
+		"id" : "genebook_dex_4",
+		"copy-from": "genebook_str_4",
+		"name" : "基因解锁：超凡敏捷(第四层)",
+		"skill" : "GS_dex"
+	},{
+		"type" : "BOOK",
+		"id" : "genebook_dex_5",
+		"copy-from": "genebook_str_5",
+		"name" : "基因解锁：超凡敏捷(第五层)",
+		"skill" : "GS_dex"
+	},{
+		"type" : "BOOK",
+		"id" : "genebook_int_1",
+		"copy-from": "GeneBook",
+		"name" : "基因解锁：超凡智力(第一层)",
+		"description" : "人体95%以上的基因处于沉睡蜷曲的状态，包含许多现代人类退化失去的能力，超凡者必须将缠绕成超螺旋狀的DNA解开以激活基因原本的能力。\n \n基因解锁能帮助提升属性、逐步掌握超凡能力。\n \n智力系：强化智力、具现分解物质。",
+		"time" : 150,
+		"max_level" : 2,
+		"skill" : "GS_int"
+	},{
+		"type" : "BOOK",
+		"id" : "genebook_int_2",
+		"copy-from": "genebook_str_2",
+		"name" : "基因解锁：超凡智力(第二层)",
+		"skill" : "GS_int"
+	},{
+		"type" : "BOOK",
+		"id" : "genebook_int_3",
+		"copy-from": "genebook_str_3",
+		"name" : "基因解锁：超凡智力(第三层)",
+		"skill" : "GS_int"
+	},{
+		"type" : "BOOK",
+		"id" : "genebook_int_4",
+		"copy-from": "genebook_str_4",
+		"name" : "基因解锁：超凡智力(第四层)",
+		"skill" : "GS_int"
+	},{
+		"type" : "BOOK",
+		"id" : "genebook_int_5",
+		"copy-from": "genebook_str_5",
+		"name" : "基因解锁：超凡智力(第五层)",
+		"skill" : "GS_int"
+	},{
+		"type" : "BOOK",
+		"id" : "genebook_per_1",
+		"copy-from": "GeneBook",
+		"name" : "基因解锁：超凡感知(第一层)",
+		"description" : "人体95%以上的基因处于沉睡蜷曲的状态，包含许多现代人类退化失去的能力，超凡者必须将缠绕成超螺旋狀的DNA解开以激活基因原本的能力。\n \n基因解锁能帮助提升属性、逐步掌握超凡能力。\n \n感知系：强化感官、开发特殊能力。",
+		"time" : 150,
+		"max_level" : 2,
+		"skill" : "GS_per"
+	},{
+		"type" : "BOOK",
+		"id" : "genebook_per_2",
+		"copy-from": "genebook_str_2",
+		"name" : "基因解锁：超凡感知(第二层)",
+		"skill" : "GS_per"
+	},{
+		"type" : "BOOK",
+		"id" : "genebook_per_3",
+		"copy-from": "genebook_str_3",
+		"name" : "基因解锁：超凡感知(第三层)",
+		"skill" : "GS_per"
+	},{
+		"type" : "BOOK",
+		"id" : "genebook_per_4",
+		"copy-from": "genebook_str_4",
+		"name" : "基因解锁：超凡感知(第四层)",
+		"skill" : "GS_per"
+	},{
+		"type" : "BOOK",
+		"id" : "genebook_per_5",
+		"copy-from": "genebook_str_5",
+		"name" : "基因解锁：超凡感知(第五层)",
+		"skill" : "GS_per"		
+	}
+]

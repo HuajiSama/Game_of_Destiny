@@ -1,0 +1,357 @@
+[
+	{
+		"type" : "recipe",
+		"result": "GS_basic_str",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_武装",
+		"skill_used": "melee",
+		"skills_required": [ "GS_str", 2 ],
+		"difficulty": 0,
+		"time": 10000,
+		"autolearn": true,
+		"flags": ["BLIND_EASY"],	
+		"components":
+		[
+			[
+			[ "destiny_silver", 1 ]
+			]
+		]	
+	},{
+		"type" : "recipe",
+		"result": "GS_basic_dex",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_武装",
+		"skill_used": "dodge",
+		"skills_required": [ "GS_dex", 2 ],
+		"difficulty": 0,
+		"time": 10000,
+		"autolearn": true,
+		"flags": ["BLIND_EASY"],	
+		"components":
+		[
+			[
+			[ "destiny_silver", 1 ]
+			]
+		]	
+	},{
+		"type" : "recipe",
+		"result": "GS_basic_int",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_武装",
+		"skill_used": "fabrication",
+		"skills_required": [ "GS_int", 2 ],
+		"difficulty": 0,
+		"time": 10000,
+		"autolearn": true,
+		"flags": ["BLIND_EASY"],	
+		"components":
+		[
+			[
+			[ "destiny_silver", 1 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "GS_basic_per",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_武装",
+		"skill_used": "gun",
+		"skills_required": [ "GS_per", 2 ],
+		"difficulty": 0,
+		"time": 10000,
+		"autolearn": true,
+		"flags": ["BLIND_EASY"],	
+		"components":
+		[
+			[
+			[ "destiny_silver", 1 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "GS_eq_str3_shield",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_武装",
+		"skill_used": "survival",
+		"skills_required": [ [ "GS_str", 6 ],[ "melee", 3 ] ],
+		"difficulty": 0,
+		"time": 60000,
+		"autolearn": true,
+		"components":
+		[
+			[
+			[ "GS_basic_str", 3 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "GS_eq_str4_shield",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_武装",
+		"skill_used": "survival",
+		"skills_required": [ [ "GS_str", 8 ],[ "melee", 5 ] ],
+		"difficulty": 0,
+		"time": 60000,
+		"autolearn": true,
+		"components":
+		[
+			[
+			[ "GS_eq_str3_shield", 1 ]
+			],
+			[
+			[ "GS_basic_str", 3 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "GS_eq_str4_armor_thorns",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_武装",
+		"skill_used": "survival",
+		"skills_required": [ [ "GS_str", 8 ],[ "melee", 4 ] ],
+		"difficulty": 0,
+		"time": 60000,
+		"autolearn": true,
+		"components":
+		[
+			[
+			[ "GS_basic_str", 4 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "GS_eq_str5_armor_gundam",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_武装",
+		"skill_used": "survival",
+		"skills_required": [ [ "GS_str", 10 ],[ "melee", 6 ] ],
+		"difficulty": 0,
+		"time": 60000,
+		"autolearn": true,
+		"components":
+		[
+			[
+			[ "GS_eq_str4_armor_thorns", 1 ]
+			],
+			[
+			[ "GS_eq_str4_shield", 1 ]
+			],
+			[
+			[ "GS_basic_str", 4 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "GS_eq_dex3_amulet_teleport",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_武装",
+		"skill_used": "dodge",		
+		"skills_required": [ "GS_dex", 6 ],  
+		"difficulty": 0,
+		"time": 60000,
+		"autolearn": true,
+		"components":
+		[
+			[
+			[ "GS_basic_dex", 2 ]
+			]
+		]		
+	},{
+		"type" : "recipe",
+		"result": "GS_eq_dex2_amulet_speed",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_武装",
+		"skill_used": "survival",		
+		"skills_required": [ "GS_dex", 4 ],  
+		"difficulty": 0,
+		"time": 60000,
+		"autolearn": true,
+		"components": 
+		[
+			[
+			[ "GS_basic_dex", 2 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "GS_eq_dex4_amulet_speed",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_武装",
+		"skill_used": "survival",		
+		"skills_required": [ "GS_dex", 8 ],  
+		"difficulty": 0,
+		"time": 60000,
+		"autolearn": true,
+		"components":
+		[
+			[
+			[ "GS_eq_dex2_amulet_speed", 1 ]
+			],
+			[
+			[ "GS_basic_dex", 3 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "GS_eq_int2_bell",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_武装",
+		"skill_used": "survival",		
+		"skills_required": [ "GS_int", 4 ],  
+		"difficulty": 0,
+		"time": 60000,
+		"autolearn": true,
+		"components":
+		[
+			[
+			[ "GS_basic_int", 2 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "GS_eq_int3_bell",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_武装",
+		"skill_used": "survival",		
+		"skills_required": [ "GS_int", 6 ],  
+		"difficulty": 0,
+		"time": 60000,
+		"autolearn": true,
+		"components":
+		[
+			[
+			[ "GS_eq_int2_bell", 1 ]
+			],
+			[
+			[ "GS_basic_int", 2 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "GS_eq_per2_necklace_unseen",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_武装",
+		"skill_used": "dodge",		
+		"skills_required": [ "GS_per", 4 ],  
+		"difficulty": 0,
+		"time": 60000,
+		"autolearn": true,
+		"components": 
+		[
+			[
+			 [ "GS_basic_per", 2 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "GS_eq_per2_song",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_武装",
+		"skill_used": "unarmed",		
+		"skills_required": [[ "GS_per", 4 ],[ "melee", 0 ]],  
+		"difficulty": 0,
+		"time": 60000,
+		"autolearn": true,
+		"components":
+		[
+			[
+			 [ "GS_basic_per", 2 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "GS_eq_per3_song",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_武装",
+		"skill_used": "unarmed",		
+		"skills_required": [[ "GS_per", 6 ],[ "melee", 3 ]],  
+		"difficulty": 0,
+		"time": 60000,
+		"autolearn": true,
+		"components":
+		[
+			[
+			[ "GS_eq_per2_song", 1 ]
+			],
+			[
+			[ "GS_basic_per", 2 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "GS_eq_per4_robe_quiet",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_武装",
+		"skill_used": "tailor",		
+		"skills_required": [[ "GS_int", 6 ],[ "GS_per", 8 ]],  
+		"difficulty": 0,
+		"time": 60000,
+		"autolearn": true,
+		"components":
+		[
+			[
+			[ "GS_eq_per2_necklace_unseen", 1 ]
+			],
+			[
+			[ "GS_eq_int3_bell", 1 ]
+			],
+			[
+			[ "destiny_silver", 3 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "GS_eq_merit1_soul",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_武装", 
+		"skill_used": "survival",
+		"skills_required": [[ "speech", 3 ],[ "GS_per", 2 ]],
+		"difficulty": 0,
+		"time": 60000,
+		"book_learn" : [[ "GS_book_merit1",0],[ "GS_book_merit2",0],[ "GS_book_merit3",0]],
+		"components":
+		[
+			[
+			[ "merit", 20 ]			
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "GS_eq_merit2_furnace",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_武装", 
+		"skill_used": "survival",
+		"skills_required": [[ "speech", 6 ],[ "GS_per", 4 ]],
+		"difficulty": 0,
+		"time": 60000,
+		"book_learn" : [[ "GS_book_merit2",0],[ "GS_book_merit3",0]],
+		"components":
+		[
+			[
+			[ "GS_eq_merit1_soul", 1 ]
+			],
+			[
+			[ "merit", 40 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "GS_eq_merit3_furnace",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_武装", 
+		"skill_used": "survival",
+		"skills_required": [[ "speech", 10 ],[ "GS_per", 6 ]],
+		"difficulty": 0,
+		"time": 60000,
+		"book_learn" : [[ "GS_book_merit3",0]],
+		"components":
+		[
+			[
+			[ "GS_eq_merit2_soul", 1 ]
+			],
+			[
+			[ "merit", 60 ]
+			]
+		]
+	}
+]

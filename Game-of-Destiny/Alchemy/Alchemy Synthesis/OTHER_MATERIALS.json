@@ -1,0 +1,259 @@
+[
+	{
+		"type" : "recipe",
+		"result": "stick",
+		"id_suffix": "from element wood, for some recipes",		
+		"category": "CC_OTHER",
+		"subcategory": "CSC_OTHER_MATERIALS",
+		"skill_used": "fabrication",		
+		"skills_required": [["GS_int",2],["fabrication",1]],
+		"difficulty": 0,
+		"time": 1000,
+		"book_learn" : [[ "GS_book_alchemy1",0]],
+		"components": 
+		[
+			[
+			[ "element_wood", 1 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "bag_plastic",
+		"byproducts": [ ["bag_plastic",2] ],
+		"id_suffix": "from element_plastic",		
+		"category": "CC_OTHER",
+		"subcategory": "CSC_OTHER_MATERIALS",
+		"skill_used": "fabrication",		
+		"skills_required": [["GS_int",4],["fabrication",3]],
+		"difficulty": 0,
+		"time": 500,
+		"book_learn" : [[ "GS_book_alchemy2",0]],
+		"components": 
+		[
+			[
+			[ "element_plastic", 1 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "lead",
+		"id_suffix": "from element steel",	
+		"category": "CC_OTHER",
+		"subcategory": "CSC_OTHER_MATERIALS",
+		"skill_used": "fabrication",		
+		"skills_required": [["GS_int",6],["fabrication",5]],
+		"difficulty": 0,
+		"time": 1000,
+		"book_learn" : [[ "GS_book_alchemy3",0]],
+		"components":
+		[
+			[
+			[ "element_steel", 1 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "scrap_copper",
+		"id_suffix": "from element steel",	
+		"category": "CC_OTHER",
+		"subcategory": "CSC_OTHER_MATERIALS",
+		"skill_used": "fabrication",		
+		"skills_required": [["GS_int",6],["fabrication",5]],
+		"difficulty": 0,
+		"time": 1000,
+		"book_learn" : [[ "GS_book_alchemy3",0]],
+		"components":
+		[
+			[
+			[ "element_steel", 1 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "nail",
+		"id_suffix": "from element steel",	
+		"category": "CC_OTHER",
+		"subcategory": "CSC_OTHER_MATERIALS",
+		"skill_used": "fabrication",		
+		"skills_required": [["GS_int",6],["fabrication",5]],
+		"difficulty": 0,
+		"time": 1000,
+		"book_learn" : [[ "GS_book_alchemy3",0]],
+		"components":
+		[
+			[
+			[ "element_steel", 1 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "wire",
+		"byproducts": [ ["wire",4] ],
+		"id_suffix": "from element steel",	
+		"category": "CC_OTHER",
+		"subcategory": "CSC_OTHER_MATERIALS",
+		"skill_used": "fabrication",		
+		"skills_required": [["GS_int",6],["fabrication",5]],
+		"difficulty": 0,
+		"time": 1000,
+		"book_learn" : [[ "GS_book_alchemy3",0]],
+		"components": 
+		[
+			[
+			[ "element_steel", 1 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "material_aluminium_ingot",
+		"id_suffix": "from element steel",	
+		"category": "CC_OTHER",
+		"subcategory": "CSC_OTHER_MATERIALS",
+		"skill_used": "fabrication",		
+		"skills_required": [["GS_int",6],["fabrication",5]],
+		"difficulty": 0,
+		"time": 1000,
+		"book_learn" : [[ "GS_book_alchemy3",0]],
+		"flags": ["BLIND_EASY"],
+		"components": 
+		[
+			[
+			[ "element_steel", 1 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "rebar",
+		"id_suffix": "from element steel",	
+		"category": "CC_OTHER",
+		"subcategory": "CSC_OTHER_MATERIALS",
+		"skill_used": "fabrication",		
+		"skills_required": [["GS_int",6],["fabrication",5]],
+		"difficulty": 0,
+		"time": 15000,
+		"qualities":
+			[
+			{"id":"HAMMER","level":2},
+			{"id":"CHISEL","level":1}
+			],
+		"tools": [
+			[
+			  [ "welder", 25 ],
+			  [ "welder_crude", 50 ],
+			  [ "toolset", 50 ],
+			  [ "forge", 25 ],
+			  [ "oxy_torch", 5]
+			]
+		],
+		"book_learn" : [[ "GS_book_alchemy3",0]],
+		"components": 
+		[
+			[
+			 [ "element_steel", 1 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "glass_shard",
+		"byproducts": [ [ "glass_shard", 4 ] ],
+		"id_suffix": "Alchemy Synthesis",	
+		"category": "CC_OTHER",
+		"subcategory": "CSC_OTHER_MATERIALS",
+		"skill_used": "fabrication",		
+		"skills_required": [["GS_int",4],["fabrication",3]],
+		"difficulty": 0,
+		"time": 15000,
+		"batch_time_factors": [20, 3],
+		"qualities":[{"id":"CHEM","level":1}],
+		"tools": [
+			[
+			  ["crucible", -1],
+			  ["crucible_clay", -1]
+			],
+			[
+			  [ "surface_heat", 25, "LIST" ]
+			]
+		],
+		"book_learn" : [[ "glassblowing_book",0]],
+		"components": [
+			[
+			  [ "material_sand", 10 ]
+			],
+			[
+			  [ "salt", 20 ], [ "salt_water", 2 ], [ "saline", 10 ]
+			],
+			[
+			  [ "water", 2 ], [ "water_clean", 2 ], [ "salt_water", 2 ], [ "saline", 10]
+			],
+			[
+			  [ "material_quicklime", 2 ], [ "meal_bone", 2 ], [ "meal_bone_tainted", 4 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "glass_sheet",
+		"id_suffix": "from shard, GOS mod",	
+		"category": "CC_OTHER",
+		"subcategory": "CSC_OTHER_MATERIALS",
+		"skill_used": "fabrication",		
+		"skills_required": [["GS_int",4],["fabrication",3]],
+		"difficulty": 0,
+		"time": 10000,
+		"tools": [
+			[
+			  ["crucible", -1],
+			  ["crucible_clay", -1]
+			],
+			[
+			  [ "welder", 10 ],
+			  [ "welder_crude", 15 ],
+			  [ "toolset", 15 ],
+			  [ "oxy_torch", 2]
+			]
+		],
+		"book_learn" : [[ "glassblowing_book",0]],
+		"components": 
+		[
+			[
+			 [ "glass_shard", 20 ],
+			 [ "flask_glass", 4 ],
+			 [ "jar_glass", 2 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "reinforced_glass_pane",
+		"id_suffix": "from shard, GOS mod",	
+		"category": "CC_OTHER",
+		"subcategory": "CSC_OTHER_MATERIALS",
+		"skill_used": "fabrication",		
+		"skills_required": [["GS_int",4],["fabrication",3]],
+		"difficulty": 0,
+		"time": 10000,
+		"tools": [
+			[
+			  ["crucible", -1],
+			  ["crucible_clay", -1]
+			],
+			[
+			  [ "welder", 35 ],
+			  [ "welder_crude", 50 ],
+			  [ "toolset", 50 ],
+			  [ "oxy_torch", 7]
+			]
+		],
+		"book_learn" : [[ "glassblowing_book",0]],
+		"components": 
+		[
+			[
+			  [ "glass_sheet", 1 ]
+			],
+			[
+			  [ "wire", 8 ]
+			],
+			[
+			  [ "superglue", 1 ]
+			]
+		]
+	}
+]

@@ -1,0 +1,152 @@
+[
+	{
+		"type" : "MONSTER",
+		"id" : "mon_zombie_swimmer", "//": "游泳Z",
+		"copy-from" : "mon_zombie_swimmer",
+		"death_drops": {
+			"subtype": "collection",
+			"groups": [
+				[ "mon_zombie_swimmer_death_drops", 100 ],
+				[ "destiny_coin_drops1", 100 ]
+			]
+		}
+	},{
+		"type" : "MONSTER",
+		"id" : "mon_zombie_mancroc", "//": "游泳Z",
+		"copy-from" : "mon_zombie_mancroc",
+		"death_drops": {
+			"subtype": "collection",
+			"groups": [
+				[ "mon_zombie_swimmer_death_drops", 100 ],
+				[ "destiny_coin_drops3", 100 ]
+			]
+		}
+	},{	
+		"type" : "MONSTER",
+		"id" : "mon_beekeeper",	"//": "養蜂Z",
+		"copy-from" : "mon_beekeeper",
+		"death_drops": {
+			"subtype": "collection",
+			"groups": [
+				[ "hive", 80 ],
+				[ "default_zombie_clothes", 100 ],
+				[ "destiny_coin_drops1", 100 ]
+			]
+		}
+	},{
+		"type" : "MONSTER",
+		"id" : "mon_zombie_fireman", "//": "消防Z",
+		"copy-from" : "mon_zombie_fireman",
+		"death_drops": {
+			"subtype": "collection",
+			"groups": [
+				[ "mon_zombie_fireman_death_drops", 100 ],
+				[ "destiny_coin_drops2", 100 ]
+			]
+		}
+	},{
+		"type" : "MONSTER",
+		"id" : "mon_zombie_cop", "//": "警察Z",
+		"copy-from" : "mon_zombie_cop",
+		"death_drops": {
+			"subtype": "collection",
+			"groups": [
+				[ "mon_zombie_cop_death_drops", 100 ],
+				[ "destiny_coin_drops2", 100 ]
+			]
+		}
+	},{
+		"type" : "MONSTER",
+		"id" : "mon_zombie_hazmat", "//": "防護Z",
+		"copy-from" : "mon_zombie_hazmat",
+		"death_drops": {
+			"subtype": "collection",
+			"groups": [
+				[ "mon_zombie_hazmat_death_drops", 100 ],
+				[ "destiny_coin_drops2", 100 ]
+			]
+		}
+	},{
+		"type" : "MONSTER",
+		"id" : "mon_zombie_technician", "//": "技工Z",
+		"copy-from" : "mon_zombie_technician",
+		"death_drops": {
+			"subtype": "collection",
+			"groups": [
+				[ "mon_zombie_technician_death_drops", 100 ],
+				[ "destiny_coin_drops2", 100 ]
+			]
+		}
+	},{
+		"type" : "MONSTER",
+		"id" : "mon_zombie_scientist", "//": "科學Z",
+		"copy-from" : "mon_zombie_scientist",
+		"death_drops": {
+			"subtype": "collection",
+			"groups": [
+				[ "mon_zombie_scientist_death_drops", 100 ],
+				[ "destiny_coin_drops2", 100 ]
+			]
+			}
+	},{
+		"type" : "MONSTER",
+		"id" : "mon_zombie_soldier", "//": "軍Z,厚甲,2.5X",
+		"copy-from" : "mon_zombie_soldier",
+		"melee_dice": 3,
+		"melee_dice_sides": 5,
+		"death_drops": {
+			"subtype": "collection",
+			"groups": [
+				[ "mon_zombie_soldier_death_drops", 100 ],
+				[ "destiny_coin_drops2", 100 ],
+				[ "destiny_coin_drops1", 100 ]
+			]
+		}
+	},{
+		"type" : "MONSTER",
+		"id" : "mon_zombie_grenadier", "//": "軍Z-擲彈兵",
+		"copy-from" : "mon_zombie_grenadier",
+		"death_drops": {
+			"subtype": "collection",
+			"groups": [
+				[ "mon_zombie_soldier_death_drops", 100 ],
+				[ "mon_zombie_grenadier", 100 ],			
+				[ "destiny_coin_drops3", 100 ]
+			]
+		}
+	},{
+		"type" : "MONSTER",
+		"id" : "mon_zombie_grenadier_elite", "//": "軍Z-菁英擲彈兵",
+		"copy-from" : "mon_zombie_grenadier_elite",
+		"death_drops": {
+			"subtype": "collection",
+			"groups": [
+				[ "mon_zombie_soldier_death_drops", 100 ],
+				[ "mon_zombie_grenadier_elite", 100 ],			
+				[ "destiny_coin_drops6", 100 ]
+			]
+		}			
+	},{
+		"type" : "MONSTER",
+		"id" : "mon_zombie_bio_op",		"//": "生化軍Z,高技巧,帶電.",
+		"copy-from" : "mon_zombie_bio_op",
+		"death_drops": {
+			"subtype": "collection",
+			"groups": [
+				[ "mon_zombie_bio_op_death_drops", 100 ],
+				[ "destiny_coin_drops5", 100 ]
+			]
+		}
+	},{
+		"type" : "MONSTER",
+		"id" : "mon_zombie_armored", "//": "軍Z-動力裝甲",
+		"copy-from" : "mon_zombie_armored",
+		"death_drops": {
+			"subtype": "collection",
+			"groups": [
+				[ "mon_zombie_armored_death_drops", 100 ],
+				[ "destiny_coin_drops5", 100 ]
+			]
+		}
+	}
+]

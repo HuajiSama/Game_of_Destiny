@@ -1,0 +1,116 @@
+[
+	{
+		"type" : "recipe",
+		"result": "GS_comestible_unspecialty_bandage",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_道具",
+		"skill_used": "survival",
+		"skills_required": [ ["firstaid", 2],["GS_int", 2] ],
+		"difficulty": 0,
+		"time": 1000,
+		"autolearn": true,
+		"components":
+		[
+			[
+				[ "rag", 3 ]
+			],
+			[
+				[ "destiny_copper", 20 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "GS_comestible_zombievirus",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_道具",
+		"skill_used": "firstaid",
+		"skills_required": [["GS_int", 8],["firstaid", 5]],	
+		"difficulty": 0,
+		"time": 30000,
+		"batch_time_factors": [10, 3],
+		"book_learn" : [[ "GS_book_int4_medic", 5]],
+		"qualities":[
+			{"id":"CHEM","level":2,"amount":1},
+			{"id":"BOIL","level":1,"amount":1}
+			],
+		"tools": [
+			[
+			 [ "hotplate", 20 ],
+			 [ "toolset", 20 ],
+			 [ "fire", -1 ]
+			]
+		],
+		"components":
+		[
+			[
+			 [ "meat_tainted", 4],
+			 [ "dry_meat_tainted", 4],
+			 [ "bone_tainted", 4],
+			 [ "veggy_tainted", 4],
+			 [ "dry_veggy_tainted", 4],
+			 [ "fat_tainted", 4],
+			 [ "tallow_tainted", 2]
+			],
+			[
+			 [ "water_clean", 2]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "GS_comestible_enhance_potion",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_道具",
+		"skill_used": "firstaid",
+		"skills_required": [["GS_int", 8],["firstaid", 8]],	
+		"difficulty": 0,
+		"time": 30000,
+		"book_learn" : [[ "GS_book_int4_medic", 5]],		
+		"components": 
+		[
+			[
+			[ "GS_comestible_zombievirus", 1]
+			],
+			[
+			[ "destiny_copper", 15]
+			]			
+		]
+	},{
+		"type" : "recipe",
+		"result": "GS_comestible_cure_potion",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_道具",
+		"skill_used": "firstaid",
+		"skills_required": [["GS_int", 8],["firstaid", 8]],	
+		"difficulty": 0,
+		"time": 30000,
+		"book_learn" : [[ "GS_book_int4_medic", 5]],	
+		"components": 
+		[
+			[
+			[ "GS_comestible_zombievirus", 1]
+			],
+			[
+			[ "destiny_copper", 15]
+			]			
+		]
+	},{
+		"type" : "recipe",
+		"result": "GS_comestible_heal_salve",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_道具",
+		"skill_used": "firstaid",
+		"skills_required": [["GS_int", 8],["firstaid", 8]],	
+		"difficulty": 0,
+		"time": 30000,
+		"book_learn" : [[ "GS_book_int4_medic", 5]],		
+		"components":
+		[
+			[
+			[ "GS_comestible_zombievirus", 1]
+			],
+			[
+			[ "destiny_copper", 15]
+			]			
+		]
+	}
+]

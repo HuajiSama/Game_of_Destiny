@@ -1,0 +1,326 @@
+[
+	{
+		"type" : "recipe",
+		"result": "cohesion_strength1",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_基因",
+		"skill_used": "survival",
+		"skills_required": ["GS_str", 4],
+		"difficulty": 0,
+		"time": 30000,
+		"autolearn": true,
+		"flags": ["BLIND_EASY"],
+		"components": 
+		[
+			[
+				[ "destiny_silver", 1 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "cohesion_strength2",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_基因",
+		"skill_used": "survival",
+		"skills_required": ["GS_str", 6],
+		"difficulty": 0,
+		"time": 45000,
+		"autolearn": true,
+		"flags": ["BLIND_EASY"],
+		"components": 
+		[
+			[
+				[ "destiny_silver", 2 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "cohesion_strength3",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_基因",
+		"skill_used": "survival",
+		"skills_required": ["GS_str", 8],
+		"difficulty": 0,
+		"time": 60000,
+		"autolearn": true,
+		"flags": ["BLIND_EASY"],
+		"components": 
+		[
+			[
+				[ "destiny_silver", 3 ]
+			]
+		]		
+	},{
+		"type" : "recipe",
+		"result": "cohesion_endurence1",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_基因",
+		"skill_used": "survival",
+		"skills_required": ["GS_str", 4],
+		"difficulty": 0,
+		"time": 30000,
+		"autolearn": true,
+		"flags": ["BLIND_EASY"],
+		"components": 
+		[
+			[
+				[ "destiny_silver", 1 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "cohesion_endurence2",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_基因",
+		"skill_used": "survival",
+		"skills_required": ["GS_str", 6],
+		"difficulty": 0,
+		"time": 45000,
+		"autolearn": true,
+		"flags": ["BLIND_EASY"],
+		"components": 
+		[
+			[
+				[ "destiny_silver", 2 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "cohesion_endurence3",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_基因",
+		"skill_used": "survival",
+		"skills_required": ["GS_str", 8],
+		"difficulty": 0,
+		"time": 60000,
+		"autolearn": true,
+		"flags": ["BLIND_EASY"],
+		"components": 
+		[
+			[
+				[ "destiny_silver", 3 ]
+			]
+		]		
+	},{
+		"type" : "recipe",
+		"result": "cohesion_dexterity1",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_基因",
+		"skill_used": "survival",
+		"skills_required": ["GS_dex", 4],
+		"difficulty": 0,
+		"time": 30000,
+		"autolearn": true,
+		"flags": ["BLIND_EASY"],
+		"components": 
+		[
+			[
+				[ "destiny_silver", 1 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "cohesion_dexterity2",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_基因",
+		"skill_used": "survival",
+		"skills_required": ["GS_dex", 6],
+		"difficulty": 0,
+		"time": 45000,
+		"autolearn": true,
+		"flags": ["BLIND_EASY"],
+		"components": 
+		[
+			[
+				[ "destiny_silver", 2 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "cohesion_dexterity3",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_基因",
+		"skill_used": "survival",
+		"skills_required": ["GS_dex", 8],
+		"difficulty": 0,
+		"time": 60000,
+		"autolearn": true,
+		"flags": ["BLIND_EASY"],
+		"components": 
+		[
+			[
+				[ "destiny_silver", 3 ]
+			]
+		]		
+	},{
+		"type" : "recipe",
+		"result": "cohesion_intelligent1",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_基因",
+		"skill_used": "survival",
+		"skills_required": ["GS_int", 4],
+		"difficulty": 0,
+		"time": 30000,
+		"autolearn": true,
+		"flags": ["BLIND_EASY"],
+		"components": 
+		[
+			[
+				[ "destiny_silver", 1 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "cohesion_intelligent2",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_基因",
+		"skill_used": "survival",
+		"skills_required": ["GS_int", 6],
+		"difficulty": 0,
+		"time": 45000,
+		"autolearn": true,
+		"flags": ["BLIND_EASY"],
+		"components": 
+		[
+			[
+				[ "destiny_silver", 2 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "cohesion_intelligent3",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_基因",
+		"skill_used": "survival",
+		"skills_required": ["GS_int", 8],
+		"difficulty": 0,
+		"time": 60000,
+		"autolearn": true,
+		"flags": ["BLIND_EASY"],
+		"components": 
+		[
+			[
+				[ "destiny_silver", 3 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "cohesion_sensibility1",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_基因",
+		"skill_used": "survival",
+		"skills_required": ["GS_per", 4],
+		"difficulty": 0,
+		"time": 30000,
+		"autolearn": true,
+		"flags": ["BLIND_EASY"],
+		"components": 
+		[
+			[
+				[ "destiny_silver", 1 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "cohesion_sensibility2",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_基因",
+		"skill_used": "survival",
+		"skills_required": ["GS_per", 6],
+		"difficulty": 0,
+		"time": 45000,
+		"autolearn": true,
+		"flags": ["BLIND_EASY"],
+		"components": 
+		[
+			[
+				[ "destiny_silver", 2 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "cohesion_percetion1",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_基因",
+		"skill_used": "survival",
+		"skills_required": ["GS_per", 4],
+		"difficulty": 0,
+		"time": 30000,
+		"autolearn": true,
+		"flags": ["BLIND_EASY"],
+		"components": 
+		[
+			[
+				[ "destiny_silver", 1 ]
+			]
+		]		
+	},{
+		"type" : "recipe",
+		"result": "cohesion_percetion2",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_基因",
+		"skill_used": "survival",
+		"skills_required": ["GS_per", 6],
+		"difficulty": 0,
+		"time": 45000,
+		"autolearn": true,
+		"flags": ["BLIND_EASY"],
+		"components": 
+		[
+			[
+				[ "destiny_silver", 2 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "cohesion_percetion3",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_基因",
+		"skill_used": "survival",
+		"skills_required": ["GS_per", 8],
+		"difficulty": 0,
+		"time": 60000,
+		"autolearn": true,
+		"flags": ["BLIND_EASY"],
+		"components": 
+		[
+			[
+				[ "destiny_silver", 3 ]
+			]
+		]		
+	},{
+		"type" : "recipe",
+		"result": "cohesion_title",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_基因",
+		"skill_used": "survival",
+		"skills_required": [["GS_str", 4],["GS_dex", 4],["GS_int", 4],["GS_per", 4]],
+		"difficulty": 0,
+		"time": 60000,
+		"autolearn": true,
+		"flags": ["BLIND_EASY"],
+		"components":
+		[
+			[
+				[ "destiny_silver", 2 ]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "cohesion_immortal",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_基因",
+		"skill_used": "survival",
+		"skills_required": [["GS_str", 10],["GS_dex", 10],["GS_int", 10],["GS_per", 10]],
+		"difficulty": 0,
+		"time": 60000,
+		"autolearn": true,
+		"flags": ["BLIND_EASY"],
+		"components": 
+		[
+			[
+				[ "destiny_silver", 8 ]
+			]
+		]
+	}
+]

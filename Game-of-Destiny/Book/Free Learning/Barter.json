@@ -1,0 +1,47 @@
+[
+	{
+		"type" : "recipe",
+		"result": "manual_business",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_无界",
+		"skill_used": "computer",
+		"skills_required": [["GS_int", 4],["barter", 0]],		
+		"difficulty": 0,
+		"time": 15000,
+		"autolearn": true,
+		"tools": 
+		[
+			[
+			[ "GS_book_freedom", -1 ]
+			]
+		],
+		"components": 
+		[
+			[
+			[ "destiny_copper", 50]
+			]
+		]
+	},{
+		"type" : "recipe",
+		"result": "textbook_business",
+		"category": "CC_超凡",
+		"subcategory": "CSC_超凡_无界",
+		"skill_used": "computer",
+		"skills_required": [["GS_int", 6],["barter", 3]],		
+		"difficulty": 0,
+		"time": 15000,
+		"autolearn": true,
+		"tools": 
+		[
+			[
+			[ "GS_book_freedom", -1 ]
+			]
+		],
+		"components": 
+		[
+			[
+			[ "destiny_silver", 1]
+			]
+		]
+	}
+]

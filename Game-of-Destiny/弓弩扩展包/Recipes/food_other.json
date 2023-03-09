@@ -1,0 +1,46 @@
+[
+	{
+	    "type" : "COMESTIBLE",
+        "id" : "calcium_supplement",
+        "name" : "熟骨粉",
+		"name_plural": "熟骨粉",
+        "weight" : 240,
+        "color" : "white",
+        "comestible_type" : "FOOD",
+        "symbol" : "%",
+        "nutrition" : 2,
+        "description" : "開水煮過的骨粉，吃起來有一種噁心感，為了補鈣也只能吞下去。",
+        "material" : "bone",
+        "volume" : 1,
+        "charges" : 4,
+        "fun" : -3
+	},{
+		"type" : "recipe",
+		"result": "calcium_supplement",
+		"category": "CC_FOOD",
+		"subcategory": "CSC_FOOD_OTHER",
+		"skill_used": "cooking",
+		"difficulty": 1,
+		"time": 10000,
+		"autolearn": true,
+		"qualities":[{"id":"BOIL","level":1,"amount":1}],
+		"tools": 
+			[
+			 [
+			  [ "hotplate", 3 ],
+			  [ "char_smoker", 3 ],
+			  [ "toolset", 3 ],
+			  [ "atomic_coffeepot", -1 ],
+			  [ "fire", -1 ]
+			 ]
+			],
+		"components":
+		[
+			[[ "meal_bone", 4 ]],
+			[
+			  [ "water", 1 ],
+			  [ "water_clean", 1 ]
+			]
+		]
+	}
+]
