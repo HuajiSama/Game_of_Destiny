@@ -371,14 +371,14 @@
 		"symbol": "?",
 		"color": "red",
 		"ammo": "destiny_copper_type",
-		"max_charges": 30,
-		"initial_charges": 30,
 		"charges_per_use": 15,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "holster": true, "rigid": true, "ammo_restriction": { "destiny_copper_type": 30 } } ],
+		"relic_data": { "charge_info": { "regenerate_ammo": true } },
 		"use_action": [
 			{
-				"type" : "consume_drug",
-				"activation_message" : "烧烤宝典启动！时效3分钟。",
-				"effects" : [ { "id" : "book_fireblock", "duration" : 30 } ],
+				"type": "consume_drug",
+				"activation_message": "烧烤宝典启动！时效3分钟。",
+				"effects": [ { "id": "book_fireblock", "duration": 30 } ],
 				"moves": 0
 			}
 		]
@@ -393,9 +393,9 @@
 		"symbol": "?",
 		"color": "green",
 		"ammo": "destiny_copper_type",
-		"max_charges": 30,
-		"initial_charges": 30,
 		"charges_per_use": 10,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "holster": true, "rigid": true, "ammo_restriction": { "destiny_copper_type": 30 } } ],
+		"relic_data": { "charge_info": { "regenerate_ammo": true } },
 		"use_action": [
 			{
 				"type" : "consume_drug",
@@ -416,6 +416,13 @@
 		"color": "green",
 		"ammo": "destiny_copper_type",
 		"max_charges": 30,
+		"pocket_data": [
+			{ 
+				"pocket_type": "MAGAZINE",
+				"rigid": true,
+				"ammo_restriction": { "destiny_copper_type": 30 }
+			}
+		],
 		"use_action": {
 			"type": "transform",
 			"msg": "电击宝典启动！",
@@ -441,6 +448,13 @@
 		"artifact_data" : {
 		  "effects_carried": ["AEP_RESIST_ELECTRICITY"]
 		},
+		"pocket_data": [
+			{ 
+				"pocket_type": "MAGAZINE",
+				"rigid": true,
+				"ammo_restriction": { "destiny_copper_type": 30 }
+			}
+		],
 		"use_action": {
 			"type": "transform",
 			"msg": "电击宝典的效果关闭",
@@ -458,8 +472,9 @@
 		"symbol": "?",
 		"color": "red",
 		"ammo": "destiny_copper_type",
-		"max_charges": 30,
 		"charges_per_use": 10,
+		"pocket_data": [ { "pocket_type": "MAGAZINE", "holster": true, "rigid": true, "ammo_restriction": { "destiny_copper_type": 30 } } ],
+		"relic_data": { "charge_info": { "regenerate_ammo": true } },
 		"use_action": [
 			{
 				"type" : "consume_drug",
@@ -479,8 +494,9 @@
 		"symbol": "?",
 		"color": "red",
 		"ammo": "destiny_copper_type",
-		"max_charges": 30,
 		"charges_per_use": 10,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "holster": true, "rigid": true, "ammo_restriction": { "destiny_copper_type": 30 } } ],
+		"relic_data": { "charge_info": { "regenerate_ammo": true } },
 		"use_action": [
 			{
 				"type" : "consume_drug",
