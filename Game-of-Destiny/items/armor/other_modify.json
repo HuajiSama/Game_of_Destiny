@@ -1,6 +1,6 @@
 [
 	{
-    "id" : "archer_bag1",
+    "id" : "archer_bag",
 	  "copy-from": "quiver",
     "type" : "ARMOR",
     "name" : "弓手背包",
