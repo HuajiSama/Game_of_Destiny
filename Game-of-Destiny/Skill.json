@@ -24,33 +24,5 @@
 		"name" : "超凡感知",
 		"display_category": "none",
 		"description" : "超凡者的感知属性。对色彩、空间、艺术的感受力，还有洞察异常、感知危险的敏锐度。感性可以渲染特效，显化没有固定形体的元素(例如火焰)。"
-	},
-	{
-    "type": "skill_boost",
-    "stat": "str",
-    "skills": [ "mechanics", "swimming", "bashing", "cutting", "melee", "throw","GS_str" ],
-    "skill_offset": -3,
-    "scaling_power": 0.4
-  },
-  {
-    "type": "skill_boost",
-    "stat": "dex",
-    "skills": [ "driving", "survival", "tailor", "traps", "dodge", "stabbing", "unarmed","GS_dex" ],
-    "skill_offset": -3,
-    "scaling_power": 0.4
-  },
-  {
-    "type": "skill_boost",
-    "stat": "int",
-    "skills": [ "barter", "computer", "cooking", "electronics", "fabrication", "firstaid", "speech","GS_int" ],
-    "skill_offset": -3,
-    "scaling_power": 0.4
-  },
-  {
-    "type": "skill_boost",
-    "stat": "per",
-    "skills": [ "archery", "gun", "launcher", "pistol", "rifle", "shotgun", "smg","GS_per" ],
-    "skill_offset": -3,
-    "scaling_power": 0.4
-  }
+	}
 ]
