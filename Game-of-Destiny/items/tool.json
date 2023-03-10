@@ -47,7 +47,7 @@
 		"color" : "brown",
 		"storage" : 14,
 		"symbol" : "[",
-    "pocket_data": [
+		"use_action": [
 			{
 				"type": "holster",
 				"max_volume": 8,
@@ -81,7 +81,7 @@
 		"color" : "brown",
 		"symbol" : "[",
 		"storage" : 22,
-    "pocket_data": [
+		"use_action": [
 			{
 				"type": "holster",
 				"max_volume": 10,
