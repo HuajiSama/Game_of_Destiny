@@ -27,8 +27,7 @@
 		"name": { "str": "9x19mm 具象弹", "str_pl": "9x19mm 具象弹" },
 		"description": "思维具现的9x19mm子弹，射击后不留弹壳。",
 		"proportional": {
-		  "pierce": 0.7,
-		  "damage": 0.9,
+			"damage": { "damage_type": "bullet", "amount": 0.9, "armor_penetration": 0.9 },
 		  "dispersion": 1.1
 		},
 		"//1":"设定为不占重量体积",
@@ -44,15 +43,12 @@
 		"name": { "str": ".32 具现弹", "str_pl": ".32 具现弹" },
 		"description": "思维具现的.32 弹，射击后不留弹壳。",
 		"proportional": {
-		  "pierce": 0.7,
-		  "damage": 0.9,
+			"damage": { "damage_type": "bullet", "amount": 0.9, "armor_penetration": 0.9 },
 		  "dispersion": 1.1
 		},
-		"volume": 0,
-		"weight": 0,
 		"price": 0,
 		"count": 10,
-		"extend": { "effects": [ "NEVER_MISFIRES" ] },
+		"extend": { "effects": [ "NEVER_MISFIRES", "ZERO_WEIGHT" ] },
 		"delete": { "effects": [ "COOKOFF" ] }
 	},
 	{
@@ -62,15 +58,12 @@
 		"name": { "str": ".38 具现弹", "str_pl": ".38 具现弹" },
 		"description": "思维具现的.38 弹，射击后不留弹壳。",
 		"proportional": {
-		  "pierce": 0.7,
-		  "damage": 0.9,
+			"damage": { "damage_type": "bullet", "amount": 0.9, "armor_penetration": 0.9 },
 		  "dispersion": 1.1
 		},
-		"volume": 0,
-		"weight": 0,
 		"price": 0,
 		"count": 10,
-		"extend": { "effects": [ "NEVER_MISFIRES" ] },
+		"extend": { "effects": [ "NEVER_MISFIRES", "ZERO_WEIGHT" ] },
 		"delete": { "effects": [ "COOKOFF" ] }
 	},
 	{
@@ -80,15 +73,12 @@
 		"name": { "str": ".40 具现弹", "str_pl": ".40 具现弹" },
 		"description": "思维具现的.40 弹，射击后不留弹壳。",
 		"proportional": {
-		  "pierce": 0.7,
-		  "damage": 0.9,
+			"damage": { "damage_type": "bullet", "amount": 0.9, "armor_penetration": 0.9 },
 		  "dispersion": 1.1
 		},
-		"volume": 0,
-		"weight": 0,
 		"price": 0,
 		"count": 10,
-		"extend": { "effects": [ "NEVER_MISFIRES" ] },
+		"extend": { "effects": [ "NEVER_MISFIRES", "ZERO_WEIGHT" ] },
 		"delete": { "effects": [ "COOKOFF" ] }
 	},
 	{
@@ -98,15 +88,12 @@
 		"name": { "str": ".44 具现弹", "str_pl": ".44 具现弹" },
 		"description": "思维具现的.44子弹，射击后不留弹壳。",
 		"proportional": {
-		  "pierce": 0.7,
-		  "damage": 0.9,
+			"damage": { "damage_type": "bullet", "amount": 0.9, "armor_penetration": 0.9 },
 		  "dispersion": 1.1
 		},
-		"volume": 0,
-		"weight": 0,
 		"price": 0,
 		"count": 10,
-		"extend": { "effects": [ "NEVER_MISFIRES" ] },
+		"extend": { "effects": [ "NEVER_MISFIRES", "ZERO_WEIGHT" ] },
 		"delete": { "effects": [ "COOKOFF" ] }
 	},
 	{
@@ -116,15 +103,12 @@
 		"name": { "str": ".45 具现弹", "str_pl": ".45 具现弹" },
 		"description": "思维具现的.45子弹，射击后不留弹壳。",
 		"proportional": {
-		  "pierce": 0.7,
-		  "damage": 0.9,
+			"damage": { "damage_type": "bullet", "amount": 0.9, "armor_penetration": 0.9 },
 		  "dispersion": 1.1
 		},
-		"volume": 0,
-		"weight": 0,
 		"price": 0,
 		"count": 10,
-		"extend": { "effects": [ "NEVER_MISFIRES" ] },
+		"extend": { "effects": [ "NEVER_MISFIRES", "ZERO_WEIGHT" ] },
 		"delete": { "effects": [ "COOKOFF" ] }
 	},
 	{		
@@ -134,15 +118,12 @@
 		"name": { "str": "4.6x30mm 具现弹", "str_pl": "4.6x30mm 具现弹" },
 		"description": "思维具现的4.6x30mm穿甲弹，射击后不留弹壳。",
 		"proportional": {
-		  "pierce": 0.7,
-		  "damage": 0.9,
+			"damage": { "damage_type": "bullet", "amount": 0.9, "armor_penetration": 0.9 },
 		  "dispersion": 1.1
 		},
-		"volume": 0,
-		"weight": 0,
 		"price": 0,
 		"count": 10,
-		"extend": { "effects": [ "NEVER_MISFIRES" ] },
+		"extend": { "effects": [ "NEVER_MISFIRES", "ZERO_WEIGHT" ] },
 		"delete": { "effects": [ "COOKOFF" ] }
 	},
 	{		
@@ -152,15 +133,12 @@
 		"name": { "str": "5.7x28mm 具现弹", "str_pl": "5.7x28mm 具现弹" },
 		"description": "思维具现的5.7x28mm穿甲弹，射击后不留弹壳。",
 		"proportional": {
-		  "pierce": 0.7,
-		  "damage": 0.9,
+			"damage": { "damage_type": "bullet", "amount": 0.9, "armor_penetration": 0.9 },
 		  "dispersion": 1.1
 		},
-		"volume": 0,
-		"weight": 0,
 		"price": 0,
 		"count": 10,
-		"extend": { "effects": [ "NEVER_MISFIRES" ] },
+		"extend": { "effects": [ "NEVER_MISFIRES", "ZERO_WEIGHT" ] },
 		"delete": { "effects": [ "COOKOFF" ] }
 	},
 	{	
@@ -170,15 +148,12 @@
 		"name": { "str": ".22 LR 具现弹", "str_pl": ".22 LR 具现弹" },
 		"description": "思维具现的.22 LR弹，射击后不留弹壳。",
 		"proportional": {
-		  "pierce": 0.7,
-		  "damage": 0.9,
+			"damage": { "damage_type": "bullet", "amount": 0.9, "armor_penetration": 0.9 },
 		  "dispersion": 1.1
 		},
-		"volume": 0,
-		"weight": 0,
 		"price": 0,
 		"count": 10,
-		"extend": { "effects": [ "NEVER_MISFIRES","NOGIB" ] },
+		"extend": { "effects": [ "NEVER_MISFIRES","NOGIB", "ZERO_WEIGHT" ] },
 		"delete": { "effects": [ "COOKOFF" ] }
 	},
 	{		
@@ -188,14 +163,12 @@
 		"name": { "str": ".223 具现弹", "str_pl": ".223 具现弹" },
 		"description": "思维具现的5.56NATO(.223)子弹，射击后不留弹壳。",
 		"proportional": {
-		  "pierce": 0.7,
-		  "damage": 0.9,
+			"damage": { "damage_type": "bullet", "amount": 0.9, "armor_penetration": 0.9 },
 		  "dispersion": 1.1
 		},
-		"volume": 0,
-		"weight": 0,
 		"price": 0,
 		"count": 10,
+		"extend": { "effects": [ "NEVER_MISFIRES", "ZERO_WEIGHT" ] },
 		"delete": { "effects": [ "COOKOFF" ] }
 	},
 	{		
@@ -205,15 +178,12 @@
 		"name": { "str": "5.45x39mm 具现弹", "str_pl": "5.45x39mm 具现弹" },
 		"description": "思维具现的5.45x39mm子弹，射击后不留弹壳。",
 		"proportional": {
-		  "pierce": 0.7,
-		  "damage": 0.9,
+			"damage": { "damage_type": "bullet", "amount": 0.9, "armor_penetration": 0.9 },
 		  "dispersion": 1.1
 		},
-		"volume": 0,
-		"weight": 0,
 		"price": 0,
 		"count": 10,
-		"extend": { "effects": [ "NEVER_MISFIRES" ] },
+		"extend": { "effects": [ "NEVER_MISFIRES", "ZERO_WEIGHT" ] },
 		"delete": { "effects": [ "COOKOFF" ] }
 	},
 	{
@@ -223,15 +193,12 @@
 		"name": { "str": "7.62x39mm具现弹", "str_pl": "7.62x39mm具现弹" },
 		"description": "思维具现的7.62x39mm步枪弹，射击后不留弹壳。",
 		"proportional": {
-		  "pierce": 0.7,
-		  "damage": 0.9,
+			"damage": { "damage_type": "bullet", "amount": 0.9, "armor_penetration": 0.9 },
 		  "dispersion": 1.1
 		},
-		"volume": 0,
-		"weight": 0,
 		"price": 0,
 		"count": 10,
-		"extend": { "effects": [ "NEVER_MISFIRES" ] },
+		"extend": { "effects": [ "NEVER_MISFIRES", "ZERO_WEIGHT" ] },
 		"delete": { "effects": [ "COOKOFF" ] }
 	},
 	{		
@@ -241,15 +208,12 @@
 		"name": { "str": ".308 具现弹", "str_pl": ".308 具现弹" },
 		"description": "思维具现的.308步枪弹，射击后不留弹壳。",
 		"proportional": {
-		  "pierce": 0.7,
-		  "damage": 0.9,
+			"damage": { "damage_type": "bullet", "amount": 0.9, "armor_penetration": 0.9 },
 		  "dispersion": 1.1
 		},
-		"volume": 0,
-		"weight": 0,
 		"price": 0,
 		"count": 10,
-		"extend": { "effects": [ "NEVER_MISFIRES" ] },
+		"extend": { "effects": [ "NEVER_MISFIRES", "ZERO_WEIGHT" ] },
 		"delete": { "effects": [ "COOKOFF" ] }
 	},
 	{
@@ -259,14 +223,12 @@
 		"name": { "str": ".30-06 具现弹", "str_pl": ".30-06 具现弹" },
 		"description": "思维具现的.30-06步枪弹，射击后不留弹壳。",
 		"proportional": {
-		  "pierce": 0.7,
-		  "damage": 0.9,
+			"damage": { "damage_type": "bullet", "amount": 0.9, "armor_penetration": 0.9 },
 		  "dispersion": 1.1
 		},
-		"volume": 0,
-		"weight": 0,
 		"price": 0,
 		"count": 10,
+		"extend": { "effects": [ "NEVER_MISFIRES", "ZERO_WEIGHT" ] },
 		"delete": { "effects": [ "COOKOFF" ] }
 	},
 	{
@@ -275,11 +237,13 @@
 		"type": "AMMO",
 		"name": { "str": ".300 具现弹", "str_pl": ".300 具现弹" },
 		"description": "思维具现的.300步枪弹，射击后不留弹壳。",
-		"volume": 0,
-		"weight": 0,
 		"price": 0,
+		"proportional": {
+			"damage": { "damage_type": "bullet", "amount": 0.9, "armor_penetration": 0.9 },
+		  "dispersion": 1.1
+		},
 		"count": 10,
-		"extend": { "effects": ["NEVER_MISFIRES"]},
+		"extend": { "effects": ["NEVER_MISFIRES", "ZERO_WEIGHT"]},
 		"delete": { "effects": ["COOKOFF","RECYCLED"] }
 	},
 	{
@@ -288,11 +252,13 @@
 		"type": "AMMO",
 		"name": { "str": "5x50mm 具现弹", "str_pl": "5x50mm 具现弹" },
 		"description": "思维具现的5x50mm钢镖弹，射击后不留弹壳。",
-		"volume": 0,
-		"weight": 0,
 		"price": 0,
+		"proportional": {
+			"damage": { "damage_type": "bullet", "amount": 0.9, "armor_penetration": 0.9 },
+		  "dispersion": 1.1
+		},
 		"count": 10,
-		"extend": { "effects": ["NEVER_MISFIRES"]},
+		"extend": { "effects": ["NEVER_MISFIRES", "ZERO_WEIGHT"]},
 		"delete": { "effects": ["COOKOFF","RECYCLED"] }
 	},
 	{
@@ -302,14 +268,12 @@
 		"name": { "str": ".50 BMG 具现弹", "str_pl": ".50 BMG 具现弹" },
 		"description": "思维具现的.50 BMG子弹，射击后不留弹壳。",
 		"proportional": {
-		  "pierce": 0.7,
-		  "damage": 0.9,
+			"damage": { "damage_type": "bullet", "amount": 0.9, "armor_penetration": 0.9 },
 		  "dispersion": 1.1
 		},
-		"volume": 0,
-		"weight": 0,
 		"price": 0,
 		"count": 10,
+		"extend": { "effects": [ "NEVER_MISFIRES", "ZERO_WEIGHT" ] },
 		"delete": { "effects": [ "COOKOFF" ] }
 	},
 	{	
@@ -319,15 +283,12 @@
 		"name": { "str": "具现霰弹", "str_pl": "具现霰弹" },
 		"description": "思维具现的霰弹，射击后不留弹壳。",
 		"proportional": {
-		  "pierce": 0.7,
-		  "damage": 0.9,
+			"damage": { "damage_type": "bullet", "amount": 0.9, "armor_penetration": 0.9 },
 		  "dispersion": 1.1
 		},
-		"volume": 0,
-		"weight": 0,
 		"price": 0,
 		"count": 10,
-		"extend": { "effects": [ "NEVER_MISFIRES" ] },
+		"extend": { "effects": [ "NEVER_MISFIRES", "ZERO_WEIGHT" ] },
 		"delete": { "effects": [ "COOKOFF" ] }
 	},
 	{
@@ -336,12 +297,10 @@
 		"type": "AMMO",
 		"name": { "str": "20x66mm 具现弹", "str_pl": "20x66mm 具现弹" },
 		"description": "思维具现的20x66mm无壳霰弹，射击后不留弹壳。",
-		"volume": 0,
-		"weight": 0,
 		"price": 0,
 		"count": 10,
-		"extend": { "effects": ["NEVER_MISFIRES"]},
-		"delete": { "effects": ["COOKOFF","RECYCLED"] }
+		"extend": { "effects": [ "NEVER_MISFIRES", "ZERO_WEIGHT" ] },
+		"delete": { "effects": [ "COOKOFF", "RECYCLED" ] }
 	},
 	{
 		"id": "GS_int_imaged_bullet_8mm",
@@ -350,12 +309,10 @@
 		"name": { "str": "8x40mm 具现弹", "str_pl": "8x40mm 具现弹" },
 		"description": "思维具现的8x40mm无壳弹，射击后不留弹壳。",
 		
-		"volume": 0,
-		"weight": 0,
 		"price": 0,
 		"count": 10,
-		"extend": { "effects": ["NEVER_MISFIRES"]},
-		"delete": { "effects": ["COOKOFF","RECYCLED"] }
+		"extend": { "effects": [ "NEVER_MISFIRES", "ZERO_WEIGHT" ] },
+		"delete": { "effects": [ "COOKOFF", "RECYCLED" ] }
 	},
 	{
 		"id": "GS_int_imaged_RPG7_ammo",
