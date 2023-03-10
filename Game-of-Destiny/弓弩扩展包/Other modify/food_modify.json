@@ -1,9 +1,0 @@
-[
-	{
-        "type":"GENERIC",
-        "id": "cola_meth",
-        "name": "methacola",
-	    "copy-from": "cola_meth",
-        "category" : "drugs"
-	}
-]

@@ -1,9 +1,0 @@
-[
-{
-"type":"vehicle_part",
-"id":"v_curtain_MULTISQUARE",
-"name":"联动式窗帘",
-"copy-from":"aisle_curtain",
-"extend":{"flags":["MULTISQUARE"]}
-}
-]
