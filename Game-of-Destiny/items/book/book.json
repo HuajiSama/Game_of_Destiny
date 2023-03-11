@@ -83,7 +83,8 @@
 		"intelligence" : 10,
 		"required_level" : 0,
 		"max_level" : 1,
-		"skill" : "fabrication"
+		"skill" : "fabrication",
+		"flags": [ "ZERO_WEIGHT" ]
 	},{
 		"type" : "BOOK",
 		"id" : "GS_book_alchemy2",

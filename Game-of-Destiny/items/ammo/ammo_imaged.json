@@ -1,8 +1,8 @@
 [
 	{
 		"id" : "GS_int_imaged_arrow",
-		"type" : "AMMO",
 		"copy-from": "arrow_metal",
+		"type" : "AMMO",
     "name": { "str": "箭矢（具现）", "str_pl": "箭矢（具现）" },
 		"description" : "具现化能力制造的箭矢，一次性使用。",
 		"//":"具现物不占重量体积",
@@ -11,9 +11,9 @@
 		"effects" : ["RECOVER_1", "ZERO_WEIGHT" ]
 	},
 	{
-		"type" : "AMMO",
 		"id" : "GS_int_imaged_bolt",
 		"copy-from": "bolt_steel",
+		"type" : "AMMO",
     "name": { "str": "弩矢（具现）", "str_pl": "弩矢（具现）" },
 		"description" : "具现化能力制造的箭矢，一次性使用。",
 		"price": 0,
@@ -22,8 +22,8 @@
 	},
 	{
 		"id": "GS_int_imaged_bullet_9mm",
-		"type": "AMMO",
 		"copy-from": "9mm",
+		"type": "AMMO",
 		"name": { "str": "9x19mm 具象弹", "str_pl": "9x19mm 具象弹" },
 		"description": "思维具现的9x19mm子弹，射击后不留弹壳。",
 		"proportional": {
@@ -52,9 +52,9 @@
 		"delete": { "effects": [ "COOKOFF" ] }
 	},
 	{
-		"type": "AMMO",
 		"id": "GS_int_imaged_bullet_38",
 		"copy-from": "38_special",
+		"type": "AMMO",
 		"name": { "str": ".38 具现弹", "str_pl": ".38 具现弹" },
 		"description": "思维具现的.38 弹，射击后不留弹壳。",
 		"proportional": {
@@ -112,9 +112,9 @@
 		"delete": { "effects": [ "COOKOFF" ] }
 	},
 	{		
-		"type": "AMMO",
 		"id": "GS_int_imaged_bullet_46",
 		"copy-from": "46mm",
+		"type": "AMMO",
 		"name": { "str": "4.6x30mm 具现弹", "str_pl": "4.6x30mm 具现弹" },
 		"description": "思维具现的4.6x30mm穿甲弹，射击后不留弹壳。",
 		"proportional": {
@@ -127,9 +127,9 @@
 		"delete": { "effects": [ "COOKOFF" ] }
 	},
 	{		
-		"type": "AMMO",
 		"id": "GS_int_imaged_bullet_57",
 		"copy-from": "57mm",
+		"type": "AMMO",
 		"name": { "str": "5.7x28mm 具现弹", "str_pl": "5.7x28mm 具现弹" },
 		"description": "思维具现的5.7x28mm穿甲弹，射击后不留弹壳。",
 		"proportional": {
@@ -142,9 +142,9 @@
 		"delete": { "effects": [ "COOKOFF" ] }
 	},
 	{	
-		"type" : "AMMO",
 		"id" : "GS_int_imaged_bullet_22",
 		"copy-from": "22_lr",
+		"type" : "AMMO",
 		"name": { "str": ".22 LR 具现弹", "str_pl": ".22 LR 具现弹" },
 		"description": "思维具现的.22 LR弹，射击后不留弹壳。",
 		"proportional": {
@@ -157,9 +157,9 @@
 		"delete": { "effects": [ "COOKOFF" ] }
 	},
 	{		
-		"type": "AMMO",
 		"id": "GS_int_imaged_bullet_223",
 		"copy-from": "556",
+		"type": "AMMO",
 		"name": { "str": ".223 具现弹", "str_pl": ".223 具现弹" },
 		"description": "思维具现的5.56NATO(.223)子弹，射击后不留弹壳。",
 		"proportional": {
@@ -172,9 +172,9 @@
 		"delete": { "effects": [ "COOKOFF" ] }
 	},
 	{		
-		"type": "AMMO",
 		"id": "GS_int_imaged_bullet_545x39",
 		"copy-from": "545",
+		"type": "AMMO",
 		"name": { "str": "5.45x39mm 具现弹", "str_pl": "5.45x39mm 具现弹" },
 		"description": "思维具现的5.45x39mm子弹，射击后不留弹壳。",
 		"proportional": {
@@ -308,7 +308,6 @@
 		"type": "AMMO",
 		"name": { "str": "8x40mm 具现弹", "str_pl": "8x40mm 具现弹" },
 		"description": "思维具现的8x40mm无壳弹，射击后不留弹壳。",
-		
 		"price": 0,
 		"count": 10,
 		"extend": { "effects": [ "NEVER_MISFIRES", "ZERO_WEIGHT" ] },
@@ -320,9 +319,8 @@
 		"type": "AMMO",
 		"name": { "str": "RPG火箭弹(具现)", "str_pl": "RPG火箭弹(具现)" },
 		"description": "思维具现的火箭弹，供RPG-7使用。",
-		"weight": 0,
-		"volume": 0,
 		"price": 0,
+		"extend": { "effects": [ "ZERO_WEIGHT" ] },
 		"delete": { "effects": [ "COOKOFF" ] }
 	},
 	{
@@ -331,9 +329,8 @@
 		"type": "TOOL",
 		"name": { "str": "手雷(具现)", "str_pl": "手雷(具现)" },
 		"description": "思维具现的手榴弹，使用(a)拉开插销。",
-		"weight": 0,
-		"volume": 0,
-		"price": 0
+		"price": 0,
+		"extend": { "effects": [ "ZERO_WEIGHT" ] }
 	},
 	{
 		"id": "GS_int_imaged_grenade_inc",
@@ -341,8 +338,7 @@
 		"type": "TOOL",
 		"name": { "str": "燃烧手雷(具现)", "str_pl": "燃烧手雷(具现)" },
 		"description": "思维具现的燃烧手榴弹，使用(a)拉开插销。",
-		"weight": 0,
-		"volume": 0,
-		"price": 0
+		"price": 0,
+		"extend": { "effects": [ "ZERO_WEIGHT" ] }
 	}
 ]
