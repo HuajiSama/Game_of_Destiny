@@ -29,11 +29,11 @@
 		  [ "BURST", "连掷", 2 ]
 		],
 		"armor_data" : {
-			"covers" : ["HANDS"],	"//2":"近期版本远程武器穿戴默认躯干位。",
-			"coverage" : 0,
-			"material_thickness" : 1
-			},
-        "ammo_effects" : ["NEVER_MISFIRES","WIDE","BLINDS_EYES"],
+			"coverage": 0,
+			"material_thickness": 1,
+			"covers": [ "HANDS" ],	"//2":"近期版本远程武器穿戴默认躯干位。"
+		},
+    "ammo_effects" : ["NEVER_MISFIRES","WIDE","BLINDS_EYES"],
 		"flags": ["PRIMITIVE_RANGED_WEAPON","RELOAD_ONE","STR_DRAW","UNARMED_WEAPON","DURABLE_MELEE","STURDY","BELTED"]
 	},{
 		"id": "GS_wp_dex4_glove_throwing",
