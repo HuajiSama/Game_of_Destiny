@@ -107,7 +107,8 @@
 		"name" : "思维具现-弹药",
 		"description" : "智力向超凡者的基础技，消费天命具现弹药，具现子弹不占重量体积，射击后不留弹壳。",
 		"required_level" : 3,
-		"max_level" : 4
+		"max_level" : 4,
+		"extend": { "flags": [ "ZERO_WEIGHT" ] }
 	},{
 		"type" : "BOOK",
 		"id" : "GS_book_merit1",

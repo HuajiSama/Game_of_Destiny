@@ -1,13 +1,14 @@
 [
 	{
-        "abstract": "GeneBook",
+    "abstract": "GeneBook",
 		"type" : "BOOK",
  		"category" : "GS_feature",
 		"name" : "基因解锁",
 		"material" : ["super_mt"],
-        "symbol": "?",
-        "color": "blue",
-		"required_level" : 0
+    "symbol": "?",
+    "color": "blue",
+		"required_level" : 0,
+		"flags": [ "ZERO_WEIGHT" ]
 	},{
 		"type" : "BOOK",
 		"id" : "genebook_str_1",

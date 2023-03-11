@@ -30,10 +30,10 @@
 		"category": "GS_resoure",
 		"name": { "str": "天命铜币" },
 		"description": "时空能量凝结的货币单位，代表着天地间的气运与命数。",
-		"volume": 0,
 		"material": "super_mt",
 		"symbol": "$",
-		"color": "brown"
+		"color": "brown",
+		"flags": [ "ZERO_WEIGHT" ]
 	},
 	{
 		"id": "destiny_silver",
@@ -44,7 +44,8 @@
 		"description": "时空能量凝结的进阶货币，代表着天地间的气运与命数。",
 		"material": "super_mt",
 		"symbol": "$",
-		"color": "light_gray"
+		"color": "light_gray",
+		"flags": [ "ZERO_WEIGHT" ]
 	},
 	{
 		"id": "destiny_gold",
@@ -55,7 +56,8 @@
 		"description": "时空能量凝结的最高货币，代表着天地间的气运与命数，然而这是测试用道具。",
 		"material": "super_mt",
 		"symbol": "$",
-		"color": "yellow"
+		"color": "yellow",
+		"flags": [ "ZERO_WEIGHT" ]
 	},
 	{
 		"id": "merit",
@@ -67,19 +69,20 @@
 		"material": "merit_mt",
 		"symbol": "'",
 		"color": "yellow",
-		"effects": ["NEVER_MISFIRES"]
+		"effects": ["NEVER_MISFIRES"],
+		"flags": [ "ZERO_WEIGHT" ]
 	},
 	{		
+		"//":"曾经重量可以设为负数，仅以这行代码缅怀那段时光。",
 		"id": "5ghost",
 		"type":"GENERIC",
 		"category": "GS_resoure",	
 		"name": { "str": "五鬼搬运" },
 		"description": "以功德之力洗涤炼化的五方魂鬼，能施展搬运秘法增加负重上限。\n \n※只有一次效果，重复持有无效！",
 		"material": ["merit_mt"],
-		"weight": 0,	"//":"曾经重量可以设为负数，仅以这行代码缅怀那段时光。",
 		"symbol": "g",
 		"color": "white",
 		"artifact_data" : {"effects_carried": [ "AEP_CARRY_MORE" ] },
-		"flags": [ "NO_SALVAGE" ]
+		"flags": [ "NO_SALVAGE", "ZERO_WEIGHT" ]
 	}
 ]

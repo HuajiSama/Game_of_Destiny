@@ -156,6 +156,8 @@
 		"type": "GUNMOD",
 		"name": "落日弓 (狙击模式)",
 		"description": "大幅强化威力与精度，需要较长的射击时间。",
+		"weight" : 888,
+		"volume" : 10,
 		"material": [ "super_mt" ],
 		"symbol": ":",
 		"color": "light_red",

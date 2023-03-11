@@ -185,7 +185,8 @@
 			"active": true,
 			"moves" : 0,
 			"need_charges": 1,
-			"need_charges_msg": "这件饰品最少要3天命铜铜币才能发动。"
+			"need_charges_msg": "这件饰品最少要3天命铜铜币才能发动。",
+			"flags": [ "ZERO_WEIGHT" ]
 		}
 	},
 	{
@@ -594,7 +595,8 @@
 			"need_charges": 2,
 			"moves" : 80,
 			"need_charges_msg": "能量不足。"
-		}
+		},
+		"flags": [ "ZERO_WEIGHT" ]
 	},
 	{
 		"//":"定位：威力、消耗都是最强的Buff。",

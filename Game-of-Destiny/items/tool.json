@@ -564,7 +564,7 @@
 		"material": [ "super_mt" ],
 		"symbol": "[",
 		"color": "light_gray",
-		"flags": [ "PARTIAL_DEAF" ]
+		"flags": [ "PARTIAL_DEAF", "ZERO_WEIGHT" ]
 	},
 	{	
 		"id": "GS_tool_per3_crystal",
