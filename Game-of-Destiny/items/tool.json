@@ -154,28 +154,27 @@
 		"qualities": [ ["SEW",3],["KNIT",3] ],
 		"use_action": [
 			{
-            "type": "transform",
-            "msg": "你将维修组调整为金工模式",
-            "target": "GS_tool_repairkit"
+        "type": "transform",
+        "msg": "你将维修组调整为金工模式",
+        "target": "GS_tool_repairkit"
 			},
 			{
-			"type": "repair_item",
-			"item_action_type" : "repair_fabric",
-			"materials": 
-				["cotton", "leather", "wool", "fur", "nomex", "neoprene"],
-			"skill": "tailor",
-			"cost_scaling": 0.1,
-			"tool_quality": 10,
-			"move_cost": 400
+				"type": "repair_item",
+				"item_action_type" : "repair_fabric",
+				"materials": ["cotton", "leather", "wool", "fur", "nomex", "neoprene"],
+				"skill": "tailor",
+				"cost_scaling": 0.1,
+				"tool_quality": 10,
+				"move_cost": 400
 			},
 			{
-			"type": "repair_item",
-			"item_action_type" : "repair_metal",
-			"materials": ["super_mt","merit_mt","GS_int_sheild"],
-			"skill": "GS_int",
-			"cost_scaling": 0.5,
-			"move_cost": 500,
-			"tool_quality": 10
+				"type": "repair_item",
+				"item_action_type" : "repair_metal",
+				"materials": ["super_mt","merit_mt","GS_int_sheild"],
+				"skill": "GS_int",
+				"cost_scaling": 0.5,
+				"move_cost": 500,
+				"tool_quality": 10
 			}
 		]
 	},
@@ -359,7 +358,7 @@
 			},
 			"HOTPLATE"
 		],
-		"flags": [ "FIRE","FLAMING","UNBREAKABLE_MELEE","UNARMED_WEAPON" ]
+		"flags": [ "FIRE","FLAMING","UNBREAKABLE_MELEE","UNARMED_WEAPON", "ZERO_WEIGHT" ]
 	},
 	{
 		"id": "GS_tool_fireblock",
@@ -374,6 +373,7 @@
 		"charges_per_use": 15,
     "pocket_data": [ { "pocket_type": "MAGAZINE", "holster": true, "rigid": true, "ammo_restriction": { "destiny_copper_type": 30 } } ],
 		"relic_data": { "charge_info": { "regenerate_ammo": true } },
+		"flags": [ "ZERO_WEIGHT" ],
 		"use_action": [
 			{
 				"type": "consume_drug",
@@ -396,6 +396,7 @@
 		"charges_per_use": 10,
     "pocket_data": [ { "pocket_type": "MAGAZINE", "holster": true, "rigid": true, "ammo_restriction": { "destiny_copper_type": 30 } } ],
 		"relic_data": { "charge_info": { "regenerate_ammo": true } },
+		"flags": [ "ZERO_WEIGHT" ],
 		"use_action": [
 			{
 				"type" : "consume_drug",
@@ -416,6 +417,7 @@
 		"color": "green",
 		"ammo": "destiny_copper_type",
 		"max_charges": 30,
+		"flags": [ "ZERO_WEIGHT" ],
 		"pocket_data": [
 			{ 
 				"pocket_type": "MAGAZINE",
@@ -445,6 +447,7 @@
 		"max_charges": 30,
 		"charges_per_use": 2,
 		"turns_per_charge": 1,
+		"flags": [ "ZERO_WEIGHT" ],
 		"artifact_data" : {
 		  "effects_carried": ["AEP_RESIST_ELECTRICITY"]
 		},
@@ -475,6 +478,7 @@
 		"charges_per_use": 10,
 		"pocket_data": [ { "pocket_type": "MAGAZINE", "holster": true, "rigid": true, "ammo_restriction": { "destiny_copper_type": 30 } } ],
 		"relic_data": { "charge_info": { "regenerate_ammo": true } },
+		"flags": [ "ZERO_WEIGHT" ],
 		"use_action": [
 			{
 				"type" : "consume_drug",
@@ -497,6 +501,7 @@
 		"charges_per_use": 10,
     "pocket_data": [ { "pocket_type": "MAGAZINE", "holster": true, "rigid": true, "ammo_restriction": { "destiny_copper_type": 30 } } ],
 		"relic_data": { "charge_info": { "regenerate_ammo": true } },
+		"flags": [ "ZERO_WEIGHT" ],
 		"use_action": [
 			{
 				"type" : "consume_drug",
@@ -515,6 +520,7 @@
 		"material" : ["super_mt"],
 		"symbol" : "#",
 		"color" : "blue",
+		"flags": [ "ZERO_WEIGHT" ],
 		"use_action": {
 			"type": "musical_instrument",
 			"speed_penalty": 10,
@@ -538,6 +544,7 @@
 		"material" : ["super_mt"],
 		"symbol" : "#",
 		"color" : "blue",
+		"flags": [ "ZERO_WEIGHT" ],
 		"use_action": {
 			"type": "musical_instrument",
 			"speed_penalty": 5,
@@ -598,23 +605,25 @@
 		"max_charges": 1,
 		"initial_charges": 1,
 		"charges_per_use": 1,
-		"use_action": 
-			{
-				"type": "transform",
-				"msg": "你激发了天人之眼",
-				"target": "GS_item_per4_godeye_active",
-				"active": true
-			}
-	},{
+		"flags": [ "ZERO_WEIGHT" ],
+		"use_action": {
+			"type": "transform",
+			"msg": "你激发了天人之眼",
+			"target": "GS_item_per4_godeye_active",
+			"active": true
+		}
+	},
+	{
 		"id": "GS_item_per4_godeye_active",
 		"type": "TOOL",
 		"category" : "GS_item",
-		"symbol": "@",
-		"color": "cyan",
 		"name": { "str": "天人之眼" },
 		"description": "大范围透视周围的上帝视角，时效1分钟。",
 		"material" : ["super_mt"],
+		"symbol": "@",
+		"color": "cyan",
 		"turns_per_charge": 9,
+		"flags": [ "ZERO_WEIGHT" ],
     "artifact_data" : {
       "effects_carried": ["AEP_SUPER_CLAIRVOYANCE"]
     }
@@ -631,16 +640,16 @@
 		"max_charges": 12,
 		"initial_charges": 12,	
 		"charges_per_use": 12,	
-		"artifact_data" : {
+		"artifact_data": {
 			"charge_type": "ARTC_TIME",
 			"effects_worn": ["AEP_ALL_UP"]	
 		},
-		"use_action" : {
-      "type" : "consume_drug",
-			"moves" : 0,
-      "activation_message" : "传说的光辉发动，10分钟内大幅提升全属性！",
-      "effects" : [ { "id" : "Legend_light", "duration" : 100 } ]
-      },
-		"flags" : ["SUPER_FANCY"]
+		"use_action": {
+      "type": "consume_drug",
+			"moves": 0,
+      "activation_message": "传说的光辉发动，10分钟内大幅提升全属性！",
+      "effects": [ { "id" : "Legend_light", "duration" : 100 } ]
+    },
+		"flags" : ["SUPER_FANCY", "ZERO_WEIGHT" ]
 	}
 ]

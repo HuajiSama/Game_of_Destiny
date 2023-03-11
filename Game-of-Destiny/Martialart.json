@@ -76,7 +76,8 @@
 		"intelligence" : 12,
 		"time" : 30,
 		"required_level" : 0,
-		"use_action": "MA_MANUAL"
+		"use_action": "MA_MANUAL",
+		"flags": [ "ZERO_WEIGHT" ]
 	},
 	{
 		"result": "manual_warlock",

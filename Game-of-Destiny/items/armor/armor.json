@@ -178,6 +178,7 @@
 		"ammo": "destiny_copper_type",
 		"pocket_data": [ { "pocket_type": "MAGAZINE", "holster": true, "rigid": true, "ammo_restriction": { "destiny_copper_type": 50 } } ],
 		"relic_data": { "charge_info": { "regenerate_ammo": true } },
+		"flags": [ "ZERO_WEIGHT" ],
 		"use_action": {
 			"type": "transform",
 			"msg": "神行符光芒闪现，你的行动速度突然加快！",
@@ -185,8 +186,7 @@
 			"active": true,
 			"moves" : 0,
 			"need_charges": 1,
-			"need_charges_msg": "这件饰品最少要3天命铜铜币才能发动。",
-			"flags": [ "ZERO_WEIGHT" ]
+			"need_charges_msg": "这件饰品最少要3天命铜铜币才能发动。"
 		}
 	},
 	{
@@ -203,6 +203,7 @@
 		"turns_per_charge": 1,
     "pocket_data": [ { "pocket_type": "MAGAZINE", "holster": true, "rigid": true, "ammo_restriction": { "destiny_copper_type": 50 } } ],
 		"relic_data": { "charge_info": { "regenerate_ammo": true } },
+		"flags": [ "ZERO_WEIGHT" ],
 		"use_action": {
 			"type": "transform",
 			"msg": "疾行符加速效果关闭！",
@@ -226,6 +227,7 @@
 		"relic_data": { "charge_info": { "regenerate_ammo": true } },
 		"charges_per_use": 25,
 		"artifact_data" : {"effects_activated": ["AEA_TELEPORT"]},
+		"flags": [ "ZERO_WEIGHT" ],
 		"use_action": "ARTIFACT"
 	},
 	{
@@ -239,8 +241,9 @@
 		"symbol" : "[",
     "pocket_data": [ { "pocket_type": "MAGAZINE", "holster": true, "rigid": true, "ammo_restriction": { "destiny_copper_type": 100 } } ],
 		"relic_data": { "charge_info": { "regenerate_ammo": true } },
-		"charges_per_use": 25,
+		"flags": [ "ZERO_WEIGHT" ],
 		"ammo": "destiny_copper_type",
+		"charges_per_use": 25,
 		"use_action": [
 			{
 				"type" : "consume_drug",
@@ -369,6 +372,7 @@
 		"initial_charges": 3,
 		"charges_per_use": 1,
 		"artifact_data" : {"charge_type": "ARTC_TIME"},
+		"flags": [ "ZERO_WEIGHT" ],
 		"use_action": [
 			{
 				"type" : "consume_drug",
@@ -391,6 +395,7 @@
 		"initial_charges": 3,
 		"charges_per_use": 1,
 		"artifact_data" : {"charge_type": "ARTC_TIME"},
+		"flags": [ "ZERO_WEIGHT" ],
 		"use_action": [
 			{
 				"type" : "consume_drug",
