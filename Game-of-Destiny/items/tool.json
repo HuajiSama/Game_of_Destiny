@@ -73,7 +73,8 @@
       [ "BUTCHER", 20 ],
       [ "LOCKPICK", 20 ]
     ],
-    "flags": [ "FANCY", "WAIST", "WATCH", "THERMOMETER" ]
+    "flags": [ "BELTED", "FANCY", "THERMOMETER", "WATCH" ],
+    "armor": [ { "encumbrance": [ 1, 2 ], "coverage": 100, "covers": [ "torso" ], "specifically_covers": [ "torso_waist" ] } ]
   },
   {
     "id": "GS_eq_toolbelt2",
@@ -95,7 +96,7 @@
         "draw_cost": 90,
         "multi": 2,
         "skills": [ "smg", "pistol", "shotgun", "rifle", "launcher", "archery", "throw" ],
-        "flags": [ "SHEATH_KNIFE", "BELT_CLIP" ]
+        "flags": [ "BELT_CLIP", "SHEATH_KNIFE" ]
       },
       { "type": "firestarter", "moves": 100, "moves_slow": 2000 },
       "HAMMER"
@@ -115,7 +116,8 @@
       [ "BUTCHER", 30 ],
       [ "LOCKPICK", 20 ]
     ],
-    "flags": [ "SUPER_FANCY", "WAIST", "WATCH", "ALARMCLOCK", "THERMOMETER", "HYGROMETER", "BAROMETER" ]
+    "flags": [ "ALARMCLOCK", "BAROMETER", "BELTED", "SUPER_FANCY", "WATCH", "THERMOMETER", "HYGROMETER" ],
+    "armor": [ { "encumbrance": [ 1, 2 ], "coverage": 100, "covers": [ "torso" ], "specifically_covers": [ "torso_waist" ] } ]
   },
   {
     "id": "GS_tool_repairkit",
@@ -303,7 +305,8 @@
       }
     ],
     "use_action": { "type": "holster", "holster_prompt": "Stash ammo", "holster_msg": "You stash your %s." },
-    "flags": [ "WATER_FRIENDLY", "WAIST" ]
+    "flags": [ "WATER_FRIENDLY", "BELTED", "PALS_LARGE" ],
+    "armor": [ { "encumbrance": 1, "coverage": 100, "covers": [ "torso" ], "specifically_covers": [ "torso_waist" ] } ]
   },
   {
     "id": "GS_eq_support_bandolier",
@@ -347,7 +350,8 @@
         "moves": 20
       }
     ],
-    "flags": [ "WATER_FRIENDLY", "WAIST" ]
+    "flags": [ "WATER_FRIENDLY", "BELTED", "OVERSIZE" ],
+    "armor": [ { "encumbrance": 1, "coverage": 10, "covers": [ "torso" ], "specifically_covers": [ "torso_upper" ] } ]
   },
   {
     "id": "GS_tool_shovel_WJQ500",
