@@ -1,23 +1,23 @@
 [
 	{
-		"type" : "construction",
-		"id" : "bulid_xhkt",
+		"type": "construction",
+		"id": "bulid_xhkt",
 		"group": "bulid_xhkt",
-		"description" : "建设：下行楼梯",
-		"category" : "OTHER",
-		"difficulty" : 6,
-		"time" : 60,
+		"description": "建设：下行楼梯",
+		"category": "OTHER",
+		"difficulty": 6,
+		"time": 60,
 		"qualities": [ 
 			[ { "id": "SAW_W", "level": 2 } ],
 			[ { "id": "HAMMER", "level": 2 } ],
 			[ { "id": "HAMMER_FINE", "level": 1 } ]
 		],
-    "components" : [
+    "components": [
 			[ [ "2x4", 25 ] ],
 			[ [ "nail", 50 ] ]
 		],
-		"pre_special" : "check_down_OK",
-		"post_terrain" : "t_stairs_down"
+		"pre_special": "check_down_OK",
+		"post_terrain": "t_stairs_down"
 	},
 	{
 		"type" : "construction",
