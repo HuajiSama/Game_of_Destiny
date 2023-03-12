@@ -159,6 +159,7 @@
       "ammo_effects": [ "LASER" ]
     },
     "min_skills": [ [ "GS_dex", 10 ] ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "arrow": 1 } } ],
     "flags": [ "FIRE_TWOHAND", "RELOAD_AND_SHOOT", "PRIMITIVE_RANGED_WEAPON" ]
   },
   {
