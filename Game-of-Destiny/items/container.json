@@ -1,48 +1,48 @@
 [
-	{
-		"id": "GS_container1",
-		"type": "GENERIC",
-		"category": "GS_item",
-		"name": { "str": "空间水瓶" },
-		"description": "空间系道具，利用折叠空间储存液体的随身水瓶(5L)，陪你跋山涉水的好伙伴。",
-		"weight": "150 g",
-		"volume": "1 ml",
-		"material": [ "super_mt", "aluminum" ],
-		"symbol": ")",
-		"color": "blue",
-		"pocket_data": [
-			{ 
-				"pocket_type": "CONTAINER",
-				"watertight": true,
-				"rigid": true,
-				"max_contains_volume": "5 L",
-				"max_item_volume": "100 L",
-				"max_contains_weight": "100 kg"
-			}
-		],
-		"flags": [ "WAIST" ]
-	},
-	{
-		"id": "GS_container2",
-		"type": "GENERIC",
-		"category" : "GS_item",
-		"name": { "str": "空间水壶" },
-		"description": "空间系道具，利用折叠空间储存液体的中型水壶(25L)，郊游野餐、煮饭烧水的好伙伴。",
-		"weight": "300 g",
-		"volume": "2 ml",
-		"material": [ "super_mt", "steel" ],
-		"symbol": ")",
-		"color": "blue",
-		"pocket_data": [
-			{ 
-				"pocket_type": "CONTAINER",
-				"watertight": true,
-				"rigid": true,
-				"max_contains_volume": "25 L",
-				"max_item_volume": "100 L",
-				"max_contains_weight": "100 kg"
-			}
-		],
-		"flags": [ "WAIST" ]
-	}
+  {
+    "id": "GS_container1",
+    "type": "GENERIC",
+    "category": "GS_item",
+    "name": { "str": "空间水瓶" },
+    "description": "空间系道具，利用折叠空间储存液体的随身水瓶(5L)，陪你跋山涉水的好伙伴。",
+    "weight": "150 g",
+    "volume": "1 ml",
+    "material": [ "super_mt", "aluminum" ],
+    "symbol": ")",
+    "color": "blue",
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "watertight": true,
+        "rigid": true,
+        "max_contains_volume": "5 L",
+        "max_item_volume": "100 L",
+        "max_contains_weight": "100 kg"
+      }
+    ],
+    "flags": [ "WAIST" ]
+  },
+  {
+    "id": "GS_container2",
+    "type": "GENERIC",
+    "category": "GS_item",
+    "name": { "str": "空间水壶" },
+    "description": "空间系道具，利用折叠空间储存液体的中型水壶(25L)，郊游野餐、煮饭烧水的好伙伴。",
+    "weight": "300 g",
+    "volume": "2 ml",
+    "material": [ "super_mt", "steel" ],
+    "symbol": ")",
+    "color": "blue",
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "watertight": true,
+        "rigid": true,
+        "max_contains_volume": "25 L",
+        "max_item_volume": "100 L",
+        "max_contains_weight": "100 kg"
+      }
+    ],
+    "flags": [ "WAIST" ]
+  }
 ]

@@ -1,128 +1,113 @@
 [
-	{
-		"id": "default_zombie_death_drops",
-		"type" : "item_group",
-		"subtype": "collection",
-		"comment": "普通Z掉落(嵌入天命幣Lv1)",
-		"entries": [
-			{ "group": "default_zombie_clothes" },
-			{ "group": "default_zombie_items", "prob": 50 },
-			{ "item": "cash_card", "prob": 10 },
-			{ "group": "destiny_coin_drops1" }
-		]
-	},
-	{
-		"id": "zed_death_drop",
-		"type" : "item_group",
-		"subtype": "collection",
-		"comment": "普通Z掉落(無天命幣)",
-		"entries": [
-			{ "group": "default_zombie_clothes" },
-			{ "group": "default_zombie_items", "prob": 50 },
-			{ "item": "cash_card", "prob": 10 }
-		]
-	},
-	{
-		"//1":"各級倍率基本固定，部分怪物已調整數據配合其掉落等級。",
-		"//2":"想自行修改掉率的同學修改以下部分即可。",
-		"id": "destiny_coin_drops0",
-		"type" : "item_group",
-		"subtype": "collection",
-		"comment": "天命幣掉落Lv0",	"//": "雜魚中的雜魚，獎勵倍率：0.6X。",
-		"entries": [
-			{ "item": "destiny_copper", "count": [4,5] }
-		]
-	},
-	{
-		"id": "destiny_coin_drops1",
-		"type" : "item_group",
-		"subtype": "collection",
-		"comment": "天命幣掉落Lv1",	"//": "無特殊能力的普通Z，獎勵倍率：1X。(官方定義 monster diff:3)",
-		"entries": [
-			{ "item": "destiny_copper", "count": [6,8] }
-		]
-	},
-	{
-		"id": "destiny_coin_drops2",
-		"type" : "item_group",
-		"subtype": "collection",
-		"comment": "天命幣掉落Lv2",	"//": "特性/屬性稍高，危險等級：小酸、屍狼、健壯、嘔吐...etc，獎勵倍率：1.5X。(monster diff:8)",
-		"entries": [
-			{ "item": "destiny_copper", "count": [9,12] }
-		]
-	},
-	{
-		"id": "destiny_coin_drops3",
-		"type" : "item_group",
-		"subtype": "collection",
-		"comment": "天命幣掉落Lv3",	"//": "特性/屬性突出，危險等級：小電Z、屍熊，獎勵倍率：3X。(monster diff:12~16)",
-		"entries": [
-			{ "item": "destiny_copper", "count": [20,25] }
-		]
-	},
-	{
-		"id": "destiny_coin_drops4",
-		"type" : "item_group",
-		"subtype": "collection",
-		"comment": "天命幣掉落Lv4",	"//": "特殊技/強悍屬性，危險等級：殭屍獸、巫妖領主、狩獵者，獎勵倍率：5X。(monster diff:20)",
-		"entries": [
-			{ "item": "destiny_copper", "count": [30,40] }
-		]
-	},
-	{
-		"id": "destiny_coin_drops5",
-		"type" : "item_group",
-		"subtype": "collection",
-		"comment": "天命幣掉落Lv5",	"//": "危險等級：電擊獸、米戈，獎勵倍率：8X。(monster diff:22~25)",
-		"entries": [
-			{ "item": "destiny_copper", "count": [50,65] }
-		]
-	},
-	{
-		"id": "destiny_coin_drops6",
-		"type" : "item_group",
-		"subtype": "collection",
-		"comment": "天命幣掉落Lv6",	"//": "危險等級：浩克、超凡Z、菁英擲彈Z、三尖樹女王，獎勵倍率：15X。(monster diff:40+)",
-		"entries": [
-			{ "item": "destiny_silver" },
-			{ "item": "destiny_copper", "count": [1,50] }
-		]
-	},
-	{
-		"id": "destiny_coin_drops7",
-		"type" : "item_group",
-		"subtype": "collection",
-		"comment": "天命幣掉落Lv7",	"//": "地圖BOSS：真菌塔/花叢BOSS、三尖樹之心、修格斯(難以擊殺)...etc，巨額浮動獎勵。",
-		"entries": [
-			{ "item": "destiny_silver", "count": [2,2] },
-			{ "item": "destiny_copper", "count": [1,99] }
-		]
-	},
-	{
-		"id": "destiny_coin_drops_ex1",
-		"type" : "item_group",
-		"subtype": "collection",
-		"comment": "天命幣exLv1",	"//": "調整用，0.5X。",
-		"entries": [
-			{ "item": "destiny_copper", "count": [3,4] }
-		]
-	},
-	{
-		"id": "default_merit_drops1",
-		"type" : "item_group",
-		"subtype": "collection",
-		"comment": "功德掉落Lv1",
-		"entries": [
-			{ "item": "merit", "count": [1,2] }
-		]
-	},
-	{
-		"id": "default_merit_drops2",
-		"type" : "item_group",
-		"subtype": "collection",
-		"comment": "功德掉落Lv2",
-		"entries": [
-			{ "item": "merit", "count": [10,12] }
-		]
-	}
+  {
+    "id": "default_zombie_death_drops",
+    "type": "item_group",
+    "subtype": "collection",
+    "comment": "普通Z掉落(嵌入天命幣Lv1)",
+    "entries": [
+      { "group": "default_zombie_clothes" },
+      { "group": "default_zombie_items", "prob": 50 },
+      { "item": "cash_card", "prob": 10 },
+      { "group": "destiny_coin_drops1" }
+    ]
+  },
+  {
+    "id": "zed_death_drop",
+    "type": "item_group",
+    "subtype": "collection",
+    "comment": "普通Z掉落(無天命幣)",
+    "entries": [
+      { "group": "default_zombie_clothes" },
+      { "group": "default_zombie_items", "prob": 50 },
+      { "item": "cash_card", "prob": 10 }
+    ]
+  },
+  {
+    "//1": "各級倍率基本固定，部分怪物已調整數據配合其掉落等級。",
+    "//2": "想自行修改掉率的同學修改以下部分即可。",
+    "id": "destiny_coin_drops0",
+    "type": "item_group",
+    "subtype": "collection",
+    "comment": "天命幣掉落Lv0",
+    "//": "雜魚中的雜魚，獎勵倍率：0.6X。",
+    "entries": [ { "item": "destiny_copper", "count": [ 4, 5 ] } ]
+  },
+  {
+    "id": "destiny_coin_drops1",
+    "type": "item_group",
+    "subtype": "collection",
+    "comment": "天命幣掉落Lv1",
+    "//": "無特殊能力的普通Z，獎勵倍率：1X。(官方定義 monster diff:3)",
+    "entries": [ { "item": "destiny_copper", "count": [ 6, 8 ] } ]
+  },
+  {
+    "id": "destiny_coin_drops2",
+    "type": "item_group",
+    "subtype": "collection",
+    "comment": "天命幣掉落Lv2",
+    "//": "特性/屬性稍高，危險等級：小酸、屍狼、健壯、嘔吐...etc，獎勵倍率：1.5X。(monster diff:8)",
+    "entries": [ { "item": "destiny_copper", "count": [ 9, 12 ] } ]
+  },
+  {
+    "id": "destiny_coin_drops3",
+    "type": "item_group",
+    "subtype": "collection",
+    "comment": "天命幣掉落Lv3",
+    "//": "特性/屬性突出，危險等級：小電Z、屍熊，獎勵倍率：3X。(monster diff:12~16)",
+    "entries": [ { "item": "destiny_copper", "count": [ 20, 25 ] } ]
+  },
+  {
+    "id": "destiny_coin_drops4",
+    "type": "item_group",
+    "subtype": "collection",
+    "comment": "天命幣掉落Lv4",
+    "//": "特殊技/強悍屬性，危險等級：殭屍獸、巫妖領主、狩獵者，獎勵倍率：5X。(monster diff:20)",
+    "entries": [ { "item": "destiny_copper", "count": [ 30, 40 ] } ]
+  },
+  {
+    "id": "destiny_coin_drops5",
+    "type": "item_group",
+    "subtype": "collection",
+    "comment": "天命幣掉落Lv5",
+    "//": "危險等級：電擊獸、米戈，獎勵倍率：8X。(monster diff:22~25)",
+    "entries": [ { "item": "destiny_copper", "count": [ 50, 65 ] } ]
+  },
+  {
+    "id": "destiny_coin_drops6",
+    "type": "item_group",
+    "subtype": "collection",
+    "comment": "天命幣掉落Lv6",
+    "//": "危險等級：浩克、超凡Z、菁英擲彈Z、三尖樹女王，獎勵倍率：15X。(monster diff:40+)",
+    "entries": [ { "item": "destiny_silver" }, { "item": "destiny_copper", "count": [ 1, 50 ] } ]
+  },
+  {
+    "id": "destiny_coin_drops7",
+    "type": "item_group",
+    "subtype": "collection",
+    "comment": "天命幣掉落Lv7",
+    "//": "地圖BOSS：真菌塔/花叢BOSS、三尖樹之心、修格斯(難以擊殺)...etc，巨額浮動獎勵。",
+    "entries": [ { "item": "destiny_silver", "count": [ 2, 2 ] }, { "item": "destiny_copper", "count": [ 1, 99 ] } ]
+  },
+  {
+    "id": "destiny_coin_drops_ex1",
+    "type": "item_group",
+    "subtype": "collection",
+    "comment": "天命幣exLv1",
+    "//": "調整用，0.5X。",
+    "entries": [ { "item": "destiny_copper", "count": [ 3, 4 ] } ]
+  },
+  {
+    "id": "default_merit_drops1",
+    "type": "item_group",
+    "subtype": "collection",
+    "comment": "功德掉落Lv1",
+    "entries": [ { "item": "merit", "count": [ 1, 2 ] } ]
+  },
+  {
+    "id": "default_merit_drops2",
+    "type": "item_group",
+    "subtype": "collection",
+    "comment": "功德掉落Lv2",
+    "entries": [ { "item": "merit", "count": [ 10, 12 ] } ]
+  }
 ]

@@ -1,47 +1,28 @@
 [
-	{
-		"type" : "recipe",
-		"result": "manual_first_aid",
-		"category": "CC_超凡",
-		"subcategory": "CSC_超凡_无界",
-		"skill_used": "computer",
-		"skills_required": [["GS_int", 4],["firstaid", 0]],		
-		"difficulty": 0,
-		"time": 15000,
-		"autolearn": true,
-		"tools": 
-		[
-			[
-			[ "GS_book_freedom", -1 ]
-			]
-		],
-		"components": 
-		[
-			[
-			[ "destiny_copper", 50]
-			]
-		]
-	},{
-		"type" : "recipe",
-		"result": "textbook_firstaid",
-		"category": "CC_超凡",
-		"subcategory": "CSC_超凡_无界",
-		"skill_used": "computer",
-		"skills_required": [["GS_int", 6],["firstaid", 3]],		
-		"difficulty": 0,
-		"time": 15000,
-		"autolearn": true,
-		"tools": 
-		[
-			[
-			[ "GS_book_freedom", -1 ]
-			]
-		],
-		"components": 
-		[
-			[
-			[ "destiny_silver", 1]
-			]
-		]
-	}
+  {
+    "type": "recipe",
+    "result": "manual_first_aid",
+    "category": "CC_超凡",
+    "subcategory": "CSC_超凡_无界",
+    "skill_used": "computer",
+    "skills_required": [ [ "GS_int", 4 ], [ "firstaid", 0 ] ],
+    "difficulty": 0,
+    "time": 15000,
+    "autolearn": true,
+    "tools": [ [ [ "GS_book_freedom", -1 ] ] ],
+    "components": [ [ [ "destiny_copper", 50 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "textbook_firstaid",
+    "category": "CC_超凡",
+    "subcategory": "CSC_超凡_无界",
+    "skill_used": "computer",
+    "skills_required": [ [ "GS_int", 6 ], [ "firstaid", 3 ] ],
+    "difficulty": 0,
+    "time": 15000,
+    "autolearn": true,
+    "tools": [ [ [ "GS_book_freedom", -1 ] ] ],
+    "components": [ [ [ "destiny_silver", 1 ] ] ]
+  }
 ]

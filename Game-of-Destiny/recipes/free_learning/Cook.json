@@ -1,113 +1,67 @@
 [
-	{
-		"type" : "recipe",
-		"result": "cookbook",
-		"category": "CC_超凡",
-		"subcategory": "CSC_超凡_无界",
-		"skill_used": "computer",
-		"skills_required": [["GS_int", 4],["cooking", 0]],		
-		"difficulty": 0,
-		"time": 15000,
-		"autolearn": true,
-		"tools":
-		[
-			[
-			[ "GS_book_freedom", -1 ]
-			]
-		],
-		"components": 
-		[
-			[
-			[ "destiny_copper", 50]
-			]
-		]
-	},{
-		"type" : "recipe",
-		"result": "textbook_chemistry",
-		"category": "CC_超凡",
-		"subcategory": "CSC_超凡_无界",
-		"skill_used": "computer",
-		"skills_required": [["GS_int", 6],["cooking", 3]],		
-		"difficulty": 0,
-		"time": 15000,
-		"autolearn": true,
-		"tools": 
-		[
-			[
-			[ "GS_book_freedom", -1 ]
-			]
-		],
-		"components": 
-		[
-			[
-			[ "destiny_silver", 1]
-			]
-		]
-	},{
-		"type" : "recipe",
-		"result": "adv_chemistry",
-		"category": "CC_超凡",
-		"subcategory": "CSC_超凡_无界",
-		"skill_used": "computer",
-		"skills_required": [["GS_int", 8],["cooking", 6]],		
-		"difficulty": 0,
-		"time": 15000,
-		"autolearn": true,
-		"tools": 
-		[
-			[
-			[ "GS_book_freedom", -1 ]
-			]
-		],
-		"components": 
-		[
-			[
-			[ "destiny_silver", 1]
-			]
-		]
-	},{
-		"type" : "recipe",
-		"result": "brewing_cookbook",
-		"category": "CC_超凡",
-		"subcategory": "CSC_超凡_无界",
-		"skill_used": "computer",
-		"skills_required": [["GS_int", 4],["cooking", 3]],		
-		"difficulty": 0,
-		"time": 15000,
-		"autolearn": true,
-		"tools": 
-		[
-			[
-			[ "GS_book_freedom", -1 ]
-			]
-		],
-		"components": 
-		[
-			[
-			[ "destiny_copper", 50]
-			]
-		]
-	},{
-		"type" : "recipe",
-		"result": "scots_cookbook",
-		"category": "CC_超凡",
-		"subcategory": "CSC_超凡_无界",
-		"skill_used": "computer",
-		"skills_required": [["GS_int", 4],["cooking", 2]],		
-		"difficulty": 0,
-		"time": 15000,
-		"autolearn": true,
-		"tools": 
-		[
-			[
-			[ "GS_book_freedom", -1 ]
-			]
-		],
-		"components": 
-		[
-			[
-			[ "destiny_copper", 50]
-			]
-		]
-	}
+  {
+    "type": "recipe",
+    "result": "cookbook",
+    "category": "CC_超凡",
+    "subcategory": "CSC_超凡_无界",
+    "skill_used": "computer",
+    "skills_required": [ [ "GS_int", 4 ], [ "cooking", 0 ] ],
+    "difficulty": 0,
+    "time": 15000,
+    "autolearn": true,
+    "tools": [ [ [ "GS_book_freedom", -1 ] ] ],
+    "components": [ [ [ "destiny_copper", 50 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "textbook_chemistry",
+    "category": "CC_超凡",
+    "subcategory": "CSC_超凡_无界",
+    "skill_used": "computer",
+    "skills_required": [ [ "GS_int", 6 ], [ "cooking", 3 ] ],
+    "difficulty": 0,
+    "time": 15000,
+    "autolearn": true,
+    "tools": [ [ [ "GS_book_freedom", -1 ] ] ],
+    "components": [ [ [ "destiny_silver", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "adv_chemistry",
+    "category": "CC_超凡",
+    "subcategory": "CSC_超凡_无界",
+    "skill_used": "computer",
+    "skills_required": [ [ "GS_int", 8 ], [ "cooking", 6 ] ],
+    "difficulty": 0,
+    "time": 15000,
+    "autolearn": true,
+    "tools": [ [ [ "GS_book_freedom", -1 ] ] ],
+    "components": [ [ [ "destiny_silver", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "brewing_cookbook",
+    "category": "CC_超凡",
+    "subcategory": "CSC_超凡_无界",
+    "skill_used": "computer",
+    "skills_required": [ [ "GS_int", 4 ], [ "cooking", 3 ] ],
+    "difficulty": 0,
+    "time": 15000,
+    "autolearn": true,
+    "tools": [ [ [ "GS_book_freedom", -1 ] ] ],
+    "components": [ [ [ "destiny_copper", 50 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "scots_cookbook",
+    "category": "CC_超凡",
+    "subcategory": "CSC_超凡_无界",
+    "skill_used": "computer",
+    "skills_required": [ [ "GS_int", 4 ], [ "cooking", 2 ] ],
+    "difficulty": 0,
+    "time": 15000,
+    "autolearn": true,
+    "tools": [ [ [ "GS_book_freedom", -1 ] ] ],
+    "components": [ [ [ "destiny_copper", 50 ] ] ]
+  }
 ]

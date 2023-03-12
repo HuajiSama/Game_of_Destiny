@@ -1,44 +1,51 @@
 [
-	{
-		"//":"原版CATEGORY排序地址位于data/json/item_category",
-		"type" : "ITEM_CATEGORY",
-		"id" : "GS_weapon",
-		"name" : "超凡武器",
-		"sort_rank" : -110
-	},{		
-		"type" : "ITEM_CATEGORY",
-		"id" : "GS_equipment",
-		"name" : "超凡装备",
-		"sort_rank" : -109
-	},{			
-		"type" : "ITEM_CATEGORY",
-		"id" : "GS_tool",
-		"name" : "超凡工具",
-		"sort_rank" : -108
-	},{			
-		"type" : "ITEM_CATEGORY",
-		"id" : "GS_item",
-		"name" : "超凡道具",
-		"sort_rank" : -107
-	},{			
-		"type" : "ITEM_CATEGORY",
-		"id" : "GS_resoure",
-		"name" : "超凡资源",
-		"sort_rank" : -18
-	},{			
-		"type" : "ITEM_CATEGORY",
-		"id" : "GS_drug",
-		"name" : "超凡药剂",
-		"sort_rank" : -15
-	},{			
-		"type" : "ITEM_CATEGORY",
-		"id" : "GS_feature",
-		"name" : "超凡基因",
-		"sort_rank" : -14
-	},{			
-		"type" : "ITEM_CATEGORY",
-		"id" : "GS_element",
-		"name" : "超凡元素",
-		"sort_rank" : -13
-	}
+  {
+    "//": "原版CATEGORY排序地址位于data/json/item_category",
+    "type": "ITEM_CATEGORY",
+    "id": "GS_weapon",
+    "name": "超凡武器",
+    "sort_rank": -110
+  },
+  {
+    "type": "ITEM_CATEGORY",
+    "id": "GS_equipment",
+    "name": "超凡装备",
+    "sort_rank": -109
+  },
+  {
+    "type": "ITEM_CATEGORY",
+    "id": "GS_tool",
+    "name": "超凡工具",
+    "sort_rank": -108
+  },
+  {
+    "type": "ITEM_CATEGORY",
+    "id": "GS_item",
+    "name": "超凡道具",
+    "sort_rank": -107
+  },
+  {
+    "type": "ITEM_CATEGORY",
+    "id": "GS_resoure",
+    "name": "超凡资源",
+    "sort_rank": -18
+  },
+  {
+    "type": "ITEM_CATEGORY",
+    "id": "GS_drug",
+    "name": "超凡药剂",
+    "sort_rank": -15
+  },
+  {
+    "type": "ITEM_CATEGORY",
+    "id": "GS_feature",
+    "name": "超凡基因",
+    "sort_rank": -14
+  },
+  {
+    "type": "ITEM_CATEGORY",
+    "id": "GS_element",
+    "name": "超凡元素",
+    "sort_rank": -13
+  }
 ]

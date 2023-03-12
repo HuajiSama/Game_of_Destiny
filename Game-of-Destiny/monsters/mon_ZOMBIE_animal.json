@@ -1,71 +1,60 @@
 [
-	{
-		"type" : "MONSTER",
-		"id" : "mon_dog_zombie_rot",
-		"copy-from" : "mon_dog_zombie_rot",
-		"death_drops": "destiny_coin_drops0"		
-	},{
-		"type" : "MONSTER",
-		"id" : "mon_zombie_dog",
-		"copy-from" : "mon_zombie_dog",
-		"death_drops": "destiny_coin_drops1"
-	},{
-		"type" : "MONSTER",
-		"id" : "mon_zombie_pig", "//": "Z豬!?",
-		"copy-from" : "mon_zombie_pig",
-		"death_drops": "destiny_coin_drops1"
-	},{
-		"type" : "MONSTER",
-		"id" : "mon_dog_zombie_cop",
-		"copy-from" : "mon_dog_zombie_cop",
-		"death_drops": {
-			"subtype": "collection",
-			"groups": [
-				[ "dog_cop", 40 ],
-				[ "destiny_coin_drops2", 100 ]
-			]
-		}
-	},{
-		"type" : "MONSTER",
-		"id" : "mon_dog_skeleton",
-		"copy-from" : "mon_dog_skeleton",
-		"death_drops": "destiny_coin_drops2"
-	},{
-		"type" : "MONSTER",
-		"id" : "mon_zolf",
-		"copy-from" : "mon_zolf",
-		"death_drops": "destiny_coin_drops2"
-	},{
-		"type" : "MONSTER",
-		"id" : "mon_zougar", "//": "Z美洲獅，3X。",
-		"copy-from" : "mon_zougar",
-		"death_drops": {
-			"subtype": "collection",
-			"groups": [
-				[ "destiny_coin_drops3", 100 ]
-			]
-		}
-	},{
-		"type" : "MONSTER",
-		"id" : "mon_zoose", "//": "Z駝鹿，4X。",
-		"copy-from" : "mon_zoose",
-		"death_drops": {
-			"subtype": "collection",
-			"groups": [
-				[ "destiny_coin_drops3", 100 ],
-				[ "destiny_coin_drops1", 100 ]
-			]
-		}
-	},{
-		"type" : "MONSTER",
-		"id" : "mon_zombear", "//": "Z熊，4.5X。",
-		"copy-from" : "mon_zombear",
-		"death_drops": {
-			"subtype": "collection",
-			"groups": [
-				[ "destiny_coin_drops3", 100 ],
-				[ "destiny_coin_drops2", 100 ]
-			]
-		}
-	}
+  {
+    "type": "MONSTER",
+    "id": "mon_dog_zombie_rot",
+    "copy-from": "mon_dog_zombie_rot",
+    "death_drops": "destiny_coin_drops0"
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_zombie_dog",
+    "copy-from": "mon_zombie_dog",
+    "death_drops": "destiny_coin_drops1"
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_zombie_pig",
+    "//": "Z豬!?",
+    "copy-from": "mon_zombie_pig",
+    "death_drops": "destiny_coin_drops1"
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_dog_zombie_cop",
+    "copy-from": "mon_dog_zombie_cop",
+    "death_drops": { "subtype": "collection", "groups": [ [ "dog_cop", 40 ], [ "destiny_coin_drops2", 100 ] ] }
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_dog_skeleton",
+    "copy-from": "mon_dog_skeleton",
+    "death_drops": "destiny_coin_drops2"
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_zolf",
+    "copy-from": "mon_zolf",
+    "death_drops": "destiny_coin_drops2"
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_zougar",
+    "//": "Z美洲獅，3X。",
+    "copy-from": "mon_zougar",
+    "death_drops": { "subtype": "collection", "groups": [ [ "destiny_coin_drops3", 100 ] ] }
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_zoose",
+    "//": "Z駝鹿，4X。",
+    "copy-from": "mon_zoose",
+    "death_drops": { "subtype": "collection", "groups": [ [ "destiny_coin_drops3", 100 ], [ "destiny_coin_drops1", 100 ] ] }
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_zombear",
+    "//": "Z熊，4.5X。",
+    "copy-from": "mon_zombear",
+    "death_drops": { "subtype": "collection", "groups": [ [ "destiny_coin_drops3", 100 ], [ "destiny_coin_drops2", 100 ] ] }
+  }
 ]

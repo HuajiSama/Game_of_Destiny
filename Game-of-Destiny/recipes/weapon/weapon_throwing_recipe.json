@@ -1,38 +1,26 @@
 [
-	{
-		"type" : "recipe",
-		"result": "GS_wp_dex2_glove_throwing",
-		"category": "CC_超凡",
-		"subcategory": "CSC_超凡_武装",
-		"skill_used": "gun",
-		"skills_required": [ [ "GS_dex", 4 ],[ "GS_int", 4 ],[ "throw", 0 ] ],
-		"difficulty": 0,
-		"time": 60000,
-		"autolearn": true,
-		"components": 
-		[
-			[
-			 [ "GS_basic_dex", 2 ]
-			]
-		]
-	},{
-		"type" : "recipe",
-		"result": "GS_wp_dex4_glove_throwing",
-		"category": "CC_超凡",
-		"subcategory": "CSC_超凡_武装",
-		"skill_used": "gun",
-		"skills_required": [ [ "GS_dex", 8 ],[ "GS_int", 6 ],[ "throw", 4 ] ],
-		"difficulty": 0,
-		"time": 60000,
-		"autolearn": true,
-		"components": 
-		[
-			[
-			 [ "GS_wp_dex2_glove_throwing", 1 ]
-			],
-			[
-			 [ "GS_basic_dex", 3 ]
-			]
-		]
-	}
+  {
+    "type": "recipe",
+    "result": "GS_wp_dex2_glove_throwing",
+    "category": "CC_超凡",
+    "subcategory": "CSC_超凡_武装",
+    "skill_used": "gun",
+    "skills_required": [ [ "GS_dex", 4 ], [ "GS_int", 4 ], [ "throw", 0 ] ],
+    "difficulty": 0,
+    "time": 60000,
+    "autolearn": true,
+    "components": [ [ [ "GS_basic_dex", 2 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "GS_wp_dex4_glove_throwing",
+    "category": "CC_超凡",
+    "subcategory": "CSC_超凡_武装",
+    "skill_used": "gun",
+    "skills_required": [ [ "GS_dex", 8 ], [ "GS_int", 6 ], [ "throw", 4 ] ],
+    "difficulty": 0,
+    "time": 60000,
+    "autolearn": true,
+    "components": [ [ [ "GS_wp_dex2_glove_throwing", 1 ] ], [ [ "GS_basic_dex", 3 ] ] ]
+  }
 ]

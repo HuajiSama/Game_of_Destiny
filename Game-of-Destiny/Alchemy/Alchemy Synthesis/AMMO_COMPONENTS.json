@@ -1,95 +1,62 @@
 [
-	{
-		"type" : "recipe",
-		"result": "ammolink223",
-		"result_mult": 100,
-		"id_suffix": "element synthesis",	
-		"category": "CC_AMMO",
-		"subcategory": "CSC_AMMO_COMPONENTS",
-		"skill_used": "fabrication",
-		"skills_required": [["GS_int",6],["fabrication",4]],
-		"difficulty": 0,
-		"time": 10000,
-		"book_learn" : [[ "GS_book_alchemy3",0]],
-		"qualities":
-			[
-			 {"id":"HAMMER_FINE","level":1},
-			 {"id":"SCREW_FINE","level":1}
-			],
-		"components":
-		[
-			[
-			 [ "element_steel", 2 ]
-			]
-		]
-	},{
-		"type" : "recipe",
-		"result": "ammolink308",
-		"result_mult": 100,
-		"id_suffix": "element synthesis",	
-		"category": "CC_AMMO",
-		"subcategory": "CSC_AMMO_COMPONENTS",
-		"skill_used": "fabrication",		
-		"skills_required": [["GS_int",6],["fabrication",4]],
-		"difficulty": 0,
-		"time": 10000,
-		"book_learn" : [[ "GS_book_alchemy3",0]],
-		"qualities":
-			[
-			 {"id":"HAMMER_FINE","level":1},
-			 {"id":"SCREW_FINE","level":1}
-			],
-		"components":
-		[
-			[
-			 [ "element_steel", 2 ]
-			]
-		]
-	},{
-		"type" : "recipe",
-		"result": "ammolink50",
-		"result_mult": 100,
-		"id_suffix": "element synthesis",	
-		"category": "CC_AMMO",
-		"subcategory": "CSC_AMMO_COMPONENTS",
-		"skill_used": "fabrication",		
-		"skills_required": [["GS_int",6],["fabrication",4]],
-		"difficulty": 0,
-		"time": 10000,
-		"book_learn" : [[ "GS_book_alchemy3",0]],
-		"qualities":
-			[
-			 {"id":"HAMMER_FINE","level":1},
-			 {"id":"SCREW_FINE","level":1}
-			],
-		"components":
-		[
-			[
-			 [ "element_steel", 2 ]
-			]
-		]
-	},{
-		"type" : "recipe",
-		"result": "ammolink40mm",
-		"result_mult": 100,
-		"id_suffix": "element synthesis",	
-		"category": "CC_AMMO",
-		"subcategory": "CSC_AMMO_COMPONENTS",
-		"skill_used": "fabrication",		
-		"skills_required": [["GS_int",6],["fabrication",4]],
-		"difficulty": 0,
-		"time": 10000,
-		"book_learn" : [[ "GS_book_alchemy3",0]],
-		"qualities":
-			[
-			 {"id":"HAMMER_FINE","level":1},
-			 {"id":"SCREW_FINE","level":1}
-			],
-		"components":
-		[
-			[
-			 [ "element_steel", 2 ]
-			]
-		]
-	}
+  {
+    "type": "recipe",
+    "result": "ammolink223",
+    "result_mult": 100,
+    "id_suffix": "element synthesis",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_COMPONENTS",
+    "skill_used": "fabrication",
+    "skills_required": [ [ "GS_int", 6 ], [ "fabrication", 4 ] ],
+    "difficulty": 0,
+    "time": 10000,
+    "book_learn": [ [ "GS_book_alchemy3", 0 ] ],
+    "qualities": [ { "id": "HAMMER_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 } ],
+    "components": [ [ [ "element_steel", 2 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "ammolink308",
+    "result_mult": 100,
+    "id_suffix": "element synthesis",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_COMPONENTS",
+    "skill_used": "fabrication",
+    "skills_required": [ [ "GS_int", 6 ], [ "fabrication", 4 ] ],
+    "difficulty": 0,
+    "time": 10000,
+    "book_learn": [ [ "GS_book_alchemy3", 0 ] ],
+    "qualities": [ { "id": "HAMMER_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 } ],
+    "components": [ [ [ "element_steel", 2 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "ammolink50",
+    "result_mult": 100,
+    "id_suffix": "element synthesis",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_COMPONENTS",
+    "skill_used": "fabrication",
+    "skills_required": [ [ "GS_int", 6 ], [ "fabrication", 4 ] ],
+    "difficulty": 0,
+    "time": 10000,
+    "book_learn": [ [ "GS_book_alchemy3", 0 ] ],
+    "qualities": [ { "id": "HAMMER_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 } ],
+    "components": [ [ [ "element_steel", 2 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "ammolink40mm",
+    "result_mult": 100,
+    "id_suffix": "element synthesis",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_COMPONENTS",
+    "skill_used": "fabrication",
+    "skills_required": [ [ "GS_int", 6 ], [ "fabrication", 4 ] ],
+    "difficulty": 0,
+    "time": 10000,
+    "book_learn": [ [ "GS_book_alchemy3", 0 ] ],
+    "qualities": [ { "id": "HAMMER_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 } ],
+    "components": [ [ [ "element_steel", 2 ] ] ]
+  }
 ]

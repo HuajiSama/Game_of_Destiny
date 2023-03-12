@@ -1,271 +1,184 @@
 [
-	{
-		"type" : "uncraft",
-		"result": "GS_eq_int2_bag",
-		"time" : 0,
-		"flags": [ "BLIND_EASY" ],
-		"components": [
-			[
-			 [ "destiny_copper", 100 ]
-			]
-		]
-	},{
-		"type" : "uncraft",
-		"result": "GS_eq_int3_bag",
-		"time" : 0,
-		"flags": [ "BLIND_EASY" ],
-		"components": [
-			[
-			 [ "GS_eq_int2_bag", 2 ]
-			]
-		]
-	},{
-		"type" : "uncraft",
-		"result": "GS_eq_int4_bag",
-		"time" : 0,
-		"flags": [ "BLIND_EASY" ],
-		"components": [
-			[
-			 [ "GS_eq_int3_bag", 2 ]
-			]		
-		]
-	},{
-		"type" : "uncraft",
-		"result": "GS_eq_int5_bag",
-		"time" : 0,
-		"flags": [ "BLIND_EASY" ],
-		"components": [
-			[
-			 [ "GS_eq_int4_bag", 2 ]
-			]	
-		]
-	},{
-		"type" : "uncraft",
-		"result": "GS_eq_toolbelt",
-		"time" : 0,
-		"flags": [ "BLIND_EASY" ],
-		"components": [
-			[
-			 [ "destiny_copper", 150 ]
-			]
-		]
-	},{
-		"type" : "uncraft",
-		"result": "GS_eq_toolbelt2",
-		"time" : 0,
-		"flags": [ "BLIND_EASY" ],
-		"components": [
-			[
-			 [ "GS_eq_toolbelt", 1 ]
-			],
-			[
-			 [ "destiny_copper", 100 ]
-			]
-		]
-	},{
-		"type" : "uncraft",
-		"result": "GS_eq_support_quiver",
-		"time" : 0,
-		"flags": [ "BLIND_EASY" ],
-		"components": [
-			[
-			 [ "destiny_copper", 25 ]
-			]
-		]
-	},{
-		"type" : "uncraft",
-		"result": "GS_eq_support_magpouch",
-		"time" : 0,
-		"flags": [ "BLIND_EASY" ],
-		"components": [
-			[
-			 [ "destiny_copper", 25 ]
-			]
-		]
-	},{
-		"type" : "uncraft",
-		"result": "GS_eq_support_bandolier",
-		"time" : 0,
-		"flags": [ "BLIND_EASY" ],
-		"components": [
-			[
-			 [ "destiny_copper", 25 ]
-			]
-		]
-	},{
-		"type" : "uncraft",
-		"result": "GS_eq_support_sword",
-		"time" : 0,
-		"flags": [ "BLIND_EASY" ],
-		"components": [
-			[
-			 [ "destiny_copper", 50 ]
-			]
-		]
-	},{
-		"type" : "uncraft",
-		"result": "GS_eq_support_gun",
-		"time" : 0,
-		"flags": [ "BLIND_EASY" ],
-		"components": [
-			[
-			 [ "destiny_copper", 50 ]
-			]
-		]
-	},{
-		"type" : "uncraft",
-		"result": "GS_tool_welder",
-		"time": 0,
-		"flags": [ "BLIND_EASY" ],
-		"components": 
-		[
-			[ 
-			 [ "destiny_copper", 150 ]
-			]
-		]
-	},{
-		"type" : "uncraft",
-		"result": "GS_tool_repairkit",
-		"time": 0,
-		"flags": [ "BLIND_EASY" ],
-		"components": [
-			[ 
-			 [ "destiny_copper", 100 ]
-			]
-		]
-	},{
-		"type" : "uncraft",
-		"result": "GS_tool_repairkit2",
-		"time": 0,
-		"flags": [ "BLIND_EASY" ],
-		"components": [
-			[ 
-			 [ "destiny_copper", 100 ]
-			]
-		]
-	},{
-		"type" : "uncraft",
-		"result": "GS_tool_shovel_WJQ500",
-		"time": 0,
-		"flags": [ "BLIND_EASY" ],
-		"components": [
-			[ 
-			 [ "destiny_copper", 150 ]
-			]
-		]
-	},{
-		"type" : "uncraft",
-		"result": "GS_eq_per1_mp3",
-		"time" : 0,
-		"flags": [ "BLIND_EASY" ],
-		"components": [
-			[
-			 [ "destiny_copper", 100 ]
-			]
-		]
-	},{
-		"type" : "uncraft",
-		"result": "GS_eq_per3_mp3",
-		"time" : 0,
-		"flags": [ "BLIND_EASY" ],
-		"components": [
-			[
-			 [ "GS_eq_per1_mp3", 1 ]
-			],
-			[
-			 [ "destiny_copper", 100 ]
-			]
-		]
-	},{
-		"type" : "uncraft",
-		"result": "GS_PER_earmuff",
-		"time" : 0,
-		"flags": [ "BLIND_EASY" ],
-		"components": [
-			[
-			 [ "destiny_copper", 50 ]
-			]
-		]
-	},{
-		"type" : "uncraft",
-		"result": "GS_tool_per3_crystal",
-		"time": 0,
-		"flags": [ "BLIND_EASY" ],
-		"components": [
-			[ 
-			 [ "destiny_copper", 100 ]
-			]
-		]
-	},{
-		"type" : "uncraft",
-		"result": "GS_tool_fire",
-		"time": 0,
-		"flags": [ "BLIND_EASY" ],
-		"components": 
-		[
-			[ 
-			 [ "destiny_copper", 100 ]
-			]
-		]
-	},{
-		"type" : "uncraft",
-		"result": "GS_tool_acidblock",
-		"time": 0,
-		"flags": [ "BLIND_EASY" ],
-		"components": [
-			[ 
-			 [ "destiny_copper", 25 ]
-			]
-		]
-	},{
-		"type" : "uncraft",
-		"result": "GS_tool_fireblock",
-		"time": 0,
-		"flags": [ "BLIND_EASY" ],
-		"components": [
-			[ 
-			 [ "destiny_copper", 25 ]
-			]
-		]
-	},{
-		"type" : "uncraft",
-		"result": "GS_tool_shockblock",
-		"time": 0,
-		"flags": [ "BLIND_EASY" ],
-		"components": [
-			[ 
-			 [ "destiny_copper", 25 ]
-			]
-		]
-	},{
-		"type" : "uncraft",
-		"result": "GS_tool_block_hot",
-		"time": 0,
-		"flags": [ "BLIND_EASY" ],
-		"components": [
-			[ 
-			 [ "destiny_copper", 25 ]
-			]
-		]
-	},{
-		"type" : "uncraft",
-		"result": "GS_tool_block_cold",
-		"time": 0,
-		"flags": [ "BLIND_EASY" ],
-		"components": [
-			[ 
-			 [ "destiny_copper", 25 ]
-			]
-		]
-	},{
-		"type" : "uncraft",
-		"result": "GS_eq_legended_badge",
-		"time" : 0,
-		"flags": [ "BLIND_EASY" ],
-		"components": [
-			[
-			 [ "destiny_silver", 10 ]
-			]
-		]
-	}
+  {
+    "type": "uncraft",
+    "result": "GS_eq_int2_bag",
+    "time": 0,
+    "flags": [ "BLIND_EASY" ],
+    "components": [ [ [ "destiny_copper", 100 ] ] ]
+  },
+  {
+    "type": "uncraft",
+    "result": "GS_eq_int3_bag",
+    "time": 0,
+    "flags": [ "BLIND_EASY" ],
+    "components": [ [ [ "GS_eq_int2_bag", 2 ] ] ]
+  },
+  {
+    "type": "uncraft",
+    "result": "GS_eq_int4_bag",
+    "time": 0,
+    "flags": [ "BLIND_EASY" ],
+    "components": [ [ [ "GS_eq_int3_bag", 2 ] ] ]
+  },
+  {
+    "type": "uncraft",
+    "result": "GS_eq_int5_bag",
+    "time": 0,
+    "flags": [ "BLIND_EASY" ],
+    "components": [ [ [ "GS_eq_int4_bag", 2 ] ] ]
+  },
+  {
+    "type": "uncraft",
+    "result": "GS_eq_toolbelt",
+    "time": 0,
+    "flags": [ "BLIND_EASY" ],
+    "components": [ [ [ "destiny_copper", 150 ] ] ]
+  },
+  {
+    "type": "uncraft",
+    "result": "GS_eq_toolbelt2",
+    "time": 0,
+    "flags": [ "BLIND_EASY" ],
+    "components": [ [ [ "GS_eq_toolbelt", 1 ] ], [ [ "destiny_copper", 100 ] ] ]
+  },
+  {
+    "type": "uncraft",
+    "result": "GS_eq_support_quiver",
+    "time": 0,
+    "flags": [ "BLIND_EASY" ],
+    "components": [ [ [ "destiny_copper", 25 ] ] ]
+  },
+  {
+    "type": "uncraft",
+    "result": "GS_eq_support_magpouch",
+    "time": 0,
+    "flags": [ "BLIND_EASY" ],
+    "components": [ [ [ "destiny_copper", 25 ] ] ]
+  },
+  {
+    "type": "uncraft",
+    "result": "GS_eq_support_bandolier",
+    "time": 0,
+    "flags": [ "BLIND_EASY" ],
+    "components": [ [ [ "destiny_copper", 25 ] ] ]
+  },
+  {
+    "type": "uncraft",
+    "result": "GS_eq_support_sword",
+    "time": 0,
+    "flags": [ "BLIND_EASY" ],
+    "components": [ [ [ "destiny_copper", 50 ] ] ]
+  },
+  {
+    "type": "uncraft",
+    "result": "GS_eq_support_gun",
+    "time": 0,
+    "flags": [ "BLIND_EASY" ],
+    "components": [ [ [ "destiny_copper", 50 ] ] ]
+  },
+  {
+    "type": "uncraft",
+    "result": "GS_tool_welder",
+    "time": 0,
+    "flags": [ "BLIND_EASY" ],
+    "components": [ [ [ "destiny_copper", 150 ] ] ]
+  },
+  {
+    "type": "uncraft",
+    "result": "GS_tool_repairkit",
+    "time": 0,
+    "flags": [ "BLIND_EASY" ],
+    "components": [ [ [ "destiny_copper", 100 ] ] ]
+  },
+  {
+    "type": "uncraft",
+    "result": "GS_tool_repairkit2",
+    "time": 0,
+    "flags": [ "BLIND_EASY" ],
+    "components": [ [ [ "destiny_copper", 100 ] ] ]
+  },
+  {
+    "type": "uncraft",
+    "result": "GS_tool_shovel_WJQ500",
+    "time": 0,
+    "flags": [ "BLIND_EASY" ],
+    "components": [ [ [ "destiny_copper", 150 ] ] ]
+  },
+  {
+    "type": "uncraft",
+    "result": "GS_eq_per1_mp3",
+    "time": 0,
+    "flags": [ "BLIND_EASY" ],
+    "components": [ [ [ "destiny_copper", 100 ] ] ]
+  },
+  {
+    "type": "uncraft",
+    "result": "GS_eq_per3_mp3",
+    "time": 0,
+    "flags": [ "BLIND_EASY" ],
+    "components": [ [ [ "GS_eq_per1_mp3", 1 ] ], [ [ "destiny_copper", 100 ] ] ]
+  },
+  {
+    "type": "uncraft",
+    "result": "GS_PER_earmuff",
+    "time": 0,
+    "flags": [ "BLIND_EASY" ],
+    "components": [ [ [ "destiny_copper", 50 ] ] ]
+  },
+  {
+    "type": "uncraft",
+    "result": "GS_tool_per3_crystal",
+    "time": 0,
+    "flags": [ "BLIND_EASY" ],
+    "components": [ [ [ "destiny_copper", 100 ] ] ]
+  },
+  {
+    "type": "uncraft",
+    "result": "GS_tool_fire",
+    "time": 0,
+    "flags": [ "BLIND_EASY" ],
+    "components": [ [ [ "destiny_copper", 100 ] ] ]
+  },
+  {
+    "type": "uncraft",
+    "result": "GS_tool_acidblock",
+    "time": 0,
+    "flags": [ "BLIND_EASY" ],
+    "components": [ [ [ "destiny_copper", 25 ] ] ]
+  },
+  {
+    "type": "uncraft",
+    "result": "GS_tool_fireblock",
+    "time": 0,
+    "flags": [ "BLIND_EASY" ],
+    "components": [ [ [ "destiny_copper", 25 ] ] ]
+  },
+  {
+    "type": "uncraft",
+    "result": "GS_tool_shockblock",
+    "time": 0,
+    "flags": [ "BLIND_EASY" ],
+    "components": [ [ [ "destiny_copper", 25 ] ] ]
+  },
+  {
+    "type": "uncraft",
+    "result": "GS_tool_block_hot",
+    "time": 0,
+    "flags": [ "BLIND_EASY" ],
+    "components": [ [ [ "destiny_copper", 25 ] ] ]
+  },
+  {
+    "type": "uncraft",
+    "result": "GS_tool_block_cold",
+    "time": 0,
+    "flags": [ "BLIND_EASY" ],
+    "components": [ [ [ "destiny_copper", 25 ] ] ]
+  },
+  {
+    "type": "uncraft",
+    "result": "GS_eq_legended_badge",
+    "time": 0,
+    "flags": [ "BLIND_EASY" ],
+    "components": [ [ [ "destiny_silver", 10 ] ] ]
+  }
 ]

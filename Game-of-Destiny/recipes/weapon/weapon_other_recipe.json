@@ -1,57 +1,38 @@
 [
-	{
-		"type" : "recipe",
-		"result": "GS_eq_star_charm",
-		"category": "CC_超凡",
-		"subcategory": "CSC_超凡_武装",
-		"skill_used": "speech",
-		"skills_required": [ "GS_per", 4 ],
-		"difficulty": 0,
-		"time": 60000,
-		"autolearn": true,
-		"components":
-		[
-			[
-			 [ "GS_basic_per", 2 ]
-			]
-		]
-	},{
-		"type" : "recipe",
-		"result": "GS_wp_per3_mirror_illusion",
-		"category": "CC_超凡",
-		"subcategory": "CSC_超凡_武装",
-		"skill_used": "speech",
-		"skills_required": [ "GS_per", 6 ],
-		"difficulty": 0,
-		"time": 60000,
-		"autolearn": true,
-		"components":
-		[
-			[
-			 [ "GS_eq_star_charm", 1 ]
-			],
-			[
-			 [ "GS_basic_per", 2 ]
-			]
-		]
-	},{
-		"type" : "recipe",
-		"result": "GS_wp_per4_mirror_illusion",
-		"category": "CC_超凡",
-		"subcategory": "CSC_超凡_武装",
-		"skill_used": "speech",
-		"skills_required": [ "GS_per", 10 ],
-		"difficulty": 0,
-		"time": 60000,
-		"autolearn": true,
-		"components":
-		[
-			[
-			 [ "GS_wp_per3_mirror_illusion", 1 ]
-			],
-			[
-			 [ "GS_basic_per", 3 ]
-			]
-		]
-	}
+  {
+    "type": "recipe",
+    "result": "GS_eq_star_charm",
+    "category": "CC_超凡",
+    "subcategory": "CSC_超凡_武装",
+    "skill_used": "speech",
+    "skills_required": [ "GS_per", 4 ],
+    "difficulty": 0,
+    "time": 60000,
+    "autolearn": true,
+    "components": [ [ [ "GS_basic_per", 2 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "GS_wp_per3_mirror_illusion",
+    "category": "CC_超凡",
+    "subcategory": "CSC_超凡_武装",
+    "skill_used": "speech",
+    "skills_required": [ "GS_per", 6 ],
+    "difficulty": 0,
+    "time": 60000,
+    "autolearn": true,
+    "components": [ [ [ "GS_eq_star_charm", 1 ] ], [ [ "GS_basic_per", 2 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "GS_wp_per4_mirror_illusion",
+    "category": "CC_超凡",
+    "subcategory": "CSC_超凡_武装",
+    "skill_used": "speech",
+    "skills_required": [ "GS_per", 10 ],
+    "difficulty": 0,
+    "time": 60000,
+    "autolearn": true,
+    "components": [ [ [ "GS_wp_per3_mirror_illusion", 1 ] ], [ [ "GS_basic_per", 3 ] ] ]
+  }
 ]

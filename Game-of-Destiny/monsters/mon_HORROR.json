@@ -1,14 +1,9 @@
 [
-	{
-		"type" : "MONSTER",
-		"id" : "mon_twisted_body", "//": "扭曲人體",
-		"copy-from" : "mon_twisted_body",
-		"death_drops": {
-			"subtype": "collection",
-			"groups": [
-				[ "default_merit_drops1", 100 ],
-				[ "destiny_coin_drops1", 100 ]
-			]
-		}
-	}
+  {
+    "type": "MONSTER",
+    "id": "mon_twisted_body",
+    "//": "扭曲人體",
+    "copy-from": "mon_twisted_body",
+    "death_drops": { "subtype": "collection", "groups": [ [ "default_merit_drops1", 100 ], [ "destiny_coin_drops1", 100 ] ] }
+  }
 ]

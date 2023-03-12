@@ -1,122 +1,99 @@
 [
-	{
-		"type": "construction",
-		"id": "bulid_xhkt",
-		"group": "bulid_xhkt",
-		"description": "建设：下行楼梯",
-		"category": "OTHER",
-		"difficulty": 6,
-		"time": 60,
-		"qualities": [ 
-			[ { "id": "SAW_W", "level": 2 } ],
-			[ { "id": "HAMMER", "level": 2 } ],
-			[ { "id": "HAMMER_FINE", "level": 1 } ]
-		],
-    "components": [
-			[ [ "2x4", 25 ] ],
-			[ [ "nail", 50 ] ]
-		],
-		"pre_special": "check_down_OK",
-		"post_terrain": "t_stairs_down"
-	},
-	{
-		"type" : "construction",
-		"id" : "bulid_shkt",
-		"group": "bulid_shkt",
-		"description" : "建设：上行楼梯",
-		"category" : "OTHER",
-		"difficulty" : 6,
-		"time" : 60,
-		"qualities": [
-			[ { "id": "SAW_W", "level": 2 } ],
-			[ { "id": "HAMMER", "level": 2 } ],
-			[ { "id": "HAMMER_FINE", "level": 1 } ]
-		],
-    "components" : [
-			[ [ "2x4", 25 ] ],
-			[ [ "nail", 50 ] ]
-		],
-		"pre_special" : "check_up_OK",
-		"post_terrain" : "t_stairs_up"
-	},
-	{
-    "type" : "construction",
-		"id" : "bulid_pwd",
-		"group": "bulid_pwd",
-    "description" : "建设：平屋顶",
-    "category" : "OTHER",
-    "difficulty" : 6,
-    "time" : 120,
-    "qualities": [ 
-			[ { "id": "HAMMER", "level": 3 } ],
-			[ { "id": "SAW_M", "level": 2 } ] 
-		],
-    "components" : [
-			[ [ "rebar", 10 ] ],
-			[ [ "wire", 20 ] ]
-		],
-    "pre_terrain" : "t_open_air",
-    "post_terrain" : "t_ov_reb_cage"
-	},
-	{
-    "type" : "construction",
-		"id" : "bulid_pwd_1",
-		"group": "bulid_pwd_1",
-    "description" : "建设：平屋顶",
-    "category" : "OTHER",
-    "difficulty" : 6,
-    "time" : 120,
-    "qualities": [ [ { "id": "SMOOTH", "level": 1 } ] ],
-    "components" : [
-			[ [ "concrete", 4 ] ],
-			[ [ "water", 4 ], ["water_clean", 4 ] ],
-			[ [ "2x4", 12 ] ]
-		],
-    "pre_terrain" : "t_ov_reb_cage",
-    "post_terrain" : "t_flat_roof"
-	},
-	{
-    "type" : "construction",
-		"id" : "bulid_tudui",
-		"group": "bulid_tudui",
-    "description" : "建造：土堆",
-    "category" : "FARM_WOOD",
-    "required_skills" : [ [ "survival", 0 ] ],
-    "difficulty" : 0,
-    "time" : 10,
-    "qualities": [ [ { "id": "DIG", "level": 1 } ] ],
-    "pre_flags" : "DIGGABLE",
-    "post_terrain" : "t_earthmound"
+  {
+    "type": "construction",
+    "id": "bulid_xhkt",
+    "group": "bulid_xhkt",
+    "description": "建设：下行楼梯",
+    "category": "OTHER",
+    "difficulty": 6,
+    "time": 60,
+    "qualities": [ [ { "id": "SAW_W", "level": 2 } ], [ { "id": "HAMMER", "level": 2 } ], [ { "id": "HAMMER_FINE", "level": 1 } ] ],
+    "components": [ [ [ "2x4", 25 ] ], [ [ "nail", 50 ] ] ],
+    "pre_special": "check_down_OK",
+    "post_terrain": "t_stairs_down"
   },
-	{
-    "type" : "construction",
-		"id" : "bulid_putu",
-		"group": "bulid_putu",
-    "description" : "建设：铺土",
-    "category" : "FARM_WOOD",
-    "required_skills" : [ [ "survival", 0 ] ],
-    "difficulty" : 0,
-    "time" : 30,
+  {
+    "type": "construction",
+    "id": "bulid_shkt",
+    "group": "bulid_shkt",
+    "description": "建设：上行楼梯",
+    "category": "OTHER",
+    "difficulty": 6,
+    "time": 60,
+    "qualities": [ [ { "id": "SAW_W", "level": 2 } ], [ { "id": "HAMMER", "level": 2 } ], [ { "id": "HAMMER_FINE", "level": 1 } ] ],
+    "components": [ [ [ "2x4", 25 ] ], [ [ "nail", 50 ] ] ],
+    "pre_special": "check_up_OK",
+    "post_terrain": "t_stairs_up"
+  },
+  {
+    "type": "construction",
+    "id": "bulid_pwd",
+    "group": "bulid_pwd",
+    "description": "建设：平屋顶",
+    "category": "OTHER",
+    "difficulty": 6,
+    "time": 120,
+    "qualities": [ [ { "id": "HAMMER", "level": 3 } ], [ { "id": "SAW_M", "level": 2 } ] ],
+    "components": [ [ [ "rebar", 10 ] ], [ [ "wire", 20 ] ] ],
+    "pre_terrain": "t_open_air",
+    "post_terrain": "t_ov_reb_cage"
+  },
+  {
+    "type": "construction",
+    "id": "bulid_pwd_1",
+    "group": "bulid_pwd_1",
+    "description": "建设：平屋顶",
+    "category": "OTHER",
+    "difficulty": 6,
+    "time": 120,
+    "qualities": [ [ { "id": "SMOOTH", "level": 1 } ] ],
+    "components": [ [ [ "concrete", 4 ] ], [ [ "water", 4 ], [ "water_clean", 4 ] ], [ [ "2x4", 12 ] ] ],
+    "pre_terrain": "t_ov_reb_cage",
+    "post_terrain": "t_flat_roof"
+  },
+  {
+    "type": "construction",
+    "id": "bulid_tudui",
+    "group": "bulid_tudui",
+    "description": "建造：土堆",
+    "category": "FARM_WOOD",
+    "required_skills": [ [ "survival", 0 ] ],
+    "difficulty": 0,
+    "time": 10,
     "qualities": [ [ { "id": "DIG", "level": 1 } ] ],
-    "components" : [ [ [ "material_sand",500 ] ] ],
-    "pre_special" : "check_empty",
-    "post_terrain" : "t_dirtmound"
-	},
-	{
-    "type" : "terrain",
-    "id" : "t_earthmound",
+    "pre_flags": "DIGGABLE",
+    "post_terrain": "t_earthmound"
+  },
+  {
+    "type": "construction",
+    "id": "bulid_putu",
+    "group": "bulid_putu",
+    "description": "建设：铺土",
+    "category": "FARM_WOOD",
+    "required_skills": [ [ "survival", 0 ] ],
+    "difficulty": 0,
+    "time": 30,
+    "qualities": [ [ { "id": "DIG", "level": 1 } ] ],
+    "components": [ [ [ "material_sand", 500 ] ] ],
+    "pre_special": "check_empty",
+    "post_terrain": "t_dirtmound"
+  },
+  {
+    "type": "terrain",
+    "id": "t_earthmound",
     "name": "土堆",
-    "description" : "土堆",
+    "description": "土堆",
     "symbol": "^",
     "color": "brown",
     "move_cost": 5,
-    "flags": ["TRANSPARENT"],
+    "flags": [ "TRANSPARENT" ],
     "bash": {
-			"str_min": 2, "str_max": 4,
-			"sound": "splosh!",
-			"sound_fail": "splosh!",
-			"ter_set": "t_dirt",
-			"items": [ { "item": "material_sand", "charges": [500,500] } ]
-		}
-	}
+      "str_min": 2,
+      "str_max": 4,
+      "sound": "splosh!",
+      "sound_fail": "splosh!",
+      "ter_set": "t_dirt",
+      "items": [ { "item": "material_sand", "charges": [ 500, 500 ] } ]
+    }
+  }
 ]

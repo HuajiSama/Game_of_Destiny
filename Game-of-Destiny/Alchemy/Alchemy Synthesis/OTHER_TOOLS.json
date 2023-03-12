@@ -1,129 +1,73 @@
 [
-	{
-		"type" : "recipe",
-		"result": "clay_pot",
-		"id_suffix": "from element_earth",	
-		"category": "CC_OTHER",
-		"subcategory": "CSC_OTHER_TOOLS",
-		"skill_used": "fabrication",		
-		"skills_required": [["GS_int",2],["fabrication",1]],
-		"difficulty": 0,
-		"time": 10000,
-		"book_learn": [[ "GS_book_alchemy1",0]],
-		"tools": [
-			[
-			  [ "fire", -1 ]
-			]
-		  ],
-		"components": 
-		[
-			[
-				[ "water", 1 ],
-				[ "water_clean", 1 ],
-				[ "element_water", 1 ]
-			],
-			[
-				[ "clay_lump", 5 ],
-				[ "element_earth", 5 ]
-			]
-		]
-	},{
-		"type" : "recipe",
-		"result": "crucible_clay",
-		"id_suffix": "from element_earth",	
-		"category": "CC_OTHER",
-		"subcategory": "CSC_OTHER_TOOLS",
-		"skill_used": "fabrication",		
-		"skills_required": [["GS_int",2],["fabrication",1]],
-		"difficulty": 0,
-		"time": 10000,
-		"book_learn": [[ "GS_book_alchemy1",0]],
-		"tools": [
-			[
-			  [ "fire", -1 ]
-			]
-		  ],
-		"components": 
-		[
-			[
-				[ "water", 1 ],
-				[ "water_clean", 1 ],
-				[ "element_water", 1 ]
-			],
-			[
-				[ "clay_lump", 5 ],
-				[ "element_earth", 5 ]
-			]
-		]
-	},{
-		"type" : "recipe",
-		"result": "hose",
-		"id_suffix": "from element_plastic",		
-		"category": "CC_OTHER",
-		"subcategory": "CSC_OTHER_TOOLS",
-		"skill_used": "fabrication",		
-		"skills_required": [["GS_int",4],["fabrication",3]],
-		"difficulty": 0,
-		"time": 1000,
-		"book_learn" : [[ "GS_book_alchemy2",0]],
-		"components": 
-		[
-			[
-			[ "element_plastic", 2 ]
-			]
-		]
-	},{
-		"type" : "recipe",
-		"result": "pot",
-		"id_suffix": "from element",	
-		"category": "CC_OTHER",
-		"subcategory": "CSC_OTHER_TOOLS",
-		"skill_used": "fabrication",		
-		"skills_required": [["GS_int",6],["fabrication",5]],
-		"difficulty": 0,
-		"time": 10000,
-		"qualities":[{"id":"HAMMER","level":2}],
-		"book_learn": [[ "GS_book_alchemy3",0]],
-		"tools": [
-			[ 
-			["toolset", 75 ],
-			["forge", 50],
-			["oxy_torch", 10]
-			]
-		  ],
-		"components": 
-		[
-			[
-				[ "element_steel", 5 ]
-			]
-		]
-	},{
-		"type" : "recipe",
-		"result": "anvil",
-		"id_suffix": "from element steel",
-		"category": "CC_OTHER",
-		"subcategory": "CSC_OTHER_TOOLS",
-		"skill_used": "fabrication",		
-		"skills_required": [["GS_int",6],["fabrication",5]],
-		"difficulty": 0,
-		"time": 30000,
-		"qualities":[{"id":"HAMMER","level":2}],
-		"tools": [
-			[
-			  ["crucible", -1],
-			  ["crucible_clay", -1]
-			],
-			[
-			  [ "forging_standard",1,"LIST"],
-			  [ "fire", -1]
-			]
-		],
-		"book_learn": [[ "GS_book_alchemy3",0]],
-		"components": 
-		[
-			[
-			  [ "element_steel", 50 ]
-			]
-		]
-	}
+  {
+    "type": "recipe",
+    "result": "clay_pot",
+    "id_suffix": "from element_earth",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "fabrication",
+    "skills_required": [ [ "GS_int", 2 ], [ "fabrication", 1 ] ],
+    "difficulty": 0,
+    "time": 10000,
+    "book_learn": [ [ "GS_book_alchemy1", 0 ] ],
+    "tools": [ [ [ "fire", -1 ] ] ],
+    "components": [ [ [ "water", 1 ], [ "water_clean", 1 ], [ "element_water", 1 ] ], [ [ "clay_lump", 5 ], [ "element_earth", 5 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "crucible_clay",
+    "id_suffix": "from element_earth",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "fabrication",
+    "skills_required": [ [ "GS_int", 2 ], [ "fabrication", 1 ] ],
+    "difficulty": 0,
+    "time": 10000,
+    "book_learn": [ [ "GS_book_alchemy1", 0 ] ],
+    "tools": [ [ [ "fire", -1 ] ] ],
+    "components": [ [ [ "water", 1 ], [ "water_clean", 1 ], [ "element_water", 1 ] ], [ [ "clay_lump", 5 ], [ "element_earth", 5 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "hose",
+    "id_suffix": "from element_plastic",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "fabrication",
+    "skills_required": [ [ "GS_int", 4 ], [ "fabrication", 3 ] ],
+    "difficulty": 0,
+    "time": 1000,
+    "book_learn": [ [ "GS_book_alchemy2", 0 ] ],
+    "components": [ [ [ "element_plastic", 2 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "pot",
+    "id_suffix": "from element",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "fabrication",
+    "skills_required": [ [ "GS_int", 6 ], [ "fabrication", 5 ] ],
+    "difficulty": 0,
+    "time": 10000,
+    "qualities": [ { "id": "HAMMER", "level": 2 } ],
+    "book_learn": [ [ "GS_book_alchemy3", 0 ] ],
+    "tools": [ [ [ "toolset", 75 ], [ "forge", 50 ], [ "oxy_torch", 10 ] ] ],
+    "components": [ [ [ "element_steel", 5 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "anvil",
+    "id_suffix": "from element steel",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "fabrication",
+    "skills_required": [ [ "GS_int", 6 ], [ "fabrication", 5 ] ],
+    "difficulty": 0,
+    "time": 30000,
+    "qualities": [ { "id": "HAMMER", "level": 2 } ],
+    "tools": [ [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ], [ [ "forging_standard", 1, "LIST" ], [ "fire", -1 ] ] ],
+    "book_learn": [ [ "GS_book_alchemy3", 0 ] ],
+    "components": [ [ [ "element_steel", 50 ] ] ]
+  }
 ]

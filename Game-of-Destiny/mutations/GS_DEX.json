@@ -1,5 +1,5 @@
 [
-	{
+  {
     "type": "mutation",
     "id": "SP_DEXTERITY1",
     "name": "敏捷系特质(初级)",
@@ -9,7 +9,7 @@
     "purifiable": false,
     "threshold": true
   },
-	{
+  {
     "type": "mutation",
     "id": "SP_DEXTERITY2",
     "name": "敏捷系特质(中级)",
@@ -19,7 +19,7 @@
     "purifiable": false,
     "threshold": true
   },
-	{
+  {
     "type": "mutation",
     "id": "SP_DEXTERITY3",
     "name": "敏捷系特质(高级)",
@@ -29,39 +29,37 @@
     "purifiable": false,
     "threshold": true
   },
-	{
+  {
     "type": "mutation",
     "id": "DEX_UP_2",
     "name": "Very Dextrous",
     "points": 2,
     "description": "You are nimbler.  Dexterity + 2",
-    "prereqs": ["DEX_UP"],
-    "changes_to": ["DEX_UP_3"],
-    "category": ["SP_DEXTERITY1","LIZARD", "SPIDER", "CHIMERA", "RAPTOR", "MOUSE"],
-    "passive_mods": {
-      "dex_mod": 2
-    }
+    "prereqs": [ "DEX_UP" ],
+    "changes_to": [ "DEX_UP_3" ],
+    "category": [ "SP_DEXTERITY1", "LIZARD", "SPIDER", "CHIMERA", "RAPTOR", "MOUSE" ],
+    "passive_mods": { "dex_mod": 2 }
   },
-	{
+  {
     "type": "mutation",
     "id": "DEFT",
     "name": "Deft",
     "points": 1,
     "description": "While you're not any better at melee combat, you are better at recovering from a miss, and will be able to attempt another strike faster.",
     "starting_trait": true,
-    "category": ["SP_DEXTERITY1","BIRD", "BEAST", "RAPTOR", "MOUSE"]
+    "category": [ "SP_DEXTERITY1", "BIRD", "BEAST", "RAPTOR", "MOUSE" ]
   },
-	{
+  {
     "type": "mutation",
     "id": "LIGHTSTEP",
     "name": "Light Step",
     "points": 1,
     "description": "You make less noise while walking.  You're also less likely to set off traps.",
     "starting_trait": true,
-    "category": ["SP_DEXTERITY1","BIRD", "ELFA", "FELINE"],
-    "cancels": ["CLUMSY"]
+    "category": [ "SP_DEXTERITY1", "BIRD", "ELFA", "FELINE" ],
+    "cancels": [ "CLUMSY" ]
   },
-	{
+  {
     "type": "mutation",
     "id": "PARKOUR",
     "name": "Parkour Expert",
@@ -69,103 +67,88 @@
     "description": "You're skilled at clearing obstacles; terrain like railings or counters are as easy for you to move on as solid ground.",
     "starting_trait": true,
     "valid": false,
-		"category": ["SP_DEXTERITY1"],
-    "cancels": ["BADKNEES"]
+    "category": [ "SP_DEXTERITY1" ],
+    "cancels": [ "BADKNEES" ]
   },
-	{
+  {
     "type": "mutation",
     "id": "DEX_UP_3",
     "name": "Extremely Dextrous",
     "points": 3,
     "description": "You are nimble and quick.  Dexterity + 4",
-    "prereqs": ["DEX_UP_2"],
-    "changes_to": ["DEX_UP_4","SP_DEX_UP"],
-    "category": ["SP_DEXTERITY2","BIRD", "ELFA", "FELINE"],
-    "passive_mods": {
-      "dex_mod": 4
-    }
+    "prereqs": [ "DEX_UP_2" ],
+    "changes_to": [ "DEX_UP_4", "SP_DEX_UP" ],
+    "category": [ "SP_DEXTERITY2", "BIRD", "ELFA", "FELINE" ],
+    "passive_mods": { "dex_mod": 4 }
   },
-	{
+  {
     "type": "mutation",
     "id": "FLEET",
     "name": "Fleet-Footed",
     "points": 2,
     "description": "You can move more quickly than most, resulting in a 15% speed bonus on sure footing.",
     "starting_trait": true,
-    "changes_to": ["FLEET2"],
-    "category": ["SP_DEXTERITY2","SPIDER", "MOUSE"],
-    "types": ["RUNNING"]
+    "changes_to": [ "FLEET2" ],
+    "category": [ "SP_DEXTERITY2", "SPIDER", "MOUSE" ],
+    "types": [ "RUNNING" ]
   },
-	{
+  {
     "type": "mutation",
     "id": "DEX_agile_feet",
     "name": "身轻如燕",
     "points": 2,
     "description": "负重训练使你的运动能力提升，跑动时更加轻盈，腿脚部位累赘-10。",
-    "encumbrance_always": [
-      [ "LEG_L", -10 ],
-      [ "LEG_R", -10 ],
-      [ "FOOT_L", -10 ],
-      [ "FOOT_R", -10 ]
-		],		
-    "category": ["SP_DEXTERITY2"]
-	},
-	{
+    "encumbrance_always": [ [ "LEG_L", -10 ], [ "LEG_R", -10 ], [ "FOOT_L", -10 ], [ "FOOT_R", -10 ] ],
+    "category": [ "SP_DEXTERITY2" ]
+  },
+  {
     "type": "mutation",
     "id": "DEX_agile_hand",
     "name": "心灵手巧",
     "points": 2,
     "description": "你的精细动作无比灵活，使用武器时相当优势，臂膀累赘-10、手部累赘-5。",
-    "encumbrance_always": [
-      [ "ARM_L", -10 ],
-      [ "ARM_R", -10 ],
-      [ "HAND_L", -5 ],
-      [ "HAND_R", -5 ]
-		],
-		"//":"手部累赘与攻击耗时挂勾。",
-    "prereqs": ["DEX_agile_feet"],
-    "category": ["SP_DEXTERITY2"]
-	},
-	{
+    "encumbrance_always": [ [ "ARM_L", -10 ], [ "ARM_R", -10 ], [ "HAND_L", -5 ], [ "HAND_R", -5 ] ],
+    "//": "手部累赘与攻击耗时挂勾。",
+    "prereqs": [ "DEX_agile_feet" ],
+    "category": [ "SP_DEXTERITY2" ]
+  },
+  {
     "type": "mutation",
     "id": "SP_DEX_UP",
     "name": "电光石火",
     "points": 6,
-		"description": "你的身体完美协调，灵活程度更胜猫科动物，敏捷+6。",
-    "prereqs": ["DEX_UP_3"],
-    "passive_mods": {"dex_mod": 6},
-    "category": ["SP_DEXTERITY3"]
+    "description": "你的身体完美协调，灵活程度更胜猫科动物，敏捷+6。",
+    "prereqs": [ "DEX_UP_3" ],
+    "passive_mods": { "dex_mod": 6 },
+    "category": [ "SP_DEXTERITY3" ]
   },
-	{
+  {
     "type": "mutation",
     "id": "FLEET2",
     "name": "Road-Runner",
     "points": 3,
     "description": "Your legs are extremely limber and fast-moving.  You move 30% faster on flat surfaces.",
-    "prereqs": ["FLEET"],
-    "types": ["RUNNING"],
-    "category": ["SP_DEXTERITY3","BIRD"]
+    "prereqs": [ "FLEET" ],
+    "types": [ "RUNNING" ],
+    "category": [ "SP_DEXTERITY3", "BIRD" ]
   },
-	{
+  {
     "type": "mutation",
     "id": "QUICK",
     "name": "Quick",
     "points": 3,
     "description": "You're just generally quick!  You get a 10% bonus to action points.",
     "starting_trait": true,
-    "category": ["SP_DEXTERITY3","FISH", "BIRD", "INSECT", "TROGLOBITE", "CHIMERA", "RAPTOR", "MOUSE"]
+    "category": [ "SP_DEXTERITY3", "FISH", "BIRD", "INSECT", "TROGLOBITE", "CHIMERA", "RAPTOR", "MOUSE" ]
   },
-	{
+  {
     "type": "mutation",
     "id": "DEX_agile_torso",
     "name": "闪电反射",
     "points": 3,
     "description": "神经传导速度大幅强化、身体协调度提升，运动时更加得心应手，躯干及头部累赘-10。",
-    "encumbrance_always": [
-      [ "TORSO", -10 ],
-      [ "HEAD", -10 ]
-		],
-    "prereqs": ["SP_DEX_UP","QUICK","FLEET2"],		
-    "category": ["SP_DEXTERITY3"]	
-	}
+    "encumbrance_always": [ [ "TORSO", -10 ], [ "HEAD", -10 ] ],
+    "prereqs": [ "SP_DEX_UP", "QUICK", "FLEET2" ],
+    "category": [ "SP_DEXTERITY3" ]
+  }
 ]

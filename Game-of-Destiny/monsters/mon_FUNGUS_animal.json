@@ -1,8 +1,8 @@
 [
-	{
-		"type" : "MONSTER",
-		"id" : "mon_ant_fungus",
-		"copy-from" : "mon_ant_fungus",
-		"death_drops": "destiny_coin_drops1"
-	}
+  {
+    "type": "MONSTER",
+    "id": "mon_ant_fungus",
+    "copy-from": "mon_ant_fungus",
+    "death_drops": "destiny_coin_drops1"
+  }
 ]

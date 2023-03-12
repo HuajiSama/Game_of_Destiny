@@ -1,12 +1,12 @@
 [
-	{
-		"type" : "MONSTER",
-		"id" : "mon_rat_king", 
-		"copy-from" : "mon_rat_king",
-		"melee_skill": 6,
-		"melee_dice": 5,
-		"melee_dice_sides": 5,
-		"melee_cut": 5,
-		"death_drops": "destiny_coin_drops4"
-	}
+  {
+    "type": "MONSTER",
+    "id": "mon_rat_king",
+    "copy-from": "mon_rat_king",
+    "melee_skill": 6,
+    "melee_dice": 5,
+    "melee_dice_sides": 5,
+    "melee_cut": 5,
+    "death_drops": "destiny_coin_drops4"
+  }
 ]

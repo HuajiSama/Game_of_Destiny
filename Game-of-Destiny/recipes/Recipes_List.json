@@ -1,17 +1,16 @@
 [
-    {
-		"type" : "recipe_category",
-		"id" : "CC_超凡",
-		"recipe_subcategories" :
-		[
-		  "CSC_ALL",
-		  "CSC_超凡_资源",
-		  "CSC_超凡_炼金",
-		  "CSC_超凡_弹药",
-		  "CSC_超凡_武装",
-		  "CSC_超凡_基因",
-		  "CSC_超凡_无界",
-		  "CSC_超凡_道具"
-		]
-    }
+  {
+    "type": "recipe_category",
+    "id": "CC_超凡",
+    "recipe_subcategories": [
+      "CSC_ALL",
+      "CSC_超凡_资源",
+      "CSC_超凡_炼金",
+      "CSC_超凡_弹药",
+      "CSC_超凡_武装",
+      "CSC_超凡_基因",
+      "CSC_超凡_无界",
+      "CSC_超凡_道具"
+    ]
+  }
 ]

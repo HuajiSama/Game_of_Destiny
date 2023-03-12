@@ -1,346 +1,261 @@
 [
-	{
-		"type" : "recipe",
-		"result": "element_water",
-		"category": "CC_超凡",
-		"subcategory": "CSC_超凡_资源",
-		"skill_used": "fabrication",
-		"skills_required": [["GS_int",2],["fabrication",1]],
-		"difficulty": 0,
-		"time": 200,
-		"batch_time_factors": [25,4],
-		"book_learn" : [[ "GS_book_alchemy1",0]],
-		"flags": ["BLIND_EASY"],	
-		"components": 
-		[
-			[
-			[ "water", 1 ],
-			[ "water_clean", 1 ]
-			]
-		]
-	},{
-		"type" : "recipe",
-		"result": "element_water",
-		"result_mult": 20,
-		"id_suffix": "water x20",		
-		"category": "CC_超凡",
-		"subcategory": "CSC_超凡_资源",
-		"skill_used": "fabrication",
-		"skills_required": [["GS_int",2],["fabrication",1]],
-		"difficulty": 0,
-		"time": 3750,
-		"batch_time_factors": [30,2],
-		"book_learn" : [[ "GS_book_alchemy1",0]],
-		"flags": ["BLIND_EASY"],	
-		"components": 
-		[
-			[
-			[ "water", 20 ],
-			[ "water_clean", 20 ]
-			]
-		]
-	},{
-		"type" : "recipe",
-		"result": "element_wood",
-		"category": "CC_超凡",
-		"subcategory": "CSC_超凡_资源",
-		"skill_used": "fabrication",
-		"skills_required": [["GS_int",2],["fabrication",1]],
-		"difficulty": 0,
-		"time": 300,
-		"book_learn" : [[ "GS_book_alchemy1",0]],
-		"flags": ["BLIND_EASY"],	
-		"components": 
-		[
-			[
-			[ "2x4", 1 ],
-			[ "stick", 1 ],
-			[ "splinter", 10 ]		
-			]
-		]
-	},{
-		"type" : "recipe",
-		"result": "element_wood",
-		"id_suffix": "log",		
-		"result_mult": 10,
-		"category": "CC_超凡",
-		"subcategory": "CSC_超凡_资源",
-		"skill_used": "fabrication",
-		"skills_required": [["GS_int",2],["fabrication",1]],
-		"difficulty": 0,
-		"time": 2000,
-		"book_learn" : [[ "GS_book_alchemy1",0]],
-		"flags": ["BLIND_EASY"],	
-		"components": 
-		[
-			[
-			[ "log", 1 ]	
-			]
-		]
-	},{
-		"type" : "recipe",
-		"result": "element_earth",
-		"category": "CC_超凡",
-		"subcategory": "CSC_超凡_资源",
-		"skill_used": "fabrication",
-		"skills_required": [["GS_int",2],["fabrication",1]],
-		"difficulty": 0,
-		"time": 300,
-		"book_learn" : [[ "GS_book_alchemy1",0]],
-		"flags": ["BLIND_EASY"],	
-		"components": 
-		[
-			[
-			[ "rock", 1 ],
-			[ "sharp_rock", 1 ],
-			[ "pebble", 10 ],
-			[ "clay_lump", 1 ],
-			[ "material_sand", 100 ]
-			]
-		]
-	},{
-		"type" : "recipe",
-		"result": "element_plastic",
-		"category": "CC_超凡",
-		"subcategory": "CSC_超凡_资源",
-		"skill_used": "fabrication",
-		"skills_required": [["GS_int",4],["fabrication",3]],
-		"difficulty": 0,
-		"time": 300,
-		"book_learn" : [[ "GS_book_alchemy2",0]],
-		"flags": ["BLIND_EASY"],
-		"components": 
-		[
-			[
-			[ "plastic_chunk", 1 ],
-			[ "neoprene", 1 ],
-			[ "bag_plastic", 3 ],
-			[ "cash_card", 1 ]
-			]
-		]
-	},{
-		"type" : "recipe",
-		"result": "element_plastic",
-		"result_mult": 2,
-		"id_suffix": "bottle_plastic",
-		"category": "CC_超凡",
-		"subcategory": "CSC_超凡_资源",
-		"skill_used": "fabrication",
-		"skills_required": [["GS_int",4],["fabrication",3]],
-		"difficulty": 0,
-		"time": 500,
-		"book_learn" : [[ "GS_book_alchemy2",0]],
-		"flags": ["BLIND_EASY"],
-		"components": 
-		[
-			[
-			[ "bottle_plastic", 1 ],
-			[ "bottle_plastic_small", 2 ],
-			[ "hose", 1 ]
-			]
-		]
-	},{
-		"type" : "recipe",
-		"result": "element_plastic",
-		"result_mult": 15,
-		"id_suffix": "jug_plastic",
-		"category": "CC_超凡",
-		"subcategory": "CSC_超凡_资源",
-		"skill_used": "fabrication",
-		"skills_required": [["GS_int",4],["fabrication",3]],
-		"difficulty": 0,
-		"time": 1000,
-		"book_learn" : [[ "GS_book_alchemy2",0]],
-		"flags": ["BLIND_EASY"],
-		"components": 
-		[
-			[
-			[ "jug_plastic", 1 ]
-			]
-		]
-	},{
-		"type" : "recipe",
-		"result": "element_skeleton",
-		"category": "CC_超凡",
-		"subcategory": "CSC_超凡_资源",
-		"skill_used": "fabrication",
-		"skills_required": [["GS_int",4],["fabrication",3]],
-		"difficulty": 0,
-		"time": 300,
-		"book_learn" : [[ "GS_book_alchemy2",0]],
-		"flags": ["BLIND_EASY"],
-		"components": [
-			[
-			[ "bone", 1 ],
-			[ "bone_human", 1 ],
-			[ "bone_tainted", 5 ],
-			[ "meal_bone", 4 ],
-			[ "chitin_piece", 1 ]
-			]
-		]
-	},{
-		"type" : "recipe",
-		"result": "element_fabric",
-		"category": "CC_超凡",
-		"subcategory": "CSC_超凡_资源",
-		"skill_used": "fabrication",
-		"skills_required": [["GS_int",4],["fabrication",3]],
-		"difficulty": 0,
-		"time": 500,
-		"book_learn" : [[ "GS_book_alchemy2",0]],
-		"flags": ["BLIND_EASY"],	
-		"components": 
-		[
-			[
-			[ "rag", 1 ],
-			[ "felt_patch", 1 ],
-			[ "yarn", 100 ],
-			[ "thread", 100 ],
-			[ "plant_fibre", 100 ]
-			]
-		]
-	},{
-		"type" : "recipe",
-		"result": "element_fabric",
-		"result_mult": 10,
-		"id_suffix": "fabric x10",		
-		"category": "CC_超凡",
-		"subcategory": "CSC_超凡_资源",
-		"skill_used": "fabrication",
-		"skills_required": [["GS_int",4],["fabrication",3]],
-		"difficulty": 0,
-		"time": 5000,
-		"batch_time_factors": [10, 2],
-		"book_learn" : [[ "GS_book_alchemy2",0]],
-		"flags": ["BLIND_EASY"],	
-		"components": 
-		[
-			[
-			[ "rag", 10 ],
-			[ "felt_patch", 10 ],
-			[ "yarn", 1000 ],
-			[ "thread", 1000 ]
-			]
-		]
-	},{
-		"type" : "recipe",
-		"result": "element_fabric",
-		"result_mult": 5,
-		"id_suffix": "kevlar & nomex",
-		"category": "CC_超凡",
-		"subcategory": "CSC_超凡_资源",
-		"skill_used": "fabrication",
-		"skills_required": ["GS_int",8],
-		"difficulty": 0,
-		"time": 1000,
-		"book_learn" : [[ "GS_book_alchemy3",0]],
-		"flags": ["BLIND_EASY"],	
-		"components": 
-		[
-			[
-			[ "kevlar_plate", 1 ],
-			[ "nomex", 1 ]
-			]
-		]
-	},{
-		"type" : "recipe",
-		"result": "element_leather",
-		"category": "CC_超凡",
-		"subcategory": "CSC_超凡_资源",
-		"skill_used": "fabrication",
-		"skills_required": [["GS_int",6],["fabrication",5]],
-		"difficulty": 0,
-		"time": 500,
-		"book_learn" : [[ "GS_book_alchemy3",0]],
-		"flags": ["BLIND_EASY"],	
-		"components": 
-		[
-			[
-			[ "fur", 1 ],
-			[ "leather", 1 ],
-			[ "raw_fur", 1 ],
-			[ "raw_hleather", 1 ],
-			[ "raw_leather", 1 ],
-			[ "raw_tainted_fur", 1 ],
-			[ "raw_tainted_leather", 1 ]	
-			]
-		]
-	},{
-		"type" : "recipe",
-		"result": "element_steel",
-		"result_mult": 20,
-		"id_suffix": "from frame",
-		"category": "CC_超凡",
-		"subcategory": "CSC_超凡_资源",
-		"skill_used": "fabrication",
-		"skills_required": [["GS_int",6],["fabrication",5]],
-		"difficulty": 0,
-		"time": 5000,
-		"book_learn" : [[ "GS_book_alchemy3",0]],
-		"flags": ["BLIND_EASY"],	
-		"components": 
-		[
-			[
-			[ "hdframe", 1 ],
-			[ "frame", 2 ],
-			[ "metal_tank", 4 ]
-			]
-		]
-	},{
-		"type" : "recipe",
-		"result": "element_steel",
-		"id_suffix": "from metalscrap(little)",
-		"category": "CC_超凡",
-		"subcategory": "CSC_超凡_资源",
-		"skill_used": "fabrication",
-		"skills_required": [["GS_int",6],["fabrication",5]],
-		"difficulty": 0,
-		"time": 500,
-		"book_learn" : [[ "GS_book_alchemy3",0]],
-		"flags": ["BLIND_EASY"],	
-		"components": 
-		[
-			[
-			[ "pipe", 1 ],
-			[ "steel_chunk", 1 ],
-			[ "scrap", 5 ],
-			[ "lead", 100 ],
-			[ "copper", 100 ],
-			[ "scrap_copper", 1 ],
-			[ "material_aluminium_ingot", 1 ],
-			[ "can_drink_unsealed", 1 ],
-			[ "can_food_unsealed", 1 ],
-			[ "canister_empty", 1 ],
-			[ "rebar", 1 ],
-			[ "nail", 100 ],		
-			[ "wire", 5 ],
-			[ "wire_barbed", 3 ],
-			[ "bearing", 25 ],
-			[ "shrapnel", 40 ],
-			[ "throwing_knife", 2 ],
-			[ "throwing_axe", 1 ]
-			]
-		]
-	},{
-		"type" : "recipe",
-		"result": "element_steel",
-		"id_suffix": "from metalscrap(large)",
-		"result_mult": 3,
-		"category": "CC_超凡",
-		"subcategory": "CSC_超凡_资源",
-		"skill_used": "fabrication",
-		"skills_required": [["GS_int",6],["fabrication",5]],
-		"difficulty": 0,
-		"time": 1200,
-		"book_learn" : [[ "GS_book_alchemy3",0]],
-		"flags": ["BLIND_EASY"],	
-		"components": 
-		[
-			[
-			[ "sheet_metal", 1 ],
-			[ "metal_tank_little", 1 ],
-			[ "steel_lump", 1 ]
-			]
-		]
-	}
+  {
+    "type": "recipe",
+    "result": "element_water",
+    "category": "CC_超凡",
+    "subcategory": "CSC_超凡_资源",
+    "skill_used": "fabrication",
+    "skills_required": [ [ "GS_int", 2 ], [ "fabrication", 1 ] ],
+    "difficulty": 0,
+    "time": 200,
+    "batch_time_factors": [ 25, 4 ],
+    "book_learn": [ [ "GS_book_alchemy1", 0 ] ],
+    "flags": [ "BLIND_EASY" ],
+    "components": [ [ [ "water", 1 ], [ "water_clean", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "element_water",
+    "result_mult": 20,
+    "id_suffix": "water x20",
+    "category": "CC_超凡",
+    "subcategory": "CSC_超凡_资源",
+    "skill_used": "fabrication",
+    "skills_required": [ [ "GS_int", 2 ], [ "fabrication", 1 ] ],
+    "difficulty": 0,
+    "time": 3750,
+    "batch_time_factors": [ 30, 2 ],
+    "book_learn": [ [ "GS_book_alchemy1", 0 ] ],
+    "flags": [ "BLIND_EASY" ],
+    "components": [ [ [ "water", 20 ], [ "water_clean", 20 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "element_wood",
+    "category": "CC_超凡",
+    "subcategory": "CSC_超凡_资源",
+    "skill_used": "fabrication",
+    "skills_required": [ [ "GS_int", 2 ], [ "fabrication", 1 ] ],
+    "difficulty": 0,
+    "time": 300,
+    "book_learn": [ [ "GS_book_alchemy1", 0 ] ],
+    "flags": [ "BLIND_EASY" ],
+    "components": [ [ [ "2x4", 1 ], [ "stick", 1 ], [ "splinter", 10 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "element_wood",
+    "id_suffix": "log",
+    "result_mult": 10,
+    "category": "CC_超凡",
+    "subcategory": "CSC_超凡_资源",
+    "skill_used": "fabrication",
+    "skills_required": [ [ "GS_int", 2 ], [ "fabrication", 1 ] ],
+    "difficulty": 0,
+    "time": 2000,
+    "book_learn": [ [ "GS_book_alchemy1", 0 ] ],
+    "flags": [ "BLIND_EASY" ],
+    "components": [ [ [ "log", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "element_earth",
+    "category": "CC_超凡",
+    "subcategory": "CSC_超凡_资源",
+    "skill_used": "fabrication",
+    "skills_required": [ [ "GS_int", 2 ], [ "fabrication", 1 ] ],
+    "difficulty": 0,
+    "time": 300,
+    "book_learn": [ [ "GS_book_alchemy1", 0 ] ],
+    "flags": [ "BLIND_EASY" ],
+    "components": [ [ [ "rock", 1 ], [ "sharp_rock", 1 ], [ "pebble", 10 ], [ "clay_lump", 1 ], [ "material_sand", 100 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "element_plastic",
+    "category": "CC_超凡",
+    "subcategory": "CSC_超凡_资源",
+    "skill_used": "fabrication",
+    "skills_required": [ [ "GS_int", 4 ], [ "fabrication", 3 ] ],
+    "difficulty": 0,
+    "time": 300,
+    "book_learn": [ [ "GS_book_alchemy2", 0 ] ],
+    "flags": [ "BLIND_EASY" ],
+    "components": [ [ [ "plastic_chunk", 1 ], [ "neoprene", 1 ], [ "bag_plastic", 3 ], [ "cash_card", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "element_plastic",
+    "result_mult": 2,
+    "id_suffix": "bottle_plastic",
+    "category": "CC_超凡",
+    "subcategory": "CSC_超凡_资源",
+    "skill_used": "fabrication",
+    "skills_required": [ [ "GS_int", 4 ], [ "fabrication", 3 ] ],
+    "difficulty": 0,
+    "time": 500,
+    "book_learn": [ [ "GS_book_alchemy2", 0 ] ],
+    "flags": [ "BLIND_EASY" ],
+    "components": [ [ [ "bottle_plastic", 1 ], [ "bottle_plastic_small", 2 ], [ "hose", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "element_plastic",
+    "result_mult": 15,
+    "id_suffix": "jug_plastic",
+    "category": "CC_超凡",
+    "subcategory": "CSC_超凡_资源",
+    "skill_used": "fabrication",
+    "skills_required": [ [ "GS_int", 4 ], [ "fabrication", 3 ] ],
+    "difficulty": 0,
+    "time": 1000,
+    "book_learn": [ [ "GS_book_alchemy2", 0 ] ],
+    "flags": [ "BLIND_EASY" ],
+    "components": [ [ [ "jug_plastic", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "element_skeleton",
+    "category": "CC_超凡",
+    "subcategory": "CSC_超凡_资源",
+    "skill_used": "fabrication",
+    "skills_required": [ [ "GS_int", 4 ], [ "fabrication", 3 ] ],
+    "difficulty": 0,
+    "time": 300,
+    "book_learn": [ [ "GS_book_alchemy2", 0 ] ],
+    "flags": [ "BLIND_EASY" ],
+    "components": [ [ [ "bone", 1 ], [ "bone_human", 1 ], [ "bone_tainted", 5 ], [ "meal_bone", 4 ], [ "chitin_piece", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "element_fabric",
+    "category": "CC_超凡",
+    "subcategory": "CSC_超凡_资源",
+    "skill_used": "fabrication",
+    "skills_required": [ [ "GS_int", 4 ], [ "fabrication", 3 ] ],
+    "difficulty": 0,
+    "time": 500,
+    "book_learn": [ [ "GS_book_alchemy2", 0 ] ],
+    "flags": [ "BLIND_EASY" ],
+    "components": [ [ [ "rag", 1 ], [ "felt_patch", 1 ], [ "yarn", 100 ], [ "thread", 100 ], [ "plant_fibre", 100 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "element_fabric",
+    "result_mult": 10,
+    "id_suffix": "fabric x10",
+    "category": "CC_超凡",
+    "subcategory": "CSC_超凡_资源",
+    "skill_used": "fabrication",
+    "skills_required": [ [ "GS_int", 4 ], [ "fabrication", 3 ] ],
+    "difficulty": 0,
+    "time": 5000,
+    "batch_time_factors": [ 10, 2 ],
+    "book_learn": [ [ "GS_book_alchemy2", 0 ] ],
+    "flags": [ "BLIND_EASY" ],
+    "components": [ [ [ "rag", 10 ], [ "felt_patch", 10 ], [ "yarn", 1000 ], [ "thread", 1000 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "element_fabric",
+    "result_mult": 5,
+    "id_suffix": "kevlar & nomex",
+    "category": "CC_超凡",
+    "subcategory": "CSC_超凡_资源",
+    "skill_used": "fabrication",
+    "skills_required": [ "GS_int", 8 ],
+    "difficulty": 0,
+    "time": 1000,
+    "book_learn": [ [ "GS_book_alchemy3", 0 ] ],
+    "flags": [ "BLIND_EASY" ],
+    "components": [ [ [ "kevlar_plate", 1 ], [ "nomex", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "element_leather",
+    "category": "CC_超凡",
+    "subcategory": "CSC_超凡_资源",
+    "skill_used": "fabrication",
+    "skills_required": [ [ "GS_int", 6 ], [ "fabrication", 5 ] ],
+    "difficulty": 0,
+    "time": 500,
+    "book_learn": [ [ "GS_book_alchemy3", 0 ] ],
+    "flags": [ "BLIND_EASY" ],
+    "components": [
+      [
+        [ "fur", 1 ],
+        [ "leather", 1 ],
+        [ "raw_fur", 1 ],
+        [ "raw_hleather", 1 ],
+        [ "raw_leather", 1 ],
+        [ "raw_tainted_fur", 1 ],
+        [ "raw_tainted_leather", 1 ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "element_steel",
+    "result_mult": 20,
+    "id_suffix": "from frame",
+    "category": "CC_超凡",
+    "subcategory": "CSC_超凡_资源",
+    "skill_used": "fabrication",
+    "skills_required": [ [ "GS_int", 6 ], [ "fabrication", 5 ] ],
+    "difficulty": 0,
+    "time": 5000,
+    "book_learn": [ [ "GS_book_alchemy3", 0 ] ],
+    "flags": [ "BLIND_EASY" ],
+    "components": [ [ [ "hdframe", 1 ], [ "frame", 2 ], [ "metal_tank", 4 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "element_steel",
+    "id_suffix": "from metalscrap(little)",
+    "category": "CC_超凡",
+    "subcategory": "CSC_超凡_资源",
+    "skill_used": "fabrication",
+    "skills_required": [ [ "GS_int", 6 ], [ "fabrication", 5 ] ],
+    "difficulty": 0,
+    "time": 500,
+    "book_learn": [ [ "GS_book_alchemy3", 0 ] ],
+    "flags": [ "BLIND_EASY" ],
+    "components": [
+      [
+        [ "pipe", 1 ],
+        [ "steel_chunk", 1 ],
+        [ "scrap", 5 ],
+        [ "lead", 100 ],
+        [ "copper", 100 ],
+        [ "scrap_copper", 1 ],
+        [ "material_aluminium_ingot", 1 ],
+        [ "can_drink_unsealed", 1 ],
+        [ "can_food_unsealed", 1 ],
+        [ "canister_empty", 1 ],
+        [ "rebar", 1 ],
+        [ "nail", 100 ],
+        [ "wire", 5 ],
+        [ "wire_barbed", 3 ],
+        [ "bearing", 25 ],
+        [ "shrapnel", 40 ],
+        [ "throwing_knife", 2 ],
+        [ "throwing_axe", 1 ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "element_steel",
+    "id_suffix": "from metalscrap(large)",
+    "result_mult": 3,
+    "category": "CC_超凡",
+    "subcategory": "CSC_超凡_资源",
+    "skill_used": "fabrication",
+    "skills_required": [ [ "GS_int", 6 ], [ "fabrication", 5 ] ],
+    "difficulty": 0,
+    "time": 1200,
+    "book_learn": [ [ "GS_book_alchemy3", 0 ] ],
+    "flags": [ "BLIND_EASY" ],
+    "components": [ [ [ "sheet_metal", 1 ], [ "metal_tank_little", 1 ], [ "steel_lump", 1 ] ] ]
+  }
 ]

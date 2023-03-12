@@ -1,61 +1,57 @@
 [
-	{
-		"type" : "MONSTER",
-		"id" : "mon_irradiated_wanderer_1",		"//":"irradiated_wanderer系列屬性逐步上升",
-		"copy-from" : "mon_irradiated_wanderer_1",
-		"death_drops": 
-		{
-			"subtype": "collection",
-			"groups": [
-				[ "vault_wanderer", 5 ],
-				[ "destiny_coin_drops2", 100 ]
-			]
-		}
-	},{
-		"type" : "MONSTER",
-		"id" : "mon_irradiated_wanderer_2", 
-		"copy-from" : "mon_irradiated_wanderer_2",
-		"death_drops": 
-		{
-			"subtype": "collection",
-			"groups": [
-				[ "vault_wanderer", 5 ],
-				[ "destiny_coin_drops1", 100 ],
-				[ "destiny_coin_drops1", 100 ]
-			]
-		}
-	},{
-		"type" : "MONSTER",
-		"id" : "mon_irradiated_wanderer_3",
-		"copy-from" : "mon_irradiated_wanderer_3",
-		"death_drops": "destiny_coin_drops3"
-	},{
-		"type" : "MONSTER",
-		"id" : "mon_irradiated_wanderer_4", 
-		"copy-from" : "mon_irradiated_wanderer_4",
-		"death_drops": "destiny_coin_drops4"
-	},{
-		"type" : "MONSTER",
-		"id" : "mon_human_snail",
-		"copy-from" : "mon_human_snail",
-		"death_drops": "destiny_coin_drops2"
-	},{
-		"type" : "MONSTER",
-		"id" : "mon_crawler",
-		"copy-from" : "mon_crawler",
-		"death_drops": {
-			"subtype": "collection",
-			"groups": [
-				[ "default_merit_drops1", 100 ],
-				[ "default_merit_drops1", 100 ],
-				[ "default_merit_drops1", 100 ],
-				[ "destiny_coin_drops3", 100 ]
-			]
-		}
-	},{
-		"type" : "MONSTER",
-		"id" : "mon_jabberwock",	"//":"迦卜沃奇(任務怪)",
-		"copy-from" : "mon_jabberwock",
-		"death_drops": "destiny_coin_drops6"
-	}
+  {
+    "type": "MONSTER",
+    "id": "mon_irradiated_wanderer_1",
+    "//": "irradiated_wanderer系列屬性逐步上升",
+    "copy-from": "mon_irradiated_wanderer_1",
+    "death_drops": { "subtype": "collection", "groups": [ [ "vault_wanderer", 5 ], [ "destiny_coin_drops2", 100 ] ] }
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_irradiated_wanderer_2",
+    "copy-from": "mon_irradiated_wanderer_2",
+    "death_drops": {
+      "subtype": "collection",
+      "groups": [ [ "vault_wanderer", 5 ], [ "destiny_coin_drops1", 100 ], [ "destiny_coin_drops1", 100 ] ]
+    }
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_irradiated_wanderer_3",
+    "copy-from": "mon_irradiated_wanderer_3",
+    "death_drops": "destiny_coin_drops3"
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_irradiated_wanderer_4",
+    "copy-from": "mon_irradiated_wanderer_4",
+    "death_drops": "destiny_coin_drops4"
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_human_snail",
+    "copy-from": "mon_human_snail",
+    "death_drops": "destiny_coin_drops2"
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_crawler",
+    "copy-from": "mon_crawler",
+    "death_drops": {
+      "subtype": "collection",
+      "groups": [
+        [ "default_merit_drops1", 100 ],
+        [ "default_merit_drops1", 100 ],
+        [ "default_merit_drops1", 100 ],
+        [ "destiny_coin_drops3", 100 ]
+      ]
+    }
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_jabberwock",
+    "//": "迦卜沃奇(任務怪)",
+    "copy-from": "mon_jabberwock",
+    "death_drops": "destiny_coin_drops6"
+  }
 ]

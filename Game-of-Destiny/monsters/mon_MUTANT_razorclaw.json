@@ -1,14 +1,17 @@
 [
-	{
-		"type" : "MONSTER",
-		"id" : "mon_razorclaw",	"//":"利爪怪",
-		"copy-from" : "mon_razorclaw",
-		"death_drops": "destiny_coin_drops3"
-	},{
-		"type" : "MONSTER",
-		"id" : "mon_alpha_razorclaw",	"//":"利爪怪首領",
-		"copy-from" : "mon_alpha_razorclaw",
-		"hp": 180,
-		"death_drops": "destiny_coin_drops6"
-	}
+  {
+    "type": "MONSTER",
+    "id": "mon_razorclaw",
+    "//": "利爪怪",
+    "copy-from": "mon_razorclaw",
+    "death_drops": "destiny_coin_drops3"
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_alpha_razorclaw",
+    "//": "利爪怪首領",
+    "copy-from": "mon_alpha_razorclaw",
+    "hp": 180,
+    "death_drops": "destiny_coin_drops6"
+  }
 ]

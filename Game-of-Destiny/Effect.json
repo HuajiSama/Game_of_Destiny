@@ -1,149 +1,120 @@
 [
-	{
-        "type": "effect_type",
-        "id": "per_warsong_1",
-        "name": ["战歌"],
-        "desc": ["歌曲渲染，战歌昂扬，驱散恐惧状态。"],
-        "remove_message": "歌曲渲染的增强效果消退了。",
-        "blocks_effects": ["fearparalyze"],	"//":"自动包含<removes_effects>效果。",
-		"max_duration": 150,
-        "base_mods": {
-            "str_mod": [2],
-            "dex_mod": [2],
-            "speed_mod": [-5],
-            "stamina_min": [3]
-        }
-	},{
-        "type": "effect_type",
-        "id": "per_warsong_2",
-        "name": ["虎豹雷音"],
-        "desc": ["雷音振体，奋神蓄力，驱散恐惧、震慑、晕眩状态。"],
-        "remove_message": "虎豹雷音的增强效果消退了。",
-		"blocks_effects": ["fearparalyze","stunned","dazed"],
-        "max_duration": 150,
-        "base_mods": {
-            "str_mod": [4],
-            "dex_mod": [4],
-			"per_mod": [-2],
-            "speed_mod": [-5],
-            "stamina_min": [5]	
-        }
-	},{
-        "type": "effect_type",
-        "id": "gundam1",
-        "name": ["人间高达"],
-        "desc": ["动力装甲强化模式。"],
-        "remove_message": "动力装甲的强化效果结束。",
-        "max_duration": 150,
-        "base_mods": {
-            "str_mod": [3],
-            "dex_mod": [3],
-            "speed_mod": [15]
-        }		
-	},{	
-        "type": "effect_type",
-        "id": "dex_speed_1",
-        "name": ["神行术"],
-        "remove_message": "加速效果结束，你回复到平时的速度感。",
-        "max_duration": 150,
-        "base_mods": {
-            "dex_mod": [3],
-            "speed_mod": [40]
-        }
-	},{
-        "type": "effect_type",
-        "id": "str_revange_1",
-        "name": ["以血换血"],
-        "desc": ["提升力量、敏捷、速度，每30秒损失血量3~7。"],
-        "remove_message": "复仇技能效果结束。",
-        "max_duration": 150,
-        "base_mods": {
-            "str_mod": [4],
-            "speed_mod": [15],	
-            "hurt_min": [3],
-            "hurt_max": [7],
-            "hurt_tick": [5]
-        }
-	},{
-        "type": "effect_type",
-        "id": "str_revange_2",
-        "name": ["杀破狼"],
-        "desc": ["提升力量、敏捷、速度，每30秒损失血量4~8。"],
-        "remove_message": "复仇技能效果结束。",
-        "max_duration": 150,
-        "base_mods": {
-            "str_mod": [6],
-            "speed_mod": [25],
-            "hurt_min": [4],
-            "hurt_max": [8],
-            "hurt_tick": [5]
-        }
-    },{		
-        "type": "effect_type",
-        "id": "medic_enhance",
-        "name": ["熊魔药剂"],
-        "removes_effects": ["bleed"],		
-        "remove_message": "熊魔药剂的强化效果消退了。",
-        "max_duration": 150,
-        "base_mods": {
-            "str_mod": [5],
-            "dex_mod": [3],
-            "speed_mod": [15],
-            "stamina_min": [8]	
-        }
-	},{
-        "type": "effect_type",
-        "id": "GOS_block_hot",
-        "name": ["凝冰符"],
-        "desc": ["抵抗暑热。"],
-        "remove_message": "凝冰符的效果消退，体感温度恢复正常。",
-        "removes_effects": ["hot"],	
-		"max_duration": 150
-	},{
-        "type": "effect_type",
-        "id": "GOS_block_cold",
-        "name": ["升阳符"],
-        "desc": ["抵抗寒冷。"],
-        "remove_message": "升阳符的效果消退，体感温度恢复正常。",
-        "removes_effects": ["cold","frostbite"],	
-		"max_duration": 150
-    },{		
-        "type": "effect_type",
-        "id": "book_fireblock",
-        "name": ["烧烤宝典"],
-        "desc": ["免疫火焰造成的负面状态：「着火」与「水泡」。"],
-        "removes_effects": ["hot","onfire","blisters"],
-        "remove_message": "烧烤宝典的防护效果消退了。",
-        "max_duration": 100
-    },{		
-        "type": "effect_type",
-        "id": "book_acidblock",
-        "name": ["酸灼宝典"],
-        "desc": ["免疫酸液腐蚀的负面状态。"],
-        "removes_effects": ["corroding"],
-        "remove_message": "酸灼防护的效果消退了。",
-        "max_duration": 100
-    },{		
-        "type": "effect_type",
-        "id": "book_shockblock",
-        "name": ["电击宝典"],
-        "desc": ["免疫电击的负面状态。"],
-        "removes_effects": ["zapped"],
-        "remove_message": "电击防护的效果消退了。",
-        "max_duration": 100
-    },{
-        "type": "effect_type",
-        "id": "Legend_light",
-        "name": ["传说光辉"],
-        "remove_message": "传说光辉的时效已到，光环效果消散。",
-        "max_duration": 150,
-        "base_mods": {
-            "str_mod": [5],
-            "dex_mod": [5],
-            "int_mod": [5],
-            "per_mod": [5],
-            "speed_mod": [40],
-            "stamina_min": [8]
-        }		
-	}
+  {
+    "type": "effect_type",
+    "id": "per_warsong_1",
+    "name": [ "战歌" ],
+    "desc": [ "歌曲渲染，战歌昂扬，驱散恐惧状态。" ],
+    "remove_message": "歌曲渲染的增强效果消退了。",
+    "blocks_effects": [ "fearparalyze" ],
+    "//": "自动包含<removes_effects>效果。",
+    "max_duration": 150,
+    "base_mods": { "str_mod": [ 2 ], "dex_mod": [ 2 ], "speed_mod": [ -5 ], "stamina_min": [ 3 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "per_warsong_2",
+    "name": [ "虎豹雷音" ],
+    "desc": [ "雷音振体，奋神蓄力，驱散恐惧、震慑、晕眩状态。" ],
+    "remove_message": "虎豹雷音的增强效果消退了。",
+    "blocks_effects": [ "fearparalyze", "stunned", "dazed" ],
+    "max_duration": 150,
+    "base_mods": { "str_mod": [ 4 ], "dex_mod": [ 4 ], "per_mod": [ -2 ], "speed_mod": [ -5 ], "stamina_min": [ 5 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "gundam1",
+    "name": [ "人间高达" ],
+    "desc": [ "动力装甲强化模式。" ],
+    "remove_message": "动力装甲的强化效果结束。",
+    "max_duration": 150,
+    "base_mods": { "str_mod": [ 3 ], "dex_mod": [ 3 ], "speed_mod": [ 15 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "dex_speed_1",
+    "name": [ "神行术" ],
+    "remove_message": "加速效果结束，你回复到平时的速度感。",
+    "max_duration": 150,
+    "base_mods": { "dex_mod": [ 3 ], "speed_mod": [ 40 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "str_revange_1",
+    "name": [ "以血换血" ],
+    "desc": [ "提升力量、敏捷、速度，每30秒损失血量3~7。" ],
+    "remove_message": "复仇技能效果结束。",
+    "max_duration": 150,
+    "base_mods": { "str_mod": [ 4 ], "speed_mod": [ 15 ], "hurt_min": [ 3 ], "hurt_max": [ 7 ], "hurt_tick": [ 5 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "str_revange_2",
+    "name": [ "杀破狼" ],
+    "desc": [ "提升力量、敏捷、速度，每30秒损失血量4~8。" ],
+    "remove_message": "复仇技能效果结束。",
+    "max_duration": 150,
+    "base_mods": { "str_mod": [ 6 ], "speed_mod": [ 25 ], "hurt_min": [ 4 ], "hurt_max": [ 8 ], "hurt_tick": [ 5 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "medic_enhance",
+    "name": [ "熊魔药剂" ],
+    "removes_effects": [ "bleed" ],
+    "remove_message": "熊魔药剂的强化效果消退了。",
+    "max_duration": 150,
+    "base_mods": { "str_mod": [ 5 ], "dex_mod": [ 3 ], "speed_mod": [ 15 ], "stamina_min": [ 8 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "GOS_block_hot",
+    "name": [ "凝冰符" ],
+    "desc": [ "抵抗暑热。" ],
+    "remove_message": "凝冰符的效果消退，体感温度恢复正常。",
+    "removes_effects": [ "hot" ],
+    "max_duration": 150
+  },
+  {
+    "type": "effect_type",
+    "id": "GOS_block_cold",
+    "name": [ "升阳符" ],
+    "desc": [ "抵抗寒冷。" ],
+    "remove_message": "升阳符的效果消退，体感温度恢复正常。",
+    "removes_effects": [ "cold", "frostbite" ],
+    "max_duration": 150
+  },
+  {
+    "type": "effect_type",
+    "id": "book_fireblock",
+    "name": [ "烧烤宝典" ],
+    "desc": [ "免疫火焰造成的负面状态：「着火」与「水泡」。" ],
+    "removes_effects": [ "hot", "onfire", "blisters" ],
+    "remove_message": "烧烤宝典的防护效果消退了。",
+    "max_duration": 100
+  },
+  {
+    "type": "effect_type",
+    "id": "book_acidblock",
+    "name": [ "酸灼宝典" ],
+    "desc": [ "免疫酸液腐蚀的负面状态。" ],
+    "removes_effects": [ "corroding" ],
+    "remove_message": "酸灼防护的效果消退了。",
+    "max_duration": 100
+  },
+  {
+    "type": "effect_type",
+    "id": "book_shockblock",
+    "name": [ "电击宝典" ],
+    "desc": [ "免疫电击的负面状态。" ],
+    "removes_effects": [ "zapped" ],
+    "remove_message": "电击防护的效果消退了。",
+    "max_duration": 100
+  },
+  {
+    "type": "effect_type",
+    "id": "Legend_light",
+    "name": [ "传说光辉" ],
+    "remove_message": "传说光辉的时效已到，光环效果消散。",
+    "max_duration": 150,
+    "base_mods": { "str_mod": [ 5 ], "dex_mod": [ 5 ], "int_mod": [ 5 ], "per_mod": [ 5 ], "speed_mod": [ 40 ], "stamina_min": [ 8 ] }
+  }
 ]

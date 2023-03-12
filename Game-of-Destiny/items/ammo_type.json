@@ -1,8 +1,8 @@
 [
-	{
-        "type" : "ammunition_type",
-        "id" : "GOS_merit_ammo",
-        "name" : "诛魔箭",
-        "default" : "GS_merit_bolt"
-	}
+  {
+    "type": "ammunition_type",
+    "id": "GOS_merit_ammo",
+    "name": "诛魔箭",
+    "default": "GS_merit_bolt"
+  }
 ]

@@ -1,70 +1,62 @@
 [
-	{
-		"result": "pistol_scope",
-		"type": "recipe",
-		"id_suffix": "GD mod gunbook",	
-		"category": "CC_WEAPON",
-		"subcategory": "CSC_WEAPON_MODS",
-		"skill_used": "fabrication",		
-		"skills_required": [ [ "gun", 6 ], [ "GS_int", 6 ] ],
-		"difficulty": 0,
-		"time": 60000,
-		"book_learn": [ [ "GS_book_int_gun", 0 ] ],
-		"qualities": [
-			{"id":"CHISEL","level":3},
-			{"id":"HAMMER_FINE","level":1},
-			{"id":"SAW_M_FINE","level":1},
-			{"id":"WRENCH_FINE","level":1},
-			{"id":"SCREW_FINE","level":1}
-		],
-		"components": [
-			[ [ "lens", 2 ] ],
-			[ [ "element_plastic", 2 ] ],
-			[ [ "element_steel", 2 ] ]
-		]
-	},
-	{
-		"result": "holo_sight",
-		"type": "recipe",
-		"id_suffix": "from GS_book_int_gun",	
-		"category": "CC_WEAPON",
-		"subcategory": "CSC_WEAPON_MODS",
-		"skill_used": "fabrication",		
-		"skills_required": [ [ "gun", 6 ], [ "GS_int", 6 ] ],
-		"difficulty": 0,
-		"time": 60000,
-		"book_learn": [ [ "GS_book_int_gun", 0 ] ],
-		"qualities": [
-			{ "id":"CHISEL", "level": 3 },
-			{ "id":"HAMMER_FINE", "level": 1 },
-			{ "id":"SAW_M_FINE", "level": 1 },
-			{ "id":"WRENCH_FINE", "level": 1 },
-			{ "id":"SCREW_FINE", "level": 1 }
-		],
-		"components": [
-			[ [ "lens", 2 ] ],
-			[ [ "element_plastic", 2 ] ],
-			[ [ "element_steel", 2 ] ]
-		]
-	},
-	{
-		"result": "match_trigger",
-		"type": "recipe",
-		"id_suffix": "from GS_book_int_gun",	
-		"category": "CC_WEAPON",
-		"subcategory": "CSC_WEAPON_MODS",
-		"skill_used": "fabrication",		
-		"skills_required": [ [ "gun", 6 ], [ "GS_int", 6 ] ],
-		"difficulty": 0,
-		"time": 60000,
-		"book_learn": [ [ "GS_book_int_gun", 0 ] ],
-		"qualities": [
-			{ "id":"CHISEL", "level": 3 },
-			{ "id":"HAMMER_FINE", "level": 1 },
-			{ "id":"SAW_M_FINE", "level": 1 },
-			{ "id":"WRENCH_FINE", "level": 1 },
-			{ "id":"SCREW_FINE", "level": 1 }
-		],
-		"components": [ [ [ "element_steel", 1 ] ] ]
-	}
+  {
+    "result": "pistol_scope",
+    "type": "recipe",
+    "id_suffix": "GD mod gunbook",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MODS",
+    "skill_used": "fabrication",
+    "skills_required": [ [ "gun", 6 ], [ "GS_int", 6 ] ],
+    "difficulty": 0,
+    "time": 60000,
+    "book_learn": [ [ "GS_book_int_gun", 0 ] ],
+    "qualities": [
+      { "id": "CHISEL", "level": 3 },
+      { "id": "HAMMER_FINE", "level": 1 },
+      { "id": "SAW_M_FINE", "level": 1 },
+      { "id": "WRENCH_FINE", "level": 1 },
+      { "id": "SCREW_FINE", "level": 1 }
+    ],
+    "components": [ [ [ "lens", 2 ] ], [ [ "element_plastic", 2 ] ], [ [ "element_steel", 2 ] ] ]
+  },
+  {
+    "result": "holo_sight",
+    "type": "recipe",
+    "id_suffix": "from GS_book_int_gun",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MODS",
+    "skill_used": "fabrication",
+    "skills_required": [ [ "gun", 6 ], [ "GS_int", 6 ] ],
+    "difficulty": 0,
+    "time": 60000,
+    "book_learn": [ [ "GS_book_int_gun", 0 ] ],
+    "qualities": [
+      { "id": "CHISEL", "level": 3 },
+      { "id": "HAMMER_FINE", "level": 1 },
+      { "id": "SAW_M_FINE", "level": 1 },
+      { "id": "WRENCH_FINE", "level": 1 },
+      { "id": "SCREW_FINE", "level": 1 }
+    ],
+    "components": [ [ [ "lens", 2 ] ], [ [ "element_plastic", 2 ] ], [ [ "element_steel", 2 ] ] ]
+  },
+  {
+    "result": "match_trigger",
+    "type": "recipe",
+    "id_suffix": "from GS_book_int_gun",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MODS",
+    "skill_used": "fabrication",
+    "skills_required": [ [ "gun", 6 ], [ "GS_int", 6 ] ],
+    "difficulty": 0,
+    "time": 60000,
+    "book_learn": [ [ "GS_book_int_gun", 0 ] ],
+    "qualities": [
+      { "id": "CHISEL", "level": 3 },
+      { "id": "HAMMER_FINE", "level": 1 },
+      { "id": "SAW_M_FINE", "level": 1 },
+      { "id": "WRENCH_FINE", "level": 1 },
+      { "id": "SCREW_FINE", "level": 1 }
+    ],
+    "components": [ [ [ "element_steel", 1 ] ] ]
+  }
 ]

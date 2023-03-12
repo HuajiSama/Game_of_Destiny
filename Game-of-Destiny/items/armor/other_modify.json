@@ -1,19 +1,10 @@
 [
-	{
-    "id" : "archer_bag",
-	  "copy-from": "quiver",
-    "type" : "ARMOR",
-    "name" : "弓手背包",
-    "description":"为弓箭手特制的背包.",
-    "pocket_data": [
-      {
-        "ammo_restriction": {
-					"arrow": 20,
-					"bolt": 20,
-					"GOS_merit_ammo":20
-				},
-				"moves": 20
-			}
-		]
-	}
+  {
+    "id": "archer_bag",
+    "copy-from": "quiver",
+    "type": "ARMOR",
+    "name": "弓手背包",
+    "description": "为弓箭手特制的背包.",
+    "pocket_data": [ { "ammo_restriction": { "arrow": 20, "bolt": 20, "GOS_merit_ammo": 20 }, "moves": 20 } ]
+  }
 ]

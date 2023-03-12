@@ -1,414 +1,242 @@
 [
-	{
-        "type": "profession",
-        "ident": "GS_detective",
-        "name": "侦探",
-        "description": "不擅战斗的智力向职业，如何快速武装自己是存活的关键。",
-        "points": 2,
-        "traits": 
-			[
-			 "FASTREADER",
-             "FASTLEARNER"
-			],
-        "skills": 
-			[
-            {
-                "level": 4,
-                "name": "barter"
-            },
-            {
-                "level": 4,
-                "name": "speech"
-            }
-			],
-        "items": {
-            "both": {
-                "items": [
-					"suit",
-					"socks",
-					"dress_shoes",
-					"pockknife",
-					"cell_phone"
-                ]
-            },		
-            "male": [
-				"undershirt",
-                "briefs"
-            ],
-            "female": [
-				"bra",
-                "panties"
-            ]
-        }
-    },{
-        "type": "profession",
-        "ident": "GS_medic",
-        "name": "护理师",
-        "description": "你善于隐藏自己的存在感，这种打打杀杀的场合实在让人头痛...问题是，怎么逃出这里？",
-        "points": 2,
-        "traits": 
-			[
-			 "WEAKSCENT",
-			 "LIGHTSTEP"
-			],
-        "skills": [
-            {
-                "level": 3,
-                "name": "firstaid"
-            },
-            {
-                "level": 3,
-                "name": "cooking"
-            },
-            {
-                "level": 3,
-                "name": "tailor"
-            }
+  {
+    "type": "profession",
+    "ident": "GS_detective",
+    "name": "侦探",
+    "description": "不擅战斗的智力向职业，如何快速武装自己是存活的关键。",
+    "points": 2,
+    "traits": [ "FASTREADER", "FASTLEARNER" ],
+    "skills": [ { "level": 4, "name": "barter" }, { "level": 4, "name": "speech" } ],
+    "items": {
+      "both": { "items": [ "suit", "socks", "dress_shoes", "pockknife", "cell_phone" ] },
+      "male": [ "undershirt", "briefs" ],
+      "female": [ "bra", "panties" ]
+    }
+  },
+  {
+    "type": "profession",
+    "ident": "GS_medic",
+    "name": "护理师",
+    "description": "你善于隐藏自己的存在感，这种打打杀杀的场合实在让人头痛...问题是，怎么逃出这里？",
+    "points": 2,
+    "traits": [ "WEAKSCENT", "LIGHTSTEP" ],
+    "skills": [ { "level": 3, "name": "firstaid" }, { "level": 3, "name": "cooking" }, { "level": 3, "name": "tailor" } ],
+    "items": {
+      "both": [
+        "pants",
+        "longshirt",
+        "coat_lab",
+        "socks",
+        "sneakers",
+        "bandages",
+        "bandages",
+        "1st_aid",
+        "1st_aid",
+        "scalpel",
+        "water_clean"
+      ],
+      "male": [ "undershirt", "boxer_shorts" ],
+      "female": [ "camisole", "panties" ]
+    }
+  },
+  {
+    "type": "profession",
+    "ident": "GS_police",
+    "name": "警察",
+    "description": "有一些武术基础，擅长贴身搏击放倒对手的战斗向职业，使用歌声强化近战能力。",
+    "points": 3,
+    "traits": [ "MARTIAL_ARTS2" ],
+    "skills": [ { "level": 3, "name": "melee" }, { "level": 2, "name": "gun" }, { "level": 2, "name": "unarmed" } ],
+    "items": {
+      "both": [
+        "sheriffshirt",
+        "jacket_light",
+        "slingpack",
+        "badge_deputy",
+        "leather_belt",
+        "pants_army",
+        "socks",
+        "boots",
+        "GS_eq_per2_song",
+        "PR24-retracted"
+      ],
+      "male": [ "undershirt", "boxer_shorts" ],
+      "female": [ "sports_bra", "boy_shorts" ]
+    }
+  },
+  {
+    "type": "profession",
+    "ident": "GS_star",
+    "name": "明星",
+    "description": "你是万众瞩目的焦点，过人的美貌曾让你无往不利，即使最恶劣的情況也不忘保持形象，自带的明星光环能魅惑对手。",
+    "points": 4,
+    "CBMs": [ "bio_face_mask" ],
+    "traits": [ "STYLISH", "BEAUTIFUL" ],
+    "skills": [
+      { "level": 4, "name": "tailor" },
+      { "level": 3, "name": "barter" },
+      { "level": 3, "name": "speech" },
+      { "level": 2, "name": "cooking" }
+    ],
+    "items": {
+      "both": [
+        "GS_eq_star_charm",
+        "fancy_sunglasses",
+        "trenchcoat_leather",
+        "socks",
+        "knee_high_boots",
+        "GS_eq_per2_necklace_unseen",
+        "sf_watch",
+        "knife_swissarmy",
+        "water_mineral"
+      ],
+      "male": [ "tank_top", "boxer_shorts", "pants", "tieclip" ],
+      "female": [ "bra", "dress", "panties", "fc_hairpin" ]
+    }
+  },
+  {
+    "type": "profession",
+    "ident": "GS_sniper",
+    "name": "狙击手",
+    "description": "特种兵中的精英，拥有极佳的射击天赋，擅长从远处放倒对手，近身格斗也有不俗的表现。",
+    "points": 5,
+    "CBMs": [ "bio_targeting" ],
+    "traits": [ "MARTIAL_ARTS2" ],
+    "skills": [
+      { "level": 4, "name": "gun" },
+      { "level": 4, "name": "rifle" },
+      { "level": 2, "name": "melee" },
+      { "level": 2, "name": "survival" }
+    ],
+    "items": {
+      "both": {
+        "items": [
+          "pants_army",
+          "army_top",
+          "wristwatch",
+          "gloves_tactical",
+          "chestrig",
+          "hat_boonie",
+          "socks",
+          "legrig",
+          "boots_combat"
         ],
-        "items": {
-            "both": [
-                "pants",
-                "longshirt",
-                "coat_lab",
-                "socks",
-                "sneakers",		
-                "bandages",
-                "bandages",
-                "1st_aid",
-                "1st_aid",
-				"scalpel",
-                "water_clean"
-            ],
-            "male": [
-				"undershirt",
-                "boxer_shorts"
-            ],
-            "female": [
-                "camisole",
-                "panties"
-            ]
-        }			
-	},{	
-        "type": "profession",
-        "ident": "GS_police",
-        "name": "警察",
-        "description": "有一些武术基础，擅长贴身搏击放倒对手的战斗向职业，使用歌声强化近战能力。",
-        "points": 3,
-		"traits": 
-			[
-			"MARTIAL_ARTS2"
-			],
-        "skills": 
-			[
-			{
-				"level": 3,
-				"name": "melee"
-            },
-			{
-				"level": 2,
-				"name": "gun"
-            },
-            {
-				"level": 2,
-				"name": "unarmed"
-            }
-			],
-        "items": {
-            "both": [
-                "sheriffshirt",
-				"jacket_light",
-				"slingpack",
-                "badge_deputy",
-				"leather_belt",
-                "pants_army",
-                "socks",
-                "boots",
-				"GS_eq_per2_song",
-                "PR24-retracted"
-            ],
-            "male": [
-				"undershirt",			
-                "boxer_shorts"
-            ],
-            "female": [
-                "sports_bra",
-                "boy_shorts"
-            ]
-		}
-    },{
-        "type": "profession",
-        "ident": "GS_star",
-        "name": "明星",
-        "description": "你是万众瞩目的焦点，过人的美貌曾让你无往不利，即使最恶劣的情況也不忘保持形象，自带的明星光环能魅惑对手。",
-        "points": 4,
-        "CBMs":
-			[
-             "bio_face_mask"
-			],
-		"traits": 
-			[
-			 "STYLISH",
-			 "BEAUTIFUL"
-			],
-        "skills": [
-            {
-                "level": 4,
-                "name": "tailor"
-            },
-            {
-                "level": 3,
-                "name": "barter"
-            },
-            {
-                "level": 3,
-                "name": "speech"
-            },
-            {
-                "level": 2,
-                "name": "cooking"
-            }
+        "entries": [
+          { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
+          { "item": "water_clean", "container-item": "canteen" },
+          { "item": "lighter", "charges": 100 },
+          { "item": "knife_combat", "container-item": "sheath" },
+          { "item": "acr", "ammo-item": "556", "charges": 30, "contents-item": [ "shoulder_strap", "rifle_scope" ] },
+          { "item": "stanag30", "ammo-item": "556", "charges": 30, "count": 2 }
+        ]
+      },
+      "male": [ "boxer_shorts" ],
+      "female": [ "bra", "boxer_shorts" ]
+    }
+  },
+  {
+    "type": "profession",
+    "ident": "GS_wasteland_survivor",
+    "name": "废土生存者",
+    "description": "你是废土世界的原住民，这个世界已被拋弃，而你在此流离。",
+    "points": 3,
+    "traits": [ "ROT1" ],
+    "skills": [
+      { "level": 4, "name": "survival" },
+      { "level": 2, "name": "tailor" },
+      { "level": 2, "name": "cooking" },
+      { "level": 1, "name": "archery" }
+    ],
+    "items": {
+      "both": {
+        "items": [
+          "balclava",
+          "tshirt",
+          "gloves_light",
+          "jeans",
+          "cloak",
+          "makeshift_knapsack",
+          "boots",
+          "hatchet",
+          "pebble",
+          "pebble",
+          "oil_lamp",
+          "fire_drill",
+          "hardtack"
         ],
-        "items": {
-            "both": [
-				"GS_eq_star_charm",
-				"fancy_sunglasses",
-				"trenchcoat_leather",
-                "socks",
-                "knee_high_boots",
-				"GS_eq_per2_necklace_unseen",
-				"sf_watch",
-				"knife_swissarmy",
-                "water_mineral"
-            ],
-            "male": [
-				"tank_top",
-                "boxer_shorts",
-				"pants",
-				"tieclip"
-           ],
-            "female": [
-                "bra",
-				"dress",			
-                "panties",
-				"fc_hairpin"
-            ]
-        }	
-	},{
-        "type": "profession",
-        "ident": "GS_sniper",
-        "name": "狙击手",
-        "description": "特种兵中的精英，拥有极佳的射击天赋，擅长从远处放倒对手，近身格斗也有不俗的表现。",
-        "points": 5,
-        "CBMs":[
-            "bio_targeting"
-			],
-        "traits": 
-			[
-			"MARTIAL_ARTS2"
-			],
-        "skills": [
-            {
-                "level": 4,
-                "name": "gun"
-            },
-            {
-                "level": 4,
-                "name": "rifle"
-            },			
-            {
-                "level": 2,
-                "name": "melee"
-            },			
-            {
-                "level": 2,
-                "name": "survival"
-            }
-			],
-        "items": {
-            "both": {
-                "items": [
-					"pants_army",
-					"army_top",
-					"wristwatch",
-					"gloves_tactical",
-					"chestrig",
-					"hat_boonie",
-					"socks",
-					"legrig",
-					"boots_combat"
-                ],
-                "entries": [
-                    { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
-                    { "item": "water_clean", "container-item": "canteen" },
-                    { "item": "lighter", "charges": 100 },
-                    { "item": "knife_combat", "container-item": "sheath" },
-                    { "item": "acr", "ammo-item": "556", "charges": 30, "contents-item": ["shoulder_strap","rifle_scope"] },
-                    { "item": "stanag30", "ammo-item": "556", "charges": 30, "count": 2 }
-                ]
-            },
-            "male": [
-                "boxer_shorts"
-            ],
-            "female": [
-                "bra",
-                "boxer_shorts"
-            ]
-		}			
-	},{		
-        "type": "profession",
-        "ident": "GS_wasteland_survivor",
-        "name" : "废土生存者",
-        "description" : "你是废土世界的原住民，这个世界已被拋弃，而你在此流离。",
-        "points" : 3,
-        "traits": 
-			[
-			"ROT1"
-			],
-        "skills": [
-            {
-                "level": 4,
-                "name": "survival"
-            },
-            {
-                "level" : 2,
-                "name" : "tailor"
-            },
-            {
-                "level" : 2,
-                "name" : "cooking"
-            },
-            {
-                "level": 1,
-                "name": "archery"
-            }
+        "entries": [
+          { "item": "water_clean", "container-item": "waterskin" },
+          {
+            "item": "bullet_crossbow",
+            "ammo-item": "pebble",
+            "charges": 1,
+            "contents-item": "shoulder_strap",
+            "custom-flags": [ "no_auto_equip" ]
+          },
+          { "item": "sheath", "contents-item": "knife_hunting" }
+        ]
+      },
+      "male": [ "boxer_shorts" ],
+      "female": [ "sports_bra", "boxer_shorts" ]
+    }
+  },
+  {
+    "type": "profession",
+    "ident": "GS_scavenger",
+    "name": "超凡者",
+    "description": "你原本打算在废土小赚一票，不料传送失灵，被困于此...",
+    "points": 5,
+    "skills": [ { "level": 2, "name": "survival" }, { "level": 3, "name": "gun" }, { "level": 4, "name": "melee" } ],
+    "items": {
+      "both": {
+        "items": [
+          "GS_Scavenger_PSK",
+          "helmet_scavenger",
+          "tshirt",
+          "trenchcoat_leather",
+          "gloves_leather",
+          "pants_cargo",
+          "socks",
+          "boots_combat",
+          "wristwatch",
+          "flashlight"
         ],
-        "items": {
-            "both": {
-                "items": [
-					"balclava",
-					"tshirt",
-					"gloves_light",
-					"jeans",
-					"cloak",
-					"makeshift_knapsack",
-					"boots",
-					"hatchet",
-					"pebble",
-					"pebble",
-					"oil_lamp",
-					"fire_drill",
-					"hardtack"
-                ],
-                "entries": [
-                    { "item": "water_clean", "container-item": "waterskin" },
-                    { "item": "bullet_crossbow", "ammo-item": "pebble", "charges": 1, "contents-item": "shoulder_strap", "custom-flags":["no_auto_equip"] },
-                    { "item": "sheath", "contents-item": "knife_hunting" }
-                ]
-            },
-            "male": [
-                "boxer_shorts"
-            ],
-            "female": [
-                "sports_bra",
-                "boxer_shorts"
-            ]
-        }
-	},{	
-		"type": "profession",
-		"ident": "GS_scavenger",
-		"name": "超凡者",
-		"description": "你原本打算在废土小赚一票，不料传送失灵，被困于此...。",
-		"points": 5,
-		"skills": 
-			[
-				{
-				"level": 2,
-				"name": "survival"
-				},
-				{
-				"level": 3,
-				"name": "gun"
-				},
-				{
-				"level": 4,
-				"name": "melee"
-				}
-			],
-        "items": {
-            "both": {
-                "items": [
-					"GS_Scavenger_PSK",
-					"helmet_scavenger",
-					"tshirt",
-					"trenchcoat_leather",
-					"gloves_leather",
-					"pants_cargo",
-					"socks",
-					"boots_combat",
-					"wristwatch",
-					"flashlight"
-                ],
-                "entries": [
-                    { "item": "water_clean", "container-item": "canteen" },
-                    { "item": "crossbow", "ammo-item": "bolt_metal", "charges": 1, "contents-item": ["shoulder_strap","pistol_scope"], "custom-flags":["no_auto_equip"] },
-                    { "item": "bolt_metal", "charges": 20, "container-item": "quiver" },
-                    { "item": "iceaxe", "container-item": "fireman_belt" },
-                    { "item": "knife_hunting", "container-item": "sheath" },
-                    { "item": "lighter", "charges": 100 }
-                ]
-            },
-            "male": [
-                "boxer_shorts"
-            ],
-            "female": [
-                "sports_bra",
-                "boxer_shorts"
-            ]
-        }
-	},{	
-		"type": "profession",
-		"ident": "GS_outcast",
-		"name": "时空流浪者",
-		"description": "因为某些原因耗尽天命、形神俱消，被命运抛弃的超凡者，流离在废弃时空中等待湮灭。",
-		"points": 0,
-		"traits": [
-			"OVERDRAW_1"
-			],	
-		"skills": 
-			[
-				{
-                "level" : 2,
-                "name" : "GS_str"
-				},
-				{
-                "level" : 2,
-                "name" : "GS_dex"
-				},
-				{
-                "level" : 2,
-                "name" : "GS_int"
-				},				
-				{
-				"level" : 2,
-				"name" : "GS_per"
-				}
-			],
-		"items": {
-			"both": [
-				"pants_army",
-				"socks",
-				"boots",
-				"knife_swissarmy",
-				"stone_of_time"
-				],
-            "male": [
-				"tank_top",
-                "briefs"
-				],				
-            "female": [
-                "chestwrap",
-                "panties"
-				]				
-			}	
-	}
+        "entries": [
+          { "item": "water_clean", "container-item": "canteen" },
+          {
+            "item": "crossbow",
+            "ammo-item": "bolt_metal",
+            "charges": 1,
+            "contents-item": [ "shoulder_strap", "pistol_scope" ],
+            "custom-flags": [ "no_auto_equip" ]
+          },
+          { "item": "bolt_metal", "charges": 20, "container-item": "quiver" },
+          { "item": "iceaxe", "container-item": "fireman_belt" },
+          { "item": "knife_hunting", "container-item": "sheath" },
+          { "item": "lighter", "charges": 100 }
+        ]
+      },
+      "male": [ "boxer_shorts" ],
+      "female": [ "sports_bra", "boxer_shorts" ]
+    }
+  },
+  {
+    "type": "profession",
+    "ident": "GS_outcast",
+    "name": "时空流浪者",
+    "description": "因为某些原因耗尽天命、形神俱消，被命运抛弃的超凡者，流离在废弃时空中等待湮灭。",
+    "points": 0,
+    "traits": [ "OVERDRAW_1" ],
+    "skills": [
+      { "level": 2, "name": "GS_str" },
+      { "level": 2, "name": "GS_dex" },
+      { "level": 2, "name": "GS_int" },
+      { "level": 2, "name": "GS_per" }
+    ],
+    "items": {
+      "both": [ "pants_army", "socks", "boots", "knife_swissarmy", "stone_of_time" ],
+      "male": [ "tank_top", "briefs" ],
+      "female": [ "chestwrap", "panties" ]
+    }
+  }
 ]

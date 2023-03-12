@@ -1,26 +1,16 @@
 [
-	{
-		"type" : "uncraft",
-		"result": "GS_wp_dex2_glove_throwing",
-		"time" : 0,
-		"flags": [ "BLIND_EASY" ],
-		"components": [
-			[ 
-			 [ "destiny_copper", 100 ]
-			]			
-		]
-	},{
-		"type" : "uncraft",
-		"result": "GS_wp_dex4_glove_throwing",
-		"time" : 0,
-		"flags": [ "BLIND_EASY" ],
-		"components": [
-			[ 
-			 [ "GS_wp_dex2_glove_throwing", 1 ]
-			],
-			[ 
-			 [ "destiny_copper", 150 ]
-			]			
-		]
-	}
+  {
+    "type": "uncraft",
+    "result": "GS_wp_dex2_glove_throwing",
+    "time": 0,
+    "flags": [ "BLIND_EASY" ],
+    "components": [ [ [ "destiny_copper", 100 ] ] ]
+  },
+  {
+    "type": "uncraft",
+    "result": "GS_wp_dex4_glove_throwing",
+    "time": 0,
+    "flags": [ "BLIND_EASY" ],
+    "components": [ [ [ "GS_wp_dex2_glove_throwing", 1 ] ], [ [ "destiny_copper", 150 ] ] ]
+  }
 ]

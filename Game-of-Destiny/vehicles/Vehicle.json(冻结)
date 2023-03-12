@@ -1,24 +1,23 @@
 [
-	{
+  {
     "id": "doomsday_walker",
     "type": "vehicle",
     "name": "末日行者",
     "parts": [
       { "x": 0, "y": 0, "part": "hdframe_vertical_2" },
       { "x": 0, "y": 0, "part": "hdroof" },
-      { "x": 0, "y": 0, "part": "plating_military" },  
+      { "x": 0, "y": 0, "part": "plating_military" },
       { "x": 0, "y": 0, "part": "controls" },
       { "x": 0, "y": 0, "part": "seat" },
       { "x": 0, "y": 0, "part": "seatbelt_heavyduty" },
       { "x": 0, "y": 0, "part": "storage_battery_mount" },
       { "x": 0, "y": 0, "part": "storage_battery_removable" },
       { "x": 0, "y": 0, "part": "mounted_abzats", "ammo": 100, "ammo_types": [ "shot_00" ] },
-	  
       { "x": 0, "y": 1, "part": "hdframe_vertical_2" },
       { "x": 0, "y": 1, "part": "hdroof" },
       { "x": 0, "y": 1, "part": "plating_military" },
       { "x": 0, "y": 1, "part": "storage_battery_mount" },
-      { "x": 0, "y": 1, "part": "storage_battery_removable" },	  
+      { "x": 0, "y": 1, "part": "storage_battery_removable" },
       { "x": 0, "y": 1, "part": "inboard_mirror" },
       { "x": 0, "y": 1, "part": "stereo" },
       { "x": 0, "y": 1, "part": "horn_big" },
@@ -26,7 +25,6 @@
       { "x": 0, "y": 1, "part": "cargo_space" },
       { "x": 0, "y": 1, "part": "recharge_station" },
       { "x": 0, "y": 1, "part": "laser_rifle" },
-	  
       { "x": 0, "y": 2, "part": "hdframe_vertical_2" },
       { "x": 0, "y": 2, "part": "hdroof" },
       { "x": 0, "y": 2, "part": "plating_military" },
@@ -36,9 +34,8 @@
       { "x": 0, "y": 2, "part": "storage_battery_mount" },
       { "x": 0, "y": 2, "part": "storage_battery_removable" },
       { "x": 0, "y": 2, "part": "mounted_abzats", "ammo": 100, "ammo_types": [ "shot_00" ] },
-
       { "x": 0, "y": 3, "part": "hdframe_vertical" },
-      { "x": 0, "y": 3, "part": "plating_military" },  
+      { "x": 0, "y": 3, "part": "plating_military" },
       { "x": 0, "y": 3, "part": "hdhatch" },
       { "x": 0, "y": 3, "part": "door_motor" },
       { "x": 0, "y": 3, "part": "v_curtain_MULTISQUARE" },
@@ -47,30 +44,28 @@
       { "x": 0, "y": -1, "part": "hdhatch" },
       { "x": 0, "y": -1, "part": "door_motor" },
       { "x": 0, "y": -1, "part": "v_curtain_MULTISQUARE" },
-	  
       { "x": 1, "y": 0, "part": "hdframe_horizontal" },
       { "x": 1, "y": 0, "part": "headlight_reinforced" },
-      { "x": 1, "y": 0, "part": "plating_military" },  
+      { "x": 1, "y": 0, "part": "plating_military" },
       { "x": 1, "y": 0, "part": "reinforced_windshield" },
       { "x": 1, "y": 0, "part": "v_curtain_MULTISQUARE" },
       { "x": 1, "y": 1, "part": "hdframe_horizontal" },
-      { "x": 1, "y": 1, "part": "plating_military" },  
+      { "x": 1, "y": 1, "part": "plating_military" },
       { "x": 1, "y": 1, "part": "reinforced_windshield" },
       { "x": 1, "y": 1, "part": "v_curtain_MULTISQUARE" },
       { "x": 1, "y": 2, "part": "hdframe_horizontal" },
       { "x": 1, "y": 2, "part": "headlight_reinforced" },
-      { "x": 1, "y": 2, "part": "plating_military" },  
+      { "x": 1, "y": 2, "part": "plating_military" },
       { "x": 1, "y": 2, "part": "reinforced_windshield" },
       { "x": 1, "y": 2, "part": "v_curtain_MULTISQUARE" },
       { "x": 1, "y": 3, "part": "hdframe_vertical" },
       { "x": 1, "y": 3, "part": "hdboard_vertical" },
-      { "x": 1, "y": 3, "part": "plating_military" },  
+      { "x": 1, "y": 3, "part": "plating_military" },
       { "x": 1, "y": 3, "part": "wheel_armor_steerable" },
       { "x": 1, "y": -1, "part": "hdframe_vertical" },
       { "x": 1, "y": -1, "part": "hdboard_vertical" },
-      { "x": 1, "y": -1, "part": "plating_military" },  
+      { "x": 1, "y": -1, "part": "plating_military" },
       { "x": 1, "y": -1, "part": "wheel_armor_steerable" },
-	  
       { "x": 2, "y": 0, "part": "hdframe_horizontal" },
       { "x": 2, "y": 0, "part": "hdhalfboard_horizontal" },
       { "x": 2, "y": 0, "part": "plating_military" },
@@ -86,7 +81,6 @@
       { "x": 2, "y": -1, "part": "hdframe_nw" },
       { "x": 2, "y": -1, "part": "hdhalfboard_nw" },
       { "x": 2, "y": -1, "part": "plating_military" },
-	  
       { "x": 3, "y": 0, "part": "hdframe_horizontal_2" },
       { "x": 3, "y": 0, "part": "plating_military" },
       { "x": 3, "y": 1, "part": "hdframe_horizontal_2" },
@@ -97,35 +91,31 @@
       { "x": 3, "y": 3, "part": "plating_military" },
       { "x": 3, "y": -1, "part": "hdframe_horizontal_2" },
       { "x": 3, "y": -1, "part": "plating_military" },
-
       { "x": -1, "y": 0, "part": "hdframe_vertical_2" },
       { "x": -1, "y": 0, "part": "hdroof" },
-      { "x": -1, "y": 0, "part": "plating_military" },  
+      { "x": -1, "y": 0, "part": "plating_military" },
       { "x": -1, "y": 0, "part": "controls" },
       { "x": -1, "y": 0, "part": "seat" },
       { "x": -1, "y": 0, "part": "seatbelt_heavyduty" },
       { "x": -1, "y": 0, "part": "storage_battery_mount" },
       { "x": -1, "y": 0, "part": "storage_battery_removable" },
       { "x": -1, "y": 0, "part": "reinforced_solar_panel_v2" },
-	  
       { "x": -1, "y": 1, "part": "hdframe_vertical_2" },
       { "x": -1, "y": 1, "part": "hdroof" },
-      { "x": -1, "y": 1, "part": "plating_military" },  
+      { "x": -1, "y": 1, "part": "plating_military" },
       { "x": -1, "y": 1, "part": "trunk_floor" },
       { "x": -1, "y": 1, "part": "storage_battery_mount" },
       { "x": -1, "y": 1, "part": "storage_battery_removable" },
       { "x": -1, "y": 1, "part": "mounted_mk19", "ammo": 100, "ammo_types": [ "40mm_concussive" ] },
-	  
       { "x": -1, "y": 2, "part": "hdframe_vertical_2" },
       { "x": -1, "y": 2, "part": "hdroof" },
-      { "x": -1, "y": 2, "part": "plating_military" },  
+      { "x": -1, "y": 2, "part": "plating_military" },
       { "x": -1, "y": 2, "part": "controls" },
       { "x": -1, "y": 2, "part": "seat" },
       { "x": -1, "y": 2, "part": "seatbelt_heavyduty" },
       { "x": -1, "y": 2, "part": "storage_battery_mount" },
       { "x": -1, "y": 2, "part": "storage_battery_removable" },
       { "x": -1, "y": 2, "part": "reinforced_solar_panel_v2" },
-
       { "x": -1, "y": 3, "part": "hdframe_vertical" },
       { "x": -1, "y": 3, "part": "hdhatch" },
       { "x": -1, "y": 3, "part": "v_curtain_MULTISQUARE" },
@@ -133,15 +123,13 @@
       { "x": -1, "y": -1, "part": "hdframe_vertical" },
       { "x": -1, "y": -1, "part": "hdhatch" },
       { "x": -1, "y": -1, "part": "v_curtain_MULTISQUARE" },
-      { "x": -1, "y": -1, "part": "plating_military" },  
-	
+      { "x": -1, "y": -1, "part": "plating_military" },
       { "x": -2, "y": 1, "part": "hdframe_horizontal_2" },
       { "x": -2, "y": 1, "part": "hdroof" },
       { "x": -2, "y": 1, "part": "door_sliding" },
       { "x": -2, "y": 1, "part": "aisle_curtain" },
       { "x": -2, "y": 1, "part": "solar_panel_v3" },
       { "x": -2, "y": 1, "part": "tank", "fuel": "water_clean" },
-	  
       { "x": -2, "y": 0, "part": "hdframe_horizontal_2" },
       { "x": -2, "y": 0, "part": "roof" },
       { "x": -2, "y": 0, "part": "stowboard_horizontal" },
@@ -154,14 +142,12 @@
       { "x": -2, "y": 2, "part": "stowboard_horizontal" },
       { "x": -2, "y": 2, "part": "metal_funnel" },
       { "x": -2, "y": 2, "part": "tank", "fuel": "water" },
-	  
       { "x": -2, "y": 3, "part": "hdframe_vertical" },
       { "x": -2, "y": 3, "part": "hdboard_vertical" },
       { "x": -2, "y": 3, "part": "plating_military" },
       { "x": -2, "y": -1, "part": "hdframe_vertical" },
       { "x": -2, "y": -1, "part": "hdboard_vertical" },
       { "x": -2, "y": -1, "part": "plating_military" },
-
       { "x": -3, "y": 0, "part": "hdframe_horizontal_2" },
       { "x": -3, "y": 0, "part": "hdroof" },
       { "x": -3, "y": 0, "part": "craft_rig" },
@@ -183,7 +169,6 @@
       { "x": -3, "y": -1, "part": "hdframe_vertical" },
       { "x": -3, "y": -1, "part": "hdboard_vertical" },
       { "x": -3, "y": -1, "part": "plating_military" },
-	  
       { "x": -4, "y": 0, "part": "hdframe_horizontal_2" },
       { "x": -4, "y": 0, "part": "roof" },
       { "x": -4, "y": 0, "part": "chemlab" },
@@ -207,7 +192,6 @@
       { "x": -4, "y": -1, "part": "hdboard_vertical" },
       { "x": -4, "y": -1, "part": "wheel_armor" },
       { "x": -4, "y": -1, "part": "plating_military" },
-	  
       { "x": -5, "y": 0, "part": "hdframe_horizontal_2" },
       { "x": -5, "y": 0, "part": "roof" },
       { "x": -5, "y": 0, "part": "cargo_space" },
@@ -231,7 +215,6 @@
       { "x": -5, "y": -1, "part": "hdframe_vertical" },
       { "x": -5, "y": -1, "part": "stowboard_vertical" },
       { "x": -5, "y": -1, "part": "plating_military" },
-
       { "x": -6, "y": 0, "part": "hdframe_horizontal_2" },
       { "x": -6, "y": 0, "part": "roof" },
       { "x": -6, "y": 0, "part": "cargo_space" },
@@ -257,71 +240,168 @@
       { "x": -6, "y": -1, "part": "hdframe_vertical" },
       { "x": -6, "y": -1, "part": "stowboard_vertical" },
       { "x": -6, "y": -1, "part": "wheel_armor" },
-      { "x": -6, "y": -1, "part": "plating_military" },	  
-
+      { "x": -6, "y": -1, "part": "plating_military" },
       { "x": -7, "y": 0, "part": "hdframe_horizontal_2" },
       { "x": -7, "y": 0, "part": "hdboard_horizontal" },
       { "x": -7, "y": 0, "part": "roof" },
-      { "x": -7, "y": 0, "part": "plating_military" },	
+      { "x": -7, "y": 0, "part": "plating_military" },
       { "x": -7, "y": 1, "part": "hdframe_horizontal_2" },
       { "x": -7, "y": 1, "part": "roof" },
       { "x": -7, "y": 1, "part": "hdhatch" },
       { "x": -7, "y": 1, "part": "door_motor" },
       { "x": -7, "y": 1, "part": "aisle_curtain" },
-      { "x": -7, "y": 1, "part": "plating_military" },	
+      { "x": -7, "y": 1, "part": "plating_military" },
       { "x": -7, "y": 2, "part": "hdframe_horizontal_2" },
       { "x": -7, "y": 2, "part": "hdboard_horizontal" },
       { "x": -7, "y": 2, "part": "roof" },
-      { "x": -7, "y": 2, "part": "plating_military" },	
+      { "x": -7, "y": 2, "part": "plating_military" },
       { "x": -7, "y": 3, "part": "hdframe_vertical" },
       { "x": -7, "y": 3, "part": "hdboard_se" },
       { "x": -7, "y": 3, "part": "plating_military" },
       { "x": -7, "y": -1, "part": "hdframe_vertical" },
       { "x": -7, "y": -1, "part": "hdboard_sw" },
-      { "x": -7, "y": -1, "part": "plating_military" },	
-	  
+      { "x": -7, "y": -1, "part": "plating_military" },
       { "x": 1, "y": -2, "part": "wing_mirror" },
       { "x": 1, "y": 4, "part": "wing_mirror" }
     ],
     "items": [
       { "x": 0, "y": 0, "chance": 100, "item_groups": [ "Doomsday_cashcard" ] },
-      { "x": 0, "y": 0, "chance": 100, "items": [ "id_military","id_military","id_science","id_science","ear_plugs","flask_hip" ] },
-	  
-      { "x": 0, "y": 1, "chance": 100, "magazine": 100, "ammo": 100, "item_groups": [ "guns_smg_milspec","guns_rifle_milspec" ] },
-      { "x": 0, "y": 1, "chance": 100, "items": [ "l_lookout_9mm","l_enforcer_45","l_bak_223","l_def_12","RPG" ] },
-      { "x": 0, "y": 1, "chance": 100, "items": [ "pistol_scope","rifle_scope","holo_sight","suppressor","rail_laser_sight","laser_sight","stabilizer","brass_catcher" ] },
-      { "x": 0, "y": 1, "chance": 100, "items": [ "modularvest","mask_gas","mask_bal","tac_helmet","chestrig" ] },
-      { "x": 0, "y": 1, "chance": 100, "items": [ "knife_combat","hatchet","fire_ax","binoculars","smoxygen_tank","oxygen_tank" ] },
-      { "x": -1, "y": 1, "chance": 100, "item_groups": [ "ammo_common","ammo_rare","ammo_milspec" ] },
-      { "x": -1, "y": 1, "chance": 100, "items": [ "9mm","9mm","45_jhp","45_jhp","556","556","308","308","762_m87","762_m87","shot_00","shot_00" ] },
-      { "x": -1, "y": 1, "chance": 100, "item_groups": [ "grenades","grenades","grenades","grenades" ] },
-      { "x": -1, "y": 1, "chance": 100, "items": [ "grenade","grenade","grenade_inc","grenade_inc","EMPbomb","EMPbomb","RPG-7_ammo","RPG-7_ammo" ] },
-
-      { "x": -3, "y": 1, "chance": 100, "items": [ "towel","washboard","detergent","emer_blanket","folding_poncho","rollmat","molle_pack","canteen","canteen","legpouch_large" ] },
-      { "x": -3, "y": 2, "chance": 100, "items": [ "pot_copper","pastaextruder","pan" ] },
-      { "x": -4, "y": 0, "chance": 100, "items": [ "1st_aid","1st_aid","antibiotics","codeine" ] },
-      { "x": -4, "y": 1, "chance": 100, "items": [ "holybook_tanakh","holybook_tripitaka","holybook_kojiki","recipe_caseless","militarymap","survivormap" ] },
-      { "x": -4, "y": 2, "chance": 100, "items": [ "wine_noir","wine_cabernet","honey_gold" ] },
-      { "x": -5, "y": 1, "chance": 100, "items": [ "large_repairkit","puller","press","swage","mold_plastic","toolbox","tailors_kit","mop" ] },
-      { "x": -5, "y": 2, "chance": 100, "items": [ "pemmican","pemmican","granola","granola","soup_woods","soup_woods","cheese_hard","milk_powder","powder_eggs","sugar","salt","flour","flour","seasoning_salt" ] },
-	  	  
-	  { "x": -6, "y": 1, "chance": 100, "items": [ "diesel","gasoline"] },
-      { "x": -6, "y": 2, "chance": 100, "items": [ "cantilever_medium","motor_large","mirror","mirror","reinforced_glass_sheet","reinforced_glass_sheet","wheel_armor","wheel_armor","mil_plate","mil_plate","mil_plate","mil_plate" ] },
-	  
+      {
+        "x": 0,
+        "y": 0,
+        "chance": 100,
+        "items": [ "id_military", "id_military", "id_science", "id_science", "ear_plugs", "flask_hip" ]
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "chance": 100,
+        "magazine": 100,
+        "ammo": 100,
+        "item_groups": [ "guns_smg_milspec", "guns_rifle_milspec" ]
+      },
+      { "x": 0, "y": 1, "chance": 100, "items": [ "l_lookout_9mm", "l_enforcer_45", "l_bak_223", "l_def_12", "RPG" ] },
+      {
+        "x": 0,
+        "y": 1,
+        "chance": 100,
+        "items": [
+          "pistol_scope",
+          "rifle_scope",
+          "holo_sight",
+          "suppressor",
+          "rail_laser_sight",
+          "laser_sight",
+          "stabilizer",
+          "brass_catcher"
+        ]
+      },
+      { "x": 0, "y": 1, "chance": 100, "items": [ "modularvest", "mask_gas", "mask_bal", "tac_helmet", "chestrig" ] },
+      {
+        "x": 0,
+        "y": 1,
+        "chance": 100,
+        "items": [ "knife_combat", "hatchet", "fire_ax", "binoculars", "smoxygen_tank", "oxygen_tank" ]
+      },
+      { "x": -1, "y": 1, "chance": 100, "item_groups": [ "ammo_common", "ammo_rare", "ammo_milspec" ] },
+      {
+        "x": -1,
+        "y": 1,
+        "chance": 100,
+        "items": [ "9mm", "9mm", "45_jhp", "45_jhp", "556", "556", "308", "308", "762_m87", "762_m87", "shot_00", "shot_00" ]
+      },
+      { "x": -1, "y": 1, "chance": 100, "item_groups": [ "grenades", "grenades", "grenades", "grenades" ] },
+      {
+        "x": -1,
+        "y": 1,
+        "chance": 100,
+        "items": [ "grenade", "grenade", "grenade_inc", "grenade_inc", "EMPbomb", "EMPbomb", "RPG-7_ammo", "RPG-7_ammo" ]
+      },
+      {
+        "x": -3,
+        "y": 1,
+        "chance": 100,
+        "items": [
+          "towel",
+          "washboard",
+          "detergent",
+          "emer_blanket",
+          "folding_poncho",
+          "rollmat",
+          "molle_pack",
+          "canteen",
+          "canteen",
+          "legpouch_large"
+        ]
+      },
+      { "x": -3, "y": 2, "chance": 100, "items": [ "pot_copper", "pastaextruder", "pan" ] },
+      { "x": -4, "y": 0, "chance": 100, "items": [ "1st_aid", "1st_aid", "antibiotics", "codeine" ] },
+      {
+        "x": -4,
+        "y": 1,
+        "chance": 100,
+        "items": [ "holybook_tanakh", "holybook_tripitaka", "holybook_kojiki", "recipe_caseless", "militarymap", "survivormap" ]
+      },
+      { "x": -4, "y": 2, "chance": 100, "items": [ "wine_noir", "wine_cabernet", "honey_gold" ] },
+      {
+        "x": -5,
+        "y": 1,
+        "chance": 100,
+        "items": [ "large_repairkit", "puller", "press", "swage", "mold_plastic", "toolbox", "tailors_kit", "mop" ]
+      },
+      {
+        "x": -5,
+        "y": 2,
+        "chance": 100,
+        "items": [
+          "pemmican",
+          "pemmican",
+          "granola",
+          "granola",
+          "soup_woods",
+          "soup_woods",
+          "cheese_hard",
+          "milk_powder",
+          "powder_eggs",
+          "sugar",
+          "salt",
+          "flour",
+          "flour",
+          "seasoning_salt"
+        ]
+      },
+      { "x": -6, "y": 1, "chance": 100, "items": [ "diesel", "gasoline" ] },
+      {
+        "x": -6,
+        "y": 2,
+        "chance": 100,
+        "items": [
+          "cantilever_medium",
+          "motor_large",
+          "mirror",
+          "mirror",
+          "reinforced_glass_sheet",
+          "reinforced_glass_sheet",
+          "wheel_armor",
+          "wheel_armor",
+          "mil_plate",
+          "mil_plate",
+          "mil_plate",
+          "mil_plate"
+        ]
+      },
       { "x": 0, "y": 0, "chance": 100, "items": [ "down_blanket" ] },
       { "x": 0, "y": 2, "chance": 100, "items": [ "down_blanket" ] },
       { "x": -1, "y": 0, "chance": 100, "items": [ "down_blanket" ] },
       { "x": -1, "y": 2, "chance": 100, "items": [ "down_blanket" ] },
-	  
       { "x": 0, "y": -1, "chance": 100, "items": [ "extinguisher" ] },
       { "x": 0, "y": 3, "chance": 100, "items": [ "extinguisher" ] },
       { "x": -7, "y": 1, "chance": 100, "items": [ "extinguisher" ] }
     ]
-	},{
-    "type" : "item_group",
-    "id" : "Doomsday_cashcard",
-    "items":[
-		{"item": "cash_card", "prob":  100, "charges": 200000000}
-		]
-	}
+  },
+  {
+    "type": "item_group",
+    "id": "Doomsday_cashcard",
+    "items": [ { "item": "cash_card", "prob": 100, "charges": 200000000 } ]
+  }
 ]

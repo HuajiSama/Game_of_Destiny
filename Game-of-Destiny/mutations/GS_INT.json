@@ -1,5 +1,5 @@
 [
-	{
+  {
     "type": "mutation",
     "id": "SP_INTELLIGENT1",
     "name": "智力系特质(初级)",
@@ -9,7 +9,7 @@
     "purifiable": false,
     "threshold": true
   },
-	{
+  {
     "type": "mutation",
     "id": "SP_INTELLIGENT2",
     "name": "智力系特质(中级)",
@@ -19,7 +19,7 @@
     "purifiable": false,
     "threshold": true
   },
-	{
+  {
     "type": "mutation",
     "id": "SP_INTELLIGENT3",
     "name": "智力系特质(高级)",
@@ -29,20 +29,18 @@
     "purifiable": false,
     "threshold": true
   },
-	{
+  {
     "type": "mutation",
     "id": "LIAR",
     "name": "Skilled Liar",
     "points": 1,
     "description": "You have no qualms about bending the truth, and have practically no tells.  Telling lies and otherwise bluffing will be much easier for you.",
     "starting_trait": true,
-		"category": ["SP_INTELLIGENT1"],
-    "cancels": ["TRUTHTELLER"],
-    "social_modifiers": {
-      "lie": 40
-    }
+    "category": [ "SP_INTELLIGENT1" ],
+    "cancels": [ "TRUTHTELLER" ],
+    "social_modifiers": { "lie": 40 }
   },
-	{
+  {
     "type": "mutation",
     "id": "FASTREADER",
     "name": "Fast Reader",
@@ -50,10 +48,10 @@
     "description": "You're a quick reader, and can get through books a lot faster than most.",
     "starting_trait": true,
     "valid": false,
-		"category": ["SP_INTELLIGENT1"],
-    "cancels": ["ILLITERATE", "SLOWREADER"]
+    "category": [ "SP_INTELLIGENT1" ],
+    "cancels": [ "ILLITERATE", "SLOWREADER" ]
   },
-	{
+  {
     "type": "mutation",
     "id": "SELFAWARE",
     "name": "Self-Aware",
@@ -62,22 +60,20 @@
     "starting_trait": true,
     "valid": false,
     "active": true,
-    "category": ["SP_INTELLIGENT1","MEDICAL"]
+    "category": [ "SP_INTELLIGENT1", "MEDICAL" ]
   },
-	{
+  {
     "type": "mutation",
     "id": "INT_UP_2",
     "name": "Very Smart",
     "points": 2,
     "description": "You are smarter.  Intelligence + 2",
-    "prereqs": ["INT_UP"],
-    "changes_to": ["INT_UP_3"],
-		"category": ["SP_INTELLIGENT1"],
-    "passive_mods": {
-      "int_mod": 2
-    }
+    "prereqs": [ "INT_UP" ],
+    "changes_to": [ "INT_UP_3" ],
+    "category": [ "SP_INTELLIGENT1" ],
+    "passive_mods": { "int_mod": 2 }
   },
-	{
+  {
     "type": "mutation",
     "id": "PACKMULE",
     "name": "Packmule",
@@ -85,10 +81,10 @@
     "description": "You can manage to find space for anything!  You can carry 40% more volume.",
     "starting_trait": true,
     "valid": false,
-		"category": ["SP_INTELLIGENT2"],
-    "cancels": ["DISORGANIZED"]
+    "category": [ "SP_INTELLIGENT2" ],
+    "cancels": [ "DISORGANIZED" ]
   },
-	{
+  {
     "type": "mutation",
     "id": "GOODMEMORY",
     "name": "Good Memory",
@@ -96,10 +92,10 @@
     "description": "You have a an exceptional memory, and find it easy to remember things.  Your skills will erode slightly slower than usual, and you can remember more terrain.",
     "starting_trait": true,
     "valid": false,
-		"category": ["SP_INTELLIGENT2"],
-    "cancels": ["FORGETFUL"]
+    "category": [ "SP_INTELLIGENT2" ],
+    "cancels": [ "FORGETFUL" ]
   },
-	{
+  {
     "type": "mutation",
     "id": "INT_UP_3",
     "name": "Extremely Smart",
@@ -107,26 +103,22 @@
     "visibility": 1,
     "ugliness": 1,
     "description": "You are much smarter, and your skull bulges slightly.  Intelligence + 4",
-    "prereqs": ["INT_UP_2"],
-    "changes_to": ["INT_UP_4"],
-    "category": ["SP_INTELLIGENT2","ELFA"],
-    "passive_mods": {
-      "int_mod": 4
-    }
+    "prereqs": [ "INT_UP_2" ],
+    "changes_to": [ "INT_UP_4" ],
+    "category": [ "SP_INTELLIGENT2", "ELFA" ],
+    "passive_mods": { "int_mod": 4 }
   },
-	{
+  {
     "type": "mutation",
     "id": "SP_INT_UP",
     "name": "智计百出",
     "points": 6,
-		"description": "你完全开发了自己的脑域，你的聪明程度远超过正常人的想像，智力+6。",
-    "prereqs": ["INT_UP_3"],
-    "passive_mods": {
-      "int_mod": 6
-    },
-    "category": ["SP_INTELLIGENT3"]	
+    "description": "你完全开发了自己的脑域，你的聪明程度远超过正常人的想像，智力+6。",
+    "prereqs": [ "INT_UP_3" ],
+    "passive_mods": { "int_mod": 6 },
+    "category": [ "SP_INTELLIGENT3" ]
   },
-	{
+  {
     "type": "mutation",
     "id": "FASTLEARNER",
     "name": "Fast Learner",
@@ -134,16 +126,16 @@
     "description": "You have a flexible mind, allowing you to learn skills much faster than others.  Note that this only applies to real-world experience, not to skill gain from other sources like books.",
     "starting_trait": true,
     "valid": false,
-		"category": ["SP_INTELLIGENT3"],
-    "cancels": ["SLOWLEARNER"]
+    "category": [ "SP_INTELLIGENT3" ],
+    "cancels": [ "SLOWLEARNER" ]
   },
-	{
+  {
     "type": "mutation",
     "id": "ROBUST",
     "name": "Robust Genetics",
     "points": 3,
     "description": "You have a very strong genetic base.  If you mutate, the odds that the mutation will be beneficial are greatly increased.",
     "starting_trait": true,
-    "category": ["SP_INTELLIGENT3","FISH", "SLIME", "ALPHA", "MEDICAL"]
+    "category": [ "SP_INTELLIGENT3", "FISH", "SLIME", "ALPHA", "MEDICAL" ]
   }
 ]

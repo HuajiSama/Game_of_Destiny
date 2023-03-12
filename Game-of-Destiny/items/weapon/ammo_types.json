@@ -1,9 +1,9 @@
 [
-	{
-        "type" : "ammunition_type",
-        "id" : "thrown",
-        "name" : "throwing weapon",
-        "default" : "throwing_knife",
-		"//":"定位：原版default为空，有武器选用此ammo type时会报错。"
-	}
+  {
+    "type": "ammunition_type",
+    "id": "thrown",
+    "name": "throwing weapon",
+    "default": "throwing_knife",
+    "//": "定位：原版default为空，有武器选用此ammo type时会报错。"
+  }
 ]

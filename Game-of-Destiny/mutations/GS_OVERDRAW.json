@@ -1,5 +1,5 @@
 [
-	{
+  {
     "type": "mutation",
     "id": "OVERDRAW",
     "name": "超凡者游戏─天命透支",
@@ -8,38 +8,30 @@
     "valid": false,
     "purifiable": false,
     "threshold": true
-	},
-	{
-		"id": "stone_of_time",
-		"type": "TOOL",
-		"category": "GS_resoure",
-		"name": "驱神石",
-		"description": "这颗晶石存有残缺的时空法则，你用这股力量将自己锁定在身死道消的前一刻，这是扭转命运的锁匙。\n \n※用天命币注满后激活，逆转天命透支的状态。",
-		"material": ["super_mt"],
-		"symbol": "*",
-		"color": "dark_gray",
-		"ammo": "destiny_silver_type",
-		"charges_per_use": 5,
+  },
+  {
+    "id": "stone_of_time",
+    "type": "TOOL",
+    "category": "GS_resoure",
+    "name": "驱神石",
+    "description": "这颗晶石存有残缺的时空法则，你用这股力量将自己锁定在身死道消的前一刻，这是扭转命运的锁匙。\n \n※用天命币注满后激活，逆转天命透支的状态。",
+    "material": [ "super_mt" ],
+    "symbol": "*",
+    "color": "dark_gray",
+    "ammo": "destiny_silver_type",
+    "charges_per_use": 5,
     "pocket_data": [ { "pocket_type": "MAGAZINE", "holster": true, "rigid": true, "ammo_restriction": { "destiny_silver_type": 5 } } ],
-		"relic_data": { "charge_info": { "regenerate_ammo": true } },
-		"use_action": {
-     	"type": "mutagen",
-     	"mutation_category": "sp_overdraw"
-    },
-		"flags": [ "sp_overdraw", "UNBREAKABLE_MELEE", "ZERO_WEIGHT" ]
-	},
-	{
+    "relic_data": { "charge_info": { "regenerate_ammo": true } },
+    "use_action": { "type": "mutagen", "mutation_category": "sp_overdraw" },
+    "flags": [ "sp_overdraw", "UNBREAKABLE_MELEE", "ZERO_WEIGHT" ]
+  },
+  {
     "type": "mutation",
     "id": "OVERDRAW_1",
     "name": "天命透支LV3",
     "points": -25,
     "description": "透支天命，你的属性被极度压制，身体承受极度负荷，在清偿前无法摆脱，全能力-5、身体累赘+25。",
-    "passive_mods": {
-      "str_mod": -5,
-      "dex_mod": -5,
-      "int_mod": -5,
-      "per_mod": -5
-		},
+    "passive_mods": { "str_mod": -5, "dex_mod": -5, "int_mod": -5, "per_mod": -5 },
     "encumbrance_always": [
       [ "TORSO", 25 ],
       [ "ARM_L", 25 ],
@@ -50,23 +42,18 @@
       [ "LEG_R", 25 ],
       [ "FOOT_L", 25 ],
       [ "FOOT_R", 25 ]
-		],
+    ],
     "purifiable": false,
-    "changes_to": ["OVERDRAW_2"],
-		"category": ["sp_overdraw"]
-	},
-	{
+    "changes_to": [ "OVERDRAW_2" ],
+    "category": [ "sp_overdraw" ]
+  },
+  {
     "type": "mutation",
     "id": "OVERDRAW_2",
     "name": "天命透支LV2",
     "points": -18,
     "description": "透支天命，你的属性受到严重限制，身体承受重度负荷，在清偿前无法摆脱，全能力-3、身体累赘+18。",
-    "passive_mods": {
-      "str_mod": -3,
-      "dex_mod": -3,
-      "int_mod": -3,
-      "per_mod": -3
-		},
+    "passive_mods": { "str_mod": -3, "dex_mod": -3, "int_mod": -3, "per_mod": -3 },
     "encumbrance_always": [
       [ "TORSO", 18 ],
       [ "ARM_L", 18 ],
@@ -77,23 +64,19 @@
       [ "LEG_R", 18 ],
       [ "FOOT_L", 18 ],
       [ "FOOT_R", 18 ]
-		],
+    ],
     "purifiable": false,
-    "prereqs": ["OVERDRAW_1"],
-    "changes_to": ["OVERDRAW_3"],
-		"category": ["sp_overdraw"]
-	},{
+    "prereqs": [ "OVERDRAW_1" ],
+    "changes_to": [ "OVERDRAW_3" ],
+    "category": [ "sp_overdraw" ]
+  },
+  {
     "type": "mutation",
     "id": "OVERDRAW_3",
     "name": "天命透支LV1",
     "points": -10,
     "description": "透支天命，你的属性受到限制，身体承受额外负荷，在清偿前无法摆脱，全能力-1、身体累赘+10。",
-    "passive_mods": {
-      "str_mod": -1,
-      "dex_mod": -1,
-      "int_mod": -1,
-      "per_mod": -1	
-		},
+    "passive_mods": { "str_mod": -1, "dex_mod": -1, "int_mod": -1, "per_mod": -1 },
     "encumbrance_always": [
       [ "TORSO", 10 ],
       [ "ARM_L", 10 ],
@@ -104,13 +87,13 @@
       [ "LEG_R", 10 ],
       [ "FOOT_L", 10 ],
       [ "FOOT_R", 10 ]
-		],
+    ],
     "purifiable": false,
-    "prereqs": ["OVERDRAW_2"],
-    "changes_to": ["OVERDRAW_end"],
-		"category": ["sp_overdraw"]
-	},
-	{
+    "prereqs": [ "OVERDRAW_2" ],
+    "changes_to": [ "OVERDRAW_end" ],
+    "category": [ "sp_overdraw" ]
+  },
+  {
     "type": "mutation",
     "id": "OVERDRAW_end",
     "name": "历劫归来",
@@ -118,7 +101,7 @@
     "description": "天命透支的劫难也无法击溃你，你用行动证明自己的回归！ ※荣誉称号，不提供加成。",
     "valid": false,
     "purifiable": false,
-    "prereqs": ["OVERDRAW_3"],
-    "category": ["sp_overdraw"]
-	}
+    "prereqs": [ "OVERDRAW_3" ],
+    "category": [ "sp_overdraw" ]
+  }
 ]

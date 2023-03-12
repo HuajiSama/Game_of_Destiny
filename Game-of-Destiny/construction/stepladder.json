@@ -1,22 +1,15 @@
 [
-	{
-		"result": "stepladder",
-		"type" : "recipe",
-		"id_suffix": "fabrication",
-		"category": "CC_OTHER",
-		"subcategory": "CSC_OTHER_OTHER",
-		"difficulty": 2,
-		"time": 20000,
-		"qualities":[
-			{ "id": "HAMMER", "level": 1 },
-			{ "id": "SAW_W", "level": 1 },
-			{ "id": "CUT", "level": 1 }
-		],
-		"reversible": true,
-		"autolearn": true,
-		"components": [
-			[ [ "2x4", 20 ] ],
-			[ [ "nail", 50 ] ]
-		]
-	}
+  {
+    "result": "stepladder",
+    "type": "recipe",
+    "id_suffix": "fabrication",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_OTHER",
+    "difficulty": 2,
+    "time": 20000,
+    "qualities": [ { "id": "HAMMER", "level": 1 }, { "id": "SAW_W", "level": 1 }, { "id": "CUT", "level": 1 } ],
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "2x4", 20 ] ], [ [ "nail", 50 ] ] ]
+  }
 ]

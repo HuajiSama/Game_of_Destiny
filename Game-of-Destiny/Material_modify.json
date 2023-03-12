@@ -1,18 +1,18 @@
 [
-	{
-		"type": "material",
-		"ident": "silver",
-		"name": "Silver",
-		"copy-from": "silver",
-	    "repaired_with": "silver_small",
-		"salvaged_into": "silver_small"
-	},
-	{
-		"type": "material",
-		"ident": "gold",
-		"name": "Gold",
-		"copy-from": "gold",
-	    "repaired_with": "gold_small",
-		"salvaged_into": "gold_small"
-	}
+  {
+    "type": "material",
+    "ident": "silver",
+    "name": "Silver",
+    "copy-from": "silver",
+    "repaired_with": "silver_small",
+    "salvaged_into": "silver_small"
+  },
+  {
+    "type": "material",
+    "ident": "gold",
+    "name": "Gold",
+    "copy-from": "gold",
+    "repaired_with": "gold_small",
+    "salvaged_into": "gold_small"
+  }
 ]

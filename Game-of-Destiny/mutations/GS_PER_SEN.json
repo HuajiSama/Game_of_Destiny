@@ -9,8 +9,8 @@
     "purifiable": false,
     "threshold": true
   },
-	{
-  	"type": "mutation",
+  {
+    "type": "mutation",
     "id": "SP_SENSE2",
     "name": "感性系特质(高级)",
     "points": 0,
@@ -19,19 +19,19 @@
     "purifiable": false,
     "threshold": true
   },
-	{
+  {
     "type": "mutation",
     "id": "EASYSLEEPER",
     "name": "Accomplished Sleeper",
     "points": 1,
     "description": "You have always been able to fall asleep easily, even when sleeping in less than ideal circumstances.",
-    "changes_to": ["EASYSLEEPER2"],
+    "changes_to": [ "EASYSLEEPER2" ],
     "starting_trait": true,
     "valid": false,
-    "cancels": ["INSOMNIA"],
-    "category": ["SP_SENSE1","MOUSE", "INSECT"]
+    "cancels": [ "INSOMNIA" ],
+    "category": [ "SP_SENSE1", "MOUSE", "INSECT" ]
   },
-	{
+  {
     "type": "mutation",
     "id": "SPIRITUAL",
     "name": "Spiritual",
@@ -39,9 +39,9 @@
     "description": "You've always felt that there is more to the world than we can see.  Whether driven by religious beliefs or philosophical interest, you find great inspiration in studying holy texts and experiencing mystical things.",
     "starting_trait": true,
     "valid": false,
-		"category": ["SP_SENSE1"]
+    "category": [ "SP_SENSE1" ]
   },
-	{
+  {
     "type": "mutation",
     "id": "NONADDICTIVE",
     "name": "Addiction Resistant",
@@ -49,20 +49,20 @@
     "description": "Whether due to a lifetime of exposure or through simple willpower, it's harder for you to become addicted to substances, and easier to rid yourself of these addictions.",
     "starting_trait": true,
     "valid": false,
-		"category": ["SP_SENSE1"],
-    "cancels": ["ADDICTIVE"]
+    "category": [ "SP_SENSE1" ],
+    "cancels": [ "ADDICTIVE" ]
   },
-	{
+  {
     "type": "mutation",
     "id": "ANIMALEMPATH",
     "name": "Animal Empathy",
     "points": 1,
     "description": "Peaceful animals will not run away from you, and even aggressive animals are less likely to attack.  This only applies to natural animals such as woodland creatures.",
     "starting_trait": true,
-    "category": ["SP_SENSE1","BEAST"],
-    "cancels": ["ANIMALDISCORD"]
+    "category": [ "SP_SENSE1", "BEAST" ],
+    "cancels": [ "ANIMALDISCORD" ]
   },
-	{
+  {
     "type": "mutation",
     "id": "BEAUTIFUL",
     "name": "Beautiful",
@@ -70,12 +70,12 @@
     "visibility": -4,
     "ugliness": -4,
     "description": "You're a real head-turner.  Some people will react well to your appearance, and most people have an easier time trusting you.",
-    "cancels": ["UGLY", "DEFORMED", "DEFORMED2", "DEFORMED3"],
-    "prereqs": ["PRETTY"],
-    "changes_to": ["BEAUTIFUL2"],
-		"category": ["SP_SENSE1"]
+    "cancels": [ "UGLY", "DEFORMED", "DEFORMED2", "DEFORMED3" ],
+    "prereqs": [ "PRETTY" ],
+    "changes_to": [ "BEAUTIFUL2" ],
+    "category": [ "SP_SENSE1" ]
   },
-	{
+  {
     "type": "mutation",
     "id": "OPTIMISTIC",
     "name": "Optimist",
@@ -83,21 +83,21 @@
     "description": "Nothing gets you down!  You savor the joys of life, ignore its hardships, and are generally happier than most people.",
     "starting_trait": true,
     "valid": false,
-    "cancels": ["BADTEMPER"],
-		"category": ["SP_SENSE2"]
+    "cancels": [ "BADTEMPER" ],
+    "category": [ "SP_SENSE2" ]
   },
-	{
+  {
     "type": "mutation",
     "id": "GOURMAND",
     "name": "Gourmand",
     "points": 2,
     "description": "You eat faster, and can eat and drink more, than anyone else!  You also enjoy food more; delicious food is better for your morale, and you don't mind unsavory meals as much.  Activate to skip prompt for overeating.",
     "starting_trait": true,
-    "category": ["SP_SENSE2","MOUSE", "LUPINE"],
+    "category": [ "SP_SENSE2", "MOUSE", "LUPINE" ],
     "valid": false,
     "active": true
   },
-	{
+  {
     "type": "mutation",
     "id": "STYLISH",
     "name": "Stylish",
@@ -105,9 +105,9 @@
     "description": "Practicality is far less important than style.  Your morale is improved by wearing fashionable and attractive clothing.",
     "starting_trait": true,
     "valid": false,
-		"category": ["SP_SENSE2"]
+    "category": [ "SP_SENSE2" ]
   },
-	{
+  {
     "type": "mutation",
     "id": "BEAUTIFUL3",
     "name": "Glorious",
@@ -115,8 +115,8 @@
     "visibility": -10,
     "ugliness": -10,
     "description": "You are incredibly beautiful.  People cannot help themselves for your charms, and will do whatever they can to please you.",
-    "cancels": ["UGLY", "DEFORMED", "DEFORMED2", "DEFORMED3"],
-    "prereqs": ["BEAUTIFUL2"],
-    "category": ["SP_SENSE2","ELFA"]
+    "cancels": [ "UGLY", "DEFORMED", "DEFORMED2", "DEFORMED3" ],
+    "prereqs": [ "BEAUTIFUL2" ],
+    "category": [ "SP_SENSE2", "ELFA" ]
   }
 ]

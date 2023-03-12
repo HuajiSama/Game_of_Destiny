@@ -1,152 +1,80 @@
 [
-	{
-		"//": "巫妖(Z牧)",
-		"id" : "mon_zombie_necro",
-		"type" : "MONSTER",
-		"copy-from" : "mon_zombie_necro",
-		"dodge":6,
-		"armor_bash":3,
-		"armor_cut":3,
-		"special_attacks": [
-			["RESURRECT", 0],
-			["PARA_STING", 15]
-		],
-		"death_drops": {
-			"subtype": "collection",
-			"groups": [
-				[ "zed_death_drop", 100 ],
-				[ "destiny_coin_drops4", 100 ]
-			]
-		}
-	},
-	{
-		"//": "領主(Z薩)",
-		"type" : "MONSTER",
-		"id" : "mon_zombie_master",
-		"copy-from" : "mon_zombie_master",
-		"armor_bash":6,
-		"armor_cut":6,	
-		"special_attacks":
-			[
-			["UPGRADE", 15],
-			["STRETCH_ATTACK", 10]
-			],		
-		"death_drops": {
-			"subtype": "collection",
-			"groups": [
-				[ "zed_death_drop", 100 ],
-				[ "destiny_coin_drops4", 100 ]
-			]
-		}
-	},
-	{
-		"id" : "mon_zombie_predator",
-		"type" : "MONSTER",
-		"copy-from" : "mon_zombie_predator",
-		"hp": 105,
-		"death_drops": {
-			"subtype": "collection",
-			"groups": [
-				[ "zed_death_drop", 100 ],
-				[ "destiny_coin_drops4", 100 ]
-			]
-		}
-	},
-	{
-		"//": "殭屍獸,diff:20",
-		"id" : "mon_zombie_brute",
-		"type" : "MONSTER",
-		"copy-from" : "mon_zombie_brute",
-		"death_drops": {
-			"subtype": "collection",
-			"groups": [
-				[ "zed_death_drop", 100 ],
-				[ "destiny_coin_drops4", 100 ]
-			]
-		}
-	},
-	{
-		"id" : "mon_zombie_brute_grappler",
-		"type" : "MONSTER",
-		"copy-from" : "mon_zombie_brute_grappler",
-		"death_drops": {
-			"subtype": "collection",
-			"groups": [
-				[ "zed_death_drop", 100 ],		
-				[ "destiny_coin_drops5", 100 ]	
-			]
-		}
-	},
-	{
-		"id" : "mon_zombie_brute_ninja",
-		"type" : "MONSTER",
-		"copy-from" : "mon_zombie_brute_ninja",
-		"death_drops": {
-			"subtype": "collection",
-			"groups": [
-				[ "zed_death_drop", 100 ],
-				[ "destiny_coin_drops5", 100 ]	
-			]
-		}
-	},
-	{
-		"id" : "mon_zombie_brute_shocker", "//": "電擊獸(大)diff:22",
-		"type" : "MONSTER",
-		"copy-from" : "mon_zombie_brute_shocker",
-		"death_drops": {
-			"subtype": "collection",
-			"groups": [
-				[ "zed_death_drop", 100 ],
-				[ "destiny_coin_drops5", 100 ]
-			]
-		}		
-	},
-	{
-		"//": "生存者Z改造，屠宰能获得普通CBM(暂未完成)",
-		"id" : "mon_zombie_survivor",
-		"type" : "MONSTER",
-		"copy-from" : "mon_zombie_survivor",
-		"name": "超凡者尸鬼",	
-		"description":"此间世界陨落的超凡者，即使被尸毒转化成行尸走肉，仍保留着极度危险的战斗本能。",
-		"hp":350,
-		"dodge":5,
-		"speed":125,
-		"melee_skill":6,
-		"melee_cut":4,
-		"special_attacks": [
-			["SMASH", 35],
-			["BIO_OP_TAKEDOWN", 15],
-			{
-			"type": "leap",
-			"cooldown": 20,
-			"max_range": 5
-			}
-			],
-		"death_drops": {
-			"subtype": "collection",
-			"groups": [
-				[ "mon_zombie_survivor_death_drops", 100 ],
-				[ "destiny_coin_drops6", 100 ]
-			]
-		}
-	},
-	{
-		"//": "获得1~2个bionics_subs的CBM与一个储能模块(暂未完成)",
-		"id" : "mon_zombie_hulk",
-		"type" : "MONSTER",
-		"copy-from" : "mon_zombie_hulk",
-		"speed": 150,
-		"special_attacks":
-			[
-			["SMASH",18],
-			["GRAB_DRAG",8]
-			],
-		"death_drops": {
-			"subtype": "collection",
-			"groups": [
-				[ "mon_zombie_hulk_death_drops", 100 ],
-				[ "destiny_coin_drops6", 100 ]
-			]
-		}
-	}
+  {
+    "//": "巫妖(Z牧)",
+    "id": "mon_zombie_necro",
+    "type": "MONSTER",
+    "copy-from": "mon_zombie_necro",
+    "dodge": 6,
+    "armor_bash": 3,
+    "armor_cut": 3,
+    "special_attacks": [ [ "RESURRECT", 0 ], [ "PARA_STING", 15 ] ],
+    "death_drops": { "subtype": "collection", "groups": [ [ "zed_death_drop", 100 ], [ "destiny_coin_drops4", 100 ] ] }
+  },
+  {
+    "//": "領主(Z薩)",
+    "type": "MONSTER",
+    "id": "mon_zombie_master",
+    "copy-from": "mon_zombie_master",
+    "armor_bash": 6,
+    "armor_cut": 6,
+    "special_attacks": [ [ "UPGRADE", 15 ], [ "STRETCH_ATTACK", 10 ] ],
+    "death_drops": { "subtype": "collection", "groups": [ [ "zed_death_drop", 100 ], [ "destiny_coin_drops4", 100 ] ] }
+  },
+  {
+    "id": "mon_zombie_predator",
+    "type": "MONSTER",
+    "copy-from": "mon_zombie_predator",
+    "hp": 105,
+    "death_drops": { "subtype": "collection", "groups": [ [ "zed_death_drop", 100 ], [ "destiny_coin_drops4", 100 ] ] }
+  },
+  {
+    "//": "殭屍獸,diff:20",
+    "id": "mon_zombie_brute",
+    "type": "MONSTER",
+    "copy-from": "mon_zombie_brute",
+    "death_drops": { "subtype": "collection", "groups": [ [ "zed_death_drop", 100 ], [ "destiny_coin_drops4", 100 ] ] }
+  },
+  {
+    "id": "mon_zombie_brute_grappler",
+    "type": "MONSTER",
+    "copy-from": "mon_zombie_brute_grappler",
+    "death_drops": { "subtype": "collection", "groups": [ [ "zed_death_drop", 100 ], [ "destiny_coin_drops5", 100 ] ] }
+  },
+  {
+    "id": "mon_zombie_brute_ninja",
+    "type": "MONSTER",
+    "copy-from": "mon_zombie_brute_ninja",
+    "death_drops": { "subtype": "collection", "groups": [ [ "zed_death_drop", 100 ], [ "destiny_coin_drops5", 100 ] ] }
+  },
+  {
+    "id": "mon_zombie_brute_shocker",
+    "//": "電擊獸(大)diff:22",
+    "type": "MONSTER",
+    "copy-from": "mon_zombie_brute_shocker",
+    "death_drops": { "subtype": "collection", "groups": [ [ "zed_death_drop", 100 ], [ "destiny_coin_drops5", 100 ] ] }
+  },
+  {
+    "//": "生存者Z改造，屠宰能获得普通CBM(暂未完成)",
+    "id": "mon_zombie_survivor",
+    "type": "MONSTER",
+    "copy-from": "mon_zombie_survivor",
+    "name": "超凡者尸鬼",
+    "description": "此间世界陨落的超凡者，即使被尸毒转化成行尸走肉，仍保留着极度危险的战斗本能。",
+    "hp": 350,
+    "dodge": 5,
+    "speed": 125,
+    "melee_skill": 6,
+    "melee_cut": 4,
+    "special_attacks": [ [ "SMASH", 35 ], [ "BIO_OP_TAKEDOWN", 15 ], { "type": "leap", "cooldown": 20, "max_range": 5 } ],
+    "death_drops": { "subtype": "collection", "groups": [ [ "mon_zombie_survivor_death_drops", 100 ], [ "destiny_coin_drops6", 100 ] ] }
+  },
+  {
+    "//": "获得1~2个bionics_subs的CBM与一个储能模块(暂未完成)",
+    "id": "mon_zombie_hulk",
+    "type": "MONSTER",
+    "copy-from": "mon_zombie_hulk",
+    "speed": 150,
+    "special_attacks": [ [ "SMASH", 18 ], [ "GRAB_DRAG", 8 ] ],
+    "death_drops": { "subtype": "collection", "groups": [ [ "mon_zombie_hulk_death_drops", 100 ], [ "destiny_coin_drops6", 100 ] ] }
+  }
 ]

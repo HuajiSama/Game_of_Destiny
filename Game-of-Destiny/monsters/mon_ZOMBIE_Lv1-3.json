@@ -1,192 +1,137 @@
 [
-	{
-		"type" : "MONSTER",
-		"id" : "mon_zombie_scorched",
-		"copy-from" : "mon_zombie_scorched",
-		"death_drops": "destiny_coin_drops0"
-	},{
-		"type" : "MONSTER",
-		"id" : "mon_zombie_runner", 
-		"copy-from" : "mon_zombie_runner",
-		"death_drops": {
-			"subtype": "collection",
-			"groups": [
-				[ "zed_death_drop", 100 ],
-				[ "destiny_coin_drops1", 100 ]
-			]
-		}
-	},{
-		"type" : "MONSTER",
-		"id" : "mon_zombie_gasbag", 
-		"copy-from" : "mon_zombie_gasbag",
-		"death_drops": {
-			"subtype": "collection",
-			"groups": [
-				[ "default_zombie_items", 100 ],
-				[ "destiny_coin_drops1", 100 ]
-			]
-		}
-	},{
-		"type" : "MONSTER",
-		"id" : "mon_zombie_tough",
-		"copy-from" : "mon_zombie_tough",
-		"hp": 120,
-		"death_drops": {
-			"subtype": "collection",
-			"groups": [
-				[ "zed_death_drop", 100 ],
-				[ "destiny_coin_drops2", 100 ]
-			]
-		}
-	},{
-		"type" : "MONSTER",
-		"id" : "mon_skeleton",
-		"copy-from" : "mon_skeleton",
-		"death_drops": "destiny_coin_drops2"
-	},{
-		"type" : "MONSTER",
-		"id" : "mon_zombie_shrieker",
-		"copy-from" : "mon_zombie_shrieker",
-		"death_drops": "destiny_coin_drops2"
-	},{
-		"type" : "MONSTER",
-		"id" : "mon_zombie_screecher",
-		"copy-from" : "mon_zombie_screecher",
-		"death_drops": {
-			"subtype": "collection",
-			"groups": [
-				[ "destiny_coin_drops2", 100 ],
-				[ "destiny_coin_drops1", 100 ]
-			]
-		}
-	},{
-		"type" : "MONSTER",
-		"id" : "mon_zombie_smoker",
-		"copy-from" : "mon_zombie_smoker",
-		"death_drops": "destiny_coin_drops2"
-	},{
-		"type" : "MONSTER",
-		"id" : "mon_boomer", 
-		"copy-from" : "mon_boomer",
-		"death_drops": {
-			"subtype": "collection",
-			"groups": [
-				[ "default_zombie_items", 100 ],
-				[ "destiny_coin_drops2", 100 ]
-			]
-		}
-	},{
-		"type" : "MONSTER",
-		"id" : "mon_boomer_huge", 
-		"copy-from" : "mon_boomer_huge",
-		"death_drops": {
-			"subtype": "collection",
-			"groups": [
-				[ "default_zombie_items", 100 ],
-				[ "destiny_coin_drops2", 100 ],
-				[ "destiny_coin_drops1", 100 ]
-			]
-		}
-	},{
-		"type" : "MONSTER",
-		"id" : "mon_zombie_acidic", 
-		"copy-from" : "mon_zombie_acidic",
-		"death_drops": {
-			"subtype": "collection",
-			"groups": [
-				[ "zed_death_drop", 100 ],
-				[ "destiny_coin_drops2", 100 ]
-			]
-		}
-	},{
-		"type" : "MONSTER",
-		"id" : "mon_zombie_spitter", 
-		"copy-from" : "mon_zombie_spitter",
-		"death_drops": {
-			"subtype": "collection",
-			"groups": [
-				[ "zed_death_drop", 100 ],
-				[ "destiny_coin_drops2", 100 ],
-				[ "destiny_coin_drops1", 100 ]
-			]
-		}
-	},{
-		"type" : "MONSTER",
-		"id" : "mon_zombie_corrosive",		"//": "酸液Z進化Lv3,diff:25",
-		"copy-from" : "mon_zombie_corrosive",
-		"death_drops": {
-			"subtype": "collection",
-			"groups": [
-				[ "zed_death_drop", 100 ],
-				[ "destiny_coin_drops3", 100 ]
-			]
-		}
-	},{
-		"type" : "MONSTER",
-		"id" : "mon_zombie_hunter", 
-		"copy-from" : "mon_zombie_hunter",
-		"death_drops": {
-			"subtype": "collection",
-			"groups": [
-				[ "zed_death_drop", 100 ],
-				[ "destiny_coin_drops1", 100 ],
-				[ "destiny_coin_drops1", 100 ]
-			]
-		}
-	},{
-		"type" : "MONSTER",
-		"id" : "mon_zombie_hollow",
-		"copy-from" : "mon_zombie_hollow",
-		"death_drops": "destiny_coin_drops2"
-	},{
-		"type" : "MONSTER",
-		"id" : "mon_zombie_grabber", 
-		"copy-from" : "mon_zombie_grabber",
-		"death_drops": {
-			"subtype": "collection",
-			"groups": [
-				[ "zed_death_drop", 100 ],
-				[ "destiny_coin_drops2", 100 ]
-			]
-		}
-	},{
-		"type" : "MONSTER",
-		"id" : "mon_zombie_grappler", 
-		"copy-from" : "mon_zombie_grappler",
-		"death_drops": {
-			"subtype": "collection",
-			"groups": [
-				[ "zed_death_drop", 100 ],
-				[ "destiny_coin_drops2", 100 ],
-				[ "destiny_coin_drops1", 100 ]
-			]
-		}
-	},{
-		"type" : "MONSTER",
-		"id" : "mon_zombie_biter", 
-		"copy-from" : "mon_zombie_biter",
-		"death_drops": {
-			"subtype": "collection",
-			"groups": [
-				[ "zed_death_drop", 100 ],
-				[ "destiny_coin_drops3", 100 ]
-			]
-		}
-	},{
-		"type" : "MONSTER",
-		"id" : "mon_zombie_fiend",
-		"copy-from" : "mon_zombie_fiend",
-		"death_drops": "destiny_coin_drops3"
-	},{
-		"type" : "MONSTER",
-		"id" : "mon_zombie_electric", "//": "電擊Z diff:12",
-		"copy-from" : "mon_zombie_electric",
-		"death_drops": {
-			"subtype": "collection",
-			"groups": [
-				[ "zed_death_drop", 100 ],
-				[ "destiny_coin_drops3", 100 ]
-			]
-		}
-	}
+  {
+    "type": "MONSTER",
+    "id": "mon_zombie_scorched",
+    "copy-from": "mon_zombie_scorched",
+    "death_drops": "destiny_coin_drops0"
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_zombie_runner",
+    "copy-from": "mon_zombie_runner",
+    "death_drops": { "subtype": "collection", "groups": [ [ "zed_death_drop", 100 ], [ "destiny_coin_drops1", 100 ] ] }
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_zombie_gasbag",
+    "copy-from": "mon_zombie_gasbag",
+    "death_drops": { "subtype": "collection", "groups": [ [ "default_zombie_items", 100 ], [ "destiny_coin_drops1", 100 ] ] }
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_zombie_tough",
+    "copy-from": "mon_zombie_tough",
+    "hp": 120,
+    "death_drops": { "subtype": "collection", "groups": [ [ "zed_death_drop", 100 ], [ "destiny_coin_drops2", 100 ] ] }
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_skeleton",
+    "copy-from": "mon_skeleton",
+    "death_drops": "destiny_coin_drops2"
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_zombie_shrieker",
+    "copy-from": "mon_zombie_shrieker",
+    "death_drops": "destiny_coin_drops2"
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_zombie_screecher",
+    "copy-from": "mon_zombie_screecher",
+    "death_drops": { "subtype": "collection", "groups": [ [ "destiny_coin_drops2", 100 ], [ "destiny_coin_drops1", 100 ] ] }
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_zombie_smoker",
+    "copy-from": "mon_zombie_smoker",
+    "death_drops": "destiny_coin_drops2"
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_boomer",
+    "copy-from": "mon_boomer",
+    "death_drops": { "subtype": "collection", "groups": [ [ "default_zombie_items", 100 ], [ "destiny_coin_drops2", 100 ] ] }
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_boomer_huge",
+    "copy-from": "mon_boomer_huge",
+    "death_drops": {
+      "subtype": "collection",
+      "groups": [ [ "default_zombie_items", 100 ], [ "destiny_coin_drops2", 100 ], [ "destiny_coin_drops1", 100 ] ]
+    }
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_zombie_acidic",
+    "copy-from": "mon_zombie_acidic",
+    "death_drops": { "subtype": "collection", "groups": [ [ "zed_death_drop", 100 ], [ "destiny_coin_drops2", 100 ] ] }
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_zombie_spitter",
+    "copy-from": "mon_zombie_spitter",
+    "death_drops": {
+      "subtype": "collection",
+      "groups": [ [ "zed_death_drop", 100 ], [ "destiny_coin_drops2", 100 ], [ "destiny_coin_drops1", 100 ] ]
+    }
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_zombie_corrosive",
+    "//": "酸液Z進化Lv3,diff:25",
+    "copy-from": "mon_zombie_corrosive",
+    "death_drops": { "subtype": "collection", "groups": [ [ "zed_death_drop", 100 ], [ "destiny_coin_drops3", 100 ] ] }
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_zombie_hunter",
+    "copy-from": "mon_zombie_hunter",
+    "death_drops": {
+      "subtype": "collection",
+      "groups": [ [ "zed_death_drop", 100 ], [ "destiny_coin_drops1", 100 ], [ "destiny_coin_drops1", 100 ] ]
+    }
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_zombie_hollow",
+    "copy-from": "mon_zombie_hollow",
+    "death_drops": "destiny_coin_drops2"
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_zombie_grabber",
+    "copy-from": "mon_zombie_grabber",
+    "death_drops": { "subtype": "collection", "groups": [ [ "zed_death_drop", 100 ], [ "destiny_coin_drops2", 100 ] ] }
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_zombie_grappler",
+    "copy-from": "mon_zombie_grappler",
+    "death_drops": {
+      "subtype": "collection",
+      "groups": [ [ "zed_death_drop", 100 ], [ "destiny_coin_drops2", 100 ], [ "destiny_coin_drops1", 100 ] ]
+    }
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_zombie_biter",
+    "copy-from": "mon_zombie_biter",
+    "death_drops": { "subtype": "collection", "groups": [ [ "zed_death_drop", 100 ], [ "destiny_coin_drops3", 100 ] ] }
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_zombie_fiend",
+    "copy-from": "mon_zombie_fiend",
+    "death_drops": "destiny_coin_drops3"
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_zombie_electric",
+    "//": "電擊Z diff:12",
+    "copy-from": "mon_zombie_electric",
+    "death_drops": { "subtype": "collection", "groups": [ [ "zed_death_drop", 100 ], [ "destiny_coin_drops3", 100 ] ] }
+  }
 ]

@@ -1,88 +1,94 @@
 [
-	{
-		"type" : "MONSTER",
-		"id" : "mon_kreck", 
-		"copy-from" : "mon_kreck",
-		"death_drops": "destiny_coin_drops1"
-	},{
-		"type" : "MONSTER",
-		"id" : "mon_gelatin", 
-		"copy-from" : "mon_gelatin",
-		"death_drops": "destiny_coin_drops2"
-	},{
-		"type" : "MONSTER",
-		"id" : "mon_flaming_eye", 
-		"copy-from" : "mon_flaming_eye",
-		"dodge": 8,
-		"death_drops": "destiny_coin_drops5"
-	},{
-		"type" : "MONSTER",
-		"id" : "mon_headless_dog_thing", 
-		"copy-from" : "mon_headless_dog_thing",
-		"death_drops": "destiny_coin_drops3"
-	},{
-		"type" : "MONSTER",
-		"id" : "mon_thing",
-		"copy-from" : "mon_thing",
-		"death_drops": "destiny_coin_drops5"
-	},{
-		"type" : "MONSTER",
-		"id" : "mon_gracke",  "//": "肯拉格，改造魔物候選。",
-		"copy-from" : "mon_gracke",
-		"death_drops": "destiny_coin_drops3"
-	},{
-		"type" : "MONSTER",
-		"id" : "mon_mi_go",  "//": "米戈，改造魔物候選。",
-		"copy-from" : "mon_mi_go",
-		"death_drops": "destiny_coin_drops5"
-	},{
-		"type" : "MONSTER",
-		"id" : "mon_yugg",
-		"copy-from" : "mon_yugg",
-		"death_drops": "destiny_coin_drops5"
-	},{
-		"type" : "MONSTER",
-		"id" : "mon_albino_penguin",
-		"copy-from" : "mon_albino_penguin",
-		"speed": 80,
-		"death_drops": "destiny_coin_drops3"
-	},{
-		"type" : "MONSTER",
-		"id" : "mon_hunting_horror",	"//": "diff:28",
-		"copy-from" : "mon_hunting_horror",
-		"death_drops": "destiny_coin_drops5"
-	},{
-		"type" : "MONSTER",
-		"id" : "mon_gozu",  "//": "牛頭人,diff:20",
-		"copy-from" : "mon_gozu",
-		"death_drops": "destiny_coin_drops4"
-	},{
-		"type" : "MONSTER",
-		"id" : "mon_flying_polyp",		"//": "diff:42",
-		"copy-from" : "mon_flying_polyp",
-		"death_drops": "destiny_coin_drops6"		
-	},{
-		"type" : "MONSTER",
-		"id" : "mon_shoggoth", "//": "修格斯,強再生,帶酸",
-		"copy-from" : "mon_shoggoth",
-		"death_drops": {
-			"subtype": "collection",
-			"groups": [
-				[ "destiny_coin_drops7", 100 ],
-				[ "destiny_coin_drops5", 100 ]
-			]
-		}		
-	},{
-		"type" : "MONSTER",
-		"id" : "mon_darkman", 
-		"copy-from" : "mon_darkman",
-		"death_drops": 
-		{
-			"subtype": "collection",
-			"groups": [
-				[ "destiny_coin_drops7", 100 ],
-				[ "destiny_coin_drops5", 100 ]
-			]
-		}
-	}
+  {
+    "type": "MONSTER",
+    "id": "mon_kreck",
+    "copy-from": "mon_kreck",
+    "death_drops": "destiny_coin_drops1"
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_gelatin",
+    "copy-from": "mon_gelatin",
+    "death_drops": "destiny_coin_drops2"
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_flaming_eye",
+    "copy-from": "mon_flaming_eye",
+    "dodge": 8,
+    "death_drops": "destiny_coin_drops5"
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_headless_dog_thing",
+    "copy-from": "mon_headless_dog_thing",
+    "death_drops": "destiny_coin_drops3"
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_thing",
+    "copy-from": "mon_thing",
+    "death_drops": "destiny_coin_drops5"
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_gracke",
+    "//": "肯拉格，改造魔物候選。",
+    "copy-from": "mon_gracke",
+    "death_drops": "destiny_coin_drops3"
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_mi_go",
+    "//": "米戈，改造魔物候選。",
+    "copy-from": "mon_mi_go",
+    "death_drops": "destiny_coin_drops5"
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_yugg",
+    "copy-from": "mon_yugg",
+    "death_drops": "destiny_coin_drops5"
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_albino_penguin",
+    "copy-from": "mon_albino_penguin",
+    "speed": 80,
+    "death_drops": "destiny_coin_drops3"
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_hunting_horror",
+    "//": "diff:28",
+    "copy-from": "mon_hunting_horror",
+    "death_drops": "destiny_coin_drops5"
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_gozu",
+    "//": "牛頭人,diff:20",
+    "copy-from": "mon_gozu",
+    "death_drops": "destiny_coin_drops4"
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_flying_polyp",
+    "//": "diff:42",
+    "copy-from": "mon_flying_polyp",
+    "death_drops": "destiny_coin_drops6"
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_shoggoth",
+    "//": "修格斯,強再生,帶酸",
+    "copy-from": "mon_shoggoth",
+    "death_drops": { "subtype": "collection", "groups": [ [ "destiny_coin_drops7", 100 ], [ "destiny_coin_drops5", 100 ] ] }
+  },
+  {
+    "type": "MONSTER",
+    "id": "mon_darkman",
+    "copy-from": "mon_darkman",
+    "death_drops": { "subtype": "collection", "groups": [ [ "destiny_coin_drops7", 100 ], [ "destiny_coin_drops5", 100 ] ] }
+  }
 ]

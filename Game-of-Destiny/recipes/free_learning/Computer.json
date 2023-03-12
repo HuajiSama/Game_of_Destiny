@@ -1,69 +1,41 @@
 [
-	{
-		"type" : "recipe",
-		"result": "manual_computers",
-		"category": "CC_超凡",
-		"subcategory": "CSC_超凡_无界",
-		"skill_used": "electronics",
-		"skills_required": [["GS_int", 4],["computer", 0]],		
-		"difficulty": 0,
-		"time": 15000,
-		"autolearn": true,
-		"tools": 
-		[
-			[
-			[ "GS_book_freedom", -1 ]
-			]
-		],
-		"components": 
-		[
-			[
-			[ "destiny_copper", 50]
-			]
-		]
-	},{
-		"type" : "recipe",
-		"result": "textbook_computer",
-		"category": "CC_超凡",
-		"subcategory": "CSC_超凡_无界",
-		"skill_used": "electronics",
-		"skills_required": [["GS_int", 6],["computer", 3]],		
-		"difficulty": 0,
-		"time": 15000,
-		"autolearn": true,
-		"tools": 
-		[
-			[
-			[ "GS_book_freedom", -1 ]
-			]
-		],
-		"components": 
-		[
-			[
-			[ "destiny_silver", 1]
-			]
-		]
-	},{
-		"type" : "recipe",
-		"result": "SICP",
-		"category": "CC_超凡",
-		"subcategory": "CSC_超凡_无界",
-		"skill_used": "electronics",
-		"skills_required": [["GS_int", 8],["computer", 6]],		
-		"difficulty": 0,
-		"time": 15000,
-		"autolearn": true,
-		"tools": 
-		[
-			[
-			[ "GS_book_freedom", -1 ]
-			]
-		],
-		"components": 
-		[
-			[
-			[ "destiny_silver", 1]
-			]
-		]
-	}
+  {
+    "type": "recipe",
+    "result": "manual_computers",
+    "category": "CC_超凡",
+    "subcategory": "CSC_超凡_无界",
+    "skill_used": "electronics",
+    "skills_required": [ [ "GS_int", 4 ], [ "computer", 0 ] ],
+    "difficulty": 0,
+    "time": 15000,
+    "autolearn": true,
+    "tools": [ [ [ "GS_book_freedom", -1 ] ] ],
+    "components": [ [ [ "destiny_copper", 50 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "textbook_computer",
+    "category": "CC_超凡",
+    "subcategory": "CSC_超凡_无界",
+    "skill_used": "electronics",
+    "skills_required": [ [ "GS_int", 6 ], [ "computer", 3 ] ],
+    "difficulty": 0,
+    "time": 15000,
+    "autolearn": true,
+    "tools": [ [ [ "GS_book_freedom", -1 ] ] ],
+    "components": [ [ [ "destiny_silver", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "SICP",
+    "category": "CC_超凡",
+    "subcategory": "CSC_超凡_无界",
+    "skill_used": "electronics",
+    "skills_required": [ [ "GS_int", 8 ], [ "computer", 6 ] ],
+    "difficulty": 0,
+    "time": 15000,
+    "autolearn": true,
+    "tools": [ [ [ "GS_book_freedom", -1 ] ] ],
+    "components": [ [ [ "destiny_silver", 1 ] ] ]
+  }
 ]

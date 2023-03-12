@@ -1,88 +1,88 @@
 [
-	{
-		"type": "ammunition_type",
-		"id": "destiny_copper_type",
-		"name": { "str": "天命铜币" },
-		"default": "destiny_copper"
-	},
-	{
-		"type": "ammunition_type",
-		"id": "destiny_silver_type",
-		"name": { "str": "天命银币" },
-		"default": "destiny_silver"
-	},
-	{
-		"type": "ammunition_type",
-		"id": "destiny_gold_type",
-		"name": { "str": "天命金币" },
-		"default": "destiny_gold"
-	},
-	{
-		"type" : "ammunition_type",
-		"id":"merit_type",
-		"name": { "str": "功德之气" },
-		"default" : "merit"
-	},
-	{		
-		"id": "destiny_copper",
-		"type": "AMMO",
-		"ammo_type": "destiny_copper_type",
-		"category": "GS_resoure",
-		"name": { "str": "天命铜币" },
-		"description": "时空能量凝结的货币单位，代表着天地间的气运与命数。",
-		"material": "super_mt",
-		"symbol": "$",
-		"color": "brown",
-		"flags": [ "ZERO_WEIGHT" ]
-	},
-	{
-		"id": "destiny_silver",
-		"type": "AMMO",
-		"ammo_type": "destiny_silver_type",
-		"category": "GS_resoure",
-		"name": { "str": "天命银币" },
-		"description": "时空能量凝结的进阶货币，代表着天地间的气运与命数。",
-		"material": "super_mt",
-		"symbol": "$",
-		"color": "light_gray",
-		"flags": [ "ZERO_WEIGHT" ]
-	},
-	{
-		"id": "destiny_gold",
-		"type": "AMMO",
-		"ammo_type": "destiny_gold_type",	
-		"category": "GS_resoure",
-		"name": { "str": "天命金币" },
-		"description": "时空能量凝结的最高货币，代表着天地间的气运与命数，然而这是测试用道具。",
-		"material": "super_mt",
-		"symbol": "$",
-		"color": "yellow",
-		"flags": [ "ZERO_WEIGHT" ]
-	},
-	{
-		"id": "merit",
-		"type": "AMMO",
-		"ammo_type": "merit_type",
-		"category": "GS_resoure",
-		"name": { "str": "功德之气" },
-		"description": "修福德、行惠施、利众生，具慈悲心的善行所累积的信仰之力，克制一切邪魇之物，特殊的装备或功法能导引其力量，缺点是难以收集。",
-		"material": "merit_mt",
-		"symbol": "'",
-		"color": "yellow",
-		"effects": ["NEVER_MISFIRES"],
-		"flags": [ "ZERO_WEIGHT" ]
-	},
-	{		
-		"//":"曾经重量可以设为负数，仅以这行代码缅怀那段时光。",
-		"id": "5ghost",
-		"type":"GENERIC",
-		"category": "GS_resoure",	
-		"name": { "str": "五鬼搬运" },
-		"description": "以功德之力洗涤炼化的五方魂鬼，能施展搬运秘法增加负重上限。\n \n※只有一次效果，重复持有无效！",
-		"material": ["merit_mt"],
-		"symbol": "g",
-		"color": "white",
-		"artifact_data" : {"effects_carried": [ "AEP_CARRY_MORE" ] },
-		"flags": [ "NO_SALVAGE", "ZERO_WEIGHT" ]
-	}
+  {
+    "type": "ammunition_type",
+    "id": "destiny_copper_type",
+    "name": { "str": "天命铜币" },
+    "default": "destiny_copper"
+  },
+  {
+    "type": "ammunition_type",
+    "id": "destiny_silver_type",
+    "name": { "str": "天命银币" },
+    "default": "destiny_silver"
+  },
+  {
+    "type": "ammunition_type",
+    "id": "destiny_gold_type",
+    "name": { "str": "天命金币" },
+    "default": "destiny_gold"
+  },
+  {
+    "type": "ammunition_type",
+    "id": "merit_type",
+    "name": { "str": "功德之气" },
+    "default": "merit"
+  },
+  {
+    "id": "destiny_copper",
+    "type": "AMMO",
+    "ammo_type": "destiny_copper_type",
+    "category": "GS_resoure",
+    "name": { "str": "天命铜币" },
+    "description": "时空能量凝结的货币单位，代表着天地间的气运与命数。",
+    "material": "super_mt",
+    "symbol": "$",
+    "color": "brown",
+    "flags": [ "ZERO_WEIGHT" ]
+  },
+  {
+    "id": "destiny_silver",
+    "type": "AMMO",
+    "ammo_type": "destiny_silver_type",
+    "category": "GS_resoure",
+    "name": { "str": "天命银币" },
+    "description": "时空能量凝结的进阶货币，代表着天地间的气运与命数。",
+    "material": "super_mt",
+    "symbol": "$",
+    "color": "light_gray",
+    "flags": [ "ZERO_WEIGHT" ]
+  },
+  {
+    "id": "destiny_gold",
+    "type": "AMMO",
+    "ammo_type": "destiny_gold_type",
+    "category": "GS_resoure",
+    "name": { "str": "天命金币" },
+    "description": "时空能量凝结的最高货币，代表着天地间的气运与命数，然而这是测试用道具。",
+    "material": "super_mt",
+    "symbol": "$",
+    "color": "yellow",
+    "flags": [ "ZERO_WEIGHT" ]
+  },
+  {
+    "id": "merit",
+    "type": "AMMO",
+    "ammo_type": "merit_type",
+    "category": "GS_resoure",
+    "name": { "str": "功德之气" },
+    "description": "修福德、行惠施、利众生，具慈悲心的善行所累积的信仰之力，克制一切邪魇之物，特殊的装备或功法能导引其力量，缺点是难以收集。",
+    "material": "merit_mt",
+    "symbol": "'",
+    "color": "yellow",
+    "effects": [ "NEVER_MISFIRES" ],
+    "flags": [ "ZERO_WEIGHT" ]
+  },
+  {
+    "//": "曾经重量可以设为负数，仅以这行代码缅怀那段时光。",
+    "id": "5ghost",
+    "type": "GENERIC",
+    "category": "GS_resoure",
+    "name": { "str": "五鬼搬运" },
+    "description": "以功德之力洗涤炼化的五方魂鬼，能施展搬运秘法增加负重上限。\n \n※只有一次效果，重复持有无效！",
+    "material": [ "merit_mt" ],
+    "symbol": "g",
+    "color": "white",
+    "artifact_data": { "effects_carried": [ "AEP_CARRY_MORE" ] },
+    "flags": [ "NO_SALVAGE", "ZERO_WEIGHT" ]
+  }
 ]

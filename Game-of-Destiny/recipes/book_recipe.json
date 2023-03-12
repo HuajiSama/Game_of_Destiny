@@ -1,211 +1,155 @@
 [
-	{
-		"type" : "recipe",
-		"result": "GS_book_freedom",
-		"category": "CC_超凡",
-		"subcategory": "CSC_超凡_无界",
-		"skill_used": "computer",
-		"skills_required": ["GS_int",2],
-		"difficulty": 0,
-		"time": 15000,
-		"autolearn": true,
-		"components":
-		[
-			[
-			[ "destiny_silver", 1 ]
-			]
-		]
-	},{
-		"type" : "recipe",
-		"result": "GS_book_int_gun",
-		"category": "CC_超凡",
-		"subcategory": "CSC_超凡_无界",
-		"skill_used": "mechanics",
-		"skills_required": [["GS_int",6],["fabrication",6],["gun",3]],
-		"difficulty": 0,
-		"time": 15000,
-		"autolearn": true,
-		"tools":[
-			[
-			[ "GS_book_freedom", -1 ]
-			]
-		],
-		"components":
-		[
-			[
-			[ "destiny_silver", 1 ]
-			]
-		]
-	},{
-		"type" : "recipe",
-		"result": "GS_book_int_fabrication",
-		"category": "CC_超凡",
-		"subcategory": "CSC_超凡_无界",
-		"skill_used": "mechanics",
-		"skills_required": [["GS_int",8],["fabrication",5]],
-		"difficulty": 0,
-		"time": 15000,
-		"autolearn": true,
-		"tools":[
-			[
-			[ "GS_book_freedom", -1 ]
-			]
-		],
-		"components":
-		[
-			[
-			[ "destiny_silver", 1 ]
-			]
-		]
-	},{
-		"type" : "recipe",
-		"result": "GS_book_int_mechanic",
-		"category": "CC_超凡",
-		"subcategory": "CSC_超凡_无界",
-		"skill_used": "fabrication",
-		"skills_required": [["GS_int",8],["mechanics",5]],
-		"difficulty": 0,
-		"time": 15000,
-		"autolearn": true,
-		"tools":[
-			[
-			[ "GS_book_freedom", -1 ]
-			]
-		],
-		"components":
-		[
-			[
-			[ "destiny_silver", 1 ]
-			]
-		]
-	},{
-		"type" : "recipe",
-		"result": "GS_book_int4_medic",
-		"category": "CC_超凡",
-		"subcategory": "CSC_超凡_无界",
-		"skill_used": "survival",
-		"skills_required": [["GS_int",8],["firstaid",5]],
-		"difficulty": 0,
-		"time": 15000,
-		"autolearn": true,
-		"tools":[
-			[
-			[ "GS_book_freedom", -1 ]
-			]
-		],
-		"components":
-		[
-			[
-			[ "destiny_silver", 1 ]
-			]
-		]
-	},{
-		"type" : "recipe",
-		"result": "GS_book_alchemy1",
-		"category": "CC_超凡",
-		"subcategory": "CSC_超凡_无界",
-		"skill_used": "computer",
-		"skills_required": [["GS_int",2],["fabrication",0]],
-		"difficulty": 0,
-		"time": 10000,
-		"autolearn": true,
-		"tools":[[[ "GS_book_freedom",-1 ]]],
-		"components":[[[ "destiny_copper",25 ]]]
-	},{
-		"type" : "recipe",
-		"result": "GS_book_alchemy2",
-		"category": "CC_超凡",
-		"subcategory": "CSC_超凡_无界",
-		"skill_used": "computer",
-		"skills_required": [["GS_int",4],["fabrication",2]],
-		"difficulty": 0,
-		"time": 10000,
-		"autolearn": true,
-		"tools":[[[ "GS_book_freedom",-1 ]]],
-		"components":[[[ "destiny_copper",50 ]]]
-	},{
-		"type" : "recipe",
-		"result": "GS_book_alchemy3",
-		"category": "CC_超凡",
-		"subcategory": "CSC_超凡_无界",
-		"skill_used": "computer",
-		"skills_required": [["GS_int",6],["fabrication",4]],
-		"difficulty": 0,
-		"time": 10000,
-		"autolearn": true,
-		"tools":[[[ "GS_book_freedom",-1 ]]],
-		"components":[[[ "destiny_silver",1 ]]]
-	},{
-		"type" : "recipe",
-		"result": "GS_book_imgbullet",
-		"category": "CC_超凡",
-		"subcategory": "CSC_超凡_无界",
-		"skill_used": "computer",
-		"skills_required": [["GS_int",6],["fabrication",3]],
-		"difficulty": 0,
-		"time": 10000,
-		"autolearn": true,
-		"tools":[[[ "GS_book_freedom",-1 ]]],
-		"components":[[[ "destiny_copper",50 ]]]
-	},{
-		"type" : "recipe",
-		"result": "GS_book_merit1",
-		"category": "CC_超凡",
-		"subcategory": "CSC_超凡_无界",
-		"skill_used": "speech",
-		"skills_required": [ ["GS_int", 2],["GS_per", 2] ],
-		"difficulty": 0,
-		"time": 15000,
-		"autolearn": true,
-		"tools":
-		[
-			[
-			[ "GS_book_freedom", -1 ]
-			]
-		],
-		"components":
-		[
-			[
-			[ "destiny_silver", 1 ]
-			]
-		]
-	},{
-		"type" : "recipe",
-		"result": "GS_book_merit2",
-		"category": "CC_超凡",
-		"subcategory": "CSC_超凡_无界",
-		"skill_used": "speech",
-		"skills_required": [ ["GS_int", 2],["GS_per", 4] ],
-		"difficulty": 0,
-		"time": 15000,
-		"book_learn" : [[ "GS_book_merit1",0]],
-		"components":
-		[
-			[
-			[ "GS_book_merit1", 1 ]
-			],
-			[
-			[ "merit", 40 ]
-			]
-		]
-	},{
-		"type" : "recipe",
-		"result": "GS_book_merit3",
-		"category": "CC_超凡",
-		"subcategory": "CSC_超凡_无界",
-		"skill_used": "speech",
-		"skills_required": [ ["GS_int", 2],["GS_per", 6] ],
-		"difficulty": 0,
-		"time": 15000,
-		"book_learn" : [[ "GS_book_merit2",0]],
-		"components":
-		[
-			[
-			[ "GS_book_merit2", 1 ]
-			],
-			[
-			[ "merit", 60 ]
-			]
-		]
-	}
+  {
+    "type": "recipe",
+    "result": "GS_book_freedom",
+    "category": "CC_超凡",
+    "subcategory": "CSC_超凡_无界",
+    "skill_used": "computer",
+    "skills_required": [ "GS_int", 2 ],
+    "difficulty": 0,
+    "time": 15000,
+    "autolearn": true,
+    "components": [ [ [ "destiny_silver", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "GS_book_int_gun",
+    "category": "CC_超凡",
+    "subcategory": "CSC_超凡_无界",
+    "skill_used": "mechanics",
+    "skills_required": [ [ "GS_int", 6 ], [ "fabrication", 6 ], [ "gun", 3 ] ],
+    "difficulty": 0,
+    "time": 15000,
+    "autolearn": true,
+    "tools": [ [ [ "GS_book_freedom", -1 ] ] ],
+    "components": [ [ [ "destiny_silver", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "GS_book_int_fabrication",
+    "category": "CC_超凡",
+    "subcategory": "CSC_超凡_无界",
+    "skill_used": "mechanics",
+    "skills_required": [ [ "GS_int", 8 ], [ "fabrication", 5 ] ],
+    "difficulty": 0,
+    "time": 15000,
+    "autolearn": true,
+    "tools": [ [ [ "GS_book_freedom", -1 ] ] ],
+    "components": [ [ [ "destiny_silver", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "GS_book_int_mechanic",
+    "category": "CC_超凡",
+    "subcategory": "CSC_超凡_无界",
+    "skill_used": "fabrication",
+    "skills_required": [ [ "GS_int", 8 ], [ "mechanics", 5 ] ],
+    "difficulty": 0,
+    "time": 15000,
+    "autolearn": true,
+    "tools": [ [ [ "GS_book_freedom", -1 ] ] ],
+    "components": [ [ [ "destiny_silver", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "GS_book_int4_medic",
+    "category": "CC_超凡",
+    "subcategory": "CSC_超凡_无界",
+    "skill_used": "survival",
+    "skills_required": [ [ "GS_int", 8 ], [ "firstaid", 5 ] ],
+    "difficulty": 0,
+    "time": 15000,
+    "autolearn": true,
+    "tools": [ [ [ "GS_book_freedom", -1 ] ] ],
+    "components": [ [ [ "destiny_silver", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "GS_book_alchemy1",
+    "category": "CC_超凡",
+    "subcategory": "CSC_超凡_无界",
+    "skill_used": "computer",
+    "skills_required": [ [ "GS_int", 2 ], [ "fabrication", 0 ] ],
+    "difficulty": 0,
+    "time": 10000,
+    "autolearn": true,
+    "tools": [ [ [ "GS_book_freedom", -1 ] ] ],
+    "components": [ [ [ "destiny_copper", 25 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "GS_book_alchemy2",
+    "category": "CC_超凡",
+    "subcategory": "CSC_超凡_无界",
+    "skill_used": "computer",
+    "skills_required": [ [ "GS_int", 4 ], [ "fabrication", 2 ] ],
+    "difficulty": 0,
+    "time": 10000,
+    "autolearn": true,
+    "tools": [ [ [ "GS_book_freedom", -1 ] ] ],
+    "components": [ [ [ "destiny_copper", 50 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "GS_book_alchemy3",
+    "category": "CC_超凡",
+    "subcategory": "CSC_超凡_无界",
+    "skill_used": "computer",
+    "skills_required": [ [ "GS_int", 6 ], [ "fabrication", 4 ] ],
+    "difficulty": 0,
+    "time": 10000,
+    "autolearn": true,
+    "tools": [ [ [ "GS_book_freedom", -1 ] ] ],
+    "components": [ [ [ "destiny_silver", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "GS_book_imgbullet",
+    "category": "CC_超凡",
+    "subcategory": "CSC_超凡_无界",
+    "skill_used": "computer",
+    "skills_required": [ [ "GS_int", 6 ], [ "fabrication", 3 ] ],
+    "difficulty": 0,
+    "time": 10000,
+    "autolearn": true,
+    "tools": [ [ [ "GS_book_freedom", -1 ] ] ],
+    "components": [ [ [ "destiny_copper", 50 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "GS_book_merit1",
+    "category": "CC_超凡",
+    "subcategory": "CSC_超凡_无界",
+    "skill_used": "speech",
+    "skills_required": [ [ "GS_int", 2 ], [ "GS_per", 2 ] ],
+    "difficulty": 0,
+    "time": 15000,
+    "autolearn": true,
+    "tools": [ [ [ "GS_book_freedom", -1 ] ] ],
+    "components": [ [ [ "destiny_silver", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "GS_book_merit2",
+    "category": "CC_超凡",
+    "subcategory": "CSC_超凡_无界",
+    "skill_used": "speech",
+    "skills_required": [ [ "GS_int", 2 ], [ "GS_per", 4 ] ],
+    "difficulty": 0,
+    "time": 15000,
+    "book_learn": [ [ "GS_book_merit1", 0 ] ],
+    "components": [ [ [ "GS_book_merit1", 1 ] ], [ [ "merit", 40 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "GS_book_merit3",
+    "category": "CC_超凡",
+    "subcategory": "CSC_超凡_无界",
+    "skill_used": "speech",
+    "skills_required": [ [ "GS_int", 2 ], [ "GS_per", 6 ] ],
+    "difficulty": 0,
+    "time": 15000,
+    "book_learn": [ [ "GS_book_merit2", 0 ] ],
+    "components": [ [ [ "GS_book_merit2", 1 ] ], [ [ "merit", 60 ] ] ]
+  }
 ]
