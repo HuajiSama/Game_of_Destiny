@@ -1,19 +1,19 @@
 [
 	{
-    "id" : "OXYTORCH",
-    "type" : "item_action",
-    "name" : "焊枪切割"
+    "id": "OXYTORCH",
+    "type": "item_action",
+    "name": "焊枪切割"
   },
 	{
 		"id": "GS_tool_welder",
 		"sub": "oxy_torch",
 		"type": "TOOL",
-		"category" : "GS_tool",
+		"category": "GS_tool",
 		"name": { "str": "超凡者焊枪" },
 		"description": "智力系机械专长的特制工具，用于焊接、锻造、修复金属，也用于破坏金属障碍物，使用一般电池。",
 		"weight": "1500 g",
 		"volume": 5,
-		"material" : [ "super_mt" ],
+		"material": [ "super_mt" ],
 		"symbol": ";",
 		"color": "light_red",
 		"charges_per_use": 1,
@@ -36,17 +36,17 @@
     ]
 	},
 	{
-		"id" : "GS_eq_toolbelt",
-		"type" : "ARMOR",
-		"category" : "GS_equipment",
+		"id": "GS_eq_toolbelt",
+		"type": "ARMOR",
+		"category": "GS_equipment",
 		"name": { "str": "超凡者工具腰带" },
-		"description" : "智力专长具现的辅助装备，装有各式工具的腰带，背后有收藏武器用的战术绑带，附取火、开锁、时钟、温度计等功能，应付各种生存挑战。",
-		"weight" : "1500 g",
-		"volume" : 12,
-    "material" : [ "super_mt", "steel" ],
-		"color" : "brown",
-		"storage" : 14,
-		"symbol" : "[",
+		"description": "智力专长具现的辅助装备，装有各式工具的腰带，背后有收藏武器用的战术绑带，附取火、开锁、时钟、温度计等功能，应付各种生存挑战。",
+		"weight": "1500 g",
+		"volume": 12,
+    "material": [ "super_mt", "steel" ],
+		"color": "brown",
+		"storage": 14,
+		"symbol": "[",
 		"use_action": [
 			{
 				"type": "holster",
@@ -60,27 +60,31 @@
 				"moves": 200,
 				"moves_slow": 5000
 			},
-			{
-				"type": "picklock",
-				"pick_quality": 10
-			},
 				"HAMMER"
 			],
-		"qualities": [ ["HAMMER", 3],["HAMMER_FINE", 1],["SAW_W", 2],["SAW_M", 2],["SAW_M_FINE", 1],["WRENCH", 2],["WRENCH_FINE", 1],["SCREW", 1],["SCREW_FINE", 1],["CUT",1],["CUT_FINE",2],["BUTCHER", 20] ],
+		"qualities": [
+			[ "HAMMER", 3 ],[ "HAMMER_FINE", 1 ],
+			[ "SAW_W", 2 ],[ "SAW_M", 2 ],[ "SAW_M_FINE", 1 ],
+			[ "WRENCH", 2 ],[ "WRENCH_FINE", 1 ],
+			[ "SCREW", 1 ],[ "SCREW_FINE", 1 ],
+			[ "CUT", 1 ],[ "CUT_FINE",2 ],
+			[ "BUTCHER", 20 ],
+			[ "LOCKPICK", 20 ]
+		],
 		"flags" : ["FANCY","WAIST","WATCH","THERMOMETER"]
 	},
 	{
-		"id" : "GS_eq_toolbelt2",
-		"type" : "ARMOR",
-		"category" : "GS_equipment",	
+		"id": "GS_eq_toolbelt2",
+		"type": "ARMOR",
+		"category": "GS_equipment",	
     "name": { "str": "超凡者战术腰带" },
-		"description" : "智力专长具现的辅助装备，更强的工具性能、收纳2把武器的战术空间，具取火、开锁、时钟、气侯计等功能。",
-		"weight" : 1200,
-		"volume" : 10,
-    "material" : ["super_mt","steel"],
-		"color" : "brown",
-		"symbol" : "[",
-		"storage" : 22,
+		"description": "智力专长具现的辅助装备，更强的工具性能、收纳2把武器的战术空间，具取火、开锁、时钟、气侯计等功能。",
+		"weight": 1200,
+		"volume": 10,
+    "material": [ "super_mt", "steel" ],
+		"color": "brown",
+		"symbol": "[",
+		"storage": 22,
 		"use_action": [
 			{
 				"type": "holster",
@@ -96,13 +100,17 @@
 				"moves": 100,
 				"moves_slow": 2000
 			},
-			{
-				"type": "picklock",
-				"pick_quality": 20
-			},
 				"HAMMER"
 			],
-		"qualities": [ ["HAMMER", 3],["HAMMER_FINE", 2],["SAW_W", 3],["SAW_M", 3],["SAW_M_FINE", 2],["WRENCH", 3],["WRENCH_FINE", 2],["SCREW", 2],["SCREW_FINE", 2],["CUT",2],["CUT_FINE",3],["BUTCHER", 30] ],
+		"qualities": [
+			[ "HAMMER", 3 ],[ "HAMMER_FINE", 2 ],
+			[ "SAW_W", 3 ],[ "SAW_M", 3 ],[ "SAW_M_FINE", 2 ],
+			[ "WRENCH", 3 ],[ "WRENCH_FINE", 2 ],
+			[ "SCREW", 2 ],[ "SCREW_FINE", 2 ],
+			[ "CUT", 2 ],[ "CUT_FINE", 3 ],
+			[ "BUTCHER", 30 ],
+			[ "LOCKPICK", 20 ]
+		],
 		"flags" : ["SUPER_FANCY","WAIST","WATCH","ALARMCLOCK","THERMOMETER","HYGROMETER","BAROMETER"]
 	},
 	{
@@ -263,13 +271,19 @@
 		"material" : [ "super_mt", "steel" ],
     "symbol" : "[",
     "color" : "brown",
-		"flags": ["BELTED"],
-    "use_action" : {
-      "type": "bandolier",
-      "capacity": 40,
-      "ammo": [ "arrow", "bolt", "thrown", "GOS_merit_ammo" ],
-      "draw_cost": 20
-    }
+		"flags": [ "BELTED", "OVERSIZE", "WATER_FRIENDLY" ],
+    "pocket_data": [
+      {
+				"ammo_restriction": {
+					"arrow": 40,
+					"bolt": 40,
+					"thrown": 40,
+					"GOS_merit_ammo": 40
+      	},
+				"moves": 20
+    	}
+		],
+		"armor": [ { "encumbrance": 1, "coverage": 20, "covers": [ "torso" ], "specifically_covers": [ "torso_hanging_back" ] } ]
 	},
 	{
     "id" : "GS_eq_support_magpouch",
@@ -282,17 +296,32 @@
 		"material" : [ "super_mt", "steel" ],
     "symbol" : "[",
     "color" : "brown",
-		"flags": ["WATER_FRIENDLY","WAIST"],
+		"pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "max_item_length": "300 mm",
+        "max_contains_volume": "1500 ml",
+        "max_contains_weight": "2 kg",
+        "moves": 40,
+        "flag_restriction": [ "MAG_BULKY", "MAG_COMPACT" ],
+        "volume_encumber_modifier": 0.3
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "max_item_length": "300 mm",
+        "max_contains_volume": "1500 ml",
+        "max_contains_weight": "2 kg",
+        "moves": 40,
+        "flag_restriction": [ "MAG_BULKY", "MAG_COMPACT" ],
+        "volume_encumber_modifier": 0.3
+      }
+		],
     "use_action" : {
 			"type": "holster",
 			"holster_prompt": "Stash ammo",
-			"holster_msg": "You stash your %s.",
-			"max_volume": 6,
-			"min_volume": 1,
-			"multi": 2,
-			"draw_cost": 40,
-			"flags": [ "MAG_COMPACT", "MAG_BULKY" ]
-    }
+			"holster_msg": "You stash your %s."
+    },
+		"flags": ["WATER_FRIENDLY","WAIST"]
 	},
 	{
     "id" : "GS_eq_support_bandolier",
@@ -305,18 +334,37 @@
 		"material" : [ "super_mt", "steel" ],
     "symbol" : "[",
     "color" : "brown",
-		"use_action": {
-			"type": "bandolier",
-			"capacity": 12,
-			"draw_cost": 20,
-			"ammo": [ 
-				"32", "762x25", "38", "40", "44", "45", "9x18", "9mm", "454", "500",
-				"22", "223", "5x50", "545x39", "3006", "308", "300", "762", "762R", "8x40mm",
-				"shot", "20x66mm",
-				"metal_rail",
-				"Element_bullet_type"
-			]
-		},
+    "pocket_data": [
+			{
+				"ammo_restriction": {
+					"32": 12,
+					"762x25": 12,
+					"38": 12,
+					"40": 12,
+					"44": 12,
+					"45": 12,
+					"9x18": 12,
+					"9mm": 12,
+					"454": 12,
+					"500": 12,
+					"22": 12,
+					"223": 12,
+					"5x50": 12,
+					"545x39": 12,
+					"3006": 12,
+					"308": 12,
+					"300": 12,
+					"762": 12,
+					"762R": 12,
+					"8x40mm": 12,
+					"shot": 12,
+					"20x66mm": 12,
+					"metal_rail": 12,
+					"Element_bullet_type": 12
+				},
+				"moves": 20
+			}
+		],
 		"flags": [ "WATER_FRIENDLY", "WAIST" ]
 	},
 	{
@@ -416,7 +464,6 @@
 		"symbol": "?",
 		"color": "green",
 		"ammo": "destiny_copper_type",
-		"max_charges": 30,
 		"flags": [ "ZERO_WEIGHT" ],
 		"pocket_data": [
 			{ 
@@ -444,7 +491,6 @@
 		"symbol": "?",
 		"color": "green",
 		"ammo": "destiny_copper_type",
-		"max_charges": 30,
 		"charges_per_use": 2,
 		"turns_per_charge": 1,
 		"flags": [ "ZERO_WEIGHT" ],
@@ -590,7 +636,14 @@
 			"effects_wielded": ["AEP_CLAIRVOYANCE_PLUS","AEP_SPEED_DOWN","AEP_PER_UP","AEP_PER_UP","AEP_PER_UP","AEP_ALL_DOWN","AEP_ALL_DOWN"],
 		  "effects_activated": ["AEA_MAP"]
 		},
-		"use_action": "ARTIFACT",
+		"use_action": [
+			{
+				"type": "cast_spell",
+				"spell_id": "AEA_MAP",
+				"level": 1,
+				"no_fail": true
+			}
+		],
 		"flags" : ["NO_UNLOAD","FRAGILE","ZOOM"]
 	},
 	{

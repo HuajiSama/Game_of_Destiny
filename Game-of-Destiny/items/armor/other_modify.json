@@ -5,11 +5,15 @@
     "type" : "ARMOR",
     "name" : "弓手背包",
     "description":"为弓箭手特制的背包.",
-		"use_action": {
-			"type": "bandolier",
-			"capacity": 20,
-			"ammo": [ "arrow", "bolt", "GOS_merit_ammo" ],
-			"draw_cost": 20
-		}
+    "pocket_data": [
+      {
+        "ammo_restriction": {
+					"arrow": 20,
+					"bolt": 20,
+					"GOS_merit_ammo":20
+				},
+				"moves": 20
+			}
+		]
 	}
 ]
