@@ -1,7 +1,7 @@
 [
 	{
     "type": "mutation",
-    "id": "THRESH_IMMORTAL",
+    "id": "IMMORTAL",
     "name": "超凡者游戏─肉身成圣",
     "points": 0,
     "description": "debug专用",

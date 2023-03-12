@@ -14,7 +14,7 @@
      "type": "mutagen",
      "mutation_category": "SP_STRENGTH1"
     },
-    "flags": [ "SP_STRENGTH1" ]
+    "flags": [ "SP_STRENGTH1", "ZERO_WEIGHT" ]
 },
 {
     "id": "cohesion_strength2",
@@ -31,7 +31,7 @@
       "type": "mutagen",
       "mutation_category": "SP_STRENGTH2"
     },
-    "flags": [ "SP_STRENGTH2" ]
+    "flags": [ "SP_STRENGTH2", "ZERO_WEIGHT" ]
   },
   {
     "id": "cohesion_strength3",
@@ -48,7 +48,7 @@
       "type": "mutagen",
       "mutation_category": "SP_STRENGTH3"
     },
-    "flags": [ "SP_STRENGTH3" ]
+    "flags": [ "SP_STRENGTH3", "ZERO_WEIGHT" ]
   },
   {
     "id": "cohesion_dexterity1",
@@ -65,7 +65,7 @@
       "type": "mutagen",
       "mutation_category": "SP_DEXTERITY1"
     },
-    "flags": [ "SP_DEXTERITY1" ]
+    "flags": [ "SP_DEXTERITY1", "ZERO_WEIGHT" ]
   },
   {
     "id": "cohesion_dexterity2",
@@ -82,7 +82,7 @@
       "type": "mutagen",
       "mutation_category": "SP_DEXTERITY2"
     },
-    "flags": [ "SP_DEXTERITY2" ]
+    "flags": [ "SP_DEXTERITY2", "ZERO_WEIGHT" ]
   },
   {
     "id": "cohesion_dexterity3",
@@ -99,7 +99,7 @@
       "type": "mutagen",
       "mutation_category": "SP_DEXTERITY3"
     },
-    "flags": [ "SP_DEXTERITY3" ]
+    "flags": [ "SP_DEXTERITY3", "ZERO_WEIGHT" ]
   },
   {
     "id": "cohesion_intelligent1",
@@ -116,7 +116,7 @@
       "type": "mutagen",
       "mutation_category": "SP_INTELLIGENT1"
     },
-    "flags": [ "SP_INTELLIGENT1" ]
+    "flags": [ "SP_INTELLIGENT1", "ZERO_WEIGHT" ]
   },
   {
     "id": "cohesion_intelligent2",
@@ -133,7 +133,7 @@
       "type": "mutagen",
       "mutation_category": "SP_INTELLIGENT2"
     },
-    "flags": [ "SP_INTELLIGENT2" ]
+    "flags": [ "SP_INTELLIGENT2", "ZERO_WEIGHT" ]
   },
   {
     "id": "cohesion_intelligent3",
@@ -150,7 +150,7 @@
       "type": "mutagen",
       "mutation_category": "SP_INTELLIGENT3"
     },
-    "flags": [ "SP_INTELLIGENT3" ]
+    "flags": [ "SP_INTELLIGENT3", "ZERO_WEIGHT" ]
   },
   {
     "id": "cohesion_sensibility1",
@@ -167,7 +167,7 @@
       "type": "mutagen",
       "mutation_category": "SP_SENSE1"
     },
-    "flags": [ "SP_SENSE1" ]
+    "flags": [ "SP_SENSE1", "ZERO_WEIGHT" ]
   },
   {
     "id": "cohesion_sensibility2",
@@ -184,7 +184,7 @@
       "type": "mutagen",
       "mutation_category": "SP_SENSE2"
     },
-    "flags": [ "SP_SENSE2" ]
+    "flags": [ "SP_SENSE2", "ZERO_WEIGHT" ]
   },
   {
     "id": "cohesion_percetion1",
@@ -201,7 +201,7 @@
       "type": "mutagen",
       "mutation_category": "SP_PERCETION1"
     },
-    "flags": [ "SP_PERCETION1" ]
+    "flags": [ "SP_PERCETION1", "ZERO_WEIGHT" ]
   },
   {
     "id": "cohesion_percetion2",
@@ -218,7 +218,7 @@
       "type": "mutagen",
       "mutation_category": "SP_PERCETION2"
     },
-    "flags": [ "SP_PERCETION2" ]
+    "flags": [ "SP_PERCETION2", "ZERO_WEIGHT" ]
   },
   {
     "id": "cohesion_percetion3",
@@ -235,7 +235,7 @@
       "type": "mutagen",
       "mutation_category": "SP_PERCETION3"
     },
-    "flags": [ "SP_PERCETION3" ]
+    "flags": [ "SP_PERCETION3", "ZERO_WEIGHT" ]
   },
   {
     "id": "cohesion_endurence1",
@@ -252,7 +252,7 @@
       "type": "mutagen",
       "mutation_category": "SP_ENDURENCE1"
     },
-    "flags": [ "SP_ENDURENCE1" ]
+    "flags": [ "SP_ENDURENCE1", "ZERO_WEIGHT" ]
   },
   {
     "id": "cohesion_endurence2",
@@ -269,7 +269,7 @@
       "type": "mutagen",
       "mutation_category": "SP_ENDURENCE2"
     },
-    "flags": [ "SP_ENDURENCE2" ]
+    "flags": [ "SP_ENDURENCE2", "ZERO_WEIGHT" ]
   },
   {
     "id": "cohesion_endurence3",
@@ -286,7 +286,7 @@
       "type": "mutagen",
       "mutation_category": "SP_ENDURENCE3"
     },
-    "flags": [ "SP_ENDURENCE3" ]
+    "flags": [ "SP_ENDURENCE3", "ZERO_WEIGHT" ]
   },
   {
     "id": "cohesion_immortal",
@@ -303,7 +303,7 @@
       "type": "mutagen",
       "mutation_category": "IMMORTAL"
     },
-    "flags": [ "IMMORTAL" ]
+    "flags": [ "IMMORTAL", "ZERO_WEIGHT" ]
   },
   {
     "id": "cohesion_title",
@@ -320,6 +320,6 @@
      "type": "mutagen",
      "mutation_category": "SP_NOVICE"
     },
-    "flags": [ "SP_NOVICE" ]
+    "flags": [ "SP_NOVICE", "ZERO_WEIGHT" ]
   }
 ]

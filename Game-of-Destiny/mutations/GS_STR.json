@@ -1,7 +1,7 @@
 [
 	{
     "type": "mutation",
-    "id": "THRESH_SP_STRENGTH1",
+    "id": "SP_STRENGTH1",
     "name": "力量系特质(初级)",
     "points": 0,
     "description": "debug专用",
@@ -11,7 +11,7 @@
   },
 	{
     "type": "mutation",
-    "id": "THRESH_SP_STRENGTH2",
+    "id": "SP_STRENGTH2",
     "name": "力量系特质(中级)",
     "points": 0,
     "description": "debug专用",
@@ -21,7 +21,7 @@
   },
 	{
     "type": "mutation",
-    "id": "THRESH_SP_STRENGTH3",
+    "id": "SP_STRENGTH3",
     "name": "力量系特质(高级)",
     "points": 0,
     "description": "debug专用",

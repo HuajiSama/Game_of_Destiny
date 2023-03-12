@@ -1,7 +1,7 @@
 [
 	{
     "type": "mutation",
-    "id": "THRESH_SP_INTELLIGENT1",
+    "id": "SP_INTELLIGENT1",
     "name": "智力系特质(初级)",
     "points": 0,
     "description": "debug专用",
@@ -11,7 +11,7 @@
   },
 	{
     "type": "mutation",
-    "id": "THRESH_SP_INTELLIGENT2",
+    "id": "SP_INTELLIGENT2",
     "name": "智力系特质(中级)",
     "points": 0,
     "description": "debug专用",
@@ -21,7 +21,7 @@
   },
 	{
     "type": "mutation",
-    "id": "THRESH_SP_INTELLIGENT3",
+    "id": "SP_INTELLIGENT3",
     "name": "智力系特质(高级)",
     "points": 0,
     "description": "debug专用",

@@ -1,7 +1,7 @@
 [
 	{
     "type": "mutation",
-    "id": "THRESH_SP_NOVICE",
+    "id": "SP_NOVICE",
     "name": "超凡者游戏─新人称号",
     "points": 0,
     "description": "debug专用",

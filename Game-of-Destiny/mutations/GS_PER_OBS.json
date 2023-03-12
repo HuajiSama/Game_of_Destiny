@@ -1,7 +1,7 @@
 [
 	{
     "type": "mutation",
-    "id": "THRESH_SP_PERCETION1",
+    "id": "SP_PERCETION1",
     "name": "敏锐系特质(初级)",
     "points": 0,
     "description": "debug专用",
@@ -11,7 +11,7 @@
   },
 	{
     "type": "mutation",
-    "id": "THRESH_SP_PERCETION2",
+    "id": "SP_PERCETION2",
     "name": "敏锐系特质(中级)",
     "points": 0,
     "description": "debug专用",
@@ -21,7 +21,7 @@
   },
 	{
     "type": "mutation",
-    "id": "THRESH_SP_PERCETION3",
+    "id": "SP_PERCETION3",
     "name": "敏锐系特质(高级)",
     "points": 0,
     "description": "debug专用",
