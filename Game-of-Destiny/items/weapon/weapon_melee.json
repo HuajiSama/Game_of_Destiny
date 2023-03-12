@@ -80,8 +80,7 @@
 		"gun_data": {
 			"skill": "melee",
 			"range": 5,
-			"ranged_damage": 30,
-			"pierce": 20,
+			"ranged_damage": { "damage_type": "stab", "amount": 30, "armor_penetration": 20 },
 			"dispersion": 400,
 			"sight_dispersion": 200,
 			"durability": 10,
