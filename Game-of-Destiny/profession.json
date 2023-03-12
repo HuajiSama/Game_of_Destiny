@@ -6,7 +6,7 @@
     "description": "不擅战斗的智力向职业，如何快速武装自己是存活的关键。",
     "points": 2,
     "traits": [ "FASTREADER", "FASTLEARNER" ],
-    "skills": [ { "level": 4, "name": "barter" }, { "level": 4, "name": "speech" } ],
+    "skills": [ { "level": 4, "name": "speech" } ],
     "items": {
       "both": { "items": [ "suit", "socks", "dress_shoes", "pockknife", "cell_phone" ] },
       "male": [ "undershirt", "briefs" ],
@@ -74,7 +74,6 @@
     "traits": [ "STYLISH", "BEAUTIFUL" ],
     "skills": [
       { "level": 4, "name": "tailor" },
-      { "level": 3, "name": "barter" },
       { "level": 3, "name": "speech" },
       { "level": 2, "name": "cooking" }
     ],

@@ -31,7 +31,7 @@
     "bashing": 22,
     "to_hit": 2,
     "armor_data": { "covers": [ "HANDS" ], "coverage": 80, "material_thickness": 1, "environmental_protection": 1 },
-    "techniques": [ "tec_judo_break", "DEF_DISARM", "tec_eskrima_puno" ],
+    "techniques": [ "tec_judo_break", "DEF_DISARM", "tec_eskrima_combination" ],
     "flags": [ "UNARMED_WEAPON", "DURABLE_MELEE", "STURDY", "WATERPROOF", "OUTER" ]
   },
   {

@@ -20,7 +20,7 @@
         "max_contains_weight": "100 kg"
       }
     ],
-    "flags": [ "WAIST" ]
+    "flags": [ "WAIST", "TARDIS" ]
   },
   {
     "id": "GS_container2",
@@ -43,6 +43,6 @@
         "max_contains_weight": "100 kg"
       }
     ],
-    "flags": [ "WAIST" ]
+    "flags": [ "WAIST", "TARDIS" ]
   }
 ]

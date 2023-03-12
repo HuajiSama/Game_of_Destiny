@@ -11,7 +11,7 @@
     "color": "green",
     "healthy": 15,
     "use_action": { "type": "mutagen", "mutation_category": "SP_STRENGTH1" },
-    "flags": [ "SP_STRENGTH1", "ZERO_WEIGHT" ]
+    "flags": [ "ZERO_WEIGHT" ]
   },
   {
     "id": "cohesion_strength2",
@@ -25,7 +25,7 @@
     "color": "green",
     "healthy": 30,
     "use_action": { "type": "mutagen", "mutation_category": "SP_STRENGTH2" },
-    "flags": [ "SP_STRENGTH2", "ZERO_WEIGHT" ]
+    "flags": [ "ZERO_WEIGHT" ]
   },
   {
     "id": "cohesion_strength3",
@@ -39,7 +39,7 @@
     "color": "green",
     "healthy": 15,
     "use_action": { "type": "mutagen", "mutation_category": "SP_STRENGTH3" },
-    "flags": [ "SP_STRENGTH3", "ZERO_WEIGHT" ]
+    "flags": [ "ZERO_WEIGHT" ]
   },
   {
     "id": "cohesion_dexterity1",
@@ -53,7 +53,7 @@
     "color": "green",
     "healthy": 15,
     "use_action": { "type": "mutagen", "mutation_category": "SP_DEXTERITY1" },
-    "flags": [ "SP_DEXTERITY1", "ZERO_WEIGHT" ]
+    "flags": [ "ZERO_WEIGHT" ]
   },
   {
     "id": "cohesion_dexterity2",
@@ -67,7 +67,7 @@
     "color": "green",
     "healthy": 30,
     "use_action": { "type": "mutagen", "mutation_category": "SP_DEXTERITY2" },
-    "flags": [ "SP_DEXTERITY2", "ZERO_WEIGHT" ]
+    "flags": [ "ZERO_WEIGHT" ]
   },
   {
     "id": "cohesion_dexterity3",
@@ -81,7 +81,7 @@
     "color": "green",
     "healthy": 15,
     "use_action": { "type": "mutagen", "mutation_category": "SP_DEXTERITY3" },
-    "flags": [ "SP_DEXTERITY3", "ZERO_WEIGHT" ]
+    "flags": [ "ZERO_WEIGHT" ]
   },
   {
     "id": "cohesion_intelligent1",
@@ -95,7 +95,7 @@
     "color": "green",
     "healthy": 15,
     "use_action": { "type": "mutagen", "mutation_category": "SP_INTELLIGENT1" },
-    "flags": [ "SP_INTELLIGENT1", "ZERO_WEIGHT" ]
+    "flags": [ "ZERO_WEIGHT" ]
   },
   {
     "id": "cohesion_intelligent2",
@@ -109,7 +109,7 @@
     "color": "green",
     "healthy": 30,
     "use_action": { "type": "mutagen", "mutation_category": "SP_INTELLIGENT2" },
-    "flags": [ "SP_INTELLIGENT2", "ZERO_WEIGHT" ]
+    "flags": [ "ZERO_WEIGHT" ]
   },
   {
     "id": "cohesion_intelligent3",
@@ -123,7 +123,7 @@
     "color": "green",
     "healthy": 15,
     "use_action": { "type": "mutagen", "mutation_category": "SP_INTELLIGENT3" },
-    "flags": [ "SP_INTELLIGENT3", "ZERO_WEIGHT" ]
+    "flags": [ "ZERO_WEIGHT" ]
   },
   {
     "id": "cohesion_sensibility1",
@@ -137,7 +137,7 @@
     "color": "green",
     "healthy": 15,
     "use_action": { "type": "mutagen", "mutation_category": "SP_SENSE1" },
-    "flags": [ "SP_SENSE1", "ZERO_WEIGHT" ]
+    "flags": [ "ZERO_WEIGHT" ]
   },
   {
     "id": "cohesion_sensibility2",
@@ -151,7 +151,7 @@
     "color": "green",
     "healthy": 30,
     "use_action": { "type": "mutagen", "mutation_category": "SP_SENSE2" },
-    "flags": [ "SP_SENSE2", "ZERO_WEIGHT" ]
+    "flags": [ "ZERO_WEIGHT" ]
   },
   {
     "id": "cohesion_percetion1",
@@ -165,7 +165,7 @@
     "color": "green",
     "healthy": 15,
     "use_action": { "type": "mutagen", "mutation_category": "SP_PERCETION1" },
-    "flags": [ "SP_PERCETION1", "ZERO_WEIGHT" ]
+    "flags": [ "ZERO_WEIGHT" ]
   },
   {
     "id": "cohesion_percetion2",
@@ -179,7 +179,7 @@
     "color": "green",
     "healthy": 30,
     "use_action": { "type": "mutagen", "mutation_category": "SP_PERCETION2" },
-    "flags": [ "SP_PERCETION2", "ZERO_WEIGHT" ]
+    "flags": [ "ZERO_WEIGHT" ]
   },
   {
     "id": "cohesion_percetion3",
@@ -193,7 +193,7 @@
     "color": "green",
     "healthy": 15,
     "use_action": { "type": "mutagen", "mutation_category": "SP_PERCETION3" },
-    "flags": [ "SP_PERCETION3", "ZERO_WEIGHT" ]
+    "flags": [ "ZERO_WEIGHT" ]
   },
   {
     "id": "cohesion_endurence1",
@@ -207,7 +207,7 @@
     "color": "green",
     "healthy": 15,
     "use_action": { "type": "mutagen", "mutation_category": "SP_ENDURENCE1" },
-    "flags": [ "SP_ENDURENCE1", "ZERO_WEIGHT" ]
+    "flags": [ "ZERO_WEIGHT" ]
   },
   {
     "id": "cohesion_endurence2",
@@ -221,7 +221,7 @@
     "color": "green",
     "healthy": 30,
     "use_action": { "type": "mutagen", "mutation_category": "SP_ENDURENCE2" },
-    "flags": [ "SP_ENDURENCE2", "ZERO_WEIGHT" ]
+    "flags": [ "ZERO_WEIGHT" ]
   },
   {
     "id": "cohesion_endurence3",
@@ -235,7 +235,7 @@
     "color": "green",
     "healthy": 15,
     "use_action": { "type": "mutagen", "mutation_category": "SP_ENDURENCE3" },
-    "flags": [ "SP_ENDURENCE3", "ZERO_WEIGHT" ]
+    "flags": [ "ZERO_WEIGHT" ]
   },
   {
     "id": "cohesion_immortal",
@@ -249,7 +249,7 @@
     "color": "red",
     "healthy": 80,
     "use_action": { "type": "mutagen", "mutation_category": "IMMORTAL" },
-    "flags": [ "IMMORTAL", "ZERO_WEIGHT" ]
+    "flags": [ "ZERO_WEIGHT" ]
   },
   {
     "id": "cohesion_title",
@@ -263,6 +263,6 @@
     "color": "light_green",
     "healthy": 40,
     "use_action": { "type": "mutagen", "mutation_category": "SP_NOVICE" },
-    "flags": [ "SP_NOVICE", "ZERO_WEIGHT" ]
+    "flags": [ "ZERO_WEIGHT" ]
   }
 ]
