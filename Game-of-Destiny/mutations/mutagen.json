@@ -1,0 +1,325 @@
+[
+  {
+    "id": "cohesion_strength1",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",		
+    "category": "GS_feature",
+    "name": "特质凝结─力量系(初级)",
+    "name_plural": "特质凝结─力量系(初级)",		
+    "description": "超凡者的基因解锁达到某个水准之后，能依据自身特长，提纯天命能量在体内凝聚特质。\n \n力量系特质：着重于身体强度与爆发力，增强力量、韧性和爆发力。\n \n※凝结特质：力量+2(肌肉发达)、坚韧皮肤、活化肾上腺素。",
+    "symbol": "!",
+    "color": "green",
+    "healthy": 15,
+    "use_action": {
+     "type": "mutagen",
+     "mutation_category": "SP_STRENGTH1"
+    },
+    "flags": [ "SP_STRENGTH1" ]
+},
+{
+    "id": "cohesion_strength2",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",		
+    "category": "GS_feature",
+    "name": "特质凝结─力量系(中级)",
+    "name_plural": "特质凝结─力量系(中级)",		
+    "description": "超凡者的基因解锁达到某个水准之后，能依据自身特长，提纯天命能量在体内凝聚特质。\n \n力量系特质：着重于身体强度与爆发力，增强力量、生命上限、体能恢复。\n \n※凝结特质：力量+4(孔武有力)、心肺强化、背肌发达(负重+35%)、强壮(HP+20%)。",
+    "symbol": "!",
+    "color": "green",
+    "healthy": 30,
+    "use_action": {
+      "type": "mutagen",
+      "mutation_category": "SP_STRENGTH2"
+    },
+    "flags": [ "SP_STRENGTH2" ]
+  },
+  {
+    "id": "cohesion_strength3",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",		
+    "category": "GS_feature",
+    "name": "特质凝结─力量系(高级)",
+    "name_plural": "特质凝结─力量系(高级)",		
+    "description": "超凡者的基因解锁达到某个水准之后，能依据自身特长，提纯天命能量在体内凝聚特质。\n \n力量系特质：着重于身体强度与爆发力，进一步强化自身体能与生命力。\n \n※凝结特质：力量+6(骁勇善战)、精力充沛(Stamia+25%)、不可战胜(HP+40%)。",
+    "symbol": "!",
+    "color": "green",
+    "healthy": 15,
+    "use_action": {
+      "type": "mutagen",
+      "mutation_category": "SP_STRENGTH3"
+    },
+    "flags": [ "SP_STRENGTH3" ]
+  },
+  {
+    "id": "cohesion_dexterity1",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",		
+    "category": "GS_feature",
+    "name": "特质凝结─敏捷系(初级)",
+    "name_plural": "特质凝结─敏捷系(初级)",		
+    "description": "超凡者的基因解锁达到某个水准之后，能依据自身特长，提纯天命能量在体内凝聚特质。\n \n敏捷系特质：着重于身体速度与协调性，包含增强自身的反射速度与移动能力。\n \n※凝结特质：敏捷+2(眼疾手快)、灵巧、潜行、跑酷专家。",
+    "symbol": "!",
+    "color": "green",
+    "healthy": 15,
+    "use_action": {
+      "type": "mutagen",
+      "mutation_category": "SP_DEXTERITY1"
+    },
+    "flags": [ "SP_DEXTERITY1" ]
+  },
+  {
+    "id": "cohesion_dexterity2",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",		
+    "category": "GS_feature",
+    "name": "特质凝结─敏捷系(中级)",
+    "name_plural": "特质凝结─敏捷系(中级)",		
+    "description": "超凡者的基因解锁达到某个水准之后，能依据自身特长，提纯天命能量在体内凝聚特质。\n \n敏捷系特质：着重于身体速度与协调性，包含增强自身的反射速度与移动能力。\n \n※凝结特质：敏捷+4(高度灵巧)、心灵手巧、身轻如燕、速行。",
+    "symbol": "!",
+    "color": "green",
+    "healthy": 30,
+    "use_action": {
+      "type": "mutagen",
+      "mutation_category": "SP_DEXTERITY2"
+    },
+    "flags": [ "SP_DEXTERITY2" ]
+  },
+  {
+    "id": "cohesion_dexterity3",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",		
+    "category": "GS_feature",
+    "name": "特质凝结─敏捷系(高级)",
+    "name_plural": "特质凝结─敏捷系(高级)",		
+    "description": "超凡者的基因解锁达到某个水准之后，能依据自身特长，提纯天命能量在体内凝聚特质。\n \n敏捷系特质：着重于身体速度与协调性，包含增强自身的反射速度与移动能力。\n \n※凝结特质：敏捷+6(电光石火)、闪电反射、迅捷、跑步健将。",
+    "symbol": "!",
+    "color": "green",
+    "healthy": 15,
+    "use_action": {
+      "type": "mutagen",
+      "mutation_category": "SP_DEXTERITY3"
+    },
+    "flags": [ "SP_DEXTERITY3" ]
+  },
+  {
+    "id": "cohesion_intelligent1",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",		
+    "category": "GS_feature",
+    "name": "特质凝结─智力系(初级)",
+    "name_plural": "特质凝结─智力系(初级)",		
+    "description": "超凡者的基因解锁达到某个水准之后，能依据自身特长，提纯天命能量在体内凝聚特质。\n \n智力系特质：着重于强化大脑思维与记忆，强化智能、增进阅读、认知、语言能力。\n \n※凝结特质：智力+2(精明强干)、快速阅读、欺骗精通、自我认知。",
+    "symbol": "!",
+    "color": "green",
+    "healthy": 15,
+    "use_action": {
+      "type": "mutagen",
+      "mutation_category": "SP_INTELLIGENT1"
+    },
+    "flags": [ "SP_INTELLIGENT1" ]
+  },
+  {
+    "id": "cohesion_intelligent2",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",		
+    "category": "GS_feature",
+    "name": "特质凝结─智力系(中级)",
+    "name_plural": "特质凝结─智力系(中级)",		
+    "description": "超凡者的基因解锁达到某个水准之后，能依据自身特长，提纯天命能量在体内凝聚特质。\n \n智力系特质：着重于强化大脑思维与记忆，强化智能与记忆力，增进空间认知能力。\n \n※凝结特质：智力+4(算无遗策)、出色记忆、打包专家(携带空间+40%)。",
+    "symbol": "!",
+    "color": "green",
+    "healthy": 30,
+    "use_action": {
+      "type": "mutagen",
+      "mutation_category": "SP_INTELLIGENT2"
+    },
+    "flags": [ "SP_INTELLIGENT2" ]
+  },
+  {
+    "id": "cohesion_intelligent3",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",		
+    "category": "GS_feature",
+    "name": "特质凝结─智力系(高级)",
+    "name_plural": "特质凝结─智力系(高级)",		
+    "description": "超凡者的基因解锁达到某个水准之后，能依据自身特长，提纯天命能量在体内凝聚特质。\n \n智力系特质：着重于强化大脑思维与记忆，增强智能与学习力，优化自身基因。\n \n※凝结特质：智力+6(智计百出)、快速学习、优良基因。",
+    "symbol": "!",
+    "color": "green",
+    "healthy": 15,
+    "use_action": {
+      "type": "mutagen",
+      "mutation_category": "SP_INTELLIGENT3"
+    },
+    "flags": [ "SP_INTELLIGENT3" ]
+  },
+  {
+    "id": "cohesion_sensibility1",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",		
+    "category": "GS_feature",
+    "name": "特质凝结─感性系(初级)",
+    "name_plural": "特质凝结─感性系(初级)",		
+    "description": "超凡者的基因解锁达到某个水准之后，能依据自身特长，提纯天命能量在体内凝聚特质。\n \n感性系特质：着重于提升感性，用以渲染自身感受或影响他人对你的观感。\n \n※凝结特质：动物共鸣、睡神、神学家、抗瘾性、长相俊美。",
+    "symbol": "!",
+    "color": "green",
+    "healthy": 15,
+    "use_action": {
+      "type": "mutagen",
+      "mutation_category": "SP_SENSE1"
+    },
+    "flags": [ "SP_SENSE1" ]
+  },
+  {
+    "id": "cohesion_sensibility2",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",		
+    "category": "GS_feature",
+    "name": "特质凝结─感性系(高级)",
+    "name_plural": "特质凝结─感性系(高级)",		
+    "description": "超凡者的基因解锁达到某个水准之后，能依据自身特长，提纯天命能量在体内凝聚特质。\n \n感性系特质：着重于提升感性，用以渲染自身感受或影响他人对你的观感。\n \n※凝结特质：乐天派、美食家、时尚范、极致容貌。",
+    "symbol": "!",
+    "color": "green",
+    "healthy": 30,
+    "use_action": {
+      "type": "mutagen",
+      "mutation_category": "SP_SENSE2"
+    },
+    "flags": [ "SP_SENSE2" ]
+  },
+  {
+    "id": "cohesion_percetion1",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",		
+    "category": "GS_feature",
+    "name": "特质凝结─敏锐系(初级)",
+    "name_plural": "特质凝结─敏锐系(初级)",		
+    "description": "超凡者的基因解锁达到某个水准之后，能依据自身特长，提纯天命能量在体内凝聚特质。\n \n敏锐系特质：着重于强化五感、提升洞察危险的感知能力。\n \n※凝结特质：感知+2(高度敏锐)、视觉发达、听觉发达、夜视(Lv1)。",
+    "symbol": "!",
+    "color": "green",
+    "healthy": 15,
+    "use_action": {
+      "type": "mutagen",
+      "mutation_category": "SP_PERCETION1"
+    },
+    "flags": [ "SP_PERCETION1" ]
+  },
+  {
+    "id": "cohesion_percetion2",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",		
+    "category": "GS_feature",
+    "name": "特质凝结─敏锐系(中级)",
+    "name_plural": "特质凝结─敏锐系(中级)",		
+    "description": "超凡者的基因解锁达到某个水准之后，能依据自身特长，提纯天命能量在体内凝聚特质。\n \n敏锐系特质：着重于提升感官的敏锐度，例如黑夜视物或加速瞄准。\n \n※凝结特质：感知+4(洞察一切)、高级夜视、目光如电。",
+    "symbol": "!",
+    "color": "green",
+    "healthy": 30,
+    "use_action": {
+      "type": "mutagen",
+      "mutation_category": "SP_PERCETION2"
+    },
+    "flags": [ "SP_PERCETION2" ]
+  },
+  {
+    "id": "cohesion_percetion3",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",		
+    "category": "GS_feature",
+    "name": "特质凝结─敏锐系(高级)",
+    "name_plural": "特质凝结─敏锐系(高级)",		
+    "description": "超凡者的基因解锁达到某个水准之后，能依据自身特长，提纯天命能量在体内凝聚特质。\n \n敏锐系特质：着重于提升感官的敏锐度，例如完美夜视与热能感应。\n \n※凝结特质：感知+6(心有灵犀)、完美夜视、红外视觉。",
+    "symbol": "!",
+    "color": "green",
+    "healthy": 15,
+    "use_action": {
+      "type": "mutagen",
+      "mutation_category": "SP_PERCETION3"
+    },
+    "flags": [ "SP_PERCETION3" ]
+  },
+  {
+    "id": "cohesion_endurence1",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",		
+    "category": "GS_feature",
+    "name": "特质凝结─耐力系(初级)",
+    "name_plural": "特质凝结─耐力系(初级)",		
+    "description": "超凡者的基因解锁达到某个水准之后，能依据自身特长，提纯天命能量在体内凝聚特质。\n \n耐力系特质：着重于身体血脉的强化，强化身体素质、提升对负面状态的抗性。\n \n※凝结特质：肠胃发达、少眠者、毒素抵抗、疾病抵抗、感染抵抗、寄生免疫。",
+    "symbol": "!",
+    "color": "green",
+    "healthy": 15,
+    "use_action": {
+      "type": "mutagen",
+      "mutation_category": "SP_ENDURENCE1"
+    },
+    "flags": [ "SP_ENDURENCE1" ]
+  },
+  {
+    "id": "cohesion_endurence2",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",		
+    "category": "GS_feature",
+    "name": "特质凝结─耐力系(中级)",
+    "name_plural": "特质凝结─耐力系(中级)",		
+    "description": "超凡者的基因解锁达到某个水准之后，能依据自身特长，提纯天命能量在体内凝聚特质。\n \n耐力系特质：着重于身体血脉的强化，强化身体素质、提升自身抗性及复原能力。\n \n※凝结特质：血脉归返、疼痛抵抗、感染免疫、自愈、疼痛恢复、节食。",
+    "symbol": "!",
+    "color": "green",
+    "healthy": 30,
+    "use_action": {
+      "type": "mutagen",
+      "mutation_category": "SP_ENDURENCE2"
+    },
+    "flags": [ "SP_ENDURENCE2" ]
+  },
+  {
+    "id": "cohesion_endurence3",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",		
+    "category": "GS_feature",
+    "name": "特质凝结─耐力系(高级)",
+    "name_plural": "特质凝结─耐力系(高级)",		
+    "description": "超凡者的基因解锁达到某个水准之后，能依据自身特长，提纯天命能量在体内凝聚特质。\n \n耐力系特质：着重于身体血脉的强化，大幅强化自疗与恢复能力。\n \n※凝结特质：急速自愈、急速疼痛恢复。",
+    "symbol": "!",
+    "color": "green",
+    "healthy": 15,
+    "use_action": {
+      "type": "mutagen",
+      "mutation_category": "SP_ENDURENCE3"
+    },
+    "flags": [ "SP_ENDURENCE3" ]
+  },
+  {
+    "id": "cohesion_immortal",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",		
+    "category": "GS_feature",
+    "name": "特质凝结─肉身成圣",
+    "name_plural": "特质凝结─肉身成圣",
+    "description": "全面解锁的特殊奖励，利用天命淬炼肉身、易筋洗髓。\n \n※肉身成圣：提升属性与身体素质，最高3级(全能力+3，全累赘-15)。",
+    "symbol": "!",
+    "color": "red",
+    "healthy": 80,
+    "use_action": {
+      "type": "mutagen",
+      "mutation_category": "IMMORTAL"
+    },
+    "flags": [ "IMMORTAL" ]
+  },
+  {
+    "id": "cohesion_title",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",		
+    "category": "GS_feature",
+    "name": "特质凝结─新人称号",
+    "name_plural": "特质凝结─新人称号",
+    "description": "全面发展的特殊奖励，新人称号提升全方面属性！\n \n※荣誉称号：超凡新人王(全属性+1)、至尊新人王(全属性+2)",
+    "symbol": "!",
+    "color": "light_green",
+    "healthy": 40,
+    "use_action": {
+     "type": "mutagen",
+     "mutation_category": "SP_NOVICE"
+    },
+    "flags": [ "SP_NOVICE" ]
+  }
+]

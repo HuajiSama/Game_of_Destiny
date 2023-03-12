@@ -1,0 +1,44 @@
+[
+	{
+    "type": "mutation",
+    "id": "THRESH_SP_NOVICE",
+    "name": "超凡者游戏─新人称号",
+    "points": 0,
+    "description": "debug专用",
+    "valid": false,
+    "purifiable": false,
+    "threshold": true
+	},
+  {
+    "type": "mutation",
+    "id": "SP_NOVICE1",
+    "name": "超凡新人王",
+    "points": 5,
+ 		"description": "幸运者，恭喜你步入超凡者游戏！你在游戏中表现优秀，获得荣誉称号─超凡新人王，全属性+1。",
+    "passive_mods": {
+      "str_mod": 1,
+      "dex_mod": 1,
+      "int_mod": 1,
+      "per_mod": 1	
+		},
+		"purifiable": false,
+    "changes_to": ["SP_NOVICE2"],
+		"category": ["SP_NOVICE"]
+	},
+	{
+    "type": "mutation",
+    "id": "SP_NOVICE2",
+    "name": "至尊新人王",
+    "points": 10,
+    "description": "你在超凡竞技中表现卓越，获得荣誉称号─至尊新人王，全属性+2，新人称号的顶点。",
+    "passive_mods": {
+      "str_mod": 2,
+      "dex_mod": 2,
+      "int_mod": 2,
+      "per_mod": 2
+		},
+		"purifiable": false,
+    "prereqs": ["SP_NOVICE1"],		
+    "category": ["SP_NOVICE"]		
+	}
+]

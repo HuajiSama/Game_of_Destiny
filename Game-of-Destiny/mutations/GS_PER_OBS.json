@@ -1,0 +1,150 @@
+[
+	{
+    "type": "mutation",
+    "id": "THRESH_SP_PERCETION1",
+    "name": "敏锐系特质(初级)",
+    "points": 0,
+    "description": "debug专用",
+    "valid": false,
+    "purifiable": false,
+    "threshold": true
+  },
+	{
+    "type": "mutation",
+    "id": "THRESH_SP_PERCETION2",
+    "name": "敏锐系特质(中级)",
+    "points": 0,
+    "description": "debug专用",
+    "valid": false,
+    "purifiable": false,
+    "threshold": true
+  },
+	{
+    "type": "mutation",
+    "id": "THRESH_SP_PERCETION3",
+    "name": "敏锐系特质(高级)",
+    "points": 0,
+    "description": "debug专用",
+    "valid": false,
+    "purifiable": false,
+    "threshold": true
+  },
+	{
+    "type": "mutation",
+    "id": "EAGLEEYED", "//": "Can't change the ID as that breaks save-compatibility.",
+    "name": "Scout",
+    "points": 1,
+    "description": "You're an excellent navigator and your ability to spot distant landmarks is unmatched.  Your sight radius on the overmap extends beyond the normal range.",
+    "valid": false,
+    "starting_trait": true,
+    "category": ["SP_PERCETION1","MOUSE"],
+    "cancels": ["MYOPIC"]
+  },
+	{
+    "type": "mutation",
+    "id": "GOODHEARING",
+    "name": "Good Hearing",
+    "points": 1,
+    "description": "Your hearing is better than average, and you can hear distant sounds more easily.",
+    "starting_trait": true,
+    "category": ["SP_PERCETION1","ALPHA", "MOUSE"],
+    "cancels": ["BADHEARING"]
+  },
+	{
+    "type": "mutation",
+    "id": "PER_UP_2",
+    "name": "Very Perceptive",
+    "points": 2,
+    "description": "Your senses are keener.  Perception + 2",
+    "prereqs": ["PER_UP"],
+    "changes_to": ["PER_UP_3", "PER_ALPHA"],
+    "category": ["SP_PERCETION1","ALPHA", "CHIMERA"],
+    "passive_mods": {
+      "per_mod": 2
+    }
+  },
+	{
+    "type": "mutation",
+    "id": "NIGHTVISION",
+    "name": "Night Vision",
+    "points": 2,
+    "description": "You possess natural night vision, and can see further in the dark than most.  Activate to toggle NV-visible areas on or off.",
+    "starting_trait": true,
+    "changes_to": ["NIGHTVISION2"],
+    "cancels": ["ELFA_NV", "ELFA_FNV", "FEL_NV", "URSINE_EYE"],
+    "category": ["SP_PERCETION1","BIRD", "CATTLE", "INSECT"],
+    "active": true,
+    "starts_active": true
+  },
+	{
+    "type": "mutation",
+    "id": "PER_UP_3",
+    "name": "Extremely Perceptive",
+    "points": 3,
+    "description": "Your senses are much keener.  Perception + 4",
+    "prereqs": ["PER_UP_2"],
+    "changes_to": ["PER_UP_4","SP_PER_UP"],
+    "category": ["SP_PERCETION2","ELFA", "RAPTOR"],
+    "passive_mods": {
+      "per_mod": 4
+  	}
+  },
+	{
+    "type": "mutation",
+    "id": "NIGHTVISION2",
+    "name": "High Night Vision",
+    "points": 4,
+    "description": "You can see incredibly well in the dark!  Activate to toggle NV-visible areas on or off.",
+    "prereqs": ["NIGHTVISION"],
+    "changes_to": ["NIGHTVISION3"],
+    "cancels": ["ELFA_NV", "ELFA_FNV", "FEL_NV", "URSINE_EYE"],
+    "category": ["SP_PERCETION2","FISH", "BEAST", "INSECT", "RAT", "CHIMERA", "LUPINE", "MOUSE"],
+    "active": true,
+    "starts_active": true
+  },
+	{
+    "type": "mutation",
+    "id": "SP_EAGLEEYE2",
+    "name": "目光如电",
+    "points": 2,
+		"description": "你的动态视力相当出色，瞄准动作迅疾无比，眼部累赘-10。",
+    "encumbrance_always":	[ [ "EYES", -10 ] ],
+    "prereqs": ["EAGLEEYED"],
+    "category": ["SP_PERCETION2"]
+  },
+	{
+    "type": "mutation",
+    "id": "SP_PER_UP",
+    "name": "心有灵犀",
+    "points": 6,
+		"description": "你的感知能力敏锐到极点，直觉更是准确无比，感知+6。",
+    "prereqs": ["PER_UP_3"],
+    "passive_mods": {
+    	"per_mod": 6
+    },
+    "category": ["SP_PERCETION3"]			
+  },
+	{
+    "type": "mutation",
+    "id": "NIGHTVISION3",
+    "name": "Full Night Vision",
+    "points": 6,
+    "description": "You can see in pitch blackness as if you were wearing night-vision goggles.  Activate to toggle NV-visible areas on or off.",
+    "prereqs": ["NIGHTVISION2"],
+    "leads_to": ["INFRARED"],
+    "cancels": ["ELFA_NV", "ELFA_FNV", "FEL_NV", "URSINE_EYE"],
+    "category": ["SP_PERCETION3","FISH", "TROGLOBITE", "SPIDER"],
+    "active": true,
+    "starts_active": true
+  },
+	{
+    "type": "mutation",
+    "id": "INFRARED",
+    "name": "Infrared Vision",
+    "points": 5,
+    "description": "Your eyes have mutated to pick up radiation in the infrared spectrum.",
+    "prereqs": ["NIGHTVISION3"],
+    "cancels": ["LIZ_IR"],
+    "category": ["SP_PERCETION3","INSECT", "TROGLOBITE", "SPIDER"]
+  }
+]

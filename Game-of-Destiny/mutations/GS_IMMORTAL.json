@@ -1,0 +1,118 @@
+[
+	{
+    "type": "mutation",
+    "id": "THRESH_IMMORTAL",
+    "name": "超凡者游戏─肉身成圣",
+    "points": 0,
+    "description": "debug专用",
+    "valid": false,
+    "purifiable": false,
+    "threshold": true
+	},
+	{
+    "type": "mutation",
+    "id": "IMMORTAL_1",
+    "name": "肉身成圣(一级)",
+    "points": 8,		
+    "description": "利用天命淬炼肉身、易筋洗髓。提升体质、全属性+1、全负荷-5。",
+    "passive_mods": {
+      "str_mod": 1,
+      "dex_mod": 1,
+      "int_mod": 1,
+      "per_mod": 1	
+		},
+		"hp_modifier": 0.1,
+    "healing_awake": 0.001,
+    "healing_resting": 0.002,
+    "fatigue_modifier": -0.15,
+    "fatigue_regen_modifier": 0.15,
+    "encumbrance_always": [
+      [ "TORSO", -5 ],
+      [ "HEAD", -5 ],
+      [ "EYES", -5 ],
+      [ "MOUTH", -5 ],			
+      [ "ARM_L", -5 ],
+      [ "ARM_R", -5 ],
+      [ "HAND_L", -5 ],
+      [ "HAND_R", -5 ],
+      [ "LEG_L", -5 ],
+      [ "LEG_R", -5 ],
+      [ "FOOT_L", -5 ],
+      [ "FOOT_R", -5 ]
+		],
+    "purifiable": false,		
+    "changes_to": ["IMMORTAL_2"],
+		"category": ["IMMORTAL"]
+	},
+	{
+    "type": "mutation",
+    "id": "IMMORTAL_2",
+    "name": "肉身成圣(二级)",
+    "points": 15,		
+    "description": "利用天命淬炼肉身、易筋洗髓。提升体质、全属性+2、全身负荷-10。",
+    "passive_mods": {
+      "str_mod": 2,
+      "dex_mod": 2,
+      "int_mod": 2,
+      "per_mod": 2	
+		},
+		"hp_modifier": 0.2,
+    "healing_awake": 0.002,
+    "healing_resting": 0.004,
+    "fatigue_modifier": -0.25,
+    "fatigue_regen_modifier": 0.25,
+    "encumbrance_always": [
+      [ "TORSO", -10 ],
+      [ "HEAD", -10 ],
+      [ "EYES", -10 ],
+      [ "MOUTH", -10 ],			
+      [ "ARM_L", -10 ],
+      [ "ARM_R", -10 ],
+      [ "HAND_L", -10 ],
+      [ "HAND_R", -10 ],
+      [ "LEG_L", -10 ],
+      [ "LEG_R", -10 ],
+      [ "FOOT_L", -10 ],
+      [ "FOOT_R", -10 ]
+		],
+    "purifiable": false,			
+    "prereqs": ["IMMORTAL_1"],				
+    "changes_to": ["IMMORTAL_3"],
+		"category": ["IMMORTAL"]
+	},
+	{
+    "type": "mutation",
+    "id": "IMMORTAL_3",
+    "name": "肉身成圣(满级)",
+    "points": 20,		
+    "description": "利用天命淬炼肉身、易筋洗髓。提升体质、全属性+3、全身负荷-15。",
+    "passive_mods": {
+      "str_mod": 3,
+      "dex_mod": 3,
+      "int_mod": 3,
+      "per_mod": 3
+		},
+		"hp_modifier": 0.3,
+    "healing_awake": 0.003,
+    "healing_resting": 0.006,
+    "fatigue_modifier": -0.35,
+    "fatigue_regen_modifier": 0.35,
+    "encumbrance_always": [
+      [ "TORSO", -15 ],
+      [ "HEAD", -15 ],
+      [ "EYES", -15 ],
+      [ "MOUTH", -15 ],			
+      [ "ARM_L", -15 ],
+      [ "ARM_R", -15 ],
+      [ "HAND_L", -15 ],
+      [ "HAND_R", -15 ],
+      [ "LEG_L", -15 ],
+      [ "LEG_R", -15 ],
+      [ "FOOT_L", -15 ],
+      [ "FOOT_R", -15 ]
+		],
+    "purifiable": false,
+    "prereqs": ["IMMORTAL_2"],	
+    "category": ["IMMORTAL"]
+	}
+]
