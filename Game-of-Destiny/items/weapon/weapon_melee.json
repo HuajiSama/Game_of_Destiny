@@ -238,7 +238,8 @@
 		"artifact_data" : {	"effects_wielded": ["AEP_INT_DOWN","AEP_PER_DOWN","AEP_EVIL"]	},	
 		"revert_to": "GS_wp_str3_katana_bloodly",
 		"revert_msg": "武士刀的狂气暂歇，它还渴望下一次的杀戮...。",
-		"flags": [ "DURABLE_MELEE","NO_UNWIELD","NON_STUCK","DANGEROUS","NO_UNLOAD" ]
+		"flags": [ "DURABLE_MELEE","NO_UNWIELD","DANGEROUS","NO_UNLOAD" ],
+		"//":"NON_STUCK"
 	},
 	{
 		"id": "GS_wp_str5_katana_Muramasa",
@@ -311,7 +312,8 @@
 		"artifact_data" : {"effects_wielded": ["AEP_INT_DOWN","AEP_PER_DOWN","AEP_EVIL","AEP_SAP_LIFE"]},
 		"revert_to": "GS_wp_str5_katana_Muramasa",
 		"revert_msg": "妖刀村正的狂气暂歇，它还渴望下一次的杀戮...。",
-		"flags": [ "UNBREAKABLE_MELEE","NO_UNWIELD","NON_STUCK","DANGEROUS","NO_UNLOAD" ]
+		"flags": [ "UNBREAKABLE_MELEE","NO_UNWIELD","DANGEROUS","NO_UNLOAD" ],
+		"//":"NON_STUCK"
 	},
 	{
 		"//":"定位：天子剑的前置，消耗资源能挤身准一线。",
@@ -370,10 +372,11 @@
 				"target": "GS_wp_merit2_sword_dispel",
 				"moves" : 250
 			},
-		"flags": [ "DURABLE_MELEE","NON_STUCK" ]
+		"flags": [ "DURABLE_MELEE" ],
+		"//":"NON_STUCK"
 	},
 	{
-		"//":"定位：功德之器，属性为准一线，特技暴力。",
+		"//1":"定位：功德之器，属性为准一线，特技暴力。",
 		"id": "GS_wp_merit3_emperor_sword",
 		"type": "TOOL",
 		"category" : "GS_weapon",
@@ -392,11 +395,12 @@
 		"charges_per_use": 5,
     "pocket_data": [ { "pocket_type": "MAGAZINE", "holster": true, "rigid": true, "ammo_restriction": { "merit_type": 50 } } ],
 		"relic_data": { "charge_info": { "regenerate_ammo": true } },
-		"artifact_data" : {
+		"artifact_data": {
 			"effects_activated": ["AEA_FIREBALL"],
 			"effects_wielded": ["AEP_PSYSHIELD","AEP_GLOW"]
-			},
+		},
 		"use_action": "ARTIFACT",
-		"flags" : [ "NON_STUCK","DURABLE_MELEE","SHEATH_SWORD" ]
+		"flags": [ "DURABLE_MELEE","SHEATH_SWORD" ],
+		"//2":"NON_STUCK"
 	}
 ]

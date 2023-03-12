@@ -1,14 +1,15 @@
 [
 	{
-		"id" : "GS_book_freedom",
-		"type" : "BOOK",
-		"name" : "超凡者无界",
-		"description" : "虽然任务时空无法直接连上外网，懂得翻墙的超凡者仍可以从时空泡外获得资讯，再利用超凡手段偷渡讯息─翻墙小能手，你值得拥有。\n \n※抄箓其他书籍的必备工具，抄箓配方随技能逐步解锁。",
-		"color" : "white",
-		"symbol" : "?",
-		"material" : ["super_mt"],
-		"time" : 10,
-		"fun" : 3
+		"id": "GS_book_freedom",
+		"type": "BOOK",
+		"name": "超凡者无界",
+		"description": "虽然任务时空无法直接连上外网，懂得翻墙的超凡者仍可以从时空泡外获得资讯，再利用超凡手段偷渡讯息─翻墙小能手，你值得拥有。\n \n※抄箓其他书籍的必备工具，抄箓配方随技能逐步解锁。",
+		"color": "white",
+		"symbol": "?",
+		"material": ["super_mt"],
+		"time": 10,
+		"fun": 3,
+		"flags": [ "ZERO_WEIGHT" ]
 	},{	
 		"type" : "BOOK",
 		"id" : "GS_book_int_gun",
@@ -163,6 +164,7 @@
 		"symbol" : "?",
 		"material" : ["paper"],
 		"color" : "white",
-		"time" : 10
+		"time" : 10,
+		"flags": [ "ZERO_WEIGHT" ]
 	}
 ]

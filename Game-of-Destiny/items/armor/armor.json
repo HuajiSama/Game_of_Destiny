@@ -3,7 +3,7 @@
 		"//":"dota里第一次回买就会入手的初级物。",
 		"id": "GS_basic_str",
 		"type": "ARMOR",
-		"category" : "GS_equipment",
+		"category": "GS_equipment",
 		"name": { "str": "力量手环", "str_pl": "力量手环" },
 		"description": "增强力量属性的超凡道具，装备时力量+1，合成进阶武装的基础。",
 		"material": ["super_mt"],
@@ -11,27 +11,27 @@
 		"color": "magenta",
 		"artifact_data": {
 			"effects_worn": ["AEP_STR_UP", "AEP_STR_DOWN" ]			
-			},
-		"flags" : ["FANCY"]
+		},
+		"flags": ["FANCY", "ZERO_WEIGHT" ]
 	},
 	{
 		"id": "GS_basic_dex",
 		"type": "ARMOR",
-		"category" : "GS_equipment",
+		"category": "GS_equipment",
 		"name": { "str": "敏捷之羽", "str_pl": "敏捷之羽" },
 		"description": "增强敏捷属性的超凡道具，装备时敏捷+1，合成进阶武装的基础。",
 		"material": ["super_mt"],
 		"symbol": "[",
 		"color": "white",
-		"artifact_data" : {
+		"artifact_data": {
 			"effects_worn": ["AEP_DEX_UP", "AEP_DEX_DOWN" ]			
-			},
-		"flags" : ["FANCY"]
+		},
+		"flags": [ "FANCY", "ZERO_WEIGHT" ]
 	},
 	{
 		"id": "GS_basic_int",
 		"type": "ARMOR",
-		"category" : "GS_equipment",
+		"category": "GS_equipment",
 		"name": { "str": "智慧披风", "str_pl": "智慧披风" },
 		"description": "增强智力属性的超凡道具，装备时智力+1，合成进阶武装的基础。",
 		"material": ["super_mt"],
@@ -39,22 +39,22 @@
 		"color": "blue",
 		"artifact_data" : {
 			"effects_worn": ["AEP_INT_UP", "AEP_INT_DOWN" ]			
-			},
-		"flags" : ["FANCY"]
+		},
+		"flags": [ "FANCY", "ZERO_WEIGHT" ]
 	},
 	{
 		"id": "GS_basic_per",
 		"type": "ARMOR",
-		"category" : "GS_equipment",
+		"category": "GS_equipment",
 		"name": { "str": "感知护符", "str_pl": "感知护符" },
 		"description": "增强感知属性的超凡道具，装备时感知+1，合成进阶武装的基础。",
 		"material": ["super_mt"],
 		"symbol": "[",
 		"color": "green",
-		"artifact_data" : {
+		"artifact_data": {
 			"effects_worn": ["AEP_PER_UP", "AEP_PER_DOWN" ]			
-			},
-		"flags" : ["FANCY"]
+		},
+		"flags": [ "FANCY", "ZERO_WEIGHT" ]
 	},
 	{
 		"id" : "GS_eq_str3_shield",
@@ -526,7 +526,8 @@
 		"color": "yellow",
 		"artifact_data" : {
 			"effects_worn": ["AEP_CLAIRVOYANCE"]
-		}
+		},
+		"flags": [ "ZERO_WEIGHT" ]
 	},
 	{
 		"id": "GS_eq_merit2_furnace",
@@ -544,7 +545,8 @@
 			"msg": "功德灵升级成功！",
 			"moves": 1000,
 			"target": "GS_eq_merit2_soul"
-		}
+		},
+		"flags": [ "ZERO_WEIGHT" ]
 	},
 	{
 		"id": "GS_eq_merit2_soul",
@@ -557,7 +559,8 @@
 		"color": "yellow",
 		"artifact_data": {
 			"effects_worn": ["AEP_PSYSHIELD","AEP_CLAIRVOYANCE"]			
-		}
+		},
+		"flags": [ "ZERO_WEIGHT" ]
 	},
 	{
 		"id": "GS_eq_merit3_furnace",
@@ -575,7 +578,8 @@
 			"msg": "功德灵升级成功！",
 			"moves": 1000,
 			"target": "GS_eq_merit3_soul"
-		}
+		},
+		"flags": [ "ZERO_WEIGHT" ]
 	},
 	{
 		"id": "GS_eq_merit3_soul",
@@ -607,14 +611,14 @@
 		"//":"定位：威力、消耗都是最强的Buff。",
 		"id": "GS_eq_merit3_soul_active",
 		"type": "TOOL_ARMOR",
-		"category" : "GS_equipment",
+		"category": "GS_equipment",
 		"name": "功德金身",
 		"description": "以功德之气凝聚的法身，消耗信仰之力获得加成，具有强大的防御及抗性，全属性+6、免疫雷击、拥有天人视角。",
 		"material": "merit_mt",
-		"material_thickness" : 3,
+		"material_thickness": 3,
 		"symbol": "g",
 		"color": "yellow",
-		"covers" : ["HEAD", "MOUTH", "EYES", "TORSO", "ARMS", "HANDS", "LEGS", "FEET"],
+		"covers": ["HEAD", "MOUTH", "EYES", "TORSO", "ARMS", "HANDS", "LEGS", "FEET"],
 		"coverage" : 100,
 		"environmental_protection" : 25,
 		"ammo": "merit_type",		
@@ -624,13 +628,13 @@
 		"relic_data": { "charge_info": { "regenerate_ammo": true } },
 		"revert_to": "GS_eq_merit3_soul",
 		"revert_msg": "功德灵的灵力耗尽，恢复成普通状态。",			
-		"artifact_data" : {"effects_worn": ["AEP_PSYSHIELD","AEP_SUPER_CLAIRVOYANCE","AEP_ALL_UP","AEP_ALL_UP","AEP_ALL_UP","AEP_RESIST_ELECTRICITY","AEP_GLOW","AEP_EXTINGUISH"]	},
+		"artifact_data": {"effects_worn": ["AEP_PSYSHIELD","AEP_SUPER_CLAIRVOYANCE","AEP_ALL_UP","AEP_ALL_UP","AEP_ALL_UP","AEP_RESIST_ELECTRICITY","AEP_GLOW","AEP_EXTINGUISH"]	},
 		"use_action": {
 			"type": "transform",
 			"msg": "功德金身中止。",
 			"moves" : 150,
 			"target": "GS_eq_merit3_soul"
 		},
-		"flags" : ["STURDY","OUTER","OVERSIZE","BLOCK_WHILE_WORN","ALLOWS_NATURAL_ATTACKS","RAD_PROOF","ELECTRIC_IMMUNE"]
+		"flags": [ "STURDY", "OUTER", "OVERSIZE", "BLOCK_WHILE_WORN", "ALLOWS_NATURAL_ATTACKS", "RAD_PROOF", "ELECTRIC_IMMUNE", "ZERO_WEIGHT" ]
 	}
 ]

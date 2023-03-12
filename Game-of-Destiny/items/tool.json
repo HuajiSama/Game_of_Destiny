@@ -187,15 +187,16 @@
 		]
 	},
 	{
-		"id" : "GS_eq_int2_bag",
-		"type" : "ARMOR",
-		"category" : "GS_equipment",
+		"id": "GS_eq_int2_bag",
+		"type": "ARMOR",
+		"category": "GS_equipment",
 		"name": { "str": "空间储戒I" },
 		"description" : "智力专长凝结的辅助装备，提供额外的空间。",
-		"symbol" : "[",
-		"color" : "brown",
-		"storage" : 30,
-    "material" : [ "super_mt", "steel" ]
+		"symbol": "[",
+		"color": "brown",
+		"storage": 30,
+    "material": [ "super_mt", "steel" ],
+		"flags": [ "ZERO_WEIGHT" ]
 	},
 	{
 		"id" : "GS_eq_int3_bag",
@@ -644,7 +645,7 @@
 				"no_fail": true
 			}
 		],
-		"flags" : ["NO_UNLOAD","FRAGILE","ZOOM"]
+		"flags": [ "NO_UNLOAD", "FRAGILE", "ZOOM", "ZERO_WEIGHT" ]
 	},
 	{
 		"id": "GS_item_per4_godeye",
