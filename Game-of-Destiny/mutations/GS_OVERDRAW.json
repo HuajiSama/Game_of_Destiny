@@ -22,7 +22,7 @@
     "charges_per_use": 5,
     "pocket_data": [ { "pocket_type": "MAGAZINE", "holster": true, "rigid": true, "ammo_restriction": { "destiny_silver_type": 5 } } ],
     "relic_data": { "charge_info": { "regenerate_ammo": true } },
-    "use_action": { "type": "mutagen", "mutation_category": "sp_overdraw" },
+    "use_action": { "type": "mutagen", "mutation_category": "SP_OVERDRAW" },
     "flags": [ "UNBREAKABLE_MELEE", "ZERO_WEIGHT" ]
   },
   {
@@ -45,7 +45,7 @@
     ],
     "purifiable": false,
     "changes_to": [ "OVERDRAW_2" ],
-    "category": [ "sp_overdraw" ]
+    "category": [ "SP_OVERDRAW" ]
   },
   {
     "type": "mutation",
@@ -68,7 +68,7 @@
     "purifiable": false,
     "prereqs": [ "OVERDRAW_1" ],
     "changes_to": [ "OVERDRAW_3" ],
-    "category": [ "sp_overdraw" ]
+    "category": [ "SP_OVERDRAW" ]
   },
   {
     "type": "mutation",
@@ -91,17 +91,17 @@
     "purifiable": false,
     "prereqs": [ "OVERDRAW_2" ],
     "changes_to": [ "OVERDRAW_end" ],
-    "category": [ "sp_overdraw" ]
+    "category": [ "SP_OVERDRAW" ]
   },
   {
     "type": "mutation",
-    "id": "OVERDRAW_end",
+    "id": "OVERDRAW_END",
     "name": "历劫归来",
     "points": 0,
     "description": "天命透支的劫难也无法击溃你，你用行动证明自己的回归！ ※荣誉称号，不提供加成。",
     "valid": false,
     "purifiable": false,
     "prereqs": [ "OVERDRAW_3" ],
-    "category": [ "sp_overdraw" ]
+    "category": [ "SP_OVERDRAW" ]
   }
 ]

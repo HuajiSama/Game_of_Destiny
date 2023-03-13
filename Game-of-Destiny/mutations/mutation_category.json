@@ -8,7 +8,7 @@
     "iv_message": "你努力地集中意念，引导能量强化神经系统，凝结力量特质。",
     "memorial_message": "你努力地集中意念，引导能量强化神经系统，凝结力量特质。"
   },
-  {
+  {		
     "type": "mutation_category",
     "id": "SP_STRENGTH2",
     "name": "力量系特质(中级)",
@@ -35,7 +35,7 @@
     "iv_message": "你努力地集中意念，引导能量强化神经系统，凝结敏捷特质。",
     "memorial_message": "你努力地集中意念，引导能量强化神经系统，凝结敏捷特质。"
   },
-  {
+  {		
     "type": "mutation_category",
     "id": "SP_DEXTERITY2",
     "name": "敏捷系特质(中级)",
@@ -53,32 +53,59 @@
     "iv_message": "你努力地集中意念，引导能量强化神经系统，凝结敏捷特质。",
     "memorial_message": "你努力地集中意念，引导能量强化神经系统，凝结敏捷特质。"
   },
-  {
+	{
     "type": "mutation_category",
-    "id": "SP_INTELLIGENT1",
+    "id": "SP_INTELLIGENCE1",
     "name": "智力系特质(初级)",
-    "threshold_mut": "THRESH_SP_INTELLIGENT1",
+    "threshold_mut": "THRESH_SP_INTELLIGENCE1",
     "mutagen_message": "你努力地集中意念，引导能量强化神经系统，凝结智力特质。",
     "iv_message": "你努力地集中意念，引导能量强化神经系统，凝结智力特质。",
     "memorial_message": "你努力地集中意念，引导能量强化神经系统，凝结智力特质。"
   },
-  {
+  {		
     "type": "mutation_category",
-    "id": "SP_INTELLIGENT2",
+    "id": "SP_INTELLIGENCE2",
     "name": "智力系特质(中级)",
-    "threshold_mut": "THRESH_SP_INTELLIGENT2",
+    "threshold_mut": "THRESH_SP_INTELLIGENCE2",
     "mutagen_message": "你努力地集中意念，引导能量强化神经系统，凝结智力特质。",
     "iv_message": "你努力地集中意念，引导能量强化神经系统，凝结智力特质。",
     "memorial_message": "你努力地集中意念，引导能量强化神经系统，凝结智力特质。"
   },
   {
     "type": "mutation_category",
-    "id": "SP_INTELLIGENT3",
+    "id": "SP_INTELLIGENCE3",
     "name": "智力系特质(高级)",
-    "threshold_mut": "THRESH_SP_INTELLIGENT3",
+    "threshold_mut": "THRESH_SP_INTELLIGENCE3",
     "mutagen_message": "你努力地集中意念，引导能量强化神经系统，凝结智力特质。",
     "iv_message": "你努力地集中意念，引导能量强化神经系统，凝结智力特质。",
     "memorial_message": "你努力地集中意念，引导能量强化神经系统，凝结智力特质。"
+  },
+  {
+    "type": "mutation_category",
+    "id": "SP_PERCETION1",
+    "name": "感知系特质(初级)",
+    "threshold_mut": "THRESH_SP_PERCETION1",
+    "mutagen_message": "你努力地集中意念，引导能量强化神经系统，凝结感知特质。",
+    "iv_message": "你努力地集中意念，引导能量强化神经系统，凝结感知特质。",
+    "memorial_message": "你努力地集中意念，引导能量强化神经系统，凝结感知特质。"
+  },
+  {		
+    "type": "mutation_category",
+    "id": "SP_PERCETION2",
+    "name": "感知系特质(中级)",
+    "threshold_mut": "THRESH_SP_PERCETION2",
+    "mutagen_message": "你努力地集中意念，引导能量强化神经系统，凝结感知特质。",
+    "iv_message": "你努力地集中意念，引导能量强化神经系统，凝结感知特质。",
+    "memorial_message": "你努力地集中意念，引导能量强化神经系统，凝结感知特质。"
+  },
+  {
+    "type": "mutation_category",
+    "id": "SP_PERCETION3",
+    "name": "感知系特质(高级)",
+    "threshold_mut": "THRESH_SP_PERCETION3",
+    "mutagen_message": "你努力地集中意念，引导能量强化神经系统，凝结感知特质。",
+    "iv_message": "你努力地集中意念，引导能量强化神经系统，凝结感知特质。",
+    "memorial_message": "你努力地集中意念，引导能量强化神经系统，凝结感知特质。"
   },
   {
     "type": "mutation_category",
@@ -89,7 +116,7 @@
     "iv_message": "你努力地集中意念，引导能量强化神经系统，凝结感性特质。",
     "memorial_message": "你努力地集中意念，引导能量强化神经系统，凝结感性特质。"
   },
-  {
+  {		
     "type": "mutation_category",
     "id": "SP_SENSE2",
     "name": "感性系特质(高级)",
@@ -107,7 +134,7 @@
     "iv_message": "你努力地集中意念，引导能量强化神经系统，凝结耐力特质。",
     "memorial_message": "你努力地集中意念，引导能量强化神经系统，凝结耐力特质。"
   },
-  {
+  {		
     "type": "mutation_category",
     "id": "SP_ENDURENCE2",
     "name": "耐力系特质(中级)",
@@ -124,33 +151,6 @@
     "mutagen_message": "你努力地集中意念，引导能量强化神经系统，凝结耐力特质。",
     "iv_message": "你努力地集中意念，引导能量强化神经系统，凝结耐力特质。",
     "memorial_message": "你努力地集中意念，引导能量强化神经系统，凝结耐力特质。"
-  },
-  {
-    "type": "mutation_category",
-    "id": "SP_PERCETION1",
-    "name": "敏锐系特质(初级)",
-    "threshold_mut": "THRESH_SP_PERCETION1",
-    "mutagen_message": "你努力地集中意念，引导能量强化神经系统，凝结敏锐特质。",
-    "iv_message": "你努力地集中意念，引导能量强化神经系统，凝结敏锐特质。",
-    "memorial_message": "你努力地集中意念，引导能量强化神经系统，凝结敏锐特质。"
-  },
-  {
-    "type": "mutation_category",
-    "id": "SP_PERCETION2",
-    "name": "敏锐系特质(中级)",
-    "threshold_mut": "THRESH_SP_PERCETION2",
-    "mutagen_message": "你努力地集中意念，引导能量强化神经系统，凝结敏锐特质。",
-    "iv_message": "你努力地集中意念，引导能量强化神经系统，凝结敏锐特质。",
-    "memorial_message": "你努力地集中意念，引导能量强化神经系统，凝结敏锐特质。"
-  },
-  {
-    "type": "mutation_category",
-    "id": "SP_PERCETION3",
-    "name": "敏锐系特质(高级)",
-    "threshold_mut": "THRESH_SP_PERCETION3",
-    "mutagen_message": "你努力地集中意念，引导能量强化神经系统，凝结敏锐特质。",
-    "iv_message": "你努力地集中意念，引导能量强化神经系统，凝结敏锐特质。",
-    "memorial_message": "你努力地集中意念，引导能量强化神经系统，凝结敏锐特质。"
   },
   {
     "type": "mutation_category",

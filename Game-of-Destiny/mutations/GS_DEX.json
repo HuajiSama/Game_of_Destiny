@@ -31,69 +31,6 @@
   },
   {
     "type": "mutation",
-    "id": "DEX_UP_2",
-    "name": "Very Dextrous",
-    "points": 2,
-    "description": "You are nimbler.  Dexterity + 2",
-    "prereqs": [ "DEX_UP" ],
-    "changes_to": [ "DEX_UP_3" ],
-    "category": [ "SP_DEXTERITY1", "LIZARD", "SPIDER", "CHIMERA", "RAPTOR", "MOUSE" ],
-    "passive_mods": { "dex_mod": 2 }
-  },
-  {
-    "type": "mutation",
-    "id": "DEFT",
-    "name": "Deft",
-    "points": 1,
-    "description": "While you're not any better at melee combat, you are better at recovering from a miss, and will be able to attempt another strike faster.",
-    "starting_trait": true,
-    "category": [ "SP_DEXTERITY1", "BIRD", "BEAST", "RAPTOR", "MOUSE" ]
-  },
-  {
-    "type": "mutation",
-    "id": "LIGHTSTEP",
-    "name": "Light Step",
-    "points": 1,
-    "description": "You make less noise while walking.  You're also less likely to set off traps.",
-    "starting_trait": true,
-    "category": [ "SP_DEXTERITY1", "BIRD", "ELFA", "FELINE" ],
-    "cancels": [ "CLUMSY" ]
-  },
-  {
-    "type": "mutation",
-    "id": "PARKOUR",
-    "name": "Parkour Expert",
-    "points": 2,
-    "description": "You're skilled at clearing obstacles; terrain like railings or counters are as easy for you to move on as solid ground.",
-    "starting_trait": true,
-    "valid": false,
-    "category": [ "SP_DEXTERITY1" ],
-    "cancels": [ "BADKNEES" ]
-  },
-  {
-    "type": "mutation",
-    "id": "DEX_UP_3",
-    "name": "Extremely Dextrous",
-    "points": 3,
-    "description": "You are nimble and quick.  Dexterity + 4",
-    "prereqs": [ "DEX_UP_2" ],
-    "changes_to": [ "DEX_UP_4", "SP_DEX_UP" ],
-    "category": [ "SP_DEXTERITY2", "BIRD", "ELFA", "FELINE" ],
-    "passive_mods": { "dex_mod": 4 }
-  },
-  {
-    "type": "mutation",
-    "id": "FLEET",
-    "name": "Fleet-Footed",
-    "points": 2,
-    "description": "You can move more quickly than most, resulting in a 15% speed bonus on sure footing.",
-    "starting_trait": true,
-    "changes_to": [ "FLEET2" ],
-    "category": [ "SP_DEXTERITY2", "SPIDER", "MOUSE" ],
-    "types": [ "RUNNING" ]
-  },
-  {
-    "type": "mutation",
     "id": "DEX_agile_feet",
     "name": "身轻如燕",
     "points": 2,
@@ -124,25 +61,6 @@
   },
   {
     "type": "mutation",
-    "id": "FLEET2",
-    "name": "Road-Runner",
-    "points": 3,
-    "description": "Your legs are extremely limber and fast-moving.  You move 30% faster on flat surfaces.",
-    "prereqs": [ "FLEET" ],
-    "types": [ "RUNNING" ],
-    "category": [ "SP_DEXTERITY3", "BIRD" ]
-  },
-  {
-    "type": "mutation",
-    "id": "QUICK",
-    "name": "Quick",
-    "points": 3,
-    "description": "You're just generally quick!  You get a 10% bonus to action points.",
-    "starting_trait": true,
-    "category": [ "SP_DEXTERITY3", "FISH", "BIRD", "INSECT", "TROGLOBITE", "CHIMERA", "RAPTOR", "MOUSE" ]
-  },
-  {
-    "type": "mutation",
     "id": "DEX_agile_torso",
     "name": "闪电反射",
     "points": 3,
@@ -150,5 +68,47 @@
     "encumbrance_always": [ [ "TORSO", -10 ], [ "HEAD", -10 ] ],
     "prereqs": [ "SP_DEX_UP", "QUICK", "FLEET2" ],
     "category": [ "SP_DEXTERITY3" ]
+  },
+  {
+    "type": "mutation",
+    "id": "DEX_UP_2",
+    "copy-from": "DEX_UP_2",
+    "extend": { "category": [ "SP_DEXTERITY1" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "DEFT",
+    "copy-from": "DEFT",
+    "extend": { "category": [ "SP_DEXTERITY1" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "LIGHTSTEP",
+    "copy-from": "LIGHTSTEP",
+    "extend": { "category": [ "SP_DEXTERITY1" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "DEX_UP_3",
+    "copy-from": "DEX_UP_3",
+    "extend": { "changes_to": [ "SP_DEX_UP" ], "category": [ "SP_DEXTERITY2" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "FLEET",
+    "copy-from": "FLEET",
+    "extend": { "category": [ "SP_DEXTERITY2" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "FLEET2",
+    "copy-from": "FLEET2",
+    "extend": { "category": [ "SP_DEXTERITY3" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "QUICK",
+    "copy-from": "QUICK",
+    "extend": { "category": [ "SP_DEXTERITY3" ] }
   }
 ]
