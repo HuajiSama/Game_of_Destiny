@@ -122,7 +122,7 @@
   },
   {
     "type": "mutation",
-    "id": "THRESH_SP_INTELLIGENT1",
+    "id": "THRESH_SP_INTELLIGENCE1",
     "name": "超凡者游戏─智力系(初级)",
     "points": 0,
     "description": "debug专用",
@@ -132,7 +132,7 @@
   },
   {
     "type": "mutation",
-    "id": "THRESH_SP_INTELLIGENT2",
+    "id": "THRESH_SP_INTELLIGENCE2",
     "name": "超凡者游戏─智力系(中级)",
     "points": 0,
     "description": "debug专用",
@@ -142,7 +142,7 @@
   },
   {
     "type": "mutation",
-    "id": "THRESH_SP_INTELLIGENT3",
+    "id": "THRESH_SP_INTELLIGENCE3",
     "name": "超凡者游戏─智力系(高级)",
     "points": 0,
     "description": "debug专用",

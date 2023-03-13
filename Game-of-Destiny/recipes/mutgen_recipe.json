@@ -118,7 +118,7 @@
   },
   {
     "type": "recipe",
-    "result": "cohesion_intelligent1",
+    "result": "cohesion_intelligence1",
     "category": "CC_超凡",
     "subcategory": "CSC_超凡_基因",
     "skill_used": "survival",
@@ -131,7 +131,7 @@
   },
   {
     "type": "recipe",
-    "result": "cohesion_intelligent2",
+    "result": "cohesion_intelligence2",
     "category": "CC_超凡",
     "subcategory": "CSC_超凡_基因",
     "skill_used": "survival",
@@ -144,7 +144,7 @@
   },
   {
     "type": "recipe",
-    "result": "cohesion_intelligent3",
+    "result": "cohesion_intelligence3",
     "category": "CC_超凡",
     "subcategory": "CSC_超凡_基因",
     "skill_used": "survival",

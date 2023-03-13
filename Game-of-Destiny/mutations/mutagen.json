@@ -84,7 +84,7 @@
     "flags": [ "ZERO_WEIGHT" ]
   },
   {
-    "id": "cohesion_intelligent1",
+    "id": "cohesion_intelligence1",
     "type": "COMESTIBLE",
     "comestible_type": "MED",
     "category": "GS_feature",
@@ -94,11 +94,11 @@
     "symbol": "!",
     "color": "green",
     "healthy": 15,
-    "use_action": { "type": "mutagen", "mutation_category": "SP_INTELLIGENT1" },
+    "use_action": { "type": "mutagen", "mutation_category": "SP_INTELLIGENCE1" },
     "flags": [ "ZERO_WEIGHT" ]
   },
   {
-    "id": "cohesion_intelligent2",
+    "id": "cohesion_intelligence2",
     "type": "COMESTIBLE",
     "comestible_type": "MED",
     "category": "GS_feature",
@@ -108,11 +108,11 @@
     "symbol": "!",
     "color": "green",
     "healthy": 30,
-    "use_action": { "type": "mutagen", "mutation_category": "SP_INTELLIGENT2" },
+    "use_action": { "type": "mutagen", "mutation_category": "SP_INTELLIGENCE2" },
     "flags": [ "ZERO_WEIGHT" ]
   },
   {
-    "id": "cohesion_intelligent3",
+    "id": "cohesion_intelligence3",
     "type": "COMESTIBLE",
     "comestible_type": "MED",
     "category": "GS_feature",
@@ -122,7 +122,49 @@
     "symbol": "!",
     "color": "green",
     "healthy": 15,
-    "use_action": { "type": "mutagen", "mutation_category": "SP_INTELLIGENT3" },
+    "use_action": { "type": "mutagen", "mutation_category": "SP_INTELLIGENCE3" },
+    "flags": [ "ZERO_WEIGHT" ]
+  },
+  {
+    "id": "cohesion_percetion1",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",
+    "category": "GS_feature",
+    "name": "特质凝结─感知系(初级)",
+    "name_plural": "特质凝结─感知系(初级)",
+    "description": "超凡者的基因解锁达到某个水准之后，能依据自身特长，提纯天命能量在体内凝聚特质。\n \n感知系特质：着重于强化五感、提升洞察危险的感知能力。\n \n※凝结特质：感知+2(高度感知)、视觉发达、听觉发达、夜视(Lv1)。",
+    "symbol": "!",
+    "color": "green",
+    "healthy": 15,
+    "use_action": { "type": "mutagen", "mutation_category": "SP_PERCETION1" },
+    "flags": [ "ZERO_WEIGHT" ]
+  },
+  {
+    "id": "cohesion_percetion2",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",
+    "category": "GS_feature",
+    "name": "特质凝结─感知系(中级)",
+    "name_plural": "特质凝结─感知系(中级)",
+    "description": "超凡者的基因解锁达到某个水准之后，能依据自身特长，提纯天命能量在体内凝聚特质。\n \n感知系特质：着重于提升感官的感知度，例如黑夜视物或加速瞄准。\n \n※凝结特质：感知+4(洞察一切)、高级夜视、目光如电。",
+    "symbol": "!",
+    "color": "green",
+    "healthy": 30,
+    "use_action": { "type": "mutagen", "mutation_category": "SP_PERCETION2" },
+    "flags": [ "ZERO_WEIGHT" ]
+  },
+  {
+    "id": "cohesion_percetion3",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",
+    "category": "GS_feature",
+    "name": "特质凝结─感知系(高级)",
+    "name_plural": "特质凝结─感知系(高级)",
+    "description": "超凡者的基因解锁达到某个水准之后，能依据自身特长，提纯天命能量在体内凝聚特质。\n \n感知系特质：着重于提升感官的感知度，例如完美夜视与热能感应。\n \n※凝结特质：感知+6(心有灵犀)、完美夜视、红外视觉。",
+    "symbol": "!",
+    "color": "green",
+    "healthy": 15,
+    "use_action": { "type": "mutagen", "mutation_category": "SP_PERCETION3" },
     "flags": [ "ZERO_WEIGHT" ]
   },
   {
@@ -151,48 +193,6 @@
     "color": "green",
     "healthy": 30,
     "use_action": { "type": "mutagen", "mutation_category": "SP_SENSE2" },
-    "flags": [ "ZERO_WEIGHT" ]
-  },
-  {
-    "id": "cohesion_percetion1",
-    "type": "COMESTIBLE",
-    "comestible_type": "MED",
-    "category": "GS_feature",
-    "name": "特质凝结─敏锐系(初级)",
-    "name_plural": "特质凝结─敏锐系(初级)",
-    "description": "超凡者的基因解锁达到某个水准之后，能依据自身特长，提纯天命能量在体内凝聚特质。\n \n敏锐系特质：着重于强化五感、提升洞察危险的感知能力。\n \n※凝结特质：感知+2(高度敏锐)、视觉发达、听觉发达、夜视(Lv1)。",
-    "symbol": "!",
-    "color": "green",
-    "healthy": 15,
-    "use_action": { "type": "mutagen", "mutation_category": "SP_PERCETION1" },
-    "flags": [ "ZERO_WEIGHT" ]
-  },
-  {
-    "id": "cohesion_percetion2",
-    "type": "COMESTIBLE",
-    "comestible_type": "MED",
-    "category": "GS_feature",
-    "name": "特质凝结─敏锐系(中级)",
-    "name_plural": "特质凝结─敏锐系(中级)",
-    "description": "超凡者的基因解锁达到某个水准之后，能依据自身特长，提纯天命能量在体内凝聚特质。\n \n敏锐系特质：着重于提升感官的敏锐度，例如黑夜视物或加速瞄准。\n \n※凝结特质：感知+4(洞察一切)、高级夜视、目光如电。",
-    "symbol": "!",
-    "color": "green",
-    "healthy": 30,
-    "use_action": { "type": "mutagen", "mutation_category": "SP_PERCETION2" },
-    "flags": [ "ZERO_WEIGHT" ]
-  },
-  {
-    "id": "cohesion_percetion3",
-    "type": "COMESTIBLE",
-    "comestible_type": "MED",
-    "category": "GS_feature",
-    "name": "特质凝结─敏锐系(高级)",
-    "name_plural": "特质凝结─敏锐系(高级)",
-    "description": "超凡者的基因解锁达到某个水准之后，能依据自身特长，提纯天命能量在体内凝聚特质。\n \n敏锐系特质：着重于提升感官的敏锐度，例如完美夜视与热能感应。\n \n※凝结特质：感知+6(心有灵犀)、完美夜视、红外视觉。",
-    "symbol": "!",
-    "color": "green",
-    "healthy": 15,
-    "use_action": { "type": "mutagen", "mutation_category": "SP_PERCETION3" },
     "flags": [ "ZERO_WEIGHT" ]
   },
   {
