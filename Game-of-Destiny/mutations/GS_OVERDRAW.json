@@ -80,7 +80,7 @@
     ],
     "purifiable": false,
     "prereqs": [ "OVERDRAW_2" ],
-    "changes_to": [ "OVERDRAW_end" ],
+    "changes_to": [ "OVERDRAW_END" ],
     "category": [ "SP_OVERDRAW" ]
   },
   {
