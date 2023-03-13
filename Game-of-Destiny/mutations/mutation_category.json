@@ -163,7 +163,7 @@
   },
   {
     "type": "mutation_category",
-    "id": "sp_overdraw",
+    "id": "SP_OVERDRAW",
     "name": "天命透支系",
     "threshold_mut": "THRESH_OVERDRAW",
     "mutagen_message": "大量天命化为纯粹能量注入体内，弭平你陨落时溃散的命运，你感觉身上的负担减轻了。",

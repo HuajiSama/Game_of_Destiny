@@ -1,16 +1,6 @@
 [
   {
     "type": "mutation",
-    "id": "IMMORTAL",
-    "name": "超凡者游戏─肉身成圣",
-    "points": 0,
-    "description": "debug专用",
-    "valid": false,
-    "purifiable": false,
-    "threshold": true
-  },
-  {
-    "type": "mutation",
     "id": "IMMORTAL_1",
     "name": "肉身成圣(一级)",
     "points": 8,

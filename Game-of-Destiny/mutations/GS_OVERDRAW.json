@@ -1,15 +1,5 @@
 [
   {
-    "type": "mutation",
-    "id": "OVERDRAW",
-    "name": "超凡者游戏─天命透支",
-    "points": 0,
-    "description": "debug专用",
-    "valid": false,
-    "purifiable": false,
-    "threshold": true
-  },
-  {
     "id": "stone_of_time",
     "type": "TOOL",
     "category": "GS_resoure",

@@ -1,36 +1,6 @@
 [
   {
     "type": "mutation",
-    "id": "SP_DEXTERITY1",
-    "name": "敏捷系特质(初级)",
-    "points": 0,
-    "description": "debug专用",
-    "valid": false,
-    "purifiable": false,
-    "threshold": true
-  },
-  {
-    "type": "mutation",
-    "id": "SP_DEXTERITY2",
-    "name": "敏捷系特质(中级)",
-    "points": 0,
-    "description": "debug专用",
-    "valid": false,
-    "purifiable": false,
-    "threshold": true
-  },
-  {
-    "type": "mutation",
-    "id": "SP_DEXTERITY3",
-    "name": "敏捷系特质(高级)",
-    "points": 0,
-    "description": "debug专用",
-    "valid": false,
-    "purifiable": false,
-    "threshold": true
-  },
-  {
-    "type": "mutation",
     "id": "DEX_agile_feet",
     "name": "身轻如燕",
     "points": 2,

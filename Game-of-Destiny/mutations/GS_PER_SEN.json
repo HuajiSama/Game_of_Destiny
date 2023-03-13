@@ -1,26 +1,6 @@
 [
   {
     "type": "mutation",
-    "id": "SP_SENSE1",
-    "name": "感性系特质(初级)",
-    "points": 0,
-    "description": "debug专用",
-    "valid": false,
-    "purifiable": false,
-    "threshold": true
-  },
-  {
-  	"type": "mutation",
-    "id": "THRESH_SP_SENSE2",
-    "name": "感性系特质(高级)",
-    "points": 0,
-    "description": "debug专用",
-    "valid": false,
-    "purifiable": false,
-    "threshold": true
-  },
-  {
-    "type": "mutation",
     "id": "EASYSLEEPER",
     "copy-from": "EASYSLEEPER",
     "extend": { "category": [ "SP_SENSE1" ] }
