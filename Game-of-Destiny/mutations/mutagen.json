@@ -126,7 +126,7 @@
     "flags": [ "ZERO_WEIGHT" ]
   },
   {
-    "id": "cohesion_percetion1",
+    "id": "cohesion_perception1",
     "type": "COMESTIBLE",
     "comestible_type": "MED",
     "category": "GS_feature",
@@ -136,11 +136,11 @@
     "symbol": "!",
     "color": "green",
     "healthy": 15,
-    "use_action": { "type": "mutagen", "mutation_category": "SP_PERCETION1" },
+    "use_action": { "type": "mutagen", "mutation_category": "SP_PERCEPTION1" },
     "flags": [ "ZERO_WEIGHT" ]
   },
   {
-    "id": "cohesion_percetion2",
+    "id": "cohesion_perception2",
     "type": "COMESTIBLE",
     "comestible_type": "MED",
     "category": "GS_feature",
@@ -150,11 +150,11 @@
     "symbol": "!",
     "color": "green",
     "healthy": 30,
-    "use_action": { "type": "mutagen", "mutation_category": "SP_PERCETION2" },
+    "use_action": { "type": "mutagen", "mutation_category": "SP_PERCEPTION2" },
     "flags": [ "ZERO_WEIGHT" ]
   },
   {
-    "id": "cohesion_percetion3",
+    "id": "cohesion_perception3",
     "type": "COMESTIBLE",
     "comestible_type": "MED",
     "category": "GS_feature",
@@ -164,7 +164,7 @@
     "symbol": "!",
     "color": "green",
     "healthy": 15,
-    "use_action": { "type": "mutagen", "mutation_category": "SP_PERCETION3" },
+    "use_action": { "type": "mutagen", "mutation_category": "SP_PERCEPTION3" },
     "flags": [ "ZERO_WEIGHT" ]
   },
   {
