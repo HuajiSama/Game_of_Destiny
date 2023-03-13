@@ -153,7 +153,7 @@
     "flags": [ "ZERO_WEIGHT" ]
   },
   {
-    "id": "cohesion_percetion1",
+    "id": "cohesion_perception1",
     "type": "COMESTIBLE",
     "comestible_type": "MED",
     "category": "GS_feature",
@@ -165,12 +165,12 @@
     "healthy": 15,
     "use_action": {
       "type": "consume_drug",
-      "effects": [ { "id": "sp_percetion1_mutagen_trigger", "duration": 5 } ]
+      "effects": [ { "id": "sp_perception1_mutagen_trigger", "duration": 5 } ]
     },
     "flags": [ "ZERO_WEIGHT" ]
   },
   {
-    "id": "cohesion_percetion2",
+    "id": "cohesion_perception2",
     "type": "COMESTIBLE",
     "comestible_type": "MED",
     "category": "GS_feature",
@@ -182,12 +182,12 @@
     "healthy": 30,
     "use_action": {
       "type": "consume_drug",
-      "effects": [ { "id": "sp_percetion2_mutagen_trigger", "duration": 5 } ]
+      "effects": [ { "id": "sp_perception2_mutagen_trigger", "duration": 5 } ]
     },
     "flags": [ "ZERO_WEIGHT" ]
   },
   {
-    "id": "cohesion_percetion3",
+    "id": "cohesion_perception3",
     "type": "COMESTIBLE",
     "comestible_type": "MED",
     "category": "GS_feature",
@@ -199,7 +199,7 @@
     "healthy": 15,
     "use_action": {
       "type": "consume_drug",
-      "effects": [ { "id": "sp_percetion3_mutagen_trigger", "duration": 5 } ]
+      "effects": [ { "id": "sp_perception3_mutagen_trigger", "duration": 5 } ]
     },
     "flags": [ "ZERO_WEIGHT" ]
   },

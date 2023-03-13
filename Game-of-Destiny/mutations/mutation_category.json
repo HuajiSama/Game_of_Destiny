@@ -81,27 +81,27 @@
   },
   {
     "type": "mutation_category",
-    "id": "SP_PERCETION1",
+    "id": "SP_PERCEPTION1",
     "name": "感知系特质(初级)",
-    "threshold_mut": "THRESH_SP_PERCETION1",
+    "threshold_mut": "THRESH_SP_PERCEPTION1",
     "mutagen_message": "你努力地集中意念，引导能量强化神经系统，凝结感知特质。",
     "iv_message": "你努力地集中意念，引导能量强化神经系统，凝结感知特质。",
     "memorial_message": "你努力地集中意念，引导能量强化神经系统，凝结感知特质。"
   },
   {		
     "type": "mutation_category",
-    "id": "SP_PERCETION2",
+    "id": "SP_PERCEPTION2",
     "name": "感知系特质(中级)",
-    "threshold_mut": "THRESH_SP_PERCETION2",
+    "threshold_mut": "THRESH_SP_PERCEPTION2",
     "mutagen_message": "你努力地集中意念，引导能量强化神经系统，凝结感知特质。",
     "iv_message": "你努力地集中意念，引导能量强化神经系统，凝结感知特质。",
     "memorial_message": "你努力地集中意念，引导能量强化神经系统，凝结感知特质。"
   },
   {
     "type": "mutation_category",
-    "id": "SP_PERCETION3",
+    "id": "SP_PERCEPTION3",
     "name": "感知系特质(高级)",
-    "threshold_mut": "THRESH_SP_PERCETION3",
+    "threshold_mut": "THRESH_SP_PERCEPTION3",
     "mutagen_message": "你努力地集中意念，引导能量强化神经系统，凝结感知特质。",
     "iv_message": "你努力地集中意念，引导能量强化神经系统，凝结感知特质。",
     "memorial_message": "你努力地集中意念，引导能量强化神经系统，凝结感知特质。"
