@@ -10,7 +10,10 @@
     "symbol": "!",
     "color": "green",
     "healthy": 15,
-    "use_action": { "type": "mutagen", "mutation_category": "SP_STRENGTH1" },
+    "use_action": {
+      "type": "consume_drug",
+      "effects": [ { "id": "sp_strength1_mutagen_trigger", "duration": 5 } ]
+    },
     "flags": [ "ZERO_WEIGHT" ]
   },
   {
@@ -24,7 +27,10 @@
     "symbol": "!",
     "color": "green",
     "healthy": 30,
-    "use_action": { "type": "mutagen", "mutation_category": "SP_STRENGTH2" },
+    "use_action": {
+      "type": "consume_drug",
+      "effects": [ { "id": "sp_strength2_mutagen_trigger", "duration": 5 } ]
+    },
     "flags": [ "ZERO_WEIGHT" ]
   },
   {
@@ -38,7 +44,10 @@
     "symbol": "!",
     "color": "green",
     "healthy": 15,
-    "use_action": { "type": "mutagen", "mutation_category": "SP_STRENGTH3" },
+    "use_action": {
+      "type": "consume_drug",
+      "effects": [ { "id": "sp_strength3_mutagen_trigger", "duration": 5 } ]
+    },
     "flags": [ "ZERO_WEIGHT" ]
   },
   {
@@ -52,7 +61,10 @@
     "symbol": "!",
     "color": "green",
     "healthy": 15,
-    "use_action": { "type": "mutagen", "mutation_category": "SP_DEXTERITY1" },
+    "use_action": {
+      "type": "consume_drug",
+      "effects": [ { "id": "sp_dexterity1_mutagen_trigger", "duration": 5 } ]
+    },
     "flags": [ "ZERO_WEIGHT" ]
   },
   {
@@ -66,7 +78,10 @@
     "symbol": "!",
     "color": "green",
     "healthy": 30,
-    "use_action": { "type": "mutagen", "mutation_category": "SP_DEXTERITY2" },
+    "use_action": {
+      "type": "consume_drug",
+      "effects": [ { "id": "sp_dexterity2_mutagen_trigger", "duration": 5 } ]
+    },
     "flags": [ "ZERO_WEIGHT" ]
   },
   {
@@ -80,7 +95,10 @@
     "symbol": "!",
     "color": "green",
     "healthy": 15,
-    "use_action": { "type": "mutagen", "mutation_category": "SP_DEXTERITY3" },
+    "use_action": {
+      "type": "consume_drug",
+      "effects": [ { "id": "sp_dexterity3_mutagen_trigger", "duration": 5 } ]
+    },
     "flags": [ "ZERO_WEIGHT" ]
   },
   {
@@ -94,7 +112,10 @@
     "symbol": "!",
     "color": "green",
     "healthy": 15,
-    "use_action": { "type": "mutagen", "mutation_category": "SP_INTELLIGENCE1" },
+    "use_action": {
+      "type": "consume_drug",
+      "effects": [ { "id": "sp_intelligence1_mutagen_trigger", "duration": 5 } ]
+    },
     "flags": [ "ZERO_WEIGHT" ]
   },
   {
@@ -108,7 +129,10 @@
     "symbol": "!",
     "color": "green",
     "healthy": 30,
-    "use_action": { "type": "mutagen", "mutation_category": "SP_INTELLIGENCE2" },
+    "use_action": {
+      "type": "consume_drug",
+      "effects": [ { "id": "sp_intelligence2_mutagen_trigger", "duration": 5 } ]
+    },
     "flags": [ "ZERO_WEIGHT" ]
   },
   {
@@ -122,7 +146,10 @@
     "symbol": "!",
     "color": "green",
     "healthy": 15,
-    "use_action": { "type": "mutagen", "mutation_category": "SP_INTELLIGENCE3" },
+    "use_action": {
+      "type": "consume_drug",
+      "effects": [ { "id": "sp_intelligence3_mutagen_trigger", "duration": 5 } ]
+    },
     "flags": [ "ZERO_WEIGHT" ]
   },
   {
@@ -136,7 +163,10 @@
     "symbol": "!",
     "color": "green",
     "healthy": 15,
-    "use_action": { "type": "mutagen", "mutation_category": "SP_PERCETION1" },
+    "use_action": {
+      "type": "consume_drug",
+      "effects": [ { "id": "sp_percetion1_mutagen_trigger", "duration": 5 } ]
+    },
     "flags": [ "ZERO_WEIGHT" ]
   },
   {
@@ -150,7 +180,10 @@
     "symbol": "!",
     "color": "green",
     "healthy": 30,
-    "use_action": { "type": "mutagen", "mutation_category": "SP_PERCETION2" },
+    "use_action": {
+      "type": "consume_drug",
+      "effects": [ { "id": "sp_percetion2_mutagen_trigger", "duration": 5 } ]
+    },
     "flags": [ "ZERO_WEIGHT" ]
   },
   {
@@ -164,7 +197,10 @@
     "symbol": "!",
     "color": "green",
     "healthy": 15,
-    "use_action": { "type": "mutagen", "mutation_category": "SP_PERCETION3" },
+    "use_action": {
+      "type": "consume_drug",
+      "effects": [ { "id": "sp_percetion3_mutagen_trigger", "duration": 5 } ]
+    },
     "flags": [ "ZERO_WEIGHT" ]
   },
   {
@@ -178,7 +214,10 @@
     "symbol": "!",
     "color": "green",
     "healthy": 15,
-    "use_action": { "type": "mutagen", "mutation_category": "SP_SENSE1" },
+    "use_action": {
+      "type": "consume_drug",
+      "effects": [ { "id": "sp_sense1_mutagen_trigger", "duration": 5 } ]
+    },
     "flags": [ "ZERO_WEIGHT" ]
   },
   {
@@ -192,7 +231,10 @@
     "symbol": "!",
     "color": "green",
     "healthy": 30,
-    "use_action": { "type": "mutagen", "mutation_category": "SP_SENSE2" },
+    "use_action": {
+      "type": "consume_drug",
+      "effects": [ { "id": "sp_sense2_mutagen_trigger", "duration": 5 } ]
+    },
     "flags": [ "ZERO_WEIGHT" ]
   },
   {
@@ -206,7 +248,10 @@
     "symbol": "!",
     "color": "green",
     "healthy": 15,
-    "use_action": { "type": "mutagen", "mutation_category": "SP_ENDURENCE1" },
+    "use_action": {
+      "type": "consume_drug",
+      "effects": [ { "id": "sp_endurence1_mutagen_trigger", "duration": 5 } ]
+    },
     "flags": [ "ZERO_WEIGHT" ]
   },
   {
@@ -220,7 +265,10 @@
     "symbol": "!",
     "color": "green",
     "healthy": 30,
-    "use_action": { "type": "mutagen", "mutation_category": "SP_ENDURENCE2" },
+    "use_action": {
+      "type": "consume_drug",
+      "effects": [ { "id": "sp_endurence2_mutagen_trigger", "duration": 5 } ]
+    },
     "flags": [ "ZERO_WEIGHT" ]
   },
   {
@@ -234,7 +282,10 @@
     "symbol": "!",
     "color": "green",
     "healthy": 15,
-    "use_action": { "type": "mutagen", "mutation_category": "SP_ENDURENCE3" },
+    "use_action": {
+      "type": "consume_drug",
+      "effects": [ { "id": "sp_endurence3_mutagen_trigger", "duration": 5 } ]
+    },
     "flags": [ "ZERO_WEIGHT" ]
   },
   {
@@ -248,7 +299,10 @@
     "symbol": "!",
     "color": "red",
     "healthy": 80,
-    "use_action": { "type": "mutagen", "mutation_category": "IMMORTAL" },
+    "use_action": {
+      "type": "consume_drug",
+      "effects": [ { "id": "immortal_mutagen_trigger", "duration": 5 } ]
+    },
     "flags": [ "ZERO_WEIGHT" ]
   },
   {
@@ -262,7 +316,10 @@
     "symbol": "!",
     "color": "light_green",
     "healthy": 40,
-    "use_action": { "type": "mutagen", "mutation_category": "SP_NOVICE" },
+    "use_action": {
+      "type": "consume_drug",
+      "effects": [ { "id": "sp_novice_mutagen_trigger", "duration": 5 } ]
+    },
     "flags": [ "ZERO_WEIGHT" ]
   }
 ]

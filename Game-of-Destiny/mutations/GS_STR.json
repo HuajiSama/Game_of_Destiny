@@ -20,50 +20,83 @@
   },
   {
     "type": "mutation",
+    "id": "STR_UP",
+    "copy-from": "STR_UP",
+    "extend": {
+      "category": [ "SP_STRENGTH1" ],
+      "flags": [ "SP_STRENGTH1_FLAG" ]
+    }
+  },
+  {
+    "type": "mutation",
     "id": "STR_UP_2",
     "copy-from": "STR_UP_2",
-    "extend": { "category": [ "SP_STRENGTH1" ] }
+    "extend": {
+      "category": [ "SP_STRENGTH1" ],
+      "flags": [ "SP_STRENGTH1_FLAG" ]
+    }
   },
   {
     "type": "mutation",
     "id": "ADRENALINE",
     "copy-from": "ADRENALINE",
-    "extend": { "category": [ "SP_STRENGTH1" ] }
+    "extend": {
+      "category": [ "SP_STRENGTH1" ],
+      "flags": [ "SP_STRENGTH1_FLAG" ]
+    }
   },
   {
     "type": "mutation",
     "id": "THICKSKIN",
     "copy-from": "THICKSKIN",
-    "extend": { "category": [ "SP_STRENGTH1" ] }
+    "extend": {
+      "category": [ "SP_STRENGTH1" ],
+      "flags": [ "SP_STRENGTH1_FLAG" ]
+    }
   },
   {
     "type": "mutation",
     "id": "STR_UP_3",
     "copy-from": "STR_UP_3",
-    "extend": { "category": [ "SP_STRENGTH2" ] }
+    "extend": {
+      "category": [ "SP_STRENGTH2" ],
+      "flags": [ "SP_STRENGTH2_FLAG" ]
+    }
   },
   {
     "type": "mutation",
     "id": "STRONGBACK",
     "copy-from": "STRONGBACK",
-    "extend": { "category": [ "SP_STRENGTH2" ] }
+    "extend": {
+      "category": [ "SP_STRENGTH2" ],
+      "flags": [ "SP_STRENGTH2_FLAG" ]
+    }
   },
   {
     "type": "mutation",
     "id": "TOUGH",
     "copy-from": "TOUGH",
-    "extend": { "category": [ "SP_STRENGTH2" ] }
+    "extend": {
+      "category": [ "SP_STRENGTH2" ],
+      "flags": [ "SP_STRENGTH2_FLAG" ]
+    }
   },
   {
     "type": "mutation",
     "id": "GOODCARDIO",
     "copy-from": "GOODCARDIO",
-    "extend": { "category": [ "SP_STRENGTH3" ] }
+    "extend": {
+      "category": [ "SP_STRENGTH3" ],
+      "flags": [ "SP_STRENGTH3_FLAG" ]
+    }
   },
   {
     "type": "mutation",
     "id": "TOUGH3",
     "copy-from": "TOUGH3",
-    "extend": { "category": [ "SP_STRENGTH3" ] }
+    "extend": {
+      "category": [ "SP_STRENGTH3" ],
+      "flags": [ "SP_STRENGTH3_FLAG" ]
+    }
   }
 ]
