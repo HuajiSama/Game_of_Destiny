@@ -152,7 +152,7 @@
   },
   {
     "type": "mutation",
-    "id": "THRESH_SP_PERCETION1",
+    "id": "THRESH_SP_PERCEPTION1",
     "name": "超凡者游戏─敏锐系(初级)",
     "points": 0,
     "description": "debug专用",
@@ -162,7 +162,7 @@
   },
   {
     "type": "mutation",
-    "id": "THRESH_SP_PERCETION2",
+    "id": "THRESH_SP_PERCEPTION2",
     "name": "超凡者游戏─敏锐系(中级)",
     "points": 0,
     "description": "debug专用",
@@ -172,7 +172,7 @@
   },
   {
     "type": "mutation",
-    "id": "THRESH_SP_PERCETION3",
+    "id": "THRESH_SP_PERCEPTION3",
     "name": "超凡者游戏─敏锐系(高级)",
     "points": 0,
     "description": "debug专用",
