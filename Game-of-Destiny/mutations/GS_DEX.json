@@ -6,7 +6,8 @@
     "points": 2,
     "description": "负重训练使你的运动能力提升，跑动时更加轻盈，腿脚部位累赘-10。",
     "encumbrance_always": [ [ "LEG_L", -10 ], [ "LEG_R", -10 ], [ "FOOT_L", -10 ], [ "FOOT_R", -10 ] ],
-    "category": [ "SP_DEXTERITY2" ]
+    "category": [ "SP_DEXTERITY2" ],
+    "flags": [ "SP_DEXTERITY2_FLAG" ]
   },
   {
     "type": "mutation",
@@ -17,7 +18,8 @@
     "encumbrance_always": [ [ "ARM_L", -10 ], [ "ARM_R", -10 ], [ "HAND_L", -5 ], [ "HAND_R", -5 ] ],
     "//": "手部累赘与攻击耗时挂勾。",
     "prereqs": [ "DEX_agile_feet" ],
-    "category": [ "SP_DEXTERITY2" ]
+    "category": [ "SP_DEXTERITY2" ],
+    "flags": [ "SP_DEXTERITY2_FLAG" ]
   },
   {
     "type": "mutation",
@@ -27,7 +29,8 @@
     "description": "你的身体完美协调，灵活程度更胜猫科动物，敏捷+6。",
     "prereqs": [ "DEX_UP_3" ],
     "passive_mods": { "dex_mod": 6 },
-    "category": [ "SP_DEXTERITY3" ]
+    "category": [ "SP_DEXTERITY3" ],
+    "flags": [ "SP_DEXTERITY3_FLAG" ]
   },
   {
     "type": "mutation",
@@ -37,48 +40,80 @@
     "description": "神经传导速度大幅强化、身体协调度提升，运动时更加得心应手，躯干及头部累赘-10。",
     "encumbrance_always": [ [ "TORSO", -10 ], [ "HEAD", -10 ] ],
     "prereqs": [ "SP_DEX_UP", "QUICK", "FLEET2" ],
-    "category": [ "SP_DEXTERITY3" ]
+    "category": [ "SP_DEXTERITY3" ],
+    "flags": [ "SP_DEXTERITY3_FLAG" ]
+  },
+  {
+    "type": "mutation",
+    "id": "DEX_UP",
+    "copy-from": "DEX_UP",
+    "extend": {
+      "category": [ "SP_DEXTERITY1" ],
+      "flags": [ "SP_DEXTERITY1_FLAG" ]
+    }
   },
   {
     "type": "mutation",
     "id": "DEX_UP_2",
     "copy-from": "DEX_UP_2",
-    "extend": { "category": [ "SP_DEXTERITY1" ] }
+    "extend": {
+      "category": [ "SP_DEXTERITY1" ],
+      "flags": [ "SP_DEXTERITY1_FLAG" ]
+    }
   },
   {
     "type": "mutation",
     "id": "DEFT",
     "copy-from": "DEFT",
-    "extend": { "category": [ "SP_DEXTERITY1" ] }
+    "extend": {
+      "category": [ "SP_DEXTERITY1" ],
+      "flags": [ "SP_DEXTERITY1_FLAG" ]
+    }
   },
   {
     "type": "mutation",
     "id": "LIGHTSTEP",
     "copy-from": "LIGHTSTEP",
-    "extend": { "category": [ "SP_DEXTERITY1" ] }
+    "extend": {
+      "category": [ "SP_DEXTERITY1" ],
+      "flags": [ "SP_DEXTERITY1_FLAG" ]
+    }
   },
   {
     "type": "mutation",
     "id": "DEX_UP_3",
     "copy-from": "DEX_UP_3",
-    "extend": { "changes_to": [ "SP_DEX_UP" ], "category": [ "SP_DEXTERITY2" ] }
+    "extend": {
+      "changes_to": [ "SP_DEX_UP" ],
+      "category": [ "SP_DEXTERITY2" ],
+      "flags": [ "SP_DEXTERITY2_FLAG" ]
+    }
   },
   {
     "type": "mutation",
     "id": "FLEET",
     "copy-from": "FLEET",
-    "extend": { "category": [ "SP_DEXTERITY2" ] }
+    "extend": {
+      "category": [ "SP_DEXTERITY2" ],
+      "flags": [ "SP_DEXTERITY2_FLAG" ]
+    }
   },
   {
     "type": "mutation",
     "id": "FLEET2",
     "copy-from": "FLEET2",
-    "extend": { "category": [ "SP_DEXTERITY3" ] }
+    "extend": {
+      "category": [ "SP_DEXTERITY3" ],
+      "flags": [ "SP_DEXTERITY3_FLAG" ]
+    }
   },
   {
     "type": "mutation",
     "id": "QUICK",
     "copy-from": "QUICK",
-    "extend": { "category": [ "SP_DEXTERITY3" ] }
+    "extend": {
+      "category": [ "SP_DEXTERITY3" ],
+      "flags": [ "SP_DEXTERITY3_FLAG" ]
+    }
   }
 ]

@@ -38,5 +38,45 @@
       },
       { "u_add_trait" : "THRESH_SP_STRENGTH1" }
     ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "sp_dexterity1_mutagen_trigger",
+    "recurrence": [ "1 s", "1 s" ],
+    "condition": { "u_has_effect" : "sp_dexterity1_mutagen_trigger" },
+    "effect": [
+      {
+        "u_message": "你努力地集中意念，引导能量强化神经系统，凝结力量特质。",
+        "type": "mixed"
+      },
+      { "run_eocs": [ "sp_dexterity1_mutagen_thresh_test" ] },
+      { "u_mutate_category" : "SP_DEXTERITY1", "use_vitamins": false },
+      { "run_eocs": [ "sp_dexterity1_mutagen_trigger_bonus" ] },
+      { "u_lose_effect" : "sp_dexterity1_mutagen_trigger" }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "sp_dexterity1_mutagen_trigger_bonus",
+    "condition": { "one_in_chance": 3 },
+    "effect": [
+      { "u_mutate_category" : "SP_DEXTERITY1", "use_vitamins": false }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "sp_dexterity1_mutagen_thresh_test",
+    "condition": {
+      "and": [
+        { "u_has_flag": "SP_DEXTERITY1_FLAG" }
+      ]
+    },
+    "effect": [
+      {
+        "u_message": "你努力地集中意念，引导能量强化神经系统，凝结力量特质。",
+        "type": "good"
+      },
+      { "u_add_trait" : "THRESH_SP_DEXTERITY1" }
+    ]
   }
 ]

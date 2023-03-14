@@ -6,7 +6,8 @@
     "points": 1,
     "description": "强大的心肺功能使你拥有良好的换氧率，更容易恢复体力，嘴部累赘-10。",
     "encumbrance_always": [ [ "MOUTH", -10 ] ],
-    "category": [ "SP_STRENGTH2" ]
+    "category": [ "SP_STRENGTH2" ],
+    "flags": [ "SP_STRENGTH2_FLAG" ]
   },
   {
     "type": "mutation",
@@ -16,7 +17,8 @@
     "description": "你身上的肌肉已经完全开发，强建有力且富有弹性，隐藏着强悍的爆发力，力量+6。",
     "prereqs": [ "STR_UP_3" ],
     "passive_mods": { "str_mod": 6 },
-    "category": [ "SP_STRENGTH3" ]
+    "category": [ "SP_STRENGTH3" ],
+    "flags": [ "SP_STRENGTH3_FLAG" ]
   },
   {
     "type": "mutation",

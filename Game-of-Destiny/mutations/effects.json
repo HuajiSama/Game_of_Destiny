@@ -4,8 +4,13 @@
     "id": "sp_strength1_mutagen_trigger",
     "max_duration": "10 s",
     "name": [ "Test Effect Name" ],
-    "desc": [
-      "测试"
-    ]
+    "desc": [ "力量1测试" ]
+  },
+  {
+    "type": "effect_type",
+    "id": "sp_dexterity1_mutagen_trigger",
+    "max_duration": "10 s",
+    "name": [ "Test Effect Name" ],
+    "desc": [ "敏捷1测试" ]
   }
 ]

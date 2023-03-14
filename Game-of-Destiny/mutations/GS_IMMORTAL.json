@@ -27,7 +27,8 @@
     ],
     "purifiable": false,
     "changes_to": [ "IMMORTAL_2" ],
-    "category": [ "IMMORTAL" ]
+    "category": [ "IMMORTAL" ],
+    "flags": "IMMORTAL_FLAG"
   },
   {
     "type": "mutation",
@@ -58,7 +59,8 @@
     "purifiable": false,
     "prereqs": [ "IMMORTAL_1" ],
     "changes_to": [ "IMMORTAL_3" ],
-    "category": [ "IMMORTAL" ]
+    "category": [ "IMMORTAL" ],
+    "flags": "IMMORTAL_FLAG"
   },
   {
     "type": "mutation",
@@ -88,6 +90,7 @@
     ],
     "purifiable": false,
     "prereqs": [ "IMMORTAL_2" ],
-    "category": [ "IMMORTAL" ]
+    "category": [ "IMMORTAL" ],
+    "flags": "IMMORTAL_FLAG"
   }
 ]

@@ -35,7 +35,8 @@
     ],
     "purifiable": false,
     "changes_to": [ "OVERDRAW_2" ],
-    "category": [ "SP_OVERDRAW" ]
+    "category": [ "SP_OVERDRAW" ],
+    "flags": "SP_OVERDRAW_FLAG"
   },
   {
     "type": "mutation",
@@ -58,7 +59,8 @@
     "purifiable": false,
     "prereqs": [ "OVERDRAW_1" ],
     "changes_to": [ "OVERDRAW_3" ],
-    "category": [ "SP_OVERDRAW" ]
+    "category": [ "SP_OVERDRAW" ],
+    "flags": "SP_OVERDRAW_FLAG"
   },
   {
     "type": "mutation",
@@ -81,7 +83,8 @@
     "purifiable": false,
     "prereqs": [ "OVERDRAW_2" ],
     "changes_to": [ "OVERDRAW_END" ],
-    "category": [ "SP_OVERDRAW" ]
+    "category": [ "SP_OVERDRAW" ],
+    "flags": "SP_OVERDRAW_FLAG"
   },
   {
     "type": "mutation",
@@ -92,6 +95,7 @@
     "valid": false,
     "purifiable": false,
     "prereqs": [ "OVERDRAW_3" ],
-    "category": [ "SP_OVERDRAW" ]
+    "category": [ "SP_OVERDRAW" ],
+    "flags": "SP_OVERDRAW_FLAG"
   }
 ]

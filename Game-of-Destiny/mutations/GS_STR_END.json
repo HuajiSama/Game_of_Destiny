@@ -11,72 +11,106 @@
     "bodytemp_sleep": 100,
     "armor": [ { "parts": "ALL", "bash": 1 } ],
     "purifiable": false,
-    "category": [ "SP_ENDURENCE2" ]
+    "category": [ "SP_ENDURENCE2" ],
+    "flags": [ "SP_ENDURENCE2_FLAG" ]
   },
   {
     "type": "mutation",
     "id": "POISRESIST",
     "copy-from": "POISRESIST",
-    "extend": { "category": [ "SP_ENDURENCE1" ] }
+    "extend": {
+      "category": [ "SP_ENDURENCE1" ],
+      "flags": [ "SP_ENDURENCE1_FLAG" ]
+    }
   },
   {
     "type": "mutation",
     "id": "PARAIMMUNE",
     "copy-from": "PARAIMMUNE",
-    "extend": { "category": [ "SP_ENDURENCE1" ] }
+    "extend": {
+      "category": [ "SP_ENDURENCE1" ],
+      "flags": [ "SP_ENDURENCE1_FLAG" ]
+    }
   },
   {
     "type": "mutation",
     "id": "WAKEFUL",
     "copy-from": "WAKEFUL",
-    "extend": {"category": [ "SP_ENDURENCE1" ] }
+    "extend": {
+      "category": [ "SP_ENDURENCE1" ],
+      "flags": [ "SP_ENDURENCE1_FLAG" ]
+    }
   },
   {
     "type": "mutation",
     "id": "STRONGSTOMACH",
     "copy-from": "STRONGSTOMACH",
-    "extend": { "category": [ "SP_ENDURENCE1" ] }
+    "extend": {
+      "category": [ "SP_ENDURENCE1" ],
+      "flags": [ "SP_ENDURENCE1_FLAG" ]
+    }
   },
   {
     "type": "mutation",
     "id": "PAINRESIST",
     "copy-from": "PAINRESIST",
-    "extend": { "category": [ "SP_ENDURENCE2" ] }
+    "extend": {
+      "category": [ "SP_ENDURENCE2" ],
+      "flags": [ "SP_ENDURENCE2_FLAG" ]
+    }
   },
   {
     "type": "mutation",
     "id": "LIGHTEATER",
     "copy-from": "LIGHTEATER",
-    "extend": { "category": [ "SP_ENDURENCE2" ] }
+    "extend": {
+      "category": [ "SP_ENDURENCE2" ],
+      "flags": [ "SP_ENDURENCE2_FLAG" ]
+    }
   },
   {
     "type": "mutation",
     "id": "INFIMMUNE",
     "copy-from": "INFIMMUNE",
-    "extend": { "category": [ "SP_ENDURENCE2" ] }
+    "extend": {
+      "category": [ "SP_ENDURENCE2" ],
+      "flags": [ "SP_ENDURENCE2_FLAG" ]
+    }
   },
   {
     "type": "mutation",
     "id": "PAINREC1",
     "copy-from": "PAINREC1",
-    "extend": { "category": [ "SP_ENDURENCE2" ] }
+    "extend": {
+      "category": [ "SP_ENDURENCE2" ],
+      "flags": [ "SP_ENDURENCE2_FLAG" ]
+    }
   },
   {
     "type": "mutation",
     "id": "FASTHEALER",
     "copy-from": "FASTHEALER",
-    "extend": { "category": [ "SP_ENDURENCE2" ] }
+    "extend": {
+      "category": [ "SP_ENDURENCE2" ],
+      "flags": [ "SP_ENDURENCE2_FLAG" ]
+    }
   },
   {
     "type": "mutation",
     "id": "REGEN",
     "copy-from": "REGEN",
-    "extend": { "category": [ "SP_ENDURENCE3" ] }
+    "extend": {
+      "category": [ "SP_ENDURENCE3" ],
+      "flags": [ "SP_ENDURENCE3_FLAG" ]
+    }
   },
   {
     "type": "mutation",
     "id": "PAINREC3",
     "copy-from": "PAINREC3",
-    "extend": { "category": [ "SP_ENDURENCE3" ] }
+    "extend": {
+      "category": [ "SP_ENDURENCE3" ],
+      "flags": [ "SP_ENDURENCE3_FLAG" ]
+    }
   }
 ]
