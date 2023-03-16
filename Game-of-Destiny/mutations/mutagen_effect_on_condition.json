@@ -6,16 +6,22 @@
     "dynamic_line": "你努力地集中意念，引导能量强化神经系统，凝结力量特质。",
     "responses": [
       {
+        "text": "肌肉发达",
+        "condition": {
+          "and": [
+            { "not": { "u_has_trait": "STR_UP_2" } },
+            { "not": { "u_has_trait": "STR_UP_3" } },
+            { "not": { "u_has_trait": "SP_STR_UP" } }
+          ]
+        },
+        "topic": "TALK_DONE",
+        "effect": { "u_add_trait": "STR_UP_2" }
+      },
+      {
         "text": "活化肾上腺素",
         "condition": { "not": { "u_has_trait": "ADRENALINE" } },
         "topic": "TALK_DONE",
         "effect": { "u_add_trait": "ADRENALINE" }
-      },
-      {
-        "text": "肌肉发达",
-        "condition": { "not": [ { "u_has_trait": "STR_UP_2" }, { "u_has_trait": "STR_UP_3" }, { "u_has_trait": "SP_STR_UP" } ] },
-        "topic": "TALK_DONE",
-        "effect": { "u_add_trait": "STR_UP_2" }
       },
       {
         "text": "坚韧皮肤",
@@ -33,22 +39,31 @@
     "dynamic_line": "你努力地集中意念，引导能量强化神经系统，凝结力量特质。",
     "responses": [
       {
+        "text": "孔武有力",
+        "condition": {
+          "and": [
+            { "u_has_trait": "STR_UP_2" },
+            { "not": { "u_has_trait": "STR_UP_3" } },
+            { "not": { "u_has_trait": "SP_STR_UP" } }
+          ]
+        },
+        "topic": "TALK_DONE",
+        "effect": [ { "u_lose_trait": "STR_UP_2" }, { "u_add_trait": "STR_UP_3" } ]
+      },
+      {
         "text": "背肌发达",
         "condition": { "not": { "u_has_trait": "STRONGBACK" } },
         "topic": "TALK_DONE",
         "effect": { "u_add_trait": "STRONGBACK" }
       },
       {
-        "text": "孔武有力",
-        "condition": {
-          "and": [ { "u_has_trait": "STR_UP_2" }, { "not": [ { "u_has_trait": "STR_UP_3" }, { "u_has_trait": "SP_STR_UP" } ] } ]
-        },
-        "topic": "TALK_DONE",
-        "effect": [ { "u_lose_trait": "STR_UP_2" }, { "u_add_trait": "STR_UP_3" } ]
-      },
-      {
         "text": "强壮",
-        "condition": { "not": [ { "u_has_trait": "TOUGH" }, { "u_has_trait": "TOUGH3" } ] },
+        "condition": {
+          "and": [
+            { "not": { "u_has_trait": "TOUGH" } },
+            { "not": { "u_has_trait": "TOUGH3" } }
+          ]
+        },
         "topic": "TALK_DONE",
         "effect": { "u_add_trait": "TOUGH" }
       },
@@ -68,16 +83,16 @@
     "dynamic_line": "你努力地集中意念，引导能量强化神经系统，凝结力量特质。",
     "responses": [
       {
-        "text": "精力充沛",
-        "condition": { "not": { "u_has_trait": "GOODCARDIO" } },
-        "topic": "TALK_DONE",
-        "effect": { "u_add_trait": "GOODCARDIO" }
-      },
-      {
         "text": "骁勇善战",
         "condition": { "and": [ { "u_has_trait": "STR_UP_3" }, { "not": { "u_has_trait": "SP_STR_UP" } } ] },
         "topic": "TALK_DONE",
         "effect": [ { "u_lose_trait": "STR_UP_3" }, { "u_add_trait": "SP_STR_UP" } ]
+      },
+      {
+        "text": "精力充沛",
+        "condition": { "not": { "u_has_trait": "GOODCARDIO" } },
+        "topic": "TALK_DONE",
+        "effect": { "u_add_trait": "GOODCARDIO" }
       },
       {
         "text": "不可战胜",
@@ -85,7 +100,142 @@
         "topic": "TALK_DONE",
         "effect": [ { "u_lose_trait": "TOUGH" }, { "u_add_trait": "TOUGH3" } ]
       },
-      { "text": "取消", "topic": "TALK_DONE", "effect": { "u_spawn_item": "cohesion_strength2" } }
+      { "text": "取消", "topic": "TALK_DONE", "effect": { "u_spawn_item": "cohesion_strength3" } }
+    ]
+  },
+  {
+    "//": "敏捷初级",
+    "id": "TALK_SP_DEXTERITY1_MUTAGEN",
+    "type": "talk_topic",
+    "dynamic_line": "你努力地集中意念，引导能量强化神经系统，凝结力量特质。",
+    "responses": [
+      {
+        "text": "灵巧",
+        "condition": {
+          "and": [
+            { "not": { "u_has_trait": "DEX_UP_2" } },
+            { "not": { "u_has_trait": "DEX_UP_3" } },
+            { "not": { "u_has_trait": "SP_DEX_UP" } }
+          ]
+        },
+        "topic": "TALK_DONE",
+        "effect": { "u_add_trait": "DEX_UP_2" }
+      },
+      {
+        "text": "眼疾手快",
+        "condition": { "not": { "u_has_trait": "DEFT" } },
+        "topic": "TALK_DONE",
+        "effect": { "u_add_trait": "DEFT" }
+      },
+      {
+        "text": "潜行",
+        "condition": { "not": { "u_has_trait": "LIGHTSTEP" } },
+        "topic": "TALK_DONE",
+        "effect": { "u_add_trait": "LIGHTSTEP" }
+      },
+      { "text": "取消", "topic": "TALK_DONE", "effect": { "u_spawn_item": "cohesion_dexterity1" } }
+    ]
+  },
+  {
+    "//": "敏捷中级",
+    "id": "TALK_SP_DEXTERITY2_MUTAGEN",
+    "type": "talk_topic",
+    "dynamic_line": "你努力地集中意念，引导能量强化神经系统，凝结力量特质。",
+    "responses": [
+      {
+        "text": "高度灵巧",
+        "condition": {
+          "and": [
+            { "u_has_trait": "DEX_UP_2" },
+            { "not": { "u_has_trait": "DEX_UP_3" } },
+            { "not": { "u_has_trait": "SP_DEX_UP" } }
+          ]
+        },
+        "topic": "TALK_DONE",
+        "effect": [ { "u_lose_trait": "DEX_UP_2" }, { "u_add_trait": "DEX_UP_3" } ]
+      },
+      {
+        "text": "身轻如燕",
+        "condition": { "not": { "u_has_trait": "DEX_AGILE_FEET" } },
+        "topic": "TALK_DONE",
+        "effect": { "u_add_trait": "DEX_AGILE_FEET" }
+      },
+      {
+        "text": "心灵手巧",
+        "condition": {
+          "and": [
+            { "u_has_trait": "DEX_AGILE_FEET" },
+            { "not": { "u_has_trait": "DEX_AGILE_HAND" } }
+          ]
+        },
+        "topic": "TALK_DONE",
+        "effect": { "u_add_trait": "DEX_AGILE_FEET" }
+      },
+      {
+        "text": "速行",
+        "condition": {
+          "and": [
+            { "not": { "u_has_trait": "FLEET" } },
+            { "not": { "u_has_trait": "FLEET2" } }
+          ]
+        },
+        "topic": "TALK_DONE",
+        "effect": { "u_add_trait": "FLEET" }
+      },
+      { "text": "取消", "topic": "TALK_DONE", "effect": { "u_spawn_item": "cohesion_dexterity2" } }
+    ]
+  },
+  {
+    "//": "敏捷高级",
+    "id": "TALK_SP_DEXTERITY3_MUTAGEN",
+    "type": "talk_topic",
+    "dynamic_line": "你努力地集中意念，引导能量强化神经系统，凝结力量特质。",
+    "responses": [
+      {
+        "text": "电光石火",
+        "condition": {
+          "and":[
+            { "u_has_trait": "DEX_UP_3" },
+            { "not": { "u_has_trait": "SP_DEX_UP" } }
+          ]
+        },
+        "topic": "TALK_DONE",
+        "effect": [
+          { "u_lose_trait": "DEX_UP_3" },
+          { "u_add_trait": "SP_DEX_UP" }
+        ]
+      },
+      {
+        "text": "闪电反射",
+        "condition": {
+          "and": [
+            { "u_has_trait": "SP_DEX_UP" },
+            { "u_has_trait": "QUICK" },
+            { "u_has_trait": "FLEET2" },
+            { "not": { "u_has_trait": "DEX_AGILE_TORSO" } }
+          ]
+        },
+        "topic": "TALK_DONE",
+        "effect": { "u_add_trait": "DEX_AGILE_TORSO" }
+      },
+      {
+        "text": "跑步健将",
+        "condition": {
+          "and": [
+            { "u_has_trait": "FLEET" },
+            { "not": { "u_has_trait": "FLEET2" } }
+          ]
+        },
+        "topic": "TALK_DONE",
+        "effect": [ { "u_lose_trait": "FLEET" }, { "u_add_trait": "FLEET2" } ]
+      },
+      {
+        "text": "迅捷",
+        "condition": { "not": { "u_has_trait": "QUICK" } },
+        "topic": "TALK_DONE",
+        "effect": [ { "u_add_trait": "QUICK" } ]
+      },
+      { "text": "取消", "topic": "TALK_DONE", "effect": { "u_spawn_item": "cohesion_dexterity3" } }
     ]
   }
 ]

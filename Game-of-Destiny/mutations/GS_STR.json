@@ -1,5 +1,6 @@
 [
   {
+    "//": "2",
     "type": "mutation",
     "id": "SP_CARDIOREGEN",
     "name": "心肺强化",
@@ -9,6 +10,7 @@
     "category": [ "SP_STRENGTH" ]
   },
   {
+    "//": "3",
     "type": "mutation",
     "id": "SP_STR_UP",
     "name": "骁勇善战",
@@ -19,6 +21,7 @@
     "category": [ "SP_STRENGTH" ]
   },
   {
+    "//": "1",
     "type": "mutation",
     "id": "STR_UP",
     "copy-from": "STR_UP",
@@ -43,6 +46,7 @@
     "extend": { "category": [ "SP_STRENGTH" ] }
   },
   {
+    "//": "2",
     "type": "mutation",
     "id": "STR_UP_3",
     "copy-from": "STR_UP_3",
@@ -61,6 +65,7 @@
     "extend": { "category": [ "SP_STRENGTH" ] }
   },
   {
+    "//": "3",
     "type": "mutation",
     "id": "GOODCARDIO",
     "copy-from": "GOODCARDIO",
