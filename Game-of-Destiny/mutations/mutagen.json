@@ -10,10 +10,19 @@
     "symbol": "!",
     "color": "green",
     "healthy": 15,
-    "use_action": {
-      "type": "consume_drug",
-      "effects": [ { "id": "sp_strength1_mutagen_trigger", "duration": 5 } ]
-    },
+    "chat_topics": [ "TALK_SP_STRENGTH1_MUTAGEN" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "description": "特质凝结",
+        "effect_on_conditions": [
+          {
+            "id": "TALK_SP_STRENGTH1_MUTAGEN",
+            "effect": [ "open_dialogue" ]
+          }
+        ]
+      }
+    ],
     "flags": [ "ZERO_WEIGHT" ]
   },
   {
@@ -27,10 +36,19 @@
     "symbol": "!",
     "color": "green",
     "healthy": 30,
-    "use_action": {
-      "type": "consume_drug",
-      "effects": [ { "id": "sp_strength2_mutagen_trigger", "duration": 5 } ]
-    },
+    "chat_topics": [ "TALK_SP_STRENGTH2_MUTAGEN" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "description": "特质凝结",
+        "effect_on_conditions": [
+          {
+            "id": "TALK_SP_STRENGTH2_MUTAGEN",
+            "effect": [ "open_dialogue" ]
+          }
+        ]
+      }
+    ],
     "flags": [ "ZERO_WEIGHT" ]
   },
   {
@@ -44,10 +62,19 @@
     "symbol": "!",
     "color": "green",
     "healthy": 15,
-    "use_action": {
-      "type": "consume_drug",
-      "effects": [ { "id": "sp_strength3_mutagen_trigger", "duration": 5 } ]
-    },
+    "chat_topics": [ "TALK_SP_STRENGTH3_MUTAGEN" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "description": "特质凝结",
+        "effect_on_conditions": [
+          {
+            "id": "TALK_SP_STRENGTH3_MUTAGEN",
+            "effect": [ "open_dialogue" ]
+          }
+        ]
+      }
+    ],
     "flags": [ "ZERO_WEIGHT" ]
   },
   {
@@ -61,10 +88,19 @@
     "symbol": "!",
     "color": "green",
     "healthy": 15,
-    "use_action": {
-      "type": "consume_drug",
-      "effects": [ { "id": "sp_dexterity1_mutagen_trigger", "duration": 5 } ]
-    },
+    "chat_topics": [ "TALK_SP_DEXTERITY1_MUTAGEN" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "description": "特质凝结",
+        "effect_on_conditions": [
+          {
+            "id": "TALK_SP_DEXTERITY3_MUTAGEN",
+            "effect": [ "open_dialogue" ]
+          }
+        ]
+      }
+    ],
     "flags": [ "ZERO_WEIGHT" ]
   },
   {
@@ -78,10 +114,19 @@
     "symbol": "!",
     "color": "green",
     "healthy": 30,
-    "use_action": {
-      "type": "consume_drug",
-      "effects": [ { "id": "sp_dexterity2_mutagen_trigger", "duration": 5 } ]
-    },
+    "chat_topics": [ "TALK_SP_DEXTERITY2_MUTAGEN" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "description": "特质凝结",
+        "effect_on_conditions": [
+          {
+            "id": "TALK_SP_DEXTERITY2_MUTAGEN",
+            "effect": [ "open_dialogue" ]
+          }
+        ]
+      }
+    ],
     "flags": [ "ZERO_WEIGHT" ]
   },
   {
@@ -95,10 +140,19 @@
     "symbol": "!",
     "color": "green",
     "healthy": 15,
-    "use_action": {
-      "type": "consume_drug",
-      "effects": [ { "id": "sp_dexterity3_mutagen_trigger", "duration": 5 } ]
-    },
+    "chat_topics": [ "TALK_SP_DEXTERITY3_MUTAGEN" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "description": "特质凝结",
+        "effect_on_conditions": [
+          {
+            "id": "TALK_SP_DEXTERITY3_MUTAGEN",
+            "effect": [ "open_dialogue" ]
+          }
+        ]
+      }
+    ],
     "flags": [ "ZERO_WEIGHT" ]
   },
   {
@@ -112,10 +166,19 @@
     "symbol": "!",
     "color": "green",
     "healthy": 15,
-    "use_action": {
-      "type": "consume_drug",
-      "effects": [ { "id": "sp_intelligence1_mutagen_trigger", "duration": 5 } ]
-    },
+    "chat_topics": [ "TALK_SP_INTELLIGENCE1_MUTAGEN" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "description": "特质凝结",
+        "effect_on_conditions": [
+          {
+            "id": "TALK_SP_INTELLIGENCE1_MUTAGEN",
+            "effect": [ "open_dialogue" ]
+          }
+        ]
+      }
+    ],
     "flags": [ "ZERO_WEIGHT" ]
   },
   {
@@ -129,10 +192,19 @@
     "symbol": "!",
     "color": "green",
     "healthy": 30,
-    "use_action": {
-      "type": "consume_drug",
-      "effects": [ { "id": "sp_intelligence2_mutagen_trigger", "duration": 5 } ]
-    },
+    "chat_topics": [ "TALK_SP_INTELLIGENCE2_MUTAGEN" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "description": "特质凝结",
+        "effect_on_conditions": [
+          {
+            "id": "TALK_SP_INTELLIGENCE2_MUTAGEN",
+            "effect": [ "open_dialogue" ]
+          }
+        ]
+      }
+    ],
     "flags": [ "ZERO_WEIGHT" ]
   },
   {
@@ -146,10 +218,19 @@
     "symbol": "!",
     "color": "green",
     "healthy": 15,
-    "use_action": {
-      "type": "consume_drug",
-      "effects": [ { "id": "sp_intelligence3_mutagen_trigger", "duration": 5 } ]
-    },
+    "chat_topics": [ "TALK_SP_INTELLIGENCE3_MUTAGEN" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "description": "特质凝结",
+        "effect_on_conditions": [
+          {
+            "id": "TALK_SP_INTELLIGENCE3_MUTAGEN",
+            "effect": [ "open_dialogue" ]
+          }
+        ]
+      }
+    ],
     "flags": [ "ZERO_WEIGHT" ]
   },
   {
@@ -163,10 +244,19 @@
     "symbol": "!",
     "color": "green",
     "healthy": 15,
-    "use_action": {
-      "type": "consume_drug",
-      "effects": [ { "id": "sp_perception1_mutagen_trigger", "duration": 5 } ]
-    },
+    "chat_topics": [ "TALK_SP_PERCEPTION1_MUTAGEN" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "description": "特质凝结",
+        "effect_on_conditions": [
+          {
+            "id": "TALK_SP_PERCEPTION1_MUTAGEN",
+            "effect": [ "open_dialogue" ]
+          }
+        ]
+      }
+    ],
     "flags": [ "ZERO_WEIGHT" ]
   },
   {
@@ -180,10 +270,19 @@
     "symbol": "!",
     "color": "green",
     "healthy": 30,
-    "use_action": {
-      "type": "consume_drug",
-      "effects": [ { "id": "sp_perception2_mutagen_trigger", "duration": 5 } ]
-    },
+    "chat_topics": [ "TALK_SP_PERCEPTION2_MUTAGEN" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "description": "特质凝结",
+        "effect_on_conditions": [
+          {
+            "id": "TALK_SP_PERCEPTION2_MUTAGEN",
+            "effect": [ "open_dialogue" ]
+          }
+        ]
+      }
+    ],
     "flags": [ "ZERO_WEIGHT" ]
   },
   {
@@ -197,44 +296,19 @@
     "symbol": "!",
     "color": "green",
     "healthy": 15,
-    "use_action": {
-      "type": "consume_drug",
-      "effects": [ { "id": "sp_perception3_mutagen_trigger", "duration": 5 } ]
-    },
-    "flags": [ "ZERO_WEIGHT" ]
-  },
-  {
-    "id": "cohesion_sensibility1",
-    "type": "COMESTIBLE",
-    "comestible_type": "MED",
-    "category": "GS_feature",
-    "name": "特质凝结─感性系(初级)",
-    "name_plural": "特质凝结─感性系(初级)",
-    "description": "超凡者的基因解锁达到某个水准之后，能依据自身特长，提纯天命能量在体内凝聚特质。\n \n感性系特质：着重于提升感性，用以渲染自身感受或影响他人对你的观感。\n \n※凝结特质：动物共鸣、睡神、神学家、抗瘾性、长相俊美。",
-    "symbol": "!",
-    "color": "green",
-    "healthy": 15,
-    "use_action": {
-      "type": "consume_drug",
-      "effects": [ { "id": "sp_sense1_mutagen_trigger", "duration": 5 } ]
-    },
-    "flags": [ "ZERO_WEIGHT" ]
-  },
-  {
-    "id": "cohesion_sensibility2",
-    "type": "COMESTIBLE",
-    "comestible_type": "MED",
-    "category": "GS_feature",
-    "name": "特质凝结─感性系(高级)",
-    "name_plural": "特质凝结─感性系(高级)",
-    "description": "超凡者的基因解锁达到某个水准之后，能依据自身特长，提纯天命能量在体内凝聚特质。\n \n感性系特质：着重于提升感性，用以渲染自身感受或影响他人对你的观感。\n \n※凝结特质：乐天派、美食家、时尚范、极致容貌。",
-    "symbol": "!",
-    "color": "green",
-    "healthy": 30,
-    "use_action": {
-      "type": "consume_drug",
-      "effects": [ { "id": "sp_sense2_mutagen_trigger", "duration": 5 } ]
-    },
+    "chat_topics": [ "TALK_SP_PERCEPTION3_MUTAGEN" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "description": "特质凝结",
+        "effect_on_conditions": [
+          {
+            "id": "TALK_SP_PERCEPTION3_MUTAGEN",
+            "effect": [ "open_dialogue" ]
+          }
+        ]
+      }
+    ],
     "flags": [ "ZERO_WEIGHT" ]
   },
   {
@@ -248,10 +322,19 @@
     "symbol": "!",
     "color": "green",
     "healthy": 15,
-    "use_action": {
-      "type": "consume_drug",
-      "effects": [ { "id": "sp_endurence1_mutagen_trigger", "duration": 5 } ]
-    },
+    "chat_topics": [ "TALK_SP_ENDURENCE1_MUTAGEN" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "description": "特质凝结",
+        "effect_on_conditions": [
+          {
+            "id": "TALK_SP_ENDURENCE1_MUTAGEN",
+            "effect": [ "open_dialogue" ]
+          }
+        ]
+      }
+    ],
     "flags": [ "ZERO_WEIGHT" ]
   },
   {
@@ -265,10 +348,19 @@
     "symbol": "!",
     "color": "green",
     "healthy": 30,
-    "use_action": {
-      "type": "consume_drug",
-      "effects": [ { "id": "sp_endurence2_mutagen_trigger", "duration": 5 } ]
-    },
+    "chat_topics": [ "TALK_SP_ENDURENCE2_MUTAGEN" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "description": "特质凝结",
+        "effect_on_conditions": [
+          {
+            "id": "TALK_SP_ENDURENCE2_MUTAGEN",
+            "effect": [ "open_dialogue" ]
+          }
+        ]
+      }
+    ],
     "flags": [ "ZERO_WEIGHT" ]
   },
   {
@@ -282,10 +374,71 @@
     "symbol": "!",
     "color": "green",
     "healthy": 15,
-    "use_action": {
-      "type": "consume_drug",
-      "effects": [ { "id": "sp_endurence3_mutagen_trigger", "duration": 5 } ]
-    },
+    "chat_topics": [ "TALK_SP_ENDURENCE3_MUTAGEN" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "description": "特质凝结",
+        "effect_on_conditions": [
+          {
+            "id": "TALK_SP_ENDURENCE3_MUTAGEN",
+            "effect": [ "open_dialogue" ]
+          }
+        ]
+      }
+    ],
+    "flags": [ "ZERO_WEIGHT" ]
+  },
+  {
+    "id": "cohesion_sensibility1",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",
+    "category": "GS_feature",
+    "name": "特质凝结─感性系(初级)",
+    "name_plural": "特质凝结─感性系(初级)",
+    "description": "超凡者的基因解锁达到某个水准之后，能依据自身特长，提纯天命能量在体内凝聚特质。\n \n感性系特质：着重于提升感性，用以渲染自身感受或影响他人对你的观感。\n \n※凝结特质：动物共鸣、睡神、神学家、抗瘾性、长相俊美。",
+    "symbol": "!",
+    "color": "green",
+    "healthy": 15,
+    "chat_topics": [ "TALK_SP_SENSE1_MUTAGEN" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "description": "特质凝结",
+        "effect_on_conditions": [
+          {
+            "id": "TALK_SP_SENSE1_MUTAGEN",
+            "effect": [ "open_dialogue" ]
+          }
+        ]
+      }
+    ],
+    "flags": [ "ZERO_WEIGHT" ]
+  },
+  {
+    "id": "cohesion_sensibility2",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",
+    "category": "GS_feature",
+    "name": "特质凝结─感性系(高级)",
+    "name_plural": "特质凝结─感性系(高级)",
+    "description": "超凡者的基因解锁达到某个水准之后，能依据自身特长，提纯天命能量在体内凝聚特质。\n \n感性系特质：着重于提升感性，用以渲染自身感受或影响他人对你的观感。\n \n※凝结特质：乐天派、美食家、时尚范、极致容貌。",
+    "symbol": "!",
+    "color": "green",
+    "healthy": 30,
+    "chat_topics": [ "TALK_SP_SENSE2_MUTAGEN" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "description": "特质凝结",
+        "effect_on_conditions": [
+          {
+            "id": "TALK_SP_SENSE2_MUTAGEN",
+            "effect": [ "open_dialogue" ]
+          }
+        ]
+      }
+    ],
     "flags": [ "ZERO_WEIGHT" ]
   },
   {
@@ -299,10 +452,19 @@
     "symbol": "!",
     "color": "red",
     "healthy": 80,
-    "use_action": {
-      "type": "consume_drug",
-      "effects": [ { "id": "immortal_mutagen_trigger", "duration": 5 } ]
-    },
+    "chat_topics": [ "TALK_SP_IMMORTAL_MUTAGEN" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "description": "特质凝结",
+        "effect_on_conditions": [
+          {
+            "id": "TALK_SP_IMMORTAL_MUTAGEN",
+            "effect": [ "open_dialogue" ]
+          }
+        ]
+      }
+    ],
     "flags": [ "ZERO_WEIGHT" ]
   },
   {
@@ -316,10 +478,19 @@
     "symbol": "!",
     "color": "light_green",
     "healthy": 40,
-    "use_action": {
-      "type": "consume_drug",
-      "effects": [ { "id": "sp_novice_mutagen_trigger", "duration": 5 } ]
-    },
+    "chat_topics": [ "TALK_SP_NOVICE_MUTAGEN" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "description": "特质凝结",
+        "effect_on_conditions": [
+          {
+            "id": "TALK_SP_NOVICE_MUTAGEN",
+            "effect": [ "open_dialogue" ]
+          }
+        ]
+      }
+    ],
     "flags": [ "ZERO_WEIGHT" ]
   }
 ]

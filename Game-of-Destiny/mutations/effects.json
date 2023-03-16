@@ -8,6 +8,20 @@
   },
   {
     "type": "effect_type",
+    "id": "sp_strength2_mutagen_trigger",
+    "max_duration": "10 s",
+    "name": [ "Test Effect Name" ],
+    "desc": [ "力量2测试" ]
+  },
+  {
+    "type": "effect_type",
+    "id": "sp_strength3_mutagen_trigger",
+    "max_duration": "10 s",
+    "name": [ "Test Effect Name" ],
+    "desc": [ "力量2测试" ]
+  },
+  {
+    "type": "effect_type",
     "id": "sp_dexterity1_mutagen_trigger",
     "max_duration": "10 s",
     "name": [ "Test Effect Name" ],

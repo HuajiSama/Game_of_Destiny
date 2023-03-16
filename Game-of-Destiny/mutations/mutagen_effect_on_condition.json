@@ -1,82 +1,91 @@
 [
   {
-    "type": "effect_on_condition",
-    "id": "sp_strength1_mutagen_trigger",
-    "recurrence": [ "1 s", "1 s" ],
-    "condition": { "u_has_effect" : "sp_strength1_mutagen_trigger" },
-    "effect": [
+    "//": "力量初级",
+    "id": "TALK_SP_STRENGTH1_MUTAGEN",
+    "type": "talk_topic",
+    "dynamic_line": "你努力地集中意念，引导能量强化神经系统，凝结力量特质。",
+    "responses": [
       {
-        "u_message": "你努力地集中意念，引导能量强化神经系统，凝结力量特质。",
-        "type": "mixed"
+        "text": "活化肾上腺素",
+        "condition": { "not": { "u_has_trait": "ADRENALINE" } },
+        "topic": "TALK_DONE",
+        "effect": { "u_add_trait": "ADRENALINE" }
       },
-      { "run_eocs": [ "sp_strength1_mutagen_thresh_test" ] },
-      { "u_mutate_category" : "SP_STRENGTH1", "use_vitamins": false },
-      { "run_eocs": [ "sp_strength1_mutagen_trigger_bonus" ] },
-      { "u_lose_effect" : "sp_strength1_mutagen_trigger" }
-    ]
-  },
-  {
-    "type": "effect_on_condition",
-    "id": "sp_strength1_mutagen_trigger_bonus",
-    "condition": { "one_in_chance": 3 },
-    "effect": [
-      { "u_mutate_category" : "SP_STRENGTH1", "use_vitamins": false }
-    ]
-  },
-  {
-    "type": "effect_on_condition",
-    "id": "sp_strength1_mutagen_thresh_test",
-    "condition": {
-      "and": [
-        { "u_has_flag": "SP_STRENGTH1_FLAG" }
-      ]
-    },
-    "effect": [
       {
-        "u_message": "你努力地集中意念，引导能量强化神经系统，凝结力量特质。",
-        "type": "good"
+        "text": "肌肉发达",
+        "condition": { "not": [ { "u_has_trait": "STR_UP_2" }, { "u_has_trait": "STR_UP_3" }, { "u_has_trait": "SP_STR_UP" } ] },
+        "topic": "TALK_DONE",
+        "effect": { "u_add_trait": "STR_UP_2" }
       },
-      { "u_add_trait" : "THRESH_SP_STRENGTH1" }
-    ]
-  },
-  {
-    "type": "effect_on_condition",
-    "id": "sp_dexterity1_mutagen_trigger",
-    "recurrence": [ "1 s", "1 s" ],
-    "condition": { "u_has_effect" : "sp_dexterity1_mutagen_trigger" },
-    "effect": [
       {
-        "u_message": "你努力地集中意念，引导能量强化神经系统，凝结力量特质。",
-        "type": "mixed"
+        "text": "坚韧皮肤",
+        "condition": { "not": { "u_has_trait": "THICKSKIN" } },
+        "topic": "TALK_DONE",
+        "effect": { "u_add_trait": "THICKSKIN" }
       },
-      { "run_eocs": [ "sp_dexterity1_mutagen_thresh_test" ] },
-      { "u_mutate_category" : "SP_DEXTERITY1", "use_vitamins": false },
-      { "run_eocs": [ "sp_dexterity1_mutagen_trigger_bonus" ] },
-      { "u_lose_effect" : "sp_dexterity1_mutagen_trigger" }
+      { "text": "取消", "topic": "TALK_DONE", "effect": { "u_spawn_item": "cohesion_strength1" } }
     ]
   },
   {
-    "type": "effect_on_condition",
-    "id": "sp_dexterity1_mutagen_trigger_bonus",
-    "condition": { "one_in_chance": 3 },
-    "effect": [
-      { "u_mutate_category" : "SP_DEXTERITY1", "use_vitamins": false }
-    ]
-  },
-  {
-    "type": "effect_on_condition",
-    "id": "sp_dexterity1_mutagen_thresh_test",
-    "condition": {
-      "and": [
-        { "u_has_flag": "SP_DEXTERITY1_FLAG" }
-      ]
-    },
-    "effect": [
+    "//": "力量中级",
+    "id": "TALK_SP_STRENGTH2_MUTAGEN",
+    "type": "talk_topic",
+    "dynamic_line": "你努力地集中意念，引导能量强化神经系统，凝结力量特质。",
+    "responses": [
       {
-        "u_message": "你努力地集中意念，引导能量强化神经系统，凝结力量特质。",
-        "type": "good"
+        "text": "背肌发达",
+        "condition": { "not": { "u_has_trait": "STRONGBACK" } },
+        "topic": "TALK_DONE",
+        "effect": { "u_add_trait": "STRONGBACK" }
       },
-      { "u_add_trait" : "THRESH_SP_DEXTERITY1" }
+      {
+        "text": "孔武有力",
+        "condition": {
+          "and": [ { "u_has_trait": "STR_UP_2" }, { "not": [ { "u_has_trait": "STR_UP_3" }, { "u_has_trait": "SP_STR_UP" } ] } ]
+        },
+        "topic": "TALK_DONE",
+        "effect": [ { "u_lose_trait": "STR_UP_2" }, { "u_add_trait": "STR_UP_3" } ]
+      },
+      {
+        "text": "强壮",
+        "condition": { "not": [ { "u_has_trait": "TOUGH" }, { "u_has_trait": "TOUGH3" } ] },
+        "topic": "TALK_DONE",
+        "effect": { "u_add_trait": "TOUGH" }
+      },
+      {
+        "text": "心肺强化",
+        "condition": { "not": { "u_has_trait": "SP_CARDIOREGEN" } },
+        "topic": "TALK_DONE",
+        "effect": { "u_add_trait": "SP_CARDIOREGEN" }
+      },
+      { "text": "取消", "topic": "TALK_DONE", "effect": { "u_spawn_item": "cohesion_strength2" } }
+    ]
+  },
+  {
+    "//": "力量高级",
+    "id": "TALK_SP_STRENGTH3_MUTAGEN",
+    "type": "talk_topic",
+    "dynamic_line": "你努力地集中意念，引导能量强化神经系统，凝结力量特质。",
+    "responses": [
+      {
+        "text": "精力充沛",
+        "condition": { "not": { "u_has_trait": "GOODCARDIO" } },
+        "topic": "TALK_DONE",
+        "effect": { "u_add_trait": "GOODCARDIO" }
+      },
+      {
+        "text": "骁勇善战",
+        "condition": { "and": [ { "u_has_trait": "STR_UP_3" }, { "not": { "u_has_trait": "SP_STR_UP" } } ] },
+        "topic": "TALK_DONE",
+        "effect": [ { "u_lose_trait": "STR_UP_3" }, { "u_add_trait": "SP_STR_UP" } ]
+      },
+      {
+        "text": "不可战胜",
+        "condition": { "and": [ { "u_has_trait": "TOUGH" }, { "not": { "u_has_trait": "TOUGH3" } } ] },
+        "topic": "TALK_DONE",
+        "effect": [ { "u_lose_trait": "TOUGH" }, { "u_add_trait": "TOUGH3" } ]
+      },
+      { "text": "取消", "topic": "TALK_DONE", "effect": { "u_spawn_item": "cohesion_strength2" } }
     ]
   }
 ]

@@ -4,10 +4,9 @@
     "id": "SP_CARDIOREGEN",
     "name": "心肺强化",
     "points": 1,
-    "description": "强大的心肺功能使你拥有良好的换氧率，更容易恢复体力，嘴部累赘-10。",
-    "encumbrance_always": [ [ "MOUTH", -10 ] ],
-    "category": [ "SP_STRENGTH2" ],
-    "flags": [ "SP_STRENGTH2_FLAG" ]
+    "description": "强大的心肺功能使你拥有良好的换氧率，更容易恢复体力，头部累赘-10。",
+    "encumbrance_always": [ [ "head", -10 ] ],
+    "category": [ "SP_STRENGTH" ]
   },
   {
     "type": "mutation",
@@ -17,88 +16,60 @@
     "description": "你身上的肌肉已经完全开发，强建有力且富有弹性，隐藏着强悍的爆发力，力量+6。",
     "prereqs": [ "STR_UP_3" ],
     "passive_mods": { "str_mod": 6 },
-    "category": [ "SP_STRENGTH3" ],
-    "flags": [ "SP_STRENGTH3_FLAG" ]
+    "category": [ "SP_STRENGTH" ]
   },
   {
     "type": "mutation",
     "id": "STR_UP",
     "copy-from": "STR_UP",
-    "extend": {
-      "category": [ "SP_STRENGTH1" ],
-      "flags": [ "SP_STRENGTH1_FLAG" ]
-    }
+    "extend": { "category": [ "SP_STRENGTH" ] }
   },
   {
     "type": "mutation",
     "id": "STR_UP_2",
     "copy-from": "STR_UP_2",
-    "extend": {
-      "category": [ "SP_STRENGTH1" ],
-      "flags": [ "SP_STRENGTH1_FLAG" ]
-    }
+    "extend": { "category": [ "SP_STRENGTH" ] }
   },
   {
     "type": "mutation",
     "id": "ADRENALINE",
     "copy-from": "ADRENALINE",
-    "extend": {
-      "category": [ "SP_STRENGTH1" ],
-      "flags": [ "SP_STRENGTH1_FLAG" ]
-    }
+    "extend": { "category": [ "SP_STRENGTH" ] }
   },
   {
     "type": "mutation",
     "id": "THICKSKIN",
     "copy-from": "THICKSKIN",
-    "extend": {
-      "category": [ "SP_STRENGTH1" ],
-      "flags": [ "SP_STRENGTH1_FLAG" ]
-    }
+    "extend": { "category": [ "SP_STRENGTH" ] }
   },
   {
     "type": "mutation",
     "id": "STR_UP_3",
     "copy-from": "STR_UP_3",
-    "extend": {
-      "category": [ "SP_STRENGTH2" ],
-      "flags": [ "SP_STRENGTH2_FLAG" ]
-    }
+    "extend": { "category": [ "SP_STRENGTH" ] }
   },
   {
     "type": "mutation",
     "id": "STRONGBACK",
     "copy-from": "STRONGBACK",
-    "extend": {
-      "category": [ "SP_STRENGTH2" ],
-      "flags": [ "SP_STRENGTH2_FLAG" ]
-    }
+    "extend": { "category": [ "SP_STRENGTH" ] }
   },
   {
     "type": "mutation",
     "id": "TOUGH",
     "copy-from": "TOUGH",
-    "extend": {
-      "category": [ "SP_STRENGTH2" ],
-      "flags": [ "SP_STRENGTH2_FLAG" ]
-    }
+    "extend": { "category": [ "SP_STRENGTH" ] }
   },
   {
     "type": "mutation",
     "id": "GOODCARDIO",
     "copy-from": "GOODCARDIO",
-    "extend": {
-      "category": [ "SP_STRENGTH3" ],
-      "flags": [ "SP_STRENGTH3_FLAG" ]
-    }
+    "extend": { "category": [ "SP_STRENGTH" ] }
   },
   {
     "type": "mutation",
     "id": "TOUGH3",
     "copy-from": "TOUGH3",
-    "extend": {
-      "category": [ "SP_STRENGTH3" ],
-      "flags": [ "SP_STRENGTH3_FLAG" ]
-    }
+    "extend": { "category": [ "SP_STRENGTH" ] }
   }
 ]

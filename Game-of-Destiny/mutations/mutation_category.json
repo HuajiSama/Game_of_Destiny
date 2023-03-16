@@ -1,154 +1,50 @@
 [
   {
     "type": "mutation_category",
-    "id": "SP_STRENGTH1",
-    "name": "力量系特质(初级)",
-    "threshold_mut": "THRESH_SP_STRENGTH1",
+    "id": "SP_STRENGTH",
+    "name": "力量系特质",
+    "threshold_mut": "THRESH_SP_STRENGTH",
     "mutagen_message": "你努力地集中意念，引导能量强化神经系统，凝结力量特质。",
-    "memorial_message": "你努力地集中意念，引导能量强化神经系统，凝结力量特质。"
-  },
-  {		
-    "type": "mutation_category",
-    "id": "SP_STRENGTH2",
-    "name": "力量系特质(中级)",
-    "threshold_mut": "THRESH_SP_STRENGTH2",
-    "mutagen_message": "你努力地集中意念，引导能量强化神经系统，凝结力量特质。",
-    "iv_message": "你努力地集中意念，引导能量强化神经系统，凝结力量特质。",
     "memorial_message": "你努力地集中意念，引导能量强化神经系统，凝结力量特质。"
   },
   {
     "type": "mutation_category",
-    "id": "SP_STRENGTH3",
-    "name": "力量系特质(高级)",
-    "threshold_mut": "THRESH_SP_STRENGTH3",
-    "mutagen_message": "你努力地集中意念，引导能量强化神经系统，凝结力量特质。",
-    "iv_message": "你努力地集中意念，引导能量强化神经系统，凝结力量特质。",
-    "memorial_message": "你努力地集中意念，引导能量强化神经系统，凝结力量特质。"
-  },
-  {
-    "type": "mutation_category",
-    "id": "SP_DEXTERITY1",
-    "name": "敏捷系特质(初级)",
-    "threshold_mut": "THRESH_SP_DEXTERITY1",
+    "id": "SP_DEXTERITY",
+    "name": "敏捷系特质",
+    "threshold_mut": "THRESH_SP_DEXTERITY",
     "mutagen_message": "你努力地集中意念，引导能量强化神经系统，凝结敏捷特质。",
-    "iv_message": "你努力地集中意念，引导能量强化神经系统，凝结敏捷特质。",
-    "memorial_message": "你努力地集中意念，引导能量强化神经系统，凝结敏捷特质。"
-  },
-  {		
-    "type": "mutation_category",
-    "id": "SP_DEXTERITY2",
-    "name": "敏捷系特质(中级)",
-    "threshold_mut": "THRESH_SP_DEXTERITY2",
-    "mutagen_message": "你努力地集中意念，引导能量强化神经系统，凝结敏捷特质。",
-    "iv_message": "你努力地集中意念，引导能量强化神经系统，凝结敏捷特质。",
-    "memorial_message": "你努力地集中意念，引导能量强化神经系统，凝结敏捷特质。"
-  },
-  {
-    "type": "mutation_category",
-    "id": "SP_DEXTERITY3",
-    "name": "敏捷系特质(高级)",
-    "threshold_mut": "THRESH_SP_DEXTERITY3",
-    "mutagen_message": "你努力地集中意念，引导能量强化神经系统，凝结敏捷特质。",
-    "iv_message": "你努力地集中意念，引导能量强化神经系统，凝结敏捷特质。",
     "memorial_message": "你努力地集中意念，引导能量强化神经系统，凝结敏捷特质。"
   },
 	{
     "type": "mutation_category",
-    "id": "SP_INTELLIGENCE1",
-    "name": "智力系特质(初级)",
-    "threshold_mut": "THRESH_SP_INTELLIGENCE1",
+    "id": "SP_INTELLIGENCE",
+    "name": "智力系特质",
+    "threshold_mut": "THRESH_SP_INTELLIGENCE",
     "mutagen_message": "你努力地集中意念，引导能量强化神经系统，凝结智力特质。",
-    "iv_message": "你努力地集中意念，引导能量强化神经系统，凝结智力特质。",
-    "memorial_message": "你努力地集中意念，引导能量强化神经系统，凝结智力特质。"
-  },
-  {		
-    "type": "mutation_category",
-    "id": "SP_INTELLIGENCE2",
-    "name": "智力系特质(中级)",
-    "threshold_mut": "THRESH_SP_INTELLIGENCE2",
-    "mutagen_message": "你努力地集中意念，引导能量强化神经系统，凝结智力特质。",
-    "iv_message": "你努力地集中意念，引导能量强化神经系统，凝结智力特质。",
     "memorial_message": "你努力地集中意念，引导能量强化神经系统，凝结智力特质。"
   },
   {
     "type": "mutation_category",
-    "id": "SP_INTELLIGENCE3",
-    "name": "智力系特质(高级)",
-    "threshold_mut": "THRESH_SP_INTELLIGENCE3",
-    "mutagen_message": "你努力地集中意念，引导能量强化神经系统，凝结智力特质。",
-    "iv_message": "你努力地集中意念，引导能量强化神经系统，凝结智力特质。",
-    "memorial_message": "你努力地集中意念，引导能量强化神经系统，凝结智力特质。"
-  },
-  {
-    "type": "mutation_category",
-    "id": "SP_PERCEPTION1",
-    "name": "感知系特质(初级)",
-    "threshold_mut": "THRESH_SP_PERCEPTION1",
+    "id": "SP_PERCEPTION",
+    "name": "感知系特质",
+    "threshold_mut": "THRESH_SP_PERCEPTION",
     "mutagen_message": "你努力地集中意念，引导能量强化神经系统，凝结感知特质。",
-    "iv_message": "你努力地集中意念，引导能量强化神经系统，凝结感知特质。",
-    "memorial_message": "你努力地集中意念，引导能量强化神经系统，凝结感知特质。"
-  },
-  {		
-    "type": "mutation_category",
-    "id": "SP_PERCEPTION2",
-    "name": "感知系特质(中级)",
-    "threshold_mut": "THRESH_SP_PERCEPTION2",
-    "mutagen_message": "你努力地集中意念，引导能量强化神经系统，凝结感知特质。",
-    "iv_message": "你努力地集中意念，引导能量强化神经系统，凝结感知特质。",
     "memorial_message": "你努力地集中意念，引导能量强化神经系统，凝结感知特质。"
   },
   {
     "type": "mutation_category",
-    "id": "SP_PERCEPTION3",
-    "name": "感知系特质(高级)",
-    "threshold_mut": "THRESH_SP_PERCEPTION3",
-    "mutagen_message": "你努力地集中意念，引导能量强化神经系统，凝结感知特质。",
-    "iv_message": "你努力地集中意念，引导能量强化神经系统，凝结感知特质。",
-    "memorial_message": "你努力地集中意念，引导能量强化神经系统，凝结感知特质。"
-  },
-  {
-    "type": "mutation_category",
-    "id": "SP_SENSE1",
-    "name": "感性系特质(初级)",
-    "threshold_mut": "THRESH_SP_SENSE1",
+    "id": "SP_SENSE",
+    "name": "感性系特质",
+    "threshold_mut": "THRESH_SP_SENSE",
     "mutagen_message": "你努力地集中意念，引导能量强化神经系统，凝结感性特质。",
-    "iv_message": "你努力地集中意念，引导能量强化神经系统，凝结感性特质。",
-    "memorial_message": "你努力地集中意念，引导能量强化神经系统，凝结感性特质。"
-  },
-  {		
-    "type": "mutation_category",
-    "id": "SP_SENSE2",
-    "name": "感性系特质(高级)",
-    "threshold_mut": "THRESH_SP_SENSE2",
-    "mutagen_message": "你努力地集中意念，引导能量强化神经系统，凝结感性特质。",
-    "iv_message": "你努力地集中意念，引导能量强化神经系统，凝结感性特质。",
     "memorial_message": "你努力地集中意念，引导能量强化神经系统，凝结感性特质。"
   },
   {
     "type": "mutation_category",
-    "id": "SP_ENDURENCE1",
-    "name": "耐力系特质(初级)",
-    "threshold_mut": "THRESH_SP_ENDURENCE1",
+    "id": "SP_ENDURENCE",
+    "name": "耐力系特质",
+    "threshold_mut": "THRESH_SP_ENDURENCE",
     "mutagen_message": "你努力地集中意念，引导能量强化神经系统，凝结耐力特质。",
-    "iv_message": "你努力地集中意念，引导能量强化神经系统，凝结耐力特质。",
-    "memorial_message": "你努力地集中意念，引导能量强化神经系统，凝结耐力特质。"
-  },
-  {		
-    "type": "mutation_category",
-    "id": "SP_ENDURENCE2",
-    "name": "耐力系特质(中级)",
-    "threshold_mut": "THRESH_SP_ENDURENCE2",
-    "mutagen_message": "你努力地集中意念，引导能量强化神经系统，凝结耐力特质。",
-    "iv_message": "你努力地集中意念，引导能量强化神经系统，凝结耐力特质。",
-    "memorial_message": "你努力地集中意念，引导能量强化神经系统，凝结耐力特质。"
-  },
-  {
-    "type": "mutation_category",
-    "id": "SP_ENDURENCE3",
-    "name": "耐力系特质(高级)",
-    "threshold_mut": "THRESH_SP_ENDURENCE3",
-    "mutagen_message": "你努力地集中意念，引导能量强化神经系统，凝结耐力特质。",
-    "iv_message": "你努力地集中意念，引导能量强化神经系统，凝结耐力特质。",
     "memorial_message": "你努力地集中意念，引导能量强化神经系统，凝结耐力特质。"
   },
   {
@@ -157,7 +53,6 @@
     "name": "肉身成圣系",
     "threshold_mut": "THRESH_IMMORTAL",
     "mutagen_message": "时空停滞，一股神祕力量涌入体内！",
-    "iv_message": "时空停滞，一股神祕力量涌入体内！",
     "memorial_message": "时空停滞，一股神祕力量涌入体内！"
   },
   {
@@ -166,7 +61,6 @@
     "name": "天命透支系",
     "threshold_mut": "THRESH_OVERDRAW",
     "mutagen_message": "大量天命化为纯粹能量注入体内，弭平你陨落时溃散的命运，你感觉身上的负担减轻了。",
-    "iv_message": "大量天命化为纯粹能量注入体内，弭平你陨落时溃散的命运，你感觉身上的负担减轻了。",
     "memorial_message": "大量天命化为纯粹能量注入体内，弭平你陨落时溃散的命运，你感觉身上的负担减轻了。"
   },
   {
@@ -175,7 +69,6 @@
     "name": "超凡者称号─新人王",
     "threshold_mut": "THRESH_SP_NOVICE",
     "mutagen_message": "时空陡然停滞，你被笼罩在凝结的时空中，接受来自高维位面的讯息。",
-    "iv_message": "时空陡然停滞，你被笼罩在凝结的时空中，接受来自高维位面的讯息。",
     "memorial_message": "时空陡然停滞，你被笼罩在凝结的时空中，接受来自高维位面的讯息。"
   }
 ]
