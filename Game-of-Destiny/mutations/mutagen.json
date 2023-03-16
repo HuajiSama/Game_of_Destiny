@@ -95,7 +95,7 @@
         "description": "特质凝结",
         "effect_on_conditions": [
           {
-            "id": "TALK_SP_DEXTERITY3_MUTAGEN",
+            "id": "TALK_SP_DEXTERITY1_MUTAGEN",
             "effect": [ "open_dialogue" ]
           }
         ]
