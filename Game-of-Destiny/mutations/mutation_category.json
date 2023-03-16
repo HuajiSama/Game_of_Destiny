@@ -33,19 +33,19 @@
   },
   {
     "type": "mutation_category",
-    "id": "SP_SENSE",
-    "name": "感性系特质",
-    "threshold_mut": "THRESH_SP_SENSE",
-    "mutagen_message": "你努力地集中意念，引导能量强化神经系统，凝结感性特质。",
-    "memorial_message": "你努力地集中意念，引导能量强化神经系统，凝结感性特质。"
-  },
-  {
-    "type": "mutation_category",
     "id": "SP_ENDURENCE",
     "name": "耐力系特质",
     "threshold_mut": "THRESH_SP_ENDURENCE",
     "mutagen_message": "你努力地集中意念，引导能量强化神经系统，凝结耐力特质。",
     "memorial_message": "你努力地集中意念，引导能量强化神经系统，凝结耐力特质。"
+  },
+  {
+    "type": "mutation_category",
+    "id": "SP_SENSE",
+    "name": "感性系特质",
+    "threshold_mut": "THRESH_SP_SENSE",
+    "mutagen_message": "你努力地集中意念，引导能量强化神经系统，凝结感性特质。",
+    "memorial_message": "你努力地集中意念，引导能量强化神经系统，凝结感性特质。"
   },
   {
     "type": "mutation_category",
