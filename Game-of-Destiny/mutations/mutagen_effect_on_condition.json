@@ -388,7 +388,7 @@
   },
   {
     "//": "耐力初级",
-    "id": "TALK_SP_STRENGTH1_MUTAGEN",
+    "id": "TALK_SP_ENDURENCE1_MUTAGEN",
     "type": "talk_topic",
     "dynamic_line": "你努力地集中意念，引导能量强化神经系统，凝结耐力特质。",
     "responses": [
@@ -433,7 +433,7 @@
   },
   {
     "//": "耐力中级",
-    "id": "TALK_SP_STRENGTH2_MUTAGEN",
+    "id": "TALK_SP_ENDURENCE2_MUTAGEN",
     "type": "talk_topic",
     "dynamic_line": "你努力地集中意念，引导能量强化神经系统，凝结耐力特质。",
     "responses": [
@@ -478,7 +478,7 @@
   },
   {
     "//": "耐力高级",
-    "id": "TALK_SP_STRENGTH3_MUTAGEN",
+    "id": "TALK_SP_ENDURENCE3_MUTAGEN",
     "type": "talk_topic",
     "dynamic_line": "你努力地集中意念，引导能量强化神经系统，凝结耐力特质。",
     "responses": [
