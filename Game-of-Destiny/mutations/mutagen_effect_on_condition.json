@@ -622,5 +622,45 @@
       },
       { "text": "取消", "topic": "TALK_DONE", "effect": { "u_spawn_item": "cohesion_title" } }
     ]
+  },
+  {
+    "//": "天命透支",
+    "id": "TALK_SP_OVERDRAW_MUTAGEN",
+    "type": "talk_topic",
+    "dynamic_line": "大量天命化为纯粹能量注入体内，弭平你陨落时溃散的命运，你感觉身上的负担减轻了。",
+    "responses": [
+      {
+        "text": "天命透支LV2",
+        "condition": {
+          "and": [
+            { "u_has_trait": "OVERDRAW_1" },
+            { "not": { "u_has_trait": "OVERDRAW_2" } },
+            { "not": { "u_has_trait": "OVERDRAW_3" } },
+            { "not": { "u_has_trait": "OVERDRAW_END" } }
+          ]
+        },
+        "topic": "TALK_DONE",
+        "effect": [ { "u_lose_trait": "OVERDRAW_1" }, { "u_add_trait": "OVERDRAW_2" } ]
+      },
+      {
+        "text": "天命透支LV1",
+        "condition": {
+          "and": [
+            { "u_has_trait": "OVERDRAW_2" },
+            { "not": { "u_has_trait": "OVERDRAW_3" } },
+            { "not": { "u_has_trait": "OVERDRAW_END" } }
+          ]
+        },
+        "topic": "TALK_DONE",
+        "effect": [ { "u_lose_trait": "OVERDRAW_2" }, { "u_add_trait": "OVERDRAW_3" } ]
+      },
+      {
+        "text": "历劫归来",
+        "condition": { "and": [ { "u_has_trait": "OVERDRAW_3" }, { "not": { "u_has_trait": "OVERDRAW_END" } } ] },
+        "topic": "TALK_DONE",
+        "effect": [ { "u_lose_trait": "OVERDRAW_3" }, { "u_add_trait": "OVERDRAW_END" } ]
+      },
+      { "text": "取消", "topic": "TALK_DONE", "effect": { "u_spawn_item": "stone_of_time" } }
+    ]
   }
 ]

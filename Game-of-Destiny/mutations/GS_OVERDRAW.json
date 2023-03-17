@@ -12,7 +12,19 @@
     "charges_per_use": 5,
     "pocket_data": [ { "pocket_type": "MAGAZINE", "holster": true, "rigid": true, "ammo_restriction": { "destiny_silver_type": 5 } } ],
     "relic_data": { "charge_info": { "regenerate_ammo": true } },
-    "use_action": { "type": "mutagen", "mutation_category": "SP_OVERDRAW" },
+    "chat_topics": [ "TALK_SP_OVERDRAW_MUTAGEN" ],
+    "use_action": [
+      {
+        "type": "effect_on_conditions",
+        "description": "特质凝结",
+        "effect_on_conditions": [
+          {
+            "id": "TALK_SP_OVERDRAW_MUTAGEN",
+            "effect": [ "open_dialogue" ]
+          }
+        ]
+      }
+    ],
     "flags": [ "UNBREAKABLE_MELEE", "ZERO_WEIGHT" ]
   },
   {
@@ -23,20 +35,22 @@
     "description": "透支天命，你的属性被极度压制，身体承受极度负荷，在清偿前无法摆脱，全能力-5、身体累赘+25。",
     "passive_mods": { "str_mod": -5, "dex_mod": -5, "int_mod": -5, "per_mod": -5 },
     "encumbrance_always": [
-      [ "TORSO", 25 ],
-      [ "ARM_L", 25 ],
-      [ "ARM_R", 25 ],
-      [ "HAND_L", 25 ],
-      [ "HAND_R", 25 ],
-      [ "LEG_L", 25 ],
-      [ "LEG_R", 25 ],
-      [ "FOOT_L", 25 ],
-      [ "FOOT_R", 25 ]
+      [ "torso", 25 ],
+      [ "head", 25 ],
+      [ "eyes", 25 ],
+      [ "mouth", 25 ],
+      [ "arm_l", 25 ],
+      [ "arm_r", 25 ],
+      [ "hand_l", 25 ],
+      [ "hand_r", 25 ],
+      [ "leg_l", 25 ],
+      [ "leg_r", 25 ],
+      [ "foot_l", 25 ],
+      [ "foot_r", 25 ]
     ],
     "purifiable": false,
     "changes_to": [ "OVERDRAW_2" ],
-    "category": [ "SP_OVERDRAW" ],
-    "flags": "SP_OVERDRAW_FLAG"
+    "category": [ "SP_OVERDRAW" ]
   },
   {
     "type": "mutation",
@@ -46,21 +60,23 @@
     "description": "透支天命，你的属性受到严重限制，身体承受重度负荷，在清偿前无法摆脱，全能力-3、身体累赘+18。",
     "passive_mods": { "str_mod": -3, "dex_mod": -3, "int_mod": -3, "per_mod": -3 },
     "encumbrance_always": [
-      [ "TORSO", 18 ],
-      [ "ARM_L", 18 ],
-      [ "ARM_R", 18 ],
-      [ "HAND_L", 18 ],
-      [ "HAND_R", 18 ],
-      [ "LEG_L", 18 ],
-      [ "LEG_R", 18 ],
-      [ "FOOT_L", 18 ],
-      [ "FOOT_R", 18 ]
+      [ "torso", 18 ],
+      [ "head", 18 ],
+      [ "eyes", 18 ],
+      [ "mouth", 18 ],
+      [ "arm_l", 18 ],
+      [ "arm_r", 18 ],
+      [ "hand_l", 18 ],
+      [ "hand_r", 18 ],
+      [ "leg_l", 18 ],
+      [ "leg_r", 18 ],
+      [ "foot_l", 18 ],
+      [ "foot_r", 18 ]
     ],
     "purifiable": false,
     "prereqs": [ "OVERDRAW_1" ],
     "changes_to": [ "OVERDRAW_3" ],
-    "category": [ "SP_OVERDRAW" ],
-    "flags": "SP_OVERDRAW_FLAG"
+    "category": [ "SP_OVERDRAW" ]
   },
   {
     "type": "mutation",
@@ -70,21 +86,23 @@
     "description": "透支天命，你的属性受到限制，身体承受额外负荷，在清偿前无法摆脱，全能力-1、身体累赘+10。",
     "passive_mods": { "str_mod": -1, "dex_mod": -1, "int_mod": -1, "per_mod": -1 },
     "encumbrance_always": [
-      [ "TORSO", 10 ],
-      [ "ARM_L", 10 ],
-      [ "ARM_R", 10 ],
-      [ "HAND_L", 10 ],
-      [ "HAND_R", 10 ],
-      [ "LEG_L", 10 ],
-      [ "LEG_R", 10 ],
-      [ "FOOT_L", 10 ],
-      [ "FOOT_R", 10 ]
+      [ "torso", 10 ],
+      [ "head", 10 ],
+      [ "eyes", 10 ],
+      [ "mouth", 10 ],
+      [ "arm_l", 10 ],
+      [ "arm_r", 10 ],
+      [ "hand_l", 10 ],
+      [ "hand_r", 10 ],
+      [ "leg_l", 10 ],
+      [ "leg_r", 10 ],
+      [ "foot_l", 10 ],
+      [ "foot_r", 10 ]
     ],
     "purifiable": false,
     "prereqs": [ "OVERDRAW_2" ],
     "changes_to": [ "OVERDRAW_END" ],
-    "category": [ "SP_OVERDRAW" ],
-    "flags": "SP_OVERDRAW_FLAG"
+    "category": [ "SP_OVERDRAW" ]
   },
   {
     "type": "mutation",
@@ -95,7 +113,6 @@
     "valid": false,
     "purifiable": false,
     "prereqs": [ "OVERDRAW_3" ],
-    "category": [ "SP_OVERDRAW" ],
-    "flags": "SP_OVERDRAW_FLAG"
+    "category": [ "SP_OVERDRAW" ]
   }
 ]
