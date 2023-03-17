@@ -107,7 +107,7 @@
     "//": "敏捷初级",
     "id": "TALK_SP_DEXTERITY1_MUTAGEN",
     "type": "talk_topic",
-    "dynamic_line": "你努力地集中意念，引导能量强化神经系统，凝结力量特质。",
+    "dynamic_line": "你努力地集中意念，引导能量强化神经系统，凝结敏捷特质。",
     "responses": [
       {
         "text": "灵巧",
@@ -140,7 +140,7 @@
     "//": "敏捷中级",
     "id": "TALK_SP_DEXTERITY2_MUTAGEN",
     "type": "talk_topic",
-    "dynamic_line": "你努力地集中意念，引导能量强化神经系统，凝结力量特质。",
+    "dynamic_line": "你努力地集中意念，引导能量强化神经系统，凝结敏捷特质。",
     "responses": [
       {
         "text": "高度灵巧",
@@ -189,7 +189,7 @@
     "//": "敏捷高级",
     "id": "TALK_SP_DEXTERITY3_MUTAGEN",
     "type": "talk_topic",
-    "dynamic_line": "你努力地集中意念，引导能量强化神经系统，凝结力量特质。",
+    "dynamic_line": "你努力地集中意念，引导能量强化神经系统，凝结敏捷特质。",
     "responses": [
       {
         "text": "电光石火",
@@ -236,6 +236,332 @@
         "effect": [ { "u_add_trait": "QUICK" } ]
       },
       { "text": "取消", "topic": "TALK_DONE", "effect": { "u_spawn_item": "cohesion_dexterity3" } }
+    ]
+  },
+
+  {
+    "//": "智力初级",
+    "id": "TALK_SP_INTELLIGENCE1_MUTAGEN",
+    "type": "talk_topic",
+    "dynamic_line": "你努力地集中意念，引导能量强化神经系统，凝结智力特质。",
+    "responses": [
+      {
+        "text": "精明强干",
+        "condition": {
+          "and": [
+            { "not": { "u_has_trait": "INT_UP_2" } },
+            { "not": { "u_has_trait": "INT_UP_3" } },
+            { "not": { "u_has_trait": "SP_INT_UP" } }
+          ]
+        },
+        "topic": "TALK_DONE",
+        "effect": { "u_add_trait": "INT_UP_2" }
+      },
+      {
+        "text": "快速阅读",
+        "condition": { "not": { "u_has_trait": "FASTREADER" } },
+        "topic": "TALK_DONE",
+        "effect": { "u_add_trait": "FASTREADER" }
+      },
+      {
+        "text": "欺骗精通",
+        "condition": { "not": { "u_has_trait": "LIAR" } },
+        "topic": "TALK_DONE",
+        "effect": { "u_add_trait": "LIAR" }
+      },
+      { "text": "取消", "topic": "TALK_DONE", "effect": { "u_spawn_item": "cohesion_intelligence1" } }
+    ]
+  },
+  {
+    "//": "智力中级",
+    "id": "TALK_SP_INTELLIGENCE2_MUTAGEN",
+    "type": "talk_topic",
+    "dynamic_line": "你努力地集中意念，引导能量强化神经系统，凝结智力特质。",
+    "responses": [
+      {
+        "text": "算无遗策",
+        "condition": {
+          "and": [
+            { "u_has_trait": "INT_UP_2" },
+            { "not": { "u_has_trait": "INT_UP_3" } },
+            { "not": { "u_has_trait": "SP_INT_UP" } }
+          ]
+        },
+        "topic": "TALK_DONE",
+        "effect": [ { "u_lose_trait": "INT_UP_2" }, { "u_add_trait": "INT_UP_3" } ]
+      },
+      {
+        "text": "出色记忆",
+        "condition": { "not": { "u_has_trait": "GOODMEMORY" } },
+        "topic": "TALK_DONE",
+        "effect": { "u_add_trait": "GOODMEMORY" }
+      },
+      {
+        "text": "打包专家",
+        "condition": { "not": { "u_has_trait": "PACKMULE" } },
+        "topic": "TALK_DONE",
+        "effect": { "u_add_trait": "PACKMULE" }
+      },
+      { "text": "取消", "topic": "TALK_DONE", "effect": { "u_spawn_item": "cohesion_intelligence2" } }
+    ]
+  },
+  {
+    "//": "智力高级",
+    "id": "TALK_SP_INTELLIGENCE3_MUTAGEN",
+    "type": "talk_topic",
+    "dynamic_line": "你努力地集中意念，引导能量强化神经系统，凝结智力特质。",
+    "responses": [
+      {
+        "text": "智计百出",
+        "condition": { "and": [ { "u_has_trait": "INT_UP_3" }, { "not": { "u_has_trait": "SP_INT_UP" } } ] },
+        "topic": "TALK_DONE",
+        "effect": [ { "u_lose_trait": "INT_UP_3" }, { "u_add_trait": "SP_INT_UP" } ]
+      },
+      {
+        "text": "快速学习",
+        "condition": { "not": { "u_has_trait": "FASTLEARNER" } },
+        "topic": "TALK_DONE",
+        "effect": { "u_add_trait": "FASTLEARNER" }
+      },
+      {
+        "text": "优良基因",
+        "condition": { "not": { "u_has_trait": "ROBUST" } },
+        "topic": "TALK_DONE",
+        "effect": { "u_add_trait": "ROBUST" }
+      },
+      { "text": "取消", "topic": "TALK_DONE", "effect": { "u_spawn_item": "cohesion_intelligence3" } }
+    ]
+  },
+  {
+    "//": "感知初级",
+    "id": "TALK_SP_PERCEPTION1_MUTAGEN",
+    "type": "talk_topic",
+    "dynamic_line": "你努力地集中意念，引导能量强化神经系统，凝结感知特质。",
+    "responses": [
+      {
+        "text": "高度感知",
+        "condition": {
+          "and": [
+            { "not": { "u_has_trait": "PER_UP_2" } },
+            { "not": { "u_has_trait": "PER_UP_3" } },
+            { "not": { "u_has_trait": "SP_PER_UP" } }
+          ]
+        },
+        "topic": "TALK_DONE",
+        "effect": { "u_add_trait": "PER_UP_2" }
+      },
+      {
+        "text": "视觉发达",
+        "condition": { "not": { "u_has_trait": "EAGLEEYED" } },
+        "topic": "TALK_DONE",
+        "effect": { "u_add_trait": "EAGLEEYED" }
+      },
+      {
+        "text": "听觉发达",
+        "condition": { "not": { "u_has_trait": "GOODHEARING" } },
+        "topic": "TALK_DONE",
+        "effect": { "u_add_trait": "GOODHEARING" }
+      },
+      {
+        "text": "夜视(Lv1)",
+        "condition": { "not": { "u_has_trait": "NIGHTVISION" } },
+        "topic": "TALK_DONE",
+        "effect": { "u_add_trait": "NIGHTVISION" }
+      },
+      { "text": "取消", "topic": "TALK_DONE", "effect": { "u_spawn_item": "cohesion_perception1" } }
+    ]
+  },
+  {
+    "//": "感知中级",
+    "id": "TALK_SP_PERCEPTION2_MUTAGEN",
+    "type": "talk_topic",
+    "dynamic_line": "你努力地集中意念，引导能量强化神经系统，凝结感知特质。",
+    "responses": [
+      {
+        "text": "洞察一切",
+        "condition": {
+          "and": [
+            { "u_has_trait": "PER_UP_2" },
+            { "not": { "u_has_trait": "PER_UP_3" } },
+            { "not": { "u_has_trait": "SP_PER_UP" } }
+          ]
+        },
+        "topic": "TALK_DONE",
+        "effect": [ { "u_lose_trait": "PER_UP_2" }, { "u_add_trait": "PER_UP_3" } ]
+      },
+      {
+        "text": "高级夜视",
+        "condition": { "not": { "u_has_trait": "NIGHTVISION2" } },
+        "topic": "TALK_DONE",
+        "effect": { "u_add_trait": "NIGHTVISION2" }
+      },
+      {
+        "text": "目光如电",
+        "condition": {
+          "and": [
+            { "u_has_trait": "EAGLEEYED" },
+            { "not": { "u_has_trait": "SP_EAGLEEYE2" } }
+          ]
+        },
+        "topic": "TALK_DONE",
+        "effect": { "u_add_trait": "SP_EAGLEEYE2" }
+      },
+      { "text": "取消", "topic": "TALK_DONE", "effect": { "u_spawn_item": "cohesion_perception2" } }
+    ]
+  },
+  {
+    "//": "感知高级",
+    "id": "TALK_SP_PERCEPTION3_MUTAGEN",
+    "type": "talk_topic",
+    "dynamic_line": "你努力地集中意念，引导能量强化神经系统，凝结感知特质。",
+    "responses": [
+      {
+        "text": "心有灵犀",
+        "condition": { "and": [ { "u_has_trait": "PER_UP_3" }, { "not": { "u_has_trait": "SP_PER_UP" } } ] },
+        "topic": "TALK_DONE",
+        "effect": [ { "u_lose_trait": "PER_UP_3" }, { "u_add_trait": "SP_PER_UP" } ]
+      },
+      {
+        "text": "完美夜视",
+        "condition": { "and": [ { "u_has_trait": "NIGHTVISION2" }, { "not": { "u_has_trait": "NIGHTVISION3" } } ] },
+        "topic": "TALK_DONE",
+        "effect": [ { "u_lose_trait": "NIGHTVISION2" }, { "u_add_trait": "NIGHTVISION3" } ]
+      },
+      {
+        "text": "红外视觉",
+        "condition": { 
+          "and":[
+            { "u_has_trait": "NIGHTVISION3" },
+            { "not": { "u_has_trait": "INFRARED" } }
+          ]
+        },
+        "topic": "TALK_DONE",
+        "effect": { "u_add_trait": "INFRARED" }
+      },
+      { "text": "取消", "topic": "TALK_DONE", "effect": { "u_spawn_item": "cohesion_perception3" } }
+    ]
+  },
+  {
+    "//": "耐力初级",
+    "id": "TALK_SP_STRENGTH1_MUTAGEN",
+    "type": "talk_topic",
+    "dynamic_line": "你努力地集中意念，引导能量强化神经系统，凝结耐力特质。",
+    "responses": [
+      {
+        "text": "毒素抵抗",
+        "condition": { "not": { "u_has_trait": "POISRESIST" } },
+        "topic": "TALK_DONE",
+        "effect": { "u_add_trait": "POISRESIST" }
+      },
+      {
+        "text": "感染抵抗",
+        "condition": { "not": { "u_has_trait": "INFRESIST" } },
+        "topic": "TALK_DONE",
+        "effect": { "u_add_trait": "INFRESIST" }
+      },
+      {
+        "text": "疾病抵抗",
+        "condition": { "not": { "u_has_trait": "DISRESISTANT" } },
+        "topic": "TALK_DONE",
+        "effect": { "u_add_trait": "DISRESISTANT" }
+      },
+      {
+        "text": "寄生免疫",
+        "condition": { "not": { "u_has_trait": "PARAIMMUNE" } },
+        "topic": "TALK_DONE",
+        "effect": { "u_add_trait": "PARAIMMUNE" }
+      },
+      {
+        "text": "少眠者",
+        "condition": { "not": { "u_has_trait": "WAKEFUL" } },
+        "topic": "TALK_DONE",
+        "effect": { "u_add_trait": "WAKEFUL" }
+      },
+      {
+        "text": "肠胃发达",
+        "condition": { "not": { "u_has_trait": "STRONGSTOMACH" } },
+        "topic": "TALK_DONE",
+        "effect": { "u_add_trait": "STRONGSTOMACH" }
+      },
+      { "text": "取消", "topic": "TALK_DONE", "effect": { "u_spawn_item": "cohesion_endurence1" } }
+    ]
+  },
+  {
+    "//": "耐力中级",
+    "id": "TALK_SP_STRENGTH2_MUTAGEN",
+    "type": "talk_topic",
+    "dynamic_line": "你努力地集中意念，引导能量强化神经系统，凝结耐力特质。",
+    "responses": [
+      {
+        "text": "血脉归返",
+        "condition": { "not": { "u_has_trait": "END_LINEAGE" } },
+        "topic": "TALK_DONE",
+        "effect": { "u_add_trait": "END_LINEAGE" }
+      },
+      {
+        "text": "疼痛抵抗",
+        "condition": { "not": { "u_has_trait": "PAINRESIST" } },
+        "topic": "TALK_DONE",
+        "effect": { "u_add_trait": "PAINRESIST" }
+      },
+      {
+        "text": "疼痛恢复",
+        "condition": { "not": { "u_has_trait": "PAINREC1" } },
+        "topic": "TALK_DONE",
+        "effect": { "u_add_trait": "PAINREC1" }
+      },
+      {
+        "text": "感染免疫",
+        "condition": {
+          "and":[
+            { "u_has_trait": "INFRESIST" },
+            { "not": { "u_has_trait": "INFIMMUNE" } }
+          ]
+        },
+        "topic": "TALK_DONE",
+        "effect": [{ "u_lose_trait": "INFRESIST" },{ "u_add_trait": "INFIMMUNE" }]
+      },
+      {
+        "text": "自愈",
+        "condition": {
+          "and":[
+            {"not":{ "u_has_trait": "REGEN" }},
+            {"not": { "u_has_trait": "FASTHEALER" }}] },
+        "topic": "TALK_DONE",
+        "effect": { "u_add_trait": "FASTHEALER" }
+      },
+      {
+        "text": "节食",
+        "condition": { "not": { "u_has_trait": "LIGHTEATER" } },
+        "topic": "TALK_DONE",
+        "effect": { "u_add_trait": "LIGHTEATER" }
+      },
+      { "text": "取消", "topic": "TALK_DONE", "effect": { "u_spawn_item": "cohesion_endurence2" } }
+    ]
+  },
+  {
+    "//": "耐力高级",
+    "id": "TALK_SP_STRENGTH3_MUTAGEN",
+    "type": "talk_topic",
+    "dynamic_line": "你努力地集中意念，引导能量强化神经系统，凝结耐力特质。",
+    "responses": [
+      {
+        "text": "急速自愈",
+        "condition": {
+          "and":[
+          {"u_has_trait":"FASTHEALER"},{"not": { "u_has_trait": "REGEN" }}] },
+        "topic": "TALK_DONE",
+        "effect": [{ "u_lose_trait": "FASTHEALER" },{ "u_add_trait": "REGEN" }]
+      },
+      {
+        "text": "急速疼痛恢复",
+        "condition": {
+          "and": [
+          {"u_has_trait":"PAINREC1"},{"not": { "u_has_trait": "PAINREC3" } }]},
+        "topic": "TALK_DONE",
+        "effect": [{ "u_lose_trait": "PAINREC1" },{ "u_add_trait": "PAINREC3" }]
+      },
+      { "text": "取消", "topic": "TALK_DONE", "effect": { "u_spawn_item": "cohesion_endurence3" } }
     ]
   }
 ]

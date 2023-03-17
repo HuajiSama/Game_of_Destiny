@@ -1,16 +1,63 @@
 [
   {
+    "//": "1",
+    "type": "mutation",
+    "id": "PER_UP",
+    "copy-from": "PER_UP",
+    "extend": {
+      "category": [ "SP_PERCEPTION" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "PER_UP_2",
+    "copy-from": "PER_UP_2",
+    "extend": { "category": [ "SP_PERCEPTION" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "EAGLEEYED",
+    "copy-from": "EAGLEEYED",
+    "extend": {
+      "category": [ "SP_PERCEPTION" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "GOODHEARING",
+    "copy-from": "GOODHEARING",
+    "extend": {
+      "category": [ "SP_PERCEPTION" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "NIGHTVISION",
+    "copy-from": "NIGHTVISION",
+    "extend": { "category": [ "SP_PERCEPTION" ] }
+  },
+  {
+    "//": "2",
     "type": "mutation",
     "id": "SP_EAGLEEYE2",
     "name": "目光如电",
     "points": 2,
     "description": "你的动态视力相当出色，瞄准动作迅疾无比，眼部累赘-10。",
-    "encumbrance_always": [ [ "EYES", -10 ] ],
+    "encumbrance_always": [ [ "eyes", -10 ] ],
     "prereqs": [ "EAGLEEYED" ],
-    "category": [ "SP_PERCEPTION2" ],
-    "flags": [ "SP_PERCEPTION2_FLAG" ]
+    "category": [ "SP_PERCEPTION" ]
   },
   {
+    "type": "mutation",
+    "id": "PER_UP_3",
+    "copy-from": "PER_UP_3",
+    "extend": { "category": [ "SP_PERCEPTION" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "NIGHTVISION2",
+    "copy-from": "NIGHTVISION2",
+    "extend": { "category": [ "SP_PERCEPTION" ] }
+  },
+  {
+    "//": "3",
     "type": "mutation",
     "id": "SP_PER_UP",
     "name": "心有灵犀",
@@ -18,88 +65,18 @@
     "description": "你的感知能力敏锐到极点，直觉更是准确无比，感知+6。",
     "prereqs": [ "PER_UP_3" ],
     "passive_mods": { "per_mod": 6 },
-    "category": [ "SP_PERCEPTION3" ],
-    "flags": [ "SP_PERCEPTION3_FLAG" ]
-  },
-  {
-    "type": "mutation",
-    "id": "PER_UP",
-    "copy-from": "PER_UP",
-    "extend": {
-      "category": [ "SP_PERCEPTION1" ],
-      "flags": [ "SP_PERCEPTION1_FLAG" ]
-    }
-  },
-  {
-    "type": "mutation",
-    "id": "PER_UP_2",
-    "copy-from": "PER_UP_2",
-    "extend": {
-      "category": [ "SP_PERCEPTION1" ],
-      "flags": [ "SP_PERCEPTION1_FLAG" ]
-    }
-  },
-  {
-    "type": "mutation",
-    "id": "EAGLEEYED",
-    "copy-from": "EAGLEEYED",
-    "extend": {
-      "category": [ "SP_PERCEPTION1" ],
-      "flags": [ "SP_PERCEPTION1_FLAG" ]
-    }
-  },
-  {
-    "type": "mutation",
-    "id": "GOODHEARING",
-    "copy-from": "GOODHEARING",
-    "extend": {
-      "category": [ "SP_PERCEPTION1" ],
-      "flags": [ "SP_PERCEPTION1_FLAG" ]
-    }
-  },
-  {
-    "type": "mutation",
-    "id": "NIGHTVISION",
-    "copy-from": "NIGHTVISION",
-    "extend": {
-      "category": [ "SP_PERCEPTION1" ],
-      "flags": [ "SP_PERCEPTION1_FLAG" ]
-    }
-  },
-  {
-    "type": "mutation",
-    "id": "PER_UP_3",
-    "copy-from": "PER_UP_3",
-    "extend": {
-      "category": [ "SP_PERCEPTION2" ],
-      "flags": [ "SP_PERCEPTION2_FLAG" ]
-    }
-  },
-  {
-    "type": "mutation",
-    "id": "NIGHTVISION2",
-    "copy-from": "NIGHTVISION2",
-    "extend": {
-      "category": [ "SP_PERCEPTION2" ],
-      "flags": [ "SP_PERCEPTION2_FLAG" ]
-    }
+    "category": [ "SP_PERCEPTION" ]
   },
   {
     "type": "mutation",
     "id": "NIGHTVISION3",
     "copy-from": "NIGHTVISION3",
-    "extend": {
-      "category": [ "SP_PERCEPTION3" ],
-      "flags": [ "SP_PERCEPTION3_FLAG" ]
-    }
+    "extend": { "category": [ "SP_PERCEPTION" ] }
   },
   {
     "type": "mutation",
     "id": "INFRARED",
     "copy-from": "INFRARED",
-    "extend": {
-      "category": [ "SP_PERCEPTION3" ],
-      "flags": [ "SP_PERCEPTION3_FLAG" ]
-    }
+    "extend": { "category": [ "SP_PERCEPTION" ] }
   }
 ]

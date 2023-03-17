@@ -12,6 +12,7 @@
 
   },
   {
+    "//": "1",
     "type": "mutation",
     "id": "INT_UP",
     "copy-from": "INT_UP",
@@ -31,15 +32,6 @@
   },
   {
     "type": "mutation",
-    "id": "LIAR",
-    "copy-from": "LIAR",
-    "extend": {
-      "category": [ "SP_INTELLIGENCE1" ],
-      "flags": [ "SP_INTELLIGENCE1_FLAG" ]
-    }
-  },
-  {
-    "type": "mutation",
     "id": "FASTREADER",
     "copy-from": "FASTREADER",
     "extend": {
@@ -49,17 +41,18 @@
   },
   {
     "type": "mutation",
-    "id": "INT_UP_3",
-    "copy-from": "INT_UP_3",
+    "id": "LIAR",
+    "copy-from": "LIAR",
     "extend": {
-      "category": [ "SP_INTELLIGENCE2" ],
-      "flags": [ "SP_INTELLIGENCE2_FLAG" ]
+      "category": [ "SP_INTELLIGENCE1" ],
+      "flags": [ "SP_INTELLIGENCE1_FLAG" ]
     }
   },
   {
+    "//": "2",
     "type": "mutation",
-    "id": "PACKMULE",
-    "copy-from": "PACKMULE",
+    "id": "INT_UP_3",
+    "copy-from": "INT_UP_3",
     "extend": {
       "category": [ "SP_INTELLIGENCE2" ],
       "flags": [ "SP_INTELLIGENCE2_FLAG" ]
@@ -75,6 +68,16 @@
     }
   },
   {
+    "type": "mutation",
+    "id": "PACKMULE",
+    "copy-from": "PACKMULE",
+    "extend": {
+      "category": [ "SP_INTELLIGENCE2" ],
+      "flags": [ "SP_INTELLIGENCE2_FLAG" ]
+    }
+  },
+  {
+    "//": "3",
     "type": "mutation",
     "id": "FASTLEARNER",
     "copy-from": "FASTREADER",

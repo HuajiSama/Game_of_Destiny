@@ -1,7 +1,45 @@
 [
   {
+    "//": "1",
     "type": "mutation",
-    "id": "END_lineage",
+    "id": "POISRESIST",
+    "copy-from": "POISRESIST",
+    "extend": { "category": [ "SP_ENDURENCE" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "INFRESIST",
+    "copy-from": "INFRESIST",
+    "extend": { "category": [ "SP_ENDURENCE" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "DISRESISTANT",
+    "copy-from": "DISRESISTANT",
+    "extend": { "category": [ "SP_ENDURENCE" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "PARAIMMUNE",
+    "copy-from": "PARAIMMUNE",
+    "extend": { "category": [ "SP_ENDURENCE" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "WAKEFUL",
+    "copy-from": "WAKEFUL",
+    "extend": { "category": [ "SP_ENDURENCE" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "STRONGSTOMACH",
+    "copy-from": "STRONGSTOMACH",
+    "extend": { "category": [ "SP_ENDURENCE" ] }
+  },
+  {
+    "//": "2",
+    "type": "mutation",
+    "id": "END_LINEAGE",
     "name": "血脉归返",
     "description": "你提纯了自身血脉里的古猿基因，唤醒基因发动返祖现象，受冻时增生毛发抵抗寒冷，提升些许防御。",
     "points": 2,
@@ -11,106 +49,49 @@
     "bodytemp_sleep": 100,
     "armor": [ { "parts": "ALL", "bash": 1 } ],
     "purifiable": false,
-    "category": [ "SP_ENDURENCE2" ],
-    "flags": [ "SP_ENDURENCE2_FLAG" ]
-  },
-  {
-    "type": "mutation",
-    "id": "POISRESIST",
-    "copy-from": "POISRESIST",
-    "extend": {
-      "category": [ "SP_ENDURENCE1" ],
-      "flags": [ "SP_ENDURENCE1_FLAG" ]
-    }
-  },
-  {
-    "type": "mutation",
-    "id": "PARAIMMUNE",
-    "copy-from": "PARAIMMUNE",
-    "extend": {
-      "category": [ "SP_ENDURENCE1" ],
-      "flags": [ "SP_ENDURENCE1_FLAG" ]
-    }
-  },
-  {
-    "type": "mutation",
-    "id": "WAKEFUL",
-    "copy-from": "WAKEFUL",
-    "extend": {
-      "category": [ "SP_ENDURENCE1" ],
-      "flags": [ "SP_ENDURENCE1_FLAG" ]
-    }
-  },
-  {
-    "type": "mutation",
-    "id": "STRONGSTOMACH",
-    "copy-from": "STRONGSTOMACH",
-    "extend": {
-      "category": [ "SP_ENDURENCE1" ],
-      "flags": [ "SP_ENDURENCE1_FLAG" ]
-    }
+    "category": [ "SP_ENDURENCE" ]
   },
   {
     "type": "mutation",
     "id": "PAINRESIST",
     "copy-from": "PAINRESIST",
-    "extend": {
-      "category": [ "SP_ENDURENCE2" ],
-      "flags": [ "SP_ENDURENCE2_FLAG" ]
-    }
-  },
-  {
-    "type": "mutation",
-    "id": "LIGHTEATER",
-    "copy-from": "LIGHTEATER",
-    "extend": {
-      "category": [ "SP_ENDURENCE2" ],
-      "flags": [ "SP_ENDURENCE2_FLAG" ]
-    }
-  },
-  {
-    "type": "mutation",
-    "id": "INFIMMUNE",
-    "copy-from": "INFIMMUNE",
-    "extend": {
-      "category": [ "SP_ENDURENCE2" ],
-      "flags": [ "SP_ENDURENCE2_FLAG" ]
-    }
+    "extend": { "category": [ "SP_ENDURENCE" ] }
   },
   {
     "type": "mutation",
     "id": "PAINREC1",
     "copy-from": "PAINREC1",
-    "extend": {
-      "category": [ "SP_ENDURENCE2" ],
-      "flags": [ "SP_ENDURENCE2_FLAG" ]
-    }
+    "extend": { "category": [ "SP_ENDURENCE" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "INFIMMUNE",
+    "copy-from": "INFIMMUNE",
+    "extend": { "category": [ "SP_ENDURENCE" ] }
   },
   {
     "type": "mutation",
     "id": "FASTHEALER",
     "copy-from": "FASTHEALER",
-    "extend": {
-      "category": [ "SP_ENDURENCE2" ],
-      "flags": [ "SP_ENDURENCE2_FLAG" ]
-    }
+    "extend": { "category": [ "SP_ENDURENCE" ] }
   },
   {
     "type": "mutation",
+    "id": "LIGHTEATER",
+    "copy-from": "LIGHTEATER",
+    "extend": { "category": [ "SP_ENDURENCE" ] }
+  },
+  {
+    "//": "3",
+    "type": "mutation",
     "id": "REGEN",
     "copy-from": "REGEN",
-    "extend": {
-      "category": [ "SP_ENDURENCE3" ],
-      "flags": [ "SP_ENDURENCE3_FLAG" ]
-    }
+    "extend": { "category": [ "SP_ENDURENCE" ] }
   },
   {
     "type": "mutation",
     "id": "PAINREC3",
     "copy-from": "PAINREC3",
-    "extend": {
-      "category": [ "SP_ENDURENCE3" ],
-      "flags": [ "SP_ENDURENCE3_FLAG" ]
-    }
+    "extend": { "category": [ "SP_ENDURENCE" ] }
   }
 ]

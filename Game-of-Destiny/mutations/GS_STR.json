@@ -1,26 +1,5 @@
 [
   {
-    "//": "2",
-    "type": "mutation",
-    "id": "SP_CARDIOREGEN",
-    "name": "心肺强化",
-    "points": 1,
-    "description": "强大的心肺功能使你拥有良好的换氧率，更容易恢复体力，头部累赘-10。",
-    "encumbrance_always": [ [ "head", -10 ] ],
-    "category": [ "SP_STRENGTH" ]
-  },
-  {
-    "//": "3",
-    "type": "mutation",
-    "id": "SP_STR_UP",
-    "name": "骁勇善战",
-    "points": 6,
-    "description": "你身上的肌肉已经完全开发，强建有力且富有弹性，隐藏着强悍的爆发力，力量+6。",
-    "prereqs": [ "STR_UP_3" ],
-    "passive_mods": { "str_mod": 6 },
-    "category": [ "SP_STRENGTH" ]
-  },
-  {
     "//": "1",
     "type": "mutation",
     "id": "STR_UP",
@@ -48,6 +27,15 @@
   {
     "//": "2",
     "type": "mutation",
+    "id": "SP_CARDIOREGEN",
+    "name": "心肺强化",
+    "points": 1,
+    "description": "强大的心肺功能使你拥有良好的换氧率，更容易恢复体力，头部累赘-10。",
+    "encumbrance_always": [ [ "mouth", -10 ] ],
+    "category": [ "SP_STRENGTH" ]
+  },
+  {
+    "type": "mutation",
     "id": "STR_UP_3",
     "copy-from": "STR_UP_3",
     "extend": { "category": [ "SP_STRENGTH" ] }
@@ -66,6 +54,16 @@
   },
   {
     "//": "3",
+    "type": "mutation",
+    "id": "SP_STR_UP",
+    "name": "骁勇善战",
+    "points": 6,
+    "description": "你身上的肌肉已经完全开发，强建有力且富有弹性，隐藏着强悍的爆发力，力量+6。",
+    "prereqs": [ "STR_UP_3" ],
+    "passive_mods": { "str_mod": 6 },
+    "category": [ "SP_STRENGTH" ]
+  },
+  {
     "type": "mutation",
     "id": "GOODCARDIO",
     "copy-from": "GOODCARDIO",
