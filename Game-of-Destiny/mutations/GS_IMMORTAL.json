@@ -12,23 +12,22 @@
     "fatigue_modifier": -0.15,
     "fatigue_regen_modifier": 0.15,
     "encumbrance_always": [
-      [ "TORSO", -5 ],
-      [ "HEAD", -5 ],
-      [ "EYES", -5 ],
-      [ "MOUTH", -5 ],
-      [ "ARM_L", -5 ],
-      [ "ARM_R", -5 ],
-      [ "HAND_L", -5 ],
-      [ "HAND_R", -5 ],
-      [ "LEG_L", -5 ],
-      [ "LEG_R", -5 ],
-      [ "FOOT_L", -5 ],
-      [ "FOOT_R", -5 ]
+      [ "torso", -5 ],
+      [ "head", -5 ],
+      [ "eyes", -5 ],
+      [ "mouth", -5 ],
+      [ "arm_l", -5 ],
+      [ "arm_r", -5 ],
+      [ "hand_l", -5 ],
+      [ "hand_r", -5 ],
+      [ "leg_l", -5 ],
+      [ "leg_r", -5 ],
+      [ "foot_l", -5 ],
+      [ "foot_r", -5 ]
     ],
     "purifiable": false,
     "changes_to": [ "IMMORTAL_2" ],
-    "category": [ "IMMORTAL" ],
-    "flags": "IMMORTAL_FLAG"
+    "category": [ "IMMORTAL" ]
   },
   {
     "type": "mutation",
@@ -43,24 +42,23 @@
     "fatigue_modifier": -0.25,
     "fatigue_regen_modifier": 0.25,
     "encumbrance_always": [
-      [ "TORSO", -10 ],
-      [ "HEAD", -10 ],
-      [ "EYES", -10 ],
-      [ "MOUTH", -10 ],
-      [ "ARM_L", -10 ],
-      [ "ARM_R", -10 ],
-      [ "HAND_L", -10 ],
-      [ "HAND_R", -10 ],
-      [ "LEG_L", -10 ],
-      [ "LEG_R", -10 ],
-      [ "FOOT_L", -10 ],
-      [ "FOOT_R", -10 ]
+      [ "torso", -10 ],
+      [ "head", -10 ],
+      [ "eyes", -10 ],
+      [ "mouth", -10 ],
+      [ "arm_l", -10 ],
+      [ "arm_r", -10 ],
+      [ "hand_l", -10 ],
+      [ "hand_r", -10 ],
+      [ "leg_l", -10 ],
+      [ "leg_r", -10 ],
+      [ "foot_l", -10 ],
+      [ "foot_r", -10 ]
     ],
     "purifiable": false,
     "prereqs": [ "IMMORTAL_1" ],
     "changes_to": [ "IMMORTAL_3" ],
-    "category": [ "IMMORTAL" ],
-    "flags": "IMMORTAL_FLAG"
+    "category": [ "IMMORTAL" ]
   },
   {
     "type": "mutation",
@@ -75,22 +73,21 @@
     "fatigue_modifier": -0.35,
     "fatigue_regen_modifier": 0.35,
     "encumbrance_always": [
-      [ "TORSO", -15 ],
-      [ "HEAD", -15 ],
-      [ "EYES", -15 ],
-      [ "MOUTH", -15 ],
-      [ "ARM_L", -15 ],
-      [ "ARM_R", -15 ],
-      [ "HAND_L", -15 ],
-      [ "HAND_R", -15 ],
-      [ "LEG_L", -15 ],
-      [ "LEG_R", -15 ],
-      [ "FOOT_L", -15 ],
-      [ "FOOT_R", -15 ]
+      [ "torso", -15 ],
+      [ "head", -15 ],
+      [ "eyes", -15 ],
+      [ "mouth", -15 ],
+      [ "arm_l", -15 ],
+      [ "arm_r", -15 ],
+      [ "hand_l", -15 ],
+      [ "hand_r", -15 ],
+      [ "leg_l", -15 ],
+      [ "leg_r", -15 ],
+      [ "foot_l", -15 ],
+      [ "foot_r", -15 ]
     ],
     "purifiable": false,
     "prereqs": [ "IMMORTAL_2" ],
-    "category": [ "IMMORTAL" ],
-    "flags": "IMMORTAL_FLAG"
+    "category": [ "IMMORTAL" ]
   }
 ]

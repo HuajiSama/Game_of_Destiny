@@ -1,83 +1,58 @@
 [
   {
-    "type": "mutation",
-    "id": "EASYSLEEPER",
-    "copy-from": "EASYSLEEPER",
-    "extend": {
-      "category": [ "SP_SENSE1" ],
-      "flags": [ "SP_SENSE1_FLAG" ]
-    }
-  },
-  {
-    "type": "mutation",
-    "id": "SPIRITUAL",
-    "copy-from": "SPIRITUAL",
-    "extend": {
-      "category": [ "SP_SENSE1" ],
-      "flags": [ "SP_SENSE1_FLAG" ]
-    }
-  },
-  {
-    "type": "mutation",
-    "id": "NONADDICTIVE",
-    "copy-from": "NONADDICTIVE",
-    "extend": {
-      "category": [ "SP_SENSE1" ],
-      "flags": [ "SP_SENSE1_FLAG" ]
-    }
-  },
-  {
+    "//": "1",
     "type": "mutation",
     "id": "ANIMALEMPATH",
     "copy-from": "ANIMALEMPATH",
-    "extend": {
-      "category": [ "SP_SENSE1" ],
-      "flags": [ "SP_SENSE1_FLAG" ]
-    }
+    "extend": { "category": [ "SP_SENSE" ] }
   },
   {
     "type": "mutation",
     "id": "BEAUTIFUL",
     "copy-from": "BEAUTIFUL",
-    "extend": {
-      "category": [ "SP_SENSE1" ],
-      "flags": [ "SP_SENSE1_FLAG" ]
-    }
+    "extend": { "category": [ "SP_SENSE" ] }
   },
   {
     "type": "mutation",
-    "id": "OPTIMISTIC",
-    "copy-from": "OPTIMISTIC",
-    "extend": {
-      "category": [ "SP_SENSE2" ],
-      "flags": [ "SP_SENSE2_FLAG" ]
-    }
+    "id": "EASYSLEEPER",
+    "copy-from": "EASYSLEEPER",
+    "extend": { "category": [ "SP_SENSE" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "NONADDICTIVE",
+    "copy-from": "NONADDICTIVE",
+    "extend": { "category": [ "SP_SENSE" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "SPIRITUAL",
+    "copy-from": "SPIRITUAL",
+    "extend": { "category": [ "SP_SENSE" ] }
+  },
+  {
+    "//": "2",
+    "type": "mutation",
+    "id": "BEAUTIFUL3",
+    "copy-from": "BEAUTIFUL3",
+    "extend": { "category": [ "SP_SENSE" ] }
   },
   {
     "type": "mutation",
     "id": "GOURMAND",
     "copy-from": "GOURMAND",
-    "extend": {
-      "category": [ "SP_SENSE2" ],
-      "flags": [ "SP_SENSE2_FLAG" ]
-    }
+    "extend": { "category": [ "SP_SENSE" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "OPTIMISTIC",
+    "copy-from": "OPTIMISTIC",
+    "extend": { "category": [ "SP_SENSE" ] }
   },
   {
     "type": "mutation",
     "id": "STYLISH",
     "copy-from": "STYLISH",
-    "extend": {
-      "category": [ "SP_SENSE2" ],
-      "flags": [ "SP_SENSE2_FLAG" ]
-    }
-  },
-  {
-    "type": "mutation",
-    "id": "BEAUTIFUL3",
-    "copy-from": "BEAUTIFUL3",
-    "extend": {
-      "category": [ "SP_SENSE2" ],
-      "flags": [ "SP_SENSE2_FLAG" ]
-    }
+    "extend": { "category": [ "SP_SENSE" ] }
   }
 ]

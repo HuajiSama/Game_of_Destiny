@@ -8,8 +8,7 @@
     "passive_mods": { "str_mod": 1, "dex_mod": 1, "int_mod": 1, "per_mod": 1 },
     "purifiable": false,
     "changes_to": [ "SP_NOVICE2" ],
-    "category": [ "SP_NOVICE" ],
-    "flags": "SP_NOVICE_FLAG"
+    "category": [ "SP_NOVICE" ]
   },
   {
     "type": "mutation",
@@ -20,7 +19,6 @@
     "passive_mods": { "str_mod": 2, "dex_mod": 2, "int_mod": 2, "per_mod": 2 },
     "purifiable": false,
     "prereqs": [ "SP_NOVICE1" ],
-    "category": [ "SP_NOVICE" ],
-    "flags": "SP_NOVICE_FLAG"
+    "category": [ "SP_NOVICE" ]
   }
 ]
