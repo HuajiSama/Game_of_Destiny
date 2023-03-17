@@ -29,7 +29,7 @@
     "start_name": "荒林",
     "allowed_locs": [ "sloc_forest" ],
     "professions": [ "GS_outcast" ],
-    "traits": [ "END_lineage" ],
+    "traits": [ "END_LINEAGE" ],
     "flags": [ "WIN_START", "CHALLENGE" ]
   }
 ]

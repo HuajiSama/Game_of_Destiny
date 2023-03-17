@@ -7,92 +7,63 @@
     "description": "你完全开发了自己的脑域，你的聪明程度远超过正常人的想像，智力+6。",
     "prereqs": [ "INT_UP_3" ],
     "passive_mods": { "int_mod": 6 },
-    "category": [ "SP_INTELLIGENCE3" ],
-    "flags": [ "SP_INTELLIGENCE3_FLAG" ]
-
+    "category": [ "SP_INTELLIGENCE" ]
   },
   {
     "//": "1",
     "type": "mutation",
     "id": "INT_UP",
     "copy-from": "INT_UP",
-    "extend": {
-      "category": [ "SP_INTELLIGENCE1" ],
-      "flags": [ "SP_INTELLIGENCE1_FLAG" ]
-    }
+    "extend": { "category": [ "SP_INTELLIGENCE" ] }
   },
   {
     "type": "mutation",
     "id": "INT_UP_2",
     "copy-from": "INT_UP_2",
-    "extend": {
-      "category": [ "SP_INTELLIGENCE1" ],
-      "flags": [ "SP_INTELLIGENCE1_FLAG" ]
-    }
+    "extend": { "category": [ "SP_INTELLIGENCE" ] }
   },
   {
     "type": "mutation",
     "id": "FASTREADER",
     "copy-from": "FASTREADER",
-    "extend": {
-      "category": [ "SP_INTELLIGENCE1" ],
-      "flags": [ "SP_INTELLIGENCE1_FLAG" ]
-    }
+    "extend": { "category": [ "SP_INTELLIGENCE" ] }
   },
   {
     "type": "mutation",
     "id": "LIAR",
     "copy-from": "LIAR",
-    "extend": {
-      "category": [ "SP_INTELLIGENCE1" ],
-      "flags": [ "SP_INTELLIGENCE1_FLAG" ]
-    }
+    "extend": { "category": [ "SP_INTELLIGENCE" ] }
   },
   {
     "//": "2",
     "type": "mutation",
     "id": "INT_UP_3",
     "copy-from": "INT_UP_3",
-    "extend": {
-      "category": [ "SP_INTELLIGENCE2" ],
-      "flags": [ "SP_INTELLIGENCE2_FLAG" ]
-    }
+    "extend": { "category": [ "SP_INTELLIGENCE" ] }
   },
   {
     "type": "mutation",
     "id": "GOODMEMORY",
     "copy-from": "GOODMEMORY",
-    "extend": {
-      "category": [ "SP_INTELLIGENCE2" ],
-      "flags": [ "SP_INTELLIGENCE2_FLAG" ]
-    }
+    "extend": { "category": [ "SP_INTELLIGENCE" ] }
   },
   {
     "type": "mutation",
     "id": "PACKMULE",
     "copy-from": "PACKMULE",
-    "extend": {
-      "category": [ "SP_INTELLIGENCE2" ],
-      "flags": [ "SP_INTELLIGENCE2_FLAG" ]
-    }
+    "extend": { "category": [ "SP_INTELLIGENCE" ] }
   },
   {
     "//": "3",
     "type": "mutation",
     "id": "FASTLEARNER",
     "copy-from": "FASTREADER",
-    "extend": {
-      "category": [ "SP_INTELLIGENCE3" ],
-      "flags": [ "SP_INTELLIGENCE3_FLAG" ]
-    }
+    "extend": { "category": [ "SP_INTELLIGENCE" ] }
   },
   {
     "type": "mutation",
     "id": "ROBUST",
     "copy-from": "ROBUSH",
-    "extend": {
-      "category": [ "SP_INTELLIGENCE3" ],
-      "flags": [ "SP_INTELLIGENCE3_FLAG" ]
-    }
+    "extend": { "category": [ "SP_INTELLIGENCE" ] }
   }
 ]

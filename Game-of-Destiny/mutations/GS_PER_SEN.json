@@ -8,8 +8,20 @@
   },
   {
     "type": "mutation",
+    "id": "PRETTY",
+    "copy-from": "PRETTY",
+    "extend": { "category": [ "SP_SENSE" ] }
+  },
+{
+    "type": "mutation",
     "id": "BEAUTIFUL",
     "copy-from": "BEAUTIFUL",
+    "extend": { "category": [ "SP_SENSE" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "BEAUTIFUL2",
+    "copy-from": "BEAUTIFUL2",
     "extend": { "category": [ "SP_SENSE" ] }
   },
   {

@@ -71,6 +71,12 @@
   },
   {
     "type": "mutation",
+    "id": "TOUGH2",
+    "copy-from": "TOUGH2",
+    "extend": { "category": [ "SP_STRENGTH" ] }
+  },
+  {
+    "type": "mutation",
     "id": "TOUGH3",
     "copy-from": "TOUGH3",
     "extend": { "category": [ "SP_STRENGTH" ] }

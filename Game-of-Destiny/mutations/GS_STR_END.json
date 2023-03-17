@@ -65,6 +65,12 @@
   },
   {
     "type": "mutation",
+    "id": "PAINREC2",
+    "copy-from": "PAINREC2",
+    "extend": { "category": [ "SP_ENDURENCE" ] }
+  },
+  {
+    "type": "mutation",
     "id": "INFIMMUNE",
     "copy-from": "INFIMMUNE",
     "extend": { "category": [ "SP_ENDURENCE" ] }
@@ -73,6 +79,12 @@
     "type": "mutation",
     "id": "FASTHEALER",
     "copy-from": "FASTHEALER",
+    "extend": { "category": [ "SP_ENDURENCE" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "FASTHEALER2",
+    "copy-from": "FASTHEALER2",
     "extend": { "category": [ "SP_ENDURENCE" ] }
   },
   {
