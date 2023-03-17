@@ -322,7 +322,7 @@
         "effect": { "u_add_trait": "GOODHEARING" }
       },
       {
-        "text": "夜视(Lv1)",
+        "text": "夜视",
         "condition": { "not": { "u_has_trait": "NIGHTVISION" } },
         "topic": "TALK_DONE",
         "effect": { "u_add_trait": "NIGHTVISION" }
@@ -522,7 +522,7 @@
         "effect": { "u_add_trait": "EASYSLEEPER" }
       },
       {
-        "text": "抗瘾性",
+        "text": "抗瘾体质",
         "condition": { "not": { "u_has_trait": "NONADDICTIVE" } },
         "topic": "TALK_DONE",
         "effect": { "u_add_trait": "NONADDICTIVE" }
@@ -576,7 +576,7 @@
     "dynamic_line": "时空停滞，一股神祕力量涌入体内！",
     "responses": [
       {
-        "text": "肉身成圣(一级)",
+        "text": "肉身成圣（一级）",
         "condition": {
           "and": [
             { "not": { "u_has_trait": "IMMORTAL_1" } },
@@ -588,13 +588,13 @@
         "effect": { "u_add_trait": "IMMORTAL_1" }
       },
       {
-        "text": "肉身成圣(二级)",
+        "text": "肉身成圣（二级）",
         "condition": { "and": [ { "u_has_trait": "IMMORTAL_1" }, { "not": { "u_has_trait": "IMMORTAL_2" } } ] },
         "topic": "TALK_DONE",
         "effect": [ { "u_lose_trait": "IMMORTAL_1" }, { "u_add_trait": "IMMORTAL_2" } ]
       },
       {
-        "text": "肉身成圣(满级)",
+        "text": "肉身成圣（满级）",
         "condition": { "and": [ { "u_has_trait": "IMMORTAL_2" }, { "not": { "u_has_trait": "IMMORTAL_3" } } ] },
         "topic": "TALK_DONE",
         "effect": [ { "u_lose_trait": "IMMORTAL_2" }, { "u_add_trait": "IMMORTAL_3" } ]
