@@ -147,6 +147,7 @@
     "color": "light_red",
     "location": "accessories",
     "mod_targets": [ "bow" ],
+    "install_time": "1 s",
     "gun_data": {
       "skill": "archery",
       "ammo": "arrow",
@@ -188,6 +189,10 @@
     "durability": 8,
     "clip_size": 9,
     "reload": 100,
+    "use_action":{
+      "type": "transform",
+      "target": "mechanic_umbrella_spear"
+    },
     "modes": [ [ "DEFAULT", "单发", 1 ], [ "BURST", "连射", 3 ] ],
     "built_in_mods": [ "mechanic_umbrella_spear" ],
     "valid_mod_locations": [ [ "mechanism", 1 ] ],
@@ -201,16 +206,24 @@
     "category": "weapons",
     "name": "天机伞─长枪形态",
     "description": " ",
+    "weight": 1200,
+    "volume": 8,
     "material": [ "super_mt" ],
     "symbol": "/",
     "color": "light_gray",
+    "use_action":{
+      "type": "transform",
+      "target": "GS_wp_mechanic_umbrella"
+    },
     "gunmod_data": {
       "location": "mechanism",
       "mod_targets": [ "crossbow" ],
-      "mode_modifier": [ [ "REACH", "长枪模式", 2, [ "MELEE" ] ] ]
+      "mode_modifier": [ [ "REACH", "长枪模式", 2, [ "MELEE" ] ] ],
+      "install_time": "5 s"
     },
     "techniques": [ "WBLOCK_1", "WIDE", "IMPALE" ],
-    "flags": [ "DURABLE_MELEE", "IRREMOVABLE" ]
+    "flags": [ "DURABLE_MELEE", "IRREMOVABLE" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "bolt": 9 } } ]
   },
   {
     "//": "定位：以S&W500为原型，大威力自定义左轮手枪。",

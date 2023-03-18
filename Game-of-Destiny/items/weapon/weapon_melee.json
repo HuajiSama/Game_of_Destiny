@@ -377,28 +377,9 @@
     "to_hit": 2,
     "ammo": "merit_type",
     "charges_per_use": 5,
-    "pocket_data": [
-      { 
-        "pocket_type": "MAGAZINE",
-        "rigid": true,
-        "ammo_restriction": { "merit_type": 50 }
-      }
-    ],
-    "use_action": {
-      "type": "cast_spell",
-      "spell_id": "AEA_FIREBALL",
-      "no_fail": true,
-      "level":15
-    },
-    "relic_data": {
-      "passive_effects": [
-        {
-          "has": "WIELD",
-          "condition": "ALWAYS",
-          "effect": [ "AEP_PSYSHIELD", "AEA_LIGHT" ]
-        }
-      ]
-    },
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "merit_type": 50 } } ],
+    "use_action": { "type": "cast_spell", "spell_id": "AEA_FIREBALL", "no_fail": true, "level": 15 },
+    "relic_data": { "passive_effects": [ { "has": "WIELD", "condition": "ALWAYS", "effect": [ "AEP_PSYSHIELD", "AEA_LIGHT" ] } ] },
     "flags": [ "DURABLE_MELEE", "SHEATH_SWORD" ],
     "//2": "NON_STUCK"
   }
