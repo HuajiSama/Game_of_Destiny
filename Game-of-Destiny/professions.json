@@ -1,7 +1,7 @@
 [
   {
     "type": "profession",
-    "ident": "GS_detective",
+    "id": "GS_detective",
     "name": "侦探",
     "description": "不擅战斗的智力向职业，如何快速武装自己是存活的关键。",
     "points": 2,
@@ -15,7 +15,7 @@
   },
   {
     "type": "profession",
-    "ident": "GS_medic",
+    "id": "GS_medic",
     "name": "护理师",
     "description": "你善于隐藏自己的存在感，这种打打杀杀的场合实在让人头痛...问题是，怎么逃出这里？",
     "points": 2,
@@ -41,7 +41,7 @@
   },
   {
     "type": "profession",
-    "ident": "GS_police",
+    "id": "GS_police",
     "name": "警察",
     "description": "有一些武术基础，擅长贴身搏击放倒对手的战斗向职业，使用歌声强化近战能力。",
     "points": 3,
@@ -66,7 +66,7 @@
   },
   {
     "type": "profession",
-    "ident": "GS_star",
+    "id": "GS_star",
     "name": "明星",
     "description": "你是万众瞩目的焦点，过人的美貌曾让你无往不利，即使最恶劣的情況也不忘保持形象，自带的明星光环能魅惑对手。",
     "points": 4,
@@ -95,7 +95,7 @@
   },
   {
     "type": "profession",
-    "ident": "GS_sniper",
+    "id": "GS_sniper",
     "name": "狙击手",
     "description": "特种兵中的精英，拥有极佳的射击天赋，擅长从远处放倒对手，近身格斗也有不俗的表现。",
     "points": 5,
@@ -135,7 +135,7 @@
   },
   {
     "type": "profession",
-    "ident": "GS_wasteland_survivor",
+    "id": "GS_wasteland_survivor",
     "name": "废土生存者",
     "description": "你是废土世界的原住民，这个世界已被拋弃，而你在此流离。",
     "points": 3,
@@ -181,7 +181,7 @@
   },
   {
     "type": "profession",
-    "ident": "GS_scavenger",
+    "id": "GS_scavenger",
     "name": "超凡者",
     "description": "你原本打算在废土小赚一票，不料传送失灵，被困于此...",
     "points": 5,
@@ -221,7 +221,7 @@
   },
   {
     "type": "profession",
-    "ident": "GS_outcast",
+    "id": "GS_outcast",
     "name": "时空流浪者",
     "description": "因为某些原因耗尽天命、形神俱消，被命运抛弃的超凡者，流离在废弃时空中等待湮灭。",
     "points": 0,
