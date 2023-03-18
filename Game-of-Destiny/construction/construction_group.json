@@ -1,0 +1,32 @@
+[
+  {
+    "type": "construction_group",
+    "id": "bulid_xhkt",
+    "name": "建设：下行楼梯"
+  },
+  {
+    "type": "construction_group",
+    "id": "bulid_shkt",
+    "name": "建设：上行楼梯"
+  },
+  {
+    "type": "construction_group",
+    "id": "bulid_pwd",
+    "name": "建设：平屋顶"
+  },
+  {
+    "type": "construction_group",
+    "id": "bulid_pwd_1",
+    "name": "建设：平屋顶"
+  },
+  {
+    "type": "construction_group",
+    "id": "bulid_tudui",
+    "name": "建造：土堆"
+  },
+  {
+    "type": "construction_group",
+    "id": "bulid_putu",
+    "name": "建设：铺土"
+  }
+]

@@ -13,7 +13,7 @@
     "initial_charges": 48,
     "charges_per_use": 48,
     "relic_data": { "charge_info": { "regenerate_ammo": true, "recharge_type": "periodic", "time": "1 h" } },
-    "use_action": "AEA_ENTRANCE",
+    "use_action": { "type": "cast_spell", "spell_id": "AEA_ENTRANCE", "no_fail": true, "level": 15 },
     "flags": [ "NO_UNLOAD", "ZERO_WEIGHT" ]
   },
   {
