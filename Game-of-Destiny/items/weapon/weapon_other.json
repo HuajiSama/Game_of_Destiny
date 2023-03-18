@@ -12,8 +12,14 @@
     "max_charges": 48,
     "initial_charges": 48,
     "charges_per_use": 48,
-    "artifact_data": { "charge_type": "ARTC_TIME", "effects_activated": [ "AEA_ENTRANCE" ] },
-    "use_action": "ARTIFACT",
+    "relic_data": {
+      "charge_info": {
+        "regenerate_ammo": true,
+        "recharge_type": "periodic",
+        "time": "1 h"
+      }
+    },
+    "use_action": "AEA_ENTRANCE",
     "flags": [ "NO_UNLOAD", "ZERO_WEIGHT" ]
   },
   {
@@ -28,8 +34,34 @@
     "max_charges": 36,
     "initial_charges": 24,
     "charges_per_use": 24,
-    "artifact_data": { "effects_wielded": [ "AEP_GLOW" ], "charge_type": "ARTC_TIME", "effects_activated": [ "AEA_CONFUSED" ] },
-    "use_action": "ARTIFACT",
+    "relic_data": {
+      "charge_info": {
+        "regenerate_ammo": true,
+        "recharge_type": "periodic",
+        "time": "1 h"
+      },
+      "passive_effects": [
+        {
+          "has": "WIELD",
+          "condition": "ALWAYS",
+          "effect": [ "AEA_LIGHT" ]
+        }
+      ]
+    },
+    "use_action": [ 
+      { 
+        "type": "cast_spell",
+        "spell_id": "AEA_ENTRANCE",
+        "no_fail": true,
+        "level":15
+      },
+      { 
+        "type": "cast_spell",
+        "spell_id": "AEA_CONFUSED",
+        "no_fail": true,
+        "level":15
+      }
+    ],
     "effects": [ "ZERO_WEIGHT" ],
     "flags": [ "NO_UNLOAD", "ZERO_WEIGHT" ]
   },
@@ -45,12 +77,34 @@
     "max_charges": 24,
     "initial_charges": 12,
     "charges_per_use": 12,
-    "artifact_data": {
-      "effects_wielded": [ "AEP_GLOW" ],
-      "charge_type": "ARTC_TIME",
-      "effects_activated": [ "AEA_ENTRANCE", "AEA_CONFUSED" ]
+    "relic_data": {
+      "charge_info": {
+        "regenerate_ammo": true,
+        "recharge_type": "periodic",
+        "time": "1 h"
+      },
+      "passive_effects": [
+        {
+          "has": "WIELD",
+          "condition": "ALWAYS",
+          "effect": [ "AEA_LIGHT" ]
+        }
+      ]
     },
-    "use_action": "ARTIFACT",
+    "use_action": [ 
+      { 
+        "type": "cast_spell",
+        "spell_id": "AEA_ENTRANCE",
+        "no_fail": true,
+        "level":15
+      },
+      { 
+        "type": "cast_spell",
+        "spell_id": "AEA_CONFUSED",
+        "no_fail": true,
+        "level":15
+      }
+    ],
     "effects": [ "ZERO_WEIGHT" ],
     "flags": [ "NO_UNLOAD", "ZERO_WEIGHT" ]
   }
