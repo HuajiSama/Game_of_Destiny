@@ -8,7 +8,6 @@
     "material": [ "super_mt" ],
     "symbol": "*",
     "color": "dark_gray",
-    "ammo": "destiny_silver_type",
     "charges_per_use": 5,
     "pocket_data": [ { "pocket_type": "MAGAZINE", "holster": true, "rigid": true, "ammo_restriction": { "destiny_silver_type": 5 } } ],
     "relic_data": { "charge_info": { "regenerate_ammo": true } },
