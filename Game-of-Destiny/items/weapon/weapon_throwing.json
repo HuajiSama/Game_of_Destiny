@@ -1,13 +1,13 @@
 [
   {
     "//1": "定位：初、中期快速掌握的中威力远程，后期威力不足，以掷斧兵为灵感诞生，平衡/debug最费事的装备之一。",
-    "type": "GUN",
     "id": "GS_wp_dex2_glove_throwing",
+    "type": "GUN",
     "category": "GS_weapon",
     "name": "磁引手套",
     "description": "利用磁能增加投掷伤害的武装手套，击中头部时追加目盲效果，可连掷2发，(F)切换投掷模式。",
-    "weight": 850,
-    "volume": 2,
+    "weight": "850 g",
+    "volume": "2 L",
     "material": [ "super_mt" ],
     "symbol": "(",
     "color": "brown",

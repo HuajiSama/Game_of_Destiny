@@ -1,15 +1,15 @@
 [
   {
+    "id": "GS_Scavenger_PSK",
     "type": "GENERIC",
     "category": "GS_resoure",
-    "id": "GS_Scavenger_PSK",
     "name": "探索者生存包",
     "description": "为探索废土准备的个人生存组(Personal Survival Kit)，坚固的皮背包载满各种野外求生的工具以及少许存粮，你最好在资源耗尽前找到活下去的方法，拆解它获得内容物。",
-    "symbol": "&",
-    "color": "brown",
-    "material": [ "leather", "iron", "plastic" ],
     "weight": 4500,
     "volume": 20,
+    "material": [ "leather", "iron", "plastic" ],
+    "symbol": "&",
+    "color": "brown",
     "armor_data": { "covers": [ "TORSO" ], "coverage": 30, "material_thickness": 2, "encumbrance": 10 },
     "flags": [ "BELTED" ]
   },
