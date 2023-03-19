@@ -30,10 +30,11 @@
     "category": "GS_resoure",
     "name": { "str": "天命铜币" },
     "description": "时空能量凝结的货币单位，代表着天地间的气运与命数。",
+    "weight": "1 g",
+    "volume": "1 ml",
     "material": "super_mt",
     "symbol": "$",
-    "color": "brown",
-    "flags": [ "ZERO_WEIGHT" ]
+    "color": "brown"
   },
   {
     "id": "destiny_silver",
@@ -42,10 +43,11 @@
     "category": "GS_resoure",
     "name": { "str": "天命银币" },
     "description": "时空能量凝结的进阶货币，代表着天地间的气运与命数。",
+    "weight": "1 g",
+    "volume": "1 ml",
     "material": "super_mt",
     "symbol": "$",
-    "color": "light_gray",
-    "flags": [ "ZERO_WEIGHT" ]
+    "color": "light_gray"
   },
   {
     "id": "destiny_gold",
@@ -54,10 +56,11 @@
     "category": "GS_resoure",
     "name": { "str": "天命金币" },
     "description": "时空能量凝结的最高货币，代表着天地间的气运与命数，然而这是测试用道具。",
+    "weight": "1 g",
+    "volume": "1 ml",
     "material": "super_mt",
     "symbol": "$",
-    "color": "yellow",
-    "flags": [ "ZERO_WEIGHT" ]
+    "color": "yellow"
   },
   {
     "id": "merit",
