@@ -2,7 +2,7 @@
   {
     "type": "vehicle_part",
     "id": "GOS_cargo_1",
-    "name": "功能空间箱i型",
+    "name": "功能空间箱I型",
     "symbol": "#",
     "color": "brown",
     "broken_symbol": "#",
@@ -22,7 +22,7 @@
   {
     "type": "vehicle_part",
     "id": "GOS_cargo_2",
-    "name": "功能空间箱ii型",
+    "name": "功能空间箱II型",
     "symbol": "#",
     "color": "light_cyan",
     "broken_symbol": "#",
@@ -42,7 +42,7 @@
   {
     "type": "vehicle_part",
     "id": "GOS_cargo_3",
-    "name": "功能空间箱iii型",
+    "name": "功能空间箱III型",
     "symbol": "#",
     "color": "light_blue",
     "broken_symbol": "#",
@@ -62,7 +62,7 @@
   {
     "type": "vehicle_part",
     "id": "GOS_cargo_4",
-    "name": "功能空间箱iV型",
+    "name": "功能空间箱IV型",
     "symbol": "#",
     "color": "light_blue",
     "broken_symbol": "#",
