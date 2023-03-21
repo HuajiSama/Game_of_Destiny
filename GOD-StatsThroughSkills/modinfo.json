@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "GODStatsThroughSkills",
+    "name": "超凡技能提升属性",
+    "authors": [ "滑稽sama" ],
+    "description": "技能(包括超凡技能)提升属性，与原版模组冲突。",
+    "category": "rebalance",
+    "dependencies": [ "dda", "Game_of_Destiny" ]
+  }
+]
