@@ -1,7 +1,7 @@
 [
   {
     "type": "material",
-    "ident": "silver",
+    "id": "silver",
     "name": "Silver",
     "copy-from": "silver",
     "repaired_with": "silver_small",
@@ -9,7 +9,7 @@
   },
   {
     "type": "material",
-    "ident": "gold",
+    "id": "gold",
     "name": "Gold",
     "copy-from": "gold",
     "repaired_with": "gold_small",

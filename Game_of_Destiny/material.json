@@ -1,7 +1,7 @@
 [
   {
     "type": "material",
-    "ident": "super_mt",
+    "id": "super_mt",
     "name": "超凡材质",
     "repaired_with": "destiny_copper",
     "density": 1.0,
@@ -19,7 +19,7 @@
   },
   {
     "type": "material",
-    "ident": "merit_mt",
+    "id": "merit_mt",
     "name": "功德之气",
     "repaired_with": "merit",
     "density": 1.0,
@@ -37,7 +37,7 @@
   },
   {
     "type": "material",
-    "ident": "GS_int_sheild",
+    "id": "GS_int_sheild",
     "name": "音波屏障",
     "repaired_with": "destiny_copper",
     "density": 1.0,

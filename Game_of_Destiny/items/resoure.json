@@ -69,11 +69,12 @@
     "category": "GS_resoure",
     "name": { "str": "功德之气" },
     "description": "修福德、行惠施、利众生，具慈悲心的善行所累积的信仰之力，克制一切邪魇之物，特殊的装备或功法能导引其力量，缺点是难以收集。",
+    "weight": "1 g",
+    "volume": "1 ml",
     "material": "merit_mt",
     "symbol": "'",
     "color": "yellow",
-    "effects": [ "NEVER_MISFIRES" ],
-    "flags": [ "ZERO_WEIGHT" ]
+    "effects": [ "NEVER_MISFIRES" ]
   },
   {
     "//": "曾经重量可以设为负数，仅以这行代码缅怀那段时光。",
@@ -82,10 +83,12 @@
     "category": "GS_resoure",
     "name": { "str": "五鬼搬运" },
     "description": "以功德之力洗涤炼化的五方魂鬼，能施展搬运秘法增加负重上限。\n \n※只有一次效果，重复持有无效！",
+    "weight": "1 g",
+    "volume": "1 ml",
     "material": [ "merit_mt" ],
     "symbol": "g",
     "color": "white",
     "artifact_data": { "effects_carried": [ "AEP_CARRY_MORE" ] },
-    "flags": [ "NO_SALVAGE", "ZERO_WEIGHT" ]
+    "flags": [ "NO_SALVAGE" ]
   }
 ]
