@@ -191,30 +191,75 @@
     "description": "智力专长凝结的辅助装备，提供额外的空间。",
     "symbol": "[",
     "color": "brown",
-    "storage": 30,
     "material": [ "super_mt", "steel" ],
-    "flags": [ "ZERO_WEIGHT" ]
+    "flags": [ "ZERO_WEIGHT" ,"TARDIS" ,"AURA" ],
+    "weight": "10 g",
+    "volume": "10 ml",
+    "pocket_data": [
+    {
+      "pocket_type": "CONTAINER",
+      "rigid": true,
+      "max_contains_volume": "30 L",
+      "max_item_volume": "30 L",
+      "max_contains_weight": "10000 kg",
+      "max_item_length": "300 cm",
+      "moves": 1
+      }
+    ]
   },
   {
     "id": "GS_eq_int3_bag",
     "copy-from": "GS_eq_int2_bag",
     "type": "ARMOR",
     "name": { "str": "空间储戒II" },
-    "storage": 62
+    "flags": [ "ZERO_WEIGHT","TARDIS" ,"AURA" ],
+    "pocket_data": [
+    {
+      "pocket_type": "CONTAINER",
+      "rigid": true,
+      "max_contains_volume": "62 L",
+      "max_item_volume": "62 L",
+      "max_contains_weight": "10000 kg",
+      "max_item_length": "500 cm",
+      "moves": 1
+      }
+    ]
   },
   {
     "id": "GS_eq_int4_bag",
     "copy-from": "GS_eq_int2_bag",
     "type": "ARMOR",
     "name": { "str": "空间储戒III" },
-    "storage": 125
+    "flags": [ "ZERO_WEIGHT","TARDIS" ,"AURA" ],
+    "pocket_data": [
+    {
+      "pocket_type": "CONTAINER",
+      "rigid": true,
+      "max_contains_volume": "125 L",
+      "max_item_volume": "125 L",
+      "max_contains_weight": "10000 kg",
+      "max_item_length": "1000 cm",
+      "moves": 1
+      }
+    ]
   },
   {
     "id": "GS_eq_int5_bag",
     "copy-from": "GS_eq_int2_bag",
     "type": "ARMOR",
     "name": { "str": "空间储戒IV" },
-    "storage": 255
+    "flags": [ "ZERO_WEIGHT","TARDIS" ,"AURA" ],
+    "pocket_data": [
+    {
+      "pocket_type": "CONTAINER",
+      "rigid": true,
+      "max_contains_volume": "255 L",
+      "max_item_volume": "255 L",
+      "max_contains_weight": "10000 kg",
+      "max_item_length": "10000 cm",
+      "moves": 1
+      }
+    ]
   },
   {
     "//": "采用其他材质是为了在上面刻字、标签",
