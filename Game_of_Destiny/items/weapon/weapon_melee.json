@@ -2,70 +2,79 @@
   {
     "//": "定位：快速、高命中、攻击力较武器低、伤害/速度比优秀。",
     "id": "GS_wp_str2_glove",
-    "type": "GENERIC",
+    "type": "ARMOR",
     "category": "GS_weapon",
     "name": "死握手套",
     "description": "力量系特质「死缠」的天命武装，提供快速、高效的徒手伤害，死缠特质能粘附物体，有机率擒抓敌人或缴械。",
-    "weight": 777,
-    "volume": 2,
-    "material": [ "super_mt" ],
+    "weight": "1000 g",
+    "volume": "200 ml",
+    "material": [ "super_mt"],
     "symbol": "[",
     "color": "brown",
     "bashing": 15,
     "to_hit": 2,
-    "armor_data": { "covers": [ "HANDS" ], "coverage": 80, "material_thickness": 1 },
     "techniques": [ "tec_judo_break", "DEF_DISARM" ],
-    "flags": [ "UNARMED_WEAPON", "DURABLE_MELEE", "STURDY", "WATERPROOF", "OUTER" ]
+    "flags": ["DURABLE_MELEE", "STURDY", "WATERPROOF", "OUTER" ],  
+    "material_thickness": 25,  
+    "armor": [
+      {
+        "material": [
+          { "type": "super_mt", "covered_by_mat": 100, "thickness": 25.0 }
+        ],
+        "encumbrance": 0,
+        "coverage": 100,
+        "covers": [ "hand_l", "hand_r" ],
+        "specifically_covers": [ "hand_wrist_l", "hand_wrist_r", "hand_palm_l", "hand_palm_r", "hand_back_l", "hand_back_r", "hand_fingers_l", "hand_fingers_r" ]
+      },
+      {
+        "material": [ 
+        { "type": "super_mt", "covered_by_mat": 100, "thickness": 25.0 }
+      ],
+        "encumbrance": 0,
+        "coverage": 100,
+        "covers": [ "arm_l", "arm_r" ],
+        "specifically_covers": [ "arm_lower_l", "arm_lower_r", "arm_elbow_r", "arm_elbow_l" ]
+      }
+    ]
   },
   {
     "id": "GS_wp_str3_glove",
-    "type": "GENERIC",
+    "type": "ARMOR",
     "category": "GS_weapon",
     "name": "死握拳套",
     "description": "力量系特质「死缠」的天命武装，提供快速、高效的徒手伤害，死缠特质能粘附物体，有机率擒抓敌人或发动重击。",
-    "weight": 888,
-    "volume": 2,
-    "material": [ "super_mt" ],
-    "symbol": "[",
-    "color": "brown",
+    "copy-from": "GS_wp_str2_glove",
     "bashing": 22,
     "to_hit": 2,
-    "armor_data": { "covers": [ "HANDS" ], "coverage": 80, "material_thickness": 1, "environmental_protection": 1 },
-    "techniques": [ "tec_judo_break", "DEF_DISARM", "tec_eskrima_combination" ],
-    "flags": [ "UNARMED_WEAPON", "DURABLE_MELEE", "STURDY", "WATERPROOF", "OUTER" ]
+    "techniques": [ "tec_judo_break", "DEF_DISARM", "tec_eskrima_combination" ]
   },
   {
     "id": "GS_wp_str4_glove",
-    "type": "GENERIC",
+    "type": "ARMOR",
     "category": "GS_weapon",
     "name": "死握钢拳",
     "description": "力量系特质「死缠」的天命武装，超凡合金护手，机率发动擒抓或重击。",
-    "weight": 999,
-    "volume": 3,
-    "material": [ "super_mt" ],
-    "symbol": "[",
-    "color": "dark_gray",
+    "copy-from": "GS_wp_str2_glove",
     "bashing": 29,
     "to_hit": 2,
-    "armor_data": { "covers": [ "HANDS" ], "coverage": 95, "material_thickness": 2, "environmental_protection": 1 },
-    "techniques": [ "tec_judo_break", "DEF_DISARM", "tec_brawl_power" ],
-    "flags": [ "UNARMED_WEAPON", "DURABLE_MELEE", "STURDY", "OUTER", "WATERPROOF" ]
+    "techniques": [ "tec_judo_break", "DEF_DISARM", "tec_brawl_power" ]
   },
   {
     "//1": "定位：力量系终极武装─高达甲的搭配，小说中具备离合领域，以能源冲击表现，补强爆发/穿透力。",
     "//2": "远程武器穿戴时默认部位为躯干，没法改到手上，因此以离合手甲作为容器。",
     "id": "GS_wp_str5_glove",
-    "type": "GENERIC",
+    "type": "ARMOR",
     "category": "GS_weapon",
     "name": "离合军手",
     "description": "力量系特质「死缠」进化的武装，控制物质间的引斥力，使用UPS电力瞬发能量冲击(f)，作为近身武器时有机率擒抓对手、格挡攻击、缴械。\n \n※武装等级已封顶。",
-    "weight": 1000,
-    "volume": 4,
-    "material": [ "super_mt" ],
+    "copy-from": "GS_wp_str2_glove",
+    "weight": "1000 g",
+    "volume": "400 ml",
     "symbol": "[",
     "color": "light_gray",
     "bashing": 35,
     "to_hit": 3,
+    "ammo": [ "ups" ],
     "gun_data": {
       "skill": "melee",
       "range": 5,
@@ -79,8 +88,7 @@
       "modes": [ [ "DEFAULT", "能量冲击", 1 ], [ "BURST", "连发冲击", 4 ] ],
       "ammo_effects": [ "LASER", "NEVER_MISFIRES" ]
     },
-    "techniques": [ "tec_judo_break", "DEF_DISARM", "tec_brawl_power" ],
-    "flags": [ "UNARMED_WEAPON", "DURABLE_MELEE", "WATERPROOF" ]
+    "techniques": [ "tec_judo_break", "DEF_DISARM", "tec_brawl_power" ]
   },
   {
     "id": "GS_wp_str5_glove_holster",
@@ -198,6 +206,7 @@
   },
   {
     "id": "GS_wp_str3_katana_bloodly_active",
+    "copy-from": "katana",
     "type": "TOOL",
     "name": "狂暴武士刀",
     "description": "特质「血祭」的天命武装，散发暴虐的气息，侵蚀持刀者的理智，无法停下杀念！\n \n※狂暴能量持续10分钟，期间无法放下此刀。",
@@ -231,6 +240,7 @@
   },
   {
     "id": "GS_wp_str5_katana_Muramasa",
+    "copy-from": "katana",
     "type": "TOOL",
     "category": "GS_weapon",
     "name": "千子村正",
@@ -268,6 +278,7 @@
   },
   {
     "id": "GS_wp_str5_katana_Muramasa_active",
+    "copy-from": "katana",
     "type": "TOOL",
     "category": "GS_weapon",
     "name": "妖刀村正",
