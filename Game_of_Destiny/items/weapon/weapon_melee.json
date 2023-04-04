@@ -8,28 +8,33 @@
     "description": "力量系特质「死缠」的天命武装，提供快速、高效的徒手伤害，死缠特质能粘附物体，有机率擒抓敌人或缴械。",
     "weight": "1000 g",
     "volume": "200 ml",
-    "material": [ "super_mt"],
+    "material": [ "super_mt" ],
     "symbol": "[",
     "color": "brown",
     "bashing": 15,
     "to_hit": 2,
     "techniques": [ "tec_judo_break", "DEF_DISARM" ],
-    "flags": ["DURABLE_MELEE", "STURDY", "WATERPROOF", "OUTER" ],  
-    "material_thickness": 25,  
+    "flags": [ "DURABLE_MELEE", "STURDY", "WATERPROOF", "OUTER" ],
+    "material_thickness": 25,
     "armor": [
       {
-        "material": [
-          { "type": "super_mt", "covered_by_mat": 100, "thickness": 25.0 }
-        ],
+        "material": [ { "type": "super_mt", "covered_by_mat": 100, "thickness": 25.0 } ],
         "encumbrance": 0,
         "coverage": 100,
         "covers": [ "hand_l", "hand_r" ],
-        "specifically_covers": [ "hand_wrist_l", "hand_wrist_r", "hand_palm_l", "hand_palm_r", "hand_back_l", "hand_back_r", "hand_fingers_l", "hand_fingers_r" ]
+        "specifically_covers": [
+          "hand_wrist_l",
+          "hand_wrist_r",
+          "hand_palm_l",
+          "hand_palm_r",
+          "hand_back_l",
+          "hand_back_r",
+          "hand_fingers_l",
+          "hand_fingers_r"
+        ]
       },
       {
-        "material": [ 
-        { "type": "super_mt", "covered_by_mat": 100, "thickness": 25.0 }
-      ],
+        "material": [ { "type": "super_mt", "covered_by_mat": 100, "thickness": 25.0 } ],
         "encumbrance": 0,
         "coverage": 100,
         "covers": [ "arm_l", "arm_r" ],
