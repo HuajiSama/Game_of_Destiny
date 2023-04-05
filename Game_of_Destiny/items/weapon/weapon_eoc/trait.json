@@ -3,11 +3,11 @@
         {
             "type": "mutation",
             "id": "blood_katana_1_eoc_trait",
-            "name": { "str": "blood_katana_1_eoc_trait!" },
+            "name": { "str": "狂気之刃" },
             "points": 1,
             "purifiable": false,
             "valid": false,
-            "description": "blood_katana_1_eoc_trait.",
+            "description": "鬼神的力量依附于刀刃之上",
             "category": ["THRESH_ME_NPCS"],
             "enchantments": [ "blood_katana_1_enchantment" ]
         }

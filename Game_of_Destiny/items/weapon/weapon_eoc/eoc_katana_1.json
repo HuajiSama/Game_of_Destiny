@@ -89,7 +89,7 @@
         ],
         "false_effect": [
             {
-                "u_message": "没电!",
+                "u_message": "它没有回应你!",
                 "type": "bad"
             },
             {
@@ -367,7 +367,7 @@
                     },
                     "+",
                     {
-                        "const": 10
+                        "const": 90
                     }
                 ]
             },
@@ -429,7 +429,7 @@
                     },
                     "+",
                     {
-                        "const": 10
+                        "const": 90
                     }
                 ]
             },
@@ -491,7 +491,7 @@
                     },
                     "+",
                     {
-                        "const": 10
+                        "const": 90
                     }
                 ]
             },
@@ -517,249 +517,271 @@
         ]
     },
     {
-        "type": "effect_on_condition",
-        "id": "blood_katana_1_eoc_vtm_remain",
-        "//": "剩余电量显示",
-        "effect": {
-            "arithmetic": [
-                {
-                    "global_val": "var",
-                    "var_name": "vtm_1_remain",
-                    "type": "int"
+        "//": "自刀面板",
+        "id": "blood_katana_1_eoc_talk",
+        "type": "talk_topic",
+        "dynamic_line": "你拿起刀，准备……",
+        "responses": [
+            {
+                "text": "激发刀的力量",
+                "condition": {
+                    "and": [
+                        {
+                            "compare_int": [
+                                {
+                                    "u_val": "vitamin",
+                                    "name": "blood_katana_1_vtm_switch_status"
+                                },
+                                "=",
+                                {
+                                    "const": 0
+                                }
+                            ]
+                        }
+                    ]
                 },
-                "=",
-                {
-                    "u_val": "vitamin",
-                    "name": "blood_katana_1_vtm_battery"
-                },
-                "*",
-                {
-                    "const": 1
-                }
-            ],
-            "set_string_var": "fun",
-            "target_var": {
-                "global_val": "tester"
-            },
-            "u_message": "<global_val:tester> fff",
-            "type": "neutral"
-        }
-    },
-{
-    "//": "自刀面板",
-    "id": "blood_katana_1_eoc_talk",
-    "type": "talk_topic",
-    "dynamic_line": "你拿起刀，准备……",
-    "responses": [
-        {
-            "text": "激发刀的力量",
-            "condition": {
-                "and": [
+                "topic": "TALK_DONE",
+                "effect": [
                     {
-                        "compare_int": [
+                        "u_message": "血光四溢!",
+                        "type": "good"
+                    },
+                    {
+                        "u_add_effect": "blood_katana_1_vtm_switch_on",
+                        "duration": "1 s"
+                    },
+                    {
+                        "run_eocs": [
+                            "blood_katana_1_eoc_startcheck"
+                        ]
+                    }
+                ]
+            },
+            {
+                "text": "平息刀之力",
+                "condition": {
+                    "and": [
+                        {
+                            "compare_int": [
+                                {
+                                    "u_val": "vitamin",
+                                    "name": "blood_katana_1_vtm_switch_status"
+                                },
+                                "=",
+                                {
+                                    "const": 1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "topic": "TALK_DONE",
+                "effect": [
+                    {
+                        "u_message": "静",
+                        "type": "bad"
+                    },
+                    {
+                        "u_add_effect": "blood_katana_1_vtm_switch_off",
+                        "duration": "1 s"
+                    },
+                    {
+                        "run_eocs": [
+                            "blood_katana_1_eoc_clean_trait"
+                        ]
+                    }
+                ]
+            },
+            {
+                "text": "感应剩余的力量",
+                "//": "剩余电量显示",
+                "topic": "TALK_DONE",
+                "effect": [
+                    {
+                        "arithmetic": [
                             {
-                                "u_val": "vitamin",
-                                "name": "blood_katana_1_vtm_switch_status"
+                                "u_val": "var",
+                                "var_name": "vtm_1_remain"
                             },
                             "=",
                             {
-                                "const": 0
-                            }
-                        ]
-                    }
-                ]
-            },
-            "topic": "TALK_DONE",
-            "effect": [
-                {
-                    "u_message": "血光四溢!",
-                    "type": "good"
-                },
-                {
-                    "u_add_effect": "blood_katana_1_vtm_switch_on",
-                    "duration": "1 s"
-                },
-                {
-                    "run_eocs": [
-                        "blood_katana_1_eoc_startcheck"
-                    ]
-                }
-            ]
-        },
-        {
-            "text": "平息刀之力",
-            "condition": {
-                "and": [
-                    {
-                        "compare_int": [
-                            {
                                 "u_val": "vitamin",
-                                "name": "blood_katana_1_vtm_switch_status"
-                            },
-                            "=",
-                            {
-                                "const": 0
+                                "name": "blood_katana_1_vtm_battery"
                             }
                         ]
+                    },
+                    {
+                        "u_message": "剩余电量:<u_val:vtm_1_remain>",
+                        "type": "neutral"
                     }
                 ]
             },
-            "topic": "TALK_DONE",
-            "effect": [
-                {
-                    "u_message": "静",
-                    "type": "bad"
-                },
-                {
-                    "u_add_effect": "blood_katana_1_vtm_switch_off",
-                    "duration": "1 s"
-                },
-                {
-                    "run_eocs": [
-                        "blood_katana_1_eoc_startcheck"
+            {
+                "text": "&你准备给自己划开一道伤口",
+                "topic": {
+                    "id": "blood_katana_1_eoc_talk_textid_suicide_10",
+                    "type": "talk_topic",
+                    "dynamic_line": "  ……就一点点 \n\n !!!会导致失衡击倒等debuff!!!\n对全身造成总值为(100+力量*3)*0.1的伤害\n当前电量<u_val:vtm_1_remain>，\n使用后增加200，上限200",
+                    "responses": [
+                        {
+                            "text": "确定吗?",
+                            "topic": "TALK_DONE",
+                            "effect": [
+                                {
+                                    "u_add_effect": "blood_katana_1_vtm_battery_add_20",
+                                    "duration": "1 s"
+                                },
+                                {
+                                    "run_eocs": "blood_katana_1_eoc_talk_hpmax10"
+                                },
+                                {
+                                    "u_cast_spell": {
+                                        "id": "blood_katana_1_eoc_talk_spell_suicide10"
+                                    }
+                                },
+                                {
+                                    "u_cast_spell": {
+                                        "id": "blood_katana_1_eoc_talk_spell_suicideall"
+                                    }
+                                },
+                                {
+                                    "u_message": "喂养它!",
+                                    "type": "good"
+                                },
+                                {
+                                    "arithmetic": [
+                                        {
+                                            "u_val": "var",
+                                            "var_name": "vtm_1_remain"
+                                        },
+                                        "=",
+                                        {
+                                            "u_val": "vitamin",
+                                            "name": "blood_katana_1_vtm_battery"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "text": "算了",
+                            "topic": "TALK_DONE"
+                        }
                     ]
                 }
-            ]
-        },
-        {
-            "text": "感应剩余的力量",
-            "topic": "TALK_DONE",
-            "effect": [
-                {
-                    "run_eocs": "blood_katana_1_eoc_vtm_remain"
-                },
-                {
-                    "u_message": "<global_val:tester> testtastic"
+            },
+            {
+                "text": "&你准备给自己来一道不小的伤口",
+                "topic": {
+                    "id": "blood_katana_1_eoc_talk_textid_suicide_30",
+                    "type": "talk_topic",
+                    "dynamic_line": "  再多些。\n\n !!!会导致失衡击倒等debuff!!!\n对全身造成总值为(100+力量*3)*0.3的伤害\n当前电量<u_val:vtm_1_remain>，\n使用后增加200，上限200",
+                    "responses": [
+                        {
+                            "text": "确定吗?",
+                            "topic": "TALK_DONE",
+                            "effect": [
+                                {
+                                    "u_add_effect": "blood_katana_1_vtm_battery_add_50",
+                                    "duration": "1 s"
+                                },
+                                {
+                                    "run_eocs": "blood_katana_1_eoc_talk_hpmax30"
+                                },
+                                {
+                                    "u_cast_spell": {
+                                        "id": "blood_katana_1_eoc_talk_spell_suicide30"
+                                    }
+                                },
+                                {
+                                    "u_cast_spell": {
+                                        "id": "blood_katana_1_eoc_talk_spell_suicideall"
+                                    }
+                                },
+                                {
+                                    "u_message": "供奉它!",
+                                    "type": "good"
+                                },
+                                {
+                                    "arithmetic": [
+                                        {
+                                            "u_val": "var",
+                                            "var_name": "vtm_1_remain"
+                                        },
+                                        "=",
+                                        {
+                                            "u_val": "vitamin",
+                                            "name": "blood_katana_1_vtm_battery"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "u_message": "剩余电量:<u_val:vtm_1_remain>",
+                                    "type": "neutral"
+                                }
+                            ]
+                        }
+                    ]
                 }
-            ]
-        },
-        {
-            "text": "&你准备给自己划开一道伤口(-10%指定肢体生命)",
-            "topic": {
-                "id": "blood_katana_1_eoc_talk_textid_suicide_10",
-                "type": "talk_topic",
-                "dynamic_line": "……就一点点",
-                "responses": [
-                    {
-                        "text": "确定吗?(由于作者太菜，还会触发法术\"伤痛分流\"效果)",
-                        "topic": "TALK_DONE",
-                        "effect": [
-                            {
-                                "u_add_effect": "blood_katana_1_vtm_battery_add_20",
-                                "duration": "1 s"
-                            },
-                            {
-                                "run_eocs": "blood_katana_1_eoc_talk_hpmax10"
-                            },
-                            {
-                                "u_cast_spell": {
-                                    "id": "blood_katana_1_eoc_talk_spell_suicide10"
+            },
+            {
+                "text": "&你准备把自己捅个对穿",
+                "topic": {
+                    "id": "blood_katana_1_eoc_talk_textid_suicide_50",
+                    "type": "talk_topic",
+                    "dynamic_line": "  生命可贵! \n\n !!!会导致失衡击倒等debuff!!!\n对全身造成总值为(100+力量*3)*0.5的伤害\n当前电量<u_val:vtm_1_remain>，\n使用后增加200，上限200",
+                    "responses": [
+                        {
+                            "text": "确定吗?",
+                            "topic": "TALK_DONE",
+                            "effect": [
+                                {
+                                    "u_add_effect": "blood_katana_1_vtm_battery_add_100",
+                                    "duration": "1 s"
+                                },
+                                {
+                                    "run_eocs": "blood_katana_1_eoc_talk_hpmax50"
+                                },
+                                {
+                                    "u_cast_spell": {
+                                        "id": "blood_katana_1_eoc_talk_spell_suicide50"
+                                    }
+                                },
+                                {
+                                    "u_cast_spell": {
+                                        "id": "blood_katana_1_eoc_talk_spell_suicideall"
+                                    }
+                                },
+                                {
+                                    "u_message": "唤醒它!",
+                                    "type": "good"
+                                },
+                                {
+                                    "arithmetic": [
+                                        {
+                                            "u_val": "var",
+                                            "var_name": "vtm_1_remain"
+                                        },
+                                        "=",
+                                        {
+                                            "u_val": "vitamin",
+                                            "name": "blood_katana_1_vtm_battery"
+                                        }
+                                    ]
                                 }
-                            },
-                            {
-                                "u_cast_spell": {
-                                    "id": "blood_katana_1_eoc_talk_spell_suicideall"
-                                }
-                            },
-                            {
-                                "u_message": "喂养它!",
-                                "type": "good"
-                            }
-                        ]
-                    },
-                    {
-                        "text": "算了",
-                        "topic": "TALK_DONE"
-                    }
-                ]
+                            ]
+                        },
+                        {
+                            "text": "算了",
+                            "topic": "TALK_DONE"
+                        }
+                    ]
+                }
+            },
+            {
+                "text": "算了",
+                "topic": "TALK_DONE"
             }
-        },
-        {
-            "text": "&你准备给自己来一道不小的伤口(-30%指定肢体生命)",
-            "topic": {
-                "id": "blood_katana_1_eoc_talk_textid_suicide_30",
-                "type": "talk_topic",
-                "dynamic_line": "再多些。",
-                "responses": [
-                    {
-                        "text": "确定吗?(由于作者太菜，还会触发法术\"伤痛分流\"效果)",
-                        "topic": "TALK_DONE",
-                        "effect": [
-                            {
-                                "u_add_effect": "blood_katana_1_vtm_battery_add_50",
-                                "duration": "1 s"
-                            },
-                            {
-                                "run_eocs": "blood_katana_1_eoc_talk_hpmax30"
-                            },
-                            {
-                                "u_cast_spell": {
-                                    "id": "blood_katana_1_eoc_talk_spell_suicide30"
-                                }
-                            },
-                            {
-                                "u_cast_spell": {
-                                    "id": "blood_katana_1_eoc_talk_spell_suicideall"
-                                }
-                            },
-                            {
-                                "u_message": "供奉它!",
-                                "type": "good"
-                            }
-                        ]
-                    },
-                    {
-                        "text": "算了",
-                        "topic": "TALK_DONE"
-                    }
-                ]
-            }
-        },
-        {
-            "text": "&你准备把自己捅个对穿(-50%指定肢体生命)",
-            "topic": {
-                "id": "blood_katana_1_eoc_talk_textid_suicide_50",
-                "type": "talk_topic",
-                "dynamic_line": "生命可贵!",
-                "responses": [
-                    {
-                        "text": "确定吗?(由于作者太菜，还会触发法术\"伤痛分流\"效果)",
-                        "topic": "TALK_DONE",
-                        "effect": [
-                            {
-                                "u_add_effect": "blood_katana_1_vtm_battery_add_100",
-                                "duration": "1 s"
-                            },
-                            {
-                                "run_eocs": "blood_katana_1_eoc_talk_hpmax50"
-                            },
-                            {
-                                "u_cast_spell": {
-                                    "id": "blood_katana_1_eoc_talk_spell_suicide50"
-                                }
-                            },
-                            {
-                                "u_cast_spell": {
-                                    "id": "blood_katana_1_eoc_talk_spell_suicideall"
-                                }
-                            },
-                            {
-                                "u_message": "唤醒它!",
-                                "type": "good"
-                            }
-                        ]
-                    },
-                    {
-                        "text": "算了",
-                        "topic": "TALK_DONE"
-                    }
-                ]
-            }
-        },
-        {
-            "text": "算了",
-            "topic": "TALK_DONE"
-        }
-    ]
-}
+        ]
+    }
 ]
