@@ -9,7 +9,6 @@
             "valid": false,
             "description": "blood_katana_1_eoc_trait.",
             "category": ["THRESH_ME_NPCS"],
-            "enchantments": [ "blood_katana_1_enchantment" ],
-            "types": [ "EXAMPLE" ]
+            "enchantments": [ "blood_katana_1_enchantment" ]
         }
 ]
