@@ -10,5 +10,16 @@
             "description": "鬼神的力量依附于刀刃之上",
             "category": ["THRESH_ME_NPCS"],
             "enchantments": [ "blood_katana_1_enchantment" ]
+        },
+        {
+            "type": "mutation",
+            "id": "blood_katana_2_eoc_trait",
+            "name": { "str": "鬼神附体" },
+            "points": 1,
+            "purifiable": false,
+            "valid": false,
+            "description": "攻无不胜，战无不克!",
+            "category": ["THRESH_ME_NPCS"],
+            "enchantments": [ "blood_katana_2_enchantment" ]
         }
 ]
