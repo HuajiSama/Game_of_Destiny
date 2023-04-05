@@ -20,6 +20,11 @@
         "flags": [ "NO_DISPLAY" ]
     },
 
+
+
+
+
+
     {
         "//":"嗜血武士刀开关开",
         "type": "effect_type",
@@ -67,9 +72,9 @@
     },
 
     {
-        "//":"嗜血武士刀电量+10充能",
+        "//":"嗜血武士刀电量+20充能",
         "type": "effect_type",
-        "id": "blood_katana_1_vtm_battery_add_10",
+        "id": "blood_katana_1_vtm_battery_add_20",
         "rating": "bad",
         "vitamins": [
           {

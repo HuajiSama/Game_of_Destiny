@@ -1,0 +1,765 @@
+[
+    {
+        "type": "effect_on_condition",
+        "id": "blood_katana_1_eoc_switch",
+        "//": "开关(弃用)",
+        "condition": {
+            "and": [
+                {
+                    "compare_int": [
+                        {
+                            "u_val": "vitamin",
+                            "name": "blood_katana_1_vtm_switch_status"
+                        },
+                        "=",
+                        {
+                            "const": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        "effect": [
+            {
+                "u_message": "你试着唤起刀之力。",
+                "type": "good"
+            },
+            {
+                "u_add_effect": "blood_katana_1_vtm_switch_on",
+                "duration": "1 s"
+            },
+            {
+                "run_eocs": [
+                    "blood_katana_1_eoc_startcheck"
+                ]
+            }
+        ],
+        "false_effect": [
+            {
+                "u_message": "你让刀平息。",
+                "type": "bad"
+            },
+            {
+                "u_add_effect": "blood_katana_1_vtm_switch_off",
+                "duration": "1 s"
+            },
+            {
+                "run_eocs": [
+                    "blood_katana_1_eoc_clean_trait"
+                ]
+            }
+        ]
+    },
+    {
+        "type": "effect_on_condition",
+        "id": "blood_katana_1_eoc_startcheck",
+        "//": "启用检测",
+        "condition": {
+            "and": [
+                {
+                    "compare_int": [
+                        {
+                            "u_val": "vitamin",
+                            "name": "blood_katana_1_vtm_battery"
+                        },
+                        ">=",
+                        {
+                            "const": 30
+                        }
+                    ]
+                },
+                {
+                    "compare_int": [
+                        {
+                            "u_val": "vitamin",
+                            "name": "blood_katana_1_vtm_switch_status"
+                        },
+                        "=",
+                        {
+                            "const": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        "effect": [
+            {
+                "run_eocs": "blood_katana_1_eoc_start"
+            }
+        ],
+        "false_effect": [
+            {
+                "u_message": "没电!",
+                "type": "bad"
+            },
+            {
+                "u_add_effect": "blood_katana_1_vtm_switch_off",
+                "duration": "1 s"
+            }
+        ]
+    },
+    {
+        "type": "effect_on_condition",
+        "id": "blood_katana_1_eoc_start",
+        "//": "启用同时消耗VTM",
+        "recurrence": 6,
+        "condition": {
+            "and": [
+                {
+                    "compare_int": [
+                        {
+                            "u_val": "vitamin",
+                            "name": "blood_katana_1_vtm_switch_status"
+                        },
+                        "=",
+                        {
+                            "const": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        "deactivate_condition": {
+            "and": [
+                {
+                    "compare_int": [
+                        {
+                            "u_val": "vitamin",
+                            "name": "blood_katana_1_vtm_switch_status"
+                        },
+                        "=",
+                        {
+                            "const": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        "effect": [
+            {
+                "u_message": "血影刀光!",
+                "type": "good"
+            },
+            {
+                "u_add_trait": "blood_katana_1_eoc_trait"
+            },
+            {
+                "run_eocs": "blood_katana_1_eoc_runvtm"
+            }
+        ]
+    },
+    {
+        "type": "effect_on_condition",
+        "id": "blood_katana_1_eoc_clean_battery",
+        "//": "电量开关清理特质开关",
+        "recurrence": 6,
+        "condition": {
+            "and": [
+                {
+                    "and": [
+                        {
+                            "compare_int": [
+                                {
+                                    "u_val": "vitamin",
+                                    "name": "blood_katana_1_vtm_battery"
+                                },
+                                "<",
+                                {
+                                    "const": 6
+                                }
+                            ]
+                        },
+                        {
+                            "compare_int": [
+                                {
+                                    "u_val": "vitamin",
+                                    "name": "blood_katana_1_vtm_switch_status"
+                                },
+                                "=",
+                                {
+                                    "const": 1
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "deactivate_condition": {
+                "or": [
+                    {
+                        "compare_int": [
+                            {
+                                "u_val": "vitamin",
+                                "name": "blood_katana_1_vtm_switch_status"
+                            },
+                            "=",
+                            {
+                                "const": 0
+                            }
+                        ]
+                    },
+                    {
+                        "compare_int": [
+                            {
+                                "u_val": "vitamin",
+                                "name": "blood_katana_1_vtm_switch_status"
+                            },
+                            "=",
+                            {
+                                "const": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "effect": [
+            {
+                "u_lose_effect": "blood_katana_1_enchantment"
+            },
+            {
+                "u_lose_trait": "blood_katana_1_eoc_trait"
+            },
+            {
+                "u_message": "血光消散",
+                "type": "bad"
+            },
+            {
+                "u_add_effect": "blood_katana_1_vtm_switch_off",
+                "duration": "1 s"
+            }
+        ]
+    },
+    {
+        "type": "effect_on_condition",
+        "id": "blood_katana_1_eoc_clean_trait",
+        "//": "开关清理特质",
+        "effect": [
+            {
+                "u_lose_effect": "blood_katana_1_enchantment"
+            },
+            {
+                "u_lose_trait": "blood_katana_1_eoc_trait"
+            },
+            {
+                "u_message": "力量散去",
+                "type": "bad"
+            },
+            {
+                "run_eocs": "blood_katana_1_eoc_clean_trait_auto"
+            }
+        ]
+    },
+    {
+        "type": "effect_on_condition",
+        "id": "blood_katana_1_eoc_clean_trait_auto",
+        "//": "开关清理特质",
+        "recurrence": 6,
+        "condition": {
+            "and": [
+                {
+                    "compare_int": [
+                        {
+                            "u_val": "vitamin",
+                            "name": "blood_katana_1_vtm_switch_status"
+                        },
+                        "=",
+                        {
+                            "const": 0
+                        }
+                    ]
+                },
+                {
+                    "and": [
+                        {
+                            "u_has_trait": "blood_katana_1_eoc_trait"
+                        }
+                    ]
+                }
+            ]
+        },
+        "deactivate_condition": {
+            "or": [
+                {
+                    "compare_int": [
+                        {
+                            "u_val": "vitamin",
+                            "name": "blood_katana_1_vtm_switch_status"
+                        },
+                        "=",
+                        {
+                            "const": 1
+                        }
+                    ]
+                },
+                {
+                    "not": {
+                        "u_has_trait": "blood_katana_1_eoc_trait"
+                    }
+                }
+            ]
+        },
+        "effect": [
+            {
+                "u_lose_effect": "blood_katana_1_enchantment"
+            },
+            {
+                "u_lose_trait": "blood_katana_1_eoc_trait"
+            },
+            {
+                "u_message": "力量散去",
+                "type": "bad"
+            }
+        ]
+    },
+    {
+        "type": "effect_on_condition",
+        "id": "blood_katana_1_eoc_runvtm",
+        "//": "消耗VTM",
+        "effect": [
+            {
+                "u_message": "血光飞逝",
+                "type": "bad"
+            },
+            {
+                "u_add_effect": "blood_katana_1_vtm_battery_run",
+                "duration": "1 s"
+            },
+            {
+                "run_eocs": "blood_katana_1_eoc_clean_battery"
+            }
+        ]
+    },
+    {
+        "type": "effect_on_condition",
+        "id": "blood_katana_1_eoc_talk_hpmax10",
+        "//": "生命值上限的10%",
+        "effect": [
+            {
+                "arithmetic": [
+                    {
+                        "global_val": "var",
+                        "var_name": "hpmaxtemp",
+                        "type": "int"
+                    },
+                    "=",
+                    {
+                        "u_val": "strength_base"
+                    },
+                    "*",
+                    {
+                        "const": 3
+                    }
+                ]
+            },
+            {
+                "arithmetic": [
+                    {
+                        "global_val": "var",
+                        "var_name": "hpmax",
+                        "type": "int"
+                    },
+                    "=",
+                    {
+                        "global_val": "var",
+                        "var_name": "hpmaxtemp",
+                        "type": "int"
+                    },
+                    "+",
+                    {
+                        "const": 10
+                    }
+                ]
+            },
+            {
+                "arithmetic": [
+                    {
+                        "global_val": "var",
+                        "var_name": "hpmax10",
+                        "type": "int"
+                    },
+                    "=",
+                    {
+                        "global_val": "var",
+                        "var_name": "hpmax",
+                        "type": "int"
+                    },
+                    "*",
+                    {
+                        "const": 0.1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "effect_on_condition",
+        "id": "blood_katana_1_eoc_talk_hpmax30",
+        "//": "生命值上限的30%",
+        "effect": [
+            {
+                "arithmetic": [
+                    {
+                        "global_val": "var",
+                        "var_name": "hpmaxtemp",
+                        "type": "int"
+                    },
+                    "=",
+                    {
+                        "u_val": "strength_base"
+                    },
+                    "*",
+                    {
+                        "const": 3
+                    }
+                ]
+            },
+            {
+                "arithmetic": [
+                    {
+                        "global_val": "var",
+                        "var_name": "hpmax",
+                        "type": "int"
+                    },
+                    "=",
+                    {
+                        "global_val": "var",
+                        "var_name": "hpmaxtemp",
+                        "type": "int"
+                    },
+                    "+",
+                    {
+                        "const": 10
+                    }
+                ]
+            },
+            {
+                "arithmetic": [
+                    {
+                        "global_val": "var",
+                        "var_name": "hpmax30",
+                        "type": "int"
+                    },
+                    "=",
+                    {
+                        "global_val": "var",
+                        "var_name": "hpmax",
+                        "type": "int"
+                    },
+                    "*",
+                    {
+                        "const": 0.3
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "effect_on_condition",
+        "id": "blood_katana_1_eoc_talk_hpmax50",
+        "//": "生命值上限的50%",
+        "effect": [
+            {
+                "arithmetic": [
+                    {
+                        "global_val": "var",
+                        "var_name": "hpmaxtemp",
+                        "type": "int"
+                    },
+                    "=",
+                    {
+                        "u_val": "strength_base"
+                    },
+                    "*",
+                    {
+                        "const": 3
+                    }
+                ]
+            },
+            {
+                "arithmetic": [
+                    {
+                        "global_val": "var",
+                        "var_name": "hpmax",
+                        "type": "int"
+                    },
+                    "=",
+                    {
+                        "global_val": "var",
+                        "var_name": "hpmaxtemp",
+                        "type": "int"
+                    },
+                    "+",
+                    {
+                        "const": 10
+                    }
+                ]
+            },
+            {
+                "arithmetic": [
+                    {
+                        "global_val": "var",
+                        "var_name": "hpmax50",
+                        "type": "int"
+                    },
+                    "=",
+                    {
+                        "global_val": "var",
+                        "var_name": "hpmax",
+                        "type": "int"
+                    },
+                    "*",
+                    {
+                        "const": 0.5
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "effect_on_condition",
+        "id": "blood_katana_1_eoc_vtm_remain",
+        "//": "剩余电量显示",
+        "effect": {
+            "arithmetic": [
+                {
+                    "global_val": "var",
+                    "var_name": "vtm_1_remain",
+                    "type": "int"
+                },
+                "=",
+                {
+                    "u_val": "vitamin",
+                    "name": "blood_katana_1_vtm_battery"
+                },
+                "*",
+                {
+                    "const": 1
+                }
+            ],
+            "set_string_var": "fun",
+            "target_var": {
+                "global_val": "tester"
+            },
+            "u_message": "<global_val:tester> fff",
+            "type": "neutral"
+        }
+    },
+{
+    "//": "自刀面板",
+    "id": "blood_katana_1_eoc_talk",
+    "type": "talk_topic",
+    "dynamic_line": "你拿起刀，准备……",
+    "responses": [
+        {
+            "text": "激发刀的力量",
+            "condition": {
+                "and": [
+                    {
+                        "compare_int": [
+                            {
+                                "u_val": "vitamin",
+                                "name": "blood_katana_1_vtm_switch_status"
+                            },
+                            "=",
+                            {
+                                "const": 0
+                            }
+                        ]
+                    }
+                ]
+            },
+            "topic": "TALK_DONE",
+            "effect": [
+                {
+                    "u_message": "血光四溢!",
+                    "type": "good"
+                },
+                {
+                    "u_add_effect": "blood_katana_1_vtm_switch_on",
+                    "duration": "1 s"
+                },
+                {
+                    "run_eocs": [
+                        "blood_katana_1_eoc_startcheck"
+                    ]
+                }
+            ]
+        },
+        {
+            "text": "平息刀之力",
+            "condition": {
+                "and": [
+                    {
+                        "compare_int": [
+                            {
+                                "u_val": "vitamin",
+                                "name": "blood_katana_1_vtm_switch_status"
+                            },
+                            "=",
+                            {
+                                "const": 0
+                            }
+                        ]
+                    }
+                ]
+            },
+            "topic": "TALK_DONE",
+            "effect": [
+                {
+                    "u_message": "静",
+                    "type": "bad"
+                },
+                {
+                    "u_add_effect": "blood_katana_1_vtm_switch_off",
+                    "duration": "1 s"
+                },
+                {
+                    "run_eocs": [
+                        "blood_katana_1_eoc_startcheck"
+                    ]
+                }
+            ]
+        },
+        {
+            "text": "感应剩余的力量",
+            "topic": "TALK_DONE",
+            "effect": [
+                {
+                    "run_eocs": "blood_katana_1_eoc_vtm_remain"
+                },
+                {
+                    "u_message": "<global_val:tester> testtastic"
+                }
+            ]
+        },
+        {
+            "text": "&你准备给自己划开一道伤口(-10%指定肢体生命)",
+            "topic": {
+                "id": "blood_katana_1_eoc_talk_textid_suicide_10",
+                "type": "talk_topic",
+                "dynamic_line": "……就一点点",
+                "responses": [
+                    {
+                        "text": "确定吗?(由于作者太菜，还会触发法术\"伤痛分流\"效果)",
+                        "topic": "TALK_DONE",
+                        "effect": [
+                            {
+                                "u_add_effect": "blood_katana_1_vtm_battery_add_20",
+                                "duration": "1 s"
+                            },
+                            {
+                                "run_eocs": "blood_katana_1_eoc_talk_hpmax10"
+                            },
+                            {
+                                "u_cast_spell": {
+                                    "id": "blood_katana_1_eoc_talk_spell_suicide10"
+                                }
+                            },
+                            {
+                                "u_cast_spell": {
+                                    "id": "blood_katana_1_eoc_talk_spell_suicideall"
+                                }
+                            },
+                            {
+                                "u_message": "喂养它!",
+                                "type": "good"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "算了",
+                        "topic": "TALK_DONE"
+                    }
+                ]
+            }
+        },
+        {
+            "text": "&你准备给自己来一道不小的伤口(-30%指定肢体生命)",
+            "topic": {
+                "id": "blood_katana_1_eoc_talk_textid_suicide_30",
+                "type": "talk_topic",
+                "dynamic_line": "再多些。",
+                "responses": [
+                    {
+                        "text": "确定吗?(由于作者太菜，还会触发法术\"伤痛分流\"效果)",
+                        "topic": "TALK_DONE",
+                        "effect": [
+                            {
+                                "u_add_effect": "blood_katana_1_vtm_battery_add_50",
+                                "duration": "1 s"
+                            },
+                            {
+                                "run_eocs": "blood_katana_1_eoc_talk_hpmax30"
+                            },
+                            {
+                                "u_cast_spell": {
+                                    "id": "blood_katana_1_eoc_talk_spell_suicide30"
+                                }
+                            },
+                            {
+                                "u_cast_spell": {
+                                    "id": "blood_katana_1_eoc_talk_spell_suicideall"
+                                }
+                            },
+                            {
+                                "u_message": "供奉它!",
+                                "type": "good"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "算了",
+                        "topic": "TALK_DONE"
+                    }
+                ]
+            }
+        },
+        {
+            "text": "&你准备把自己捅个对穿(-50%指定肢体生命)",
+            "topic": {
+                "id": "blood_katana_1_eoc_talk_textid_suicide_50",
+                "type": "talk_topic",
+                "dynamic_line": "生命可贵!",
+                "responses": [
+                    {
+                        "text": "确定吗?(由于作者太菜，还会触发法术\"伤痛分流\"效果)",
+                        "topic": "TALK_DONE",
+                        "effect": [
+                            {
+                                "u_add_effect": "blood_katana_1_vtm_battery_add_100",
+                                "duration": "1 s"
+                            },
+                            {
+                                "run_eocs": "blood_katana_1_eoc_talk_hpmax50"
+                            },
+                            {
+                                "u_cast_spell": {
+                                    "id": "blood_katana_1_eoc_talk_spell_suicide50"
+                                }
+                            },
+                            {
+                                "u_cast_spell": {
+                                    "id": "blood_katana_1_eoc_talk_spell_suicideall"
+                                }
+                            },
+                            {
+                                "u_message": "唤醒它!",
+                                "type": "good"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "算了",
+                        "topic": "TALK_DONE"
+                    }
+                ]
+            }
+        },
+        {
+            "text": "算了",
+            "topic": "TALK_DONE"
+        }
+    ]
+}
+]

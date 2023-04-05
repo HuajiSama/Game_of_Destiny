@@ -256,7 +256,6 @@
     "time": 1200,
     "book_learn": [ [ "GS_book_alchemy3", 0 ] ],
     "flags": [ "BLIND_EASY" ],
-    "components": [ [ [ "sheet_metal", 1 ], [ "metal_tank_little", 1 ], [ "steel_lump", 1 ],
-    [ "can_medium", 1 ],[ "can_food_big", 1 ] ] ]
+    "components": [ [ [ "sheet_metal", 1 ], [ "metal_tank_little", 1 ], [ "steel_lump", 1 ],[ "can_medium", 1 ],[ "can_food_big", 1 ] ] ]
   }
 ]
