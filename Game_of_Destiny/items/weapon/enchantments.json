@@ -1,0 +1,12 @@
+[
+    {
+        "type": "enchantment",
+        "id": "blood_katana_1_enchantment",
+        "name": { "str": "嗜血武士刀附魔" },
+        "values": 
+        [  
+        { "value": "ITEM_DAMAGE_CUT", "add": 14 },
+        { "value": "ITEM_DAMAGE_BASH", "add": 5 }
+        ]
+    }
+]

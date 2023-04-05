@@ -1,0 +1,576 @@
+[
+    {
+        "type": "effect_on_condition",
+        "id": "blood_katana_1_eoc_switch",
+        "//": "开关(弃用)",
+        "condition": 
+        {
+            "and": [
+                {
+                    "compare_int": [
+                        {
+                            "u_val": "vitamin",
+                            "name": "blood_katana_1_vtm_switch_status"
+                        },
+                        "=",
+                        {
+                            "const": 0
+                        }
+                    ]
+                }
+            ]
+    },
+    "effect": [
+        {
+            "u_message": "你试着唤起刀之力。",
+            "type": "good"
+        },
+        {
+            "u_add_effect": "blood_katana_1_vtm_switch_on",
+            "duration": "1 s"
+        },
+        {"run_eocs": ["blood_katana_1_eoc_startcheck"]}
+    ],
+    "false_effect": [
+        {
+            "u_message": "你让刀平息。",
+            "type": "bad"
+        },
+        {
+            "u_add_effect": "blood_katana_1_vtm_switch_off",
+            "duration": "1 s"
+        },
+        {"run_eocs": ["blood_katana_1_eoc_clean_trait"]}]
+
+    },
+
+
+    {
+        "type": "effect_on_condition",
+        "id": "blood_katana_1_eoc_startcheck",
+        "//": "启用检测",
+        "condition": 
+        {
+            "and": [
+                {
+                    "compare_int": [
+                        {
+                            "u_val": "vitamin",
+                            "name": "blood_katana_1_vtm_battery"
+                        },
+                        ">=",
+                        {
+                            "const": 30
+                        }
+                        
+                    ]
+                },
+                {
+                    "compare_int": [
+                        {
+                            "u_val": "vitamin",
+                            "name": "blood_katana_1_vtm_switch_status"
+                        },
+                        "=",
+                        {
+                            "const": 1
+                        }
+                        
+                    ]
+                }
+            ]
+        },
+
+        "effect": [
+            { "run_eocs":"blood_katana_1_eoc_start"}
+    ],
+        "false_effect": [
+        { "u_message": "没电!", "type": "bad" },
+        {
+            "u_add_effect": "blood_katana_1_vtm_switch_off",
+            "duration": "1 s"
+        }
+]
+
+
+    },
+
+
+
+    {
+        "type": "effect_on_condition",
+        "id": "blood_katana_1_eoc_start",
+        "//": "启用同时消耗VTM",
+        "recurrence": 6,
+        "condition": 
+        {
+            "and": [
+                {
+                    "compare_int": [
+                        {
+                            "u_val": "vitamin",
+                            "name": "blood_katana_1_vtm_switch_status"
+                        },
+                        "=",
+                        {
+                            "const": 1
+                        }
+                        
+                    ]
+                }
+            ]
+        },
+        "deactivate_condition": 
+        { 
+            "and": [
+                {
+                    "compare_int": [
+                        {
+                            "u_val": "vitamin",
+                            "name": "blood_katana_1_vtm_switch_status"
+                        },
+                        "=",
+                        {
+                            "const": 0
+                        }
+                    ]
+                }
+            ]
+        },
+
+        "effect": [
+            { "u_message": "血影刀光!", "type": "good" },
+            { "u_add_trait":"blood_katana_1_eoc_trait" },
+            { "run_eocs":"blood_katana_1_eoc_runvtm"}
+    ]
+    },
+
+
+
+
+    {
+        "type": "effect_on_condition",
+        "id": "blood_katana_1_eoc_clean_battery",
+        "//": "电量开关清理特质开关",
+        "recurrence": 6,
+        "condition": 
+        {
+            "and": [
+                {
+                    "and": [
+                        {
+                            "compare_int": [
+                                {
+                                    "u_val": "vitamin",
+                                    "name": "blood_katana_1_vtm_battery"
+                                },
+                                "<",
+                                {
+                                    "const": 6
+                                }
+                                
+                            ]
+                        },
+                        {
+                            "compare_int": [
+                                {
+                                    "u_val": "vitamin",
+                                    "name": "blood_katana_1_vtm_switch_status"
+                                },
+                                "=",
+                                {
+                                    "const": 1
+                                }
+                            ]
+                        }
+                ]}],
+                "deactivate_condition": 
+                { 
+                    "or": [
+                        {
+                            "compare_int": [
+                                {
+                                    "u_val": "vitamin",
+                                    "name": "blood_katana_1_vtm_switch_status"
+                                },
+                                "=",
+                                {
+                                    "const": 0
+                                }
+                            ]
+                        },
+                        {
+                            "compare_int": [
+                                {
+                                    "u_val": "vitamin",
+                                    "name": "blood_katana_1_vtm_switch_status"
+                                },
+                                "=",
+                                {
+                                    "const": 1
+                                }
+                            ]
+                        }
+                
+                    ]
+                }
+            
+        },
+
+        "effect": [
+            { "u_lose_effect":"blood_katana_1_enchantment" },{"u_lose_trait":"blood_katana_1_eoc_trait"},{"u_message": "血光消散", "type": "bad" },
+            { "u_add_effect":"blood_katana_1_vtm_switch_off", "duration": "1 s" }]
+    },
+
+
+
+    {
+        "type": "effect_on_condition",
+        "id": "blood_katana_1_eoc_clean_trait",
+        "//": "开关清理特质",
+        "effect": [
+            { "u_lose_effect":"blood_katana_1_enchantment" },{"u_lose_trait":"blood_katana_1_eoc_trait"},{"u_message": "力量散去", "type": "bad" },
+            { "run_eocs":"blood_katana_1_eoc_clean_trait_auto"}]
+    },
+
+
+    {
+        "type": "effect_on_condition",
+        "id": "blood_katana_1_eoc_clean_trait_auto",
+        "//": "开关清理特质",
+        "recurrence": 6,
+        "condition": 
+        {
+            "and": [
+                {
+                    "compare_int": [
+                        {
+                            "u_val": "vitamin",
+                            "name": "blood_katana_1_vtm_switch_status"
+                        },
+                        "=",
+                        {
+                            "const": 0
+                        }
+                    ]
+                },
+                {
+                    "and": [
+                        {
+                            "u_has_trait": "blood_katana_1_eoc_trait"
+                        }
+                    ]
+                }
+            ]
+        },
+        "deactivate_condition": 
+        { 
+            "or": [
+                {
+                    "compare_int": [
+                        {
+                            "u_val": "vitamin",
+                            "name": "blood_katana_1_vtm_switch_status"
+                        },
+                        "=",
+                        {
+                            "const": 1
+                        }
+                    ]
+                },
+                {
+                    "not": {
+                            "u_has_trait": "blood_katana_1_eoc_trait"
+                        }
+                }
+            ]
+        },
+
+        "effect": [
+            { "u_lose_effect":"blood_katana_1_enchantment" },{"u_lose_trait":"blood_katana_1_eoc_trait"},{"u_message": "力量散去", "type": "bad" }]
+    },
+
+
+
+    {
+        "type": "effect_on_condition",
+        "id": "blood_katana_1_eoc_runvtm",
+        "//": "消耗VTM",
+        "effect": 
+        [
+        { "u_message": "血光飞逝", "type": "bad" },
+        { "u_add_effect":"blood_katana_1_vtm_battery_run", "duration": "1 s" },
+        { "run_eocs":"blood_katana_1_eoc_clean_battery"}
+
+
+        ]
+    },
+
+
+
+
+
+
+
+
+
+    
+
+    {
+        "type": "effect_on_condition",
+        "id": "blood_katana_1_eoc_talk_hpmax",
+        "//": "生命值上限",
+        "effect": [
+            {
+              "arithmetic": [
+                  {
+                      "global_val": "var",
+                      "var_name": "hpmax",
+                      "context": "int"
+                  },
+                  "=",
+                  {
+                      "u_val": "strength_base"
+                  },
+                  "*",
+                  {
+                      "const": 3
+                  }
+              ]
+            },
+            {
+              "arithmetic": [
+                  {
+                      "global_val": "var",
+                      "var_name": "hpmax10",
+                      "type": "int",
+                      "context": "int"
+                  },
+                  "=",
+                  {
+                    "global_val": "var",
+                    "var_name": "hpmax",
+                    "type": "int"
+                  },
+                  "*",
+                  {
+                      "const": 0.1
+                  }
+              ]
+            },
+            {
+              "arithmetic": [
+                  {
+                      "global_val": "var",
+                      "var_name": "hpmax30",
+                      "type": "int"
+                  },
+                  "=",
+                  {
+                    "global_val": "var",
+                    "var_name": "hpmax",
+                    "type": "int"
+                  },
+                  "*",
+                  {
+                      "const": 0.3
+                  }
+              ]
+            },
+            {
+              "arithmetic": [
+                  {
+                      "global_val": "var",
+                      "var_name": "hpmax50",
+                      "type": "int"
+                  },
+                  "=",
+                  {
+                    "global_val": "var",
+                    "var_name": "hpmax",
+                    "type": "int"
+                  },
+                  "*",
+                  {
+                      "const": 0.5
+                  }
+              ]
+            },
+            {
+              "arithmetic": [
+                  {
+                      "global_val": "var",
+                      "var_name": "nowhp90",
+                      "type": "int"
+                  },
+                  "=",
+                  {
+                      "u_val": "hp"
+                  },
+                  "-",
+                  {
+                    "global_val": "var",
+                    "var_name": "hpmax10",
+                    "type": "int"
+                  }
+              ]
+            },
+            {
+              "arithmetic": [
+                  {
+                      "global_val": "var",
+                      "var_name": "nowhp70",
+                      "type": "int"
+                  },
+                  "=",
+                  {
+                      "u_val": "hp"
+                  },
+                  "-",
+                  {
+                    "global_val": "var",
+                    "var_name": "hpmax30",
+                    "type": "int"
+                  }
+              ]
+            },
+            {
+              "arithmetic": [
+                  {
+                      "global_val": "var",
+                      "var_name": "nowhp50",
+                      "type": "int"
+                  },
+                  "=",
+                  {
+                      "u_val": "hp"
+                  },
+                  "-",
+                  {
+                    "global_val": "var",
+                    "var_name": "hpmax50",
+                    "type": "int"
+                  }
+              ]
+            }
+            
+            ]
+              
+        
+
+        
+        
+        
+        
+        
+
+
+        },
+            
+
+    {
+        "//": "自刀面板",
+        "id": "blood_katana_1_eoc_talk",
+        "type": "talk_topic",
+        "dynamic_line": "你拿起刀，准备……",
+        "responses": [
+            {
+              "text": "激发刀的力量",
+              "condition": {
+                    "and": [
+                        {
+                            "compare_int": [
+                                {
+                                    "u_val": "vitamin",
+                                    "name": "blood_katana_1_vtm_switch_status"
+                                },
+                                "=",
+                                {
+                                    "const": 0
+                                }
+                            ]
+                        }
+                    ]
+            },
+              "topic": "TALK_DONE",
+              "effect": [
+                  {
+                      "u_message": "血光四溢!",
+                      "type": "good"
+                  },
+                  {
+                      "u_add_effect": "blood_katana_1_vtm_switch_on",
+                      "duration": "1 s"
+                  },
+                  {"run_eocs": ["blood_katana_1_eoc_startcheck"]}
+              ]
+            },
+
+
+            {
+              "text": "平息刀之力",
+              "condition": {
+                    "and": [
+                        {
+                            "compare_int": [
+                                {
+                                    "u_val": "vitamin",
+                                    "name": "blood_katana_1_vtm_switch_status"
+                                },
+                                "=",
+                                {
+                                    "const": 0
+                                }
+                            ]
+                        }
+                    ]
+            },
+              "topic": "TALK_DONE",
+              "effect": [
+                  {
+                      "u_message": "静",
+                      "type": "bad"
+                  },
+                  {
+                      "u_add_effect": "blood_katana_1_vtm_switch_off",
+                      "duration": "1 s"
+                  },
+                  {"run_eocs": ["blood_katana_1_eoc_startcheck"]}
+              ]
+            },
+
+
+          {
+            "text": "你在手上划出一道小伤口(-10%生命)",
+            "condition": {
+              "and": [
+                 {"compare_int": [
+                    {
+                        "u_val": "vitamin",
+                        "name": "blood_katana_1_vtm_switch_status"
+                    },
+                    "=",
+                    {
+                        "const": 0
+                    }
+                ] 
+                }
+              ]
+            },
+            "topic": "TALK_DONE",
+            "effect": [{ "u_add_effect": "blood_katana_1_vtm_battery_add_10","duration": "1 s" },
+            { "run_eocs":"blood_katana_1_eoc_talk_hpmax_now90"}]
+          },
+
+          {
+            "text": "算了",
+            "topic": "TALK_DONE"
+        }
+        ]
+    }
+]
+
+
+
+
+    

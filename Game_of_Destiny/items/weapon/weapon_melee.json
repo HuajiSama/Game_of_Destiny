@@ -187,27 +187,19 @@
     "category": "GS_weapon",
     "name": "嗜血武士刀",
     "description": "特质「血祭」的天命武装，会侵蚀主人的鲜血，要伤敌，先伤己！激活可解放妖刀之力。",
-    "price": 0,
+    "price": 0,    
+    "bashing": 5,
+    "cutting": 31,
     "material": [ "super_mt" ],
-    "ammo": "battery",
-    "pocket_data": [
+    "chat_topics": [ "blood_katana_1_eoc_talk" ],
+    "use_action": {"type": "effect_on_conditions",
+      "description": "进入自刀面板",
+      "effect_on_conditions": [ 
       {
-        "pocket_type": "MAGAZINE_WELL",
-        "rigid": true,
-        "flag_restriction": [ "BATTERY_MEDIUM", "BATTERY_HEAVY" ],
-        "default_magazine": "medium_battery_cell"
-      }
-    ],
-    "artifact_data": { "charge_type": "ARTC_HP" },
-    "use_action": {
-      "type": "transform",
-      "target": "GS_wp_str3_katana_bloodly_active",
-      "need_charges": 30,
-      "need_charges_msg": "这把刀需要更多鲜血喂养。",
-      "msg": "嗜血的刀意解封，狂暴肆虐！",
-      "active": true
-    },
-    "extend": { "flags": [ "NO_UNLOAD" ] }
+        "id": "blood_katana_1_eoc_talk",
+        "effect": [ "open_dialogue" ]
+      }]
+    }
   },
   {
     "id": "GS_wp_str3_katana_bloodly_active",

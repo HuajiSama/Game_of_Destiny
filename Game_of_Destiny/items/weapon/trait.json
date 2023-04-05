@@ -1,0 +1,15 @@
+
+    [
+        {
+            "type": "mutation",
+            "id": "blood_katana_1_eoc_trait",
+            "name": { "str": "blood_katana_1_eoc_trait!" },
+            "points": 1,
+            "purifiable": false,
+            "valid": false,
+            "description": "blood_katana_1_eoc_trait.",
+            "category": ["THRESH_ME_NPCS"],
+            "enchantments": [ "blood_katana_1_enchantment" ],
+            "types": [ "EXAMPLE" ]
+        }
+]
