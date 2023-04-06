@@ -140,12 +140,12 @@
     "ammo": "destiny_copper_type",
     "charges_per_use": 10,
     "pocket_data": [ { "pocket_type": "MAGAZINE", "holster": true, "rigid": true, "ammo_restriction": { "destiny_copper_type": 30 } } ],
-    "relic_data": { "charge_info": { "regenerate_ammo": true } },
     "flags": [ "SPEAR", "REACH_ATTACK", "DURABLE_MELEE", "SHEATH_SWORD" ],
     "use_action": [
       {
         "type": "consume_drug",
         "activation_message": "以血换血！3分钟内提升力量、速度，随机损血。",
+        "need_charges": 10,
         "effects": [ { "id": "str_revange_1", "duration": 30 } ]
       }
     ]
@@ -169,12 +169,12 @@
     "ammo": "destiny_copper_type",
     "charges_per_use": 10,
     "pocket_data": [ { "pocket_type": "MAGAZINE", "holster": true, "rigid": true, "ammo_restriction": { "destiny_copper_type": 30 } } ],
-    "relic_data": { "charge_info": { "regenerate_ammo": true } },
     "flags": [ "SPEAR", "REACH_ATTACK", "REACH3", "DURABLE_MELEE", "SHEATH_SWORD" ],
     "use_action": [
       {
         "type": "consume_drug",
         "activation_message": "杀破狼！3分钟内提升力量、敏捷、速度，随机损血。",
+        "need_charges": 10,
         "effects": [ { "id": "str_revange_2", "duration": 30 } ]
       }
     ]
@@ -317,7 +317,6 @@
     "to_hit": 2,
     "ammo": "merit_type",
     "pocket_data": [ { "pocket_type": "MAGAZINE", "holster": true, "rigid": true, "ammo_restriction": { "merit_type": 50 } } ],
-    "relic_data": { "charge_info": { "regenerate_ammo": true } },
     "use_action": {
       "type": "transform",
       "target": "GS_wp_merit2_sword_dispel_active",
@@ -347,7 +346,6 @@
     "charges_per_use": 1,
     "turns_per_charge": 3,
     "pocket_data": [ { "pocket_type": "MAGAZINE", "holster": true, "rigid": true, "ammo_restriction": { "merit_type": 50 } } ],
-    "relic_data": { "charge_info": { "regenerate_ammo": true } },
     "revert_to": "GS_wp_merit2_sword_dispel",
     "revert_msg": "千阳刀恢复成原本的钝刃。",
     "use_action": {

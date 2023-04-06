@@ -27,7 +27,7 @@
     "armor_data": {
       "coverage": 0,
       "material": [ { "type": "super_mt", "covered_by_mat": 100, "thickness": 1.0 } ],
-      "covers": [ "HANDS" ],
+      "covers": [ "hand_l", "hand_r" ],
       "//2": "近期版本远程武器穿戴默认躯干位。"
     },
     "ammo_effects": [ "NEVER_MISFIRES", "WIDE", "BLINDS_EYES" ],

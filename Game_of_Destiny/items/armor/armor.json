@@ -114,11 +114,15 @@
     "techniques": [ "WBLOCK_1", "BRUTAL" ],
     "bashing": 25,
     "to_hit": -1,
-    "covers": [ "ARM_EITHER", "HAND_EITHER" ],
-    "coverage": 55,
-    "encumbrance": 15,
-    "material_thickness": 3,
     "environmental_protection": 5,
+    "armor": [
+      {
+        "covers": [ "arm_l", "arm_r", "hand_l", "hand_r" ],
+        "coverage": 55,
+        "encumbrance": 15,
+        "material_thickness": 3
+      }
+    ],
     "flags": [ "OVERSIZE", "STURDY", "OUTER", "BLOCK_WHILE_WORN", "RESTRICT_HANDS" ]
   },
   {
@@ -130,16 +134,20 @@
     "weight": "2500 g",
     "volume": "12 L",
     "material": [ "superalloy", "super_mt" ],
-    "material_thickness": 3,
     "symbol": "[",
     "color": "light_gray",
     "techniques": [ "WBLOCK_2", "BRUTAL" ],
     "bashing": 32,
     "to_hit": -1,
-    "covers": [ "ARM_EITHER", "HAND_EITHER" ],
-    "coverage": 80,
-    "encumbrance": 15,
     "environmental_protection": 5,
+    "armor": [
+      {
+        "covers": [ "arm_l", "arm_r", "hand_l", "hand_r" ],
+        "coverage": 80,
+        "encumbrance": 15,
+        "material_thickness": 3
+      }
+    ],
     "flags": [ "OVERSIZE", "STURDY", "OUTER", "BLOCK_WHILE_WORN", "RESTRICT_HANDS" ]
   },
   {
@@ -152,17 +160,21 @@
     "weight": "7500 g",
     "volume": "32 L",
     "material": [ "iron", "super_mt" ],
-    "material_thickness": 3,
     "color": "black",
     "symbol": "[",
     "techniques": [ "WBLOCK_1" ],
     "storage": 32,
     "warmth": 20,
-    "encumbrance": 8,
-    "covers": [ "TORSO", "ARMS", "LEGS" ],
-    "coverage": 95,
     "environmental_protection": 5,
     "artifact_data": { "effects_worn": [ "AEP_SAP_LIFE" ] },
+    "armor": [
+      {
+        "covers": [ "torso", "arm_l", "arm_r", "leg_l", "leg_r"],
+        "coverage": 95,
+        "material_thickness": 3,
+        "encumbrance": 8
+      }
+    ],
     "flags": [ "OVERSIZE", "STURDY", "RAINPROOF", "SUPER_FANCY" ]
   },
   {
@@ -222,7 +234,6 @@
     "color": "white",
     "ammo": "destiny_copper_type",
     "pocket_data": [ { "pocket_type": "MAGAZINE", "holster": true, "rigid": true, "ammo_restriction": { "destiny_copper_type": 50 } } ],
-    "relic_data": { "charge_info": { "regenerate_ammo": true } },
     "flags": [ "ZERO_WEIGHT" ],
     "use_action": {
       "type": "transform",
@@ -247,7 +258,6 @@
     "charges_per_use": 1,
     "turns_per_charge": 1,
     "pocket_data": [ { "pocket_type": "MAGAZINE", "holster": true, "rigid": true, "ammo_restriction": { "destiny_copper_type": 50 } } ],
-    "relic_data": { "charge_info": { "regenerate_ammo": true } },
     "flags": [ "ZERO_WEIGHT" ],
     "use_action": { "type": "transform", "msg": "疾行符加速效果关闭！", "target": "GS_eq_dex2_amulet_speed", "moves": 0 },
     "artifact_data": { "effects_carried": [ "AEP_SPEED_UP" ] },
@@ -264,7 +274,6 @@
     "color": "white",
     "ammo": "destiny_copper_type",
     "pocket_data": [ { "pocket_type": "MAGAZINE", "holster": true, "rigid": true, "ammo_restriction": { "destiny_copper_type": 50 } } ],
-    "relic_data": { "charge_info": { "regenerate_ammo": true } },
     "charges_per_use": 25,
     "flags": [ "ZERO_WEIGHT" ],
     "use_action": [ { "type": "cast_spell", "spell_id": "AEA_TELEPORT", "level": 1, "no_fail": true } ]
@@ -279,7 +288,6 @@
     "color": "white",
     "symbol": "[",
     "pocket_data": [ { "pocket_type": "MAGAZINE", "holster": true, "rigid": true, "ammo_restriction": { "destiny_copper_type": 100 } } ],
-    "relic_data": { "charge_info": { "regenerate_ammo": true } },
     "flags": [ "ZERO_WEIGHT" ],
     "ammo": "destiny_copper_type",
     "charges_per_use": 25,
@@ -309,8 +317,7 @@
     "environmental_protection": 5,
     "ammo": "destiny_copper_type",
     "pocket_data": [ { "pocket_type": "MAGAZINE", "holster": true, "rigid": true, "ammo_restriction": { "destiny_copper_type": 15 } } ],
-    "relic_data": { "charge_info": { "regenerate_ammo": true } },
-    "flags": [ "STURDY", "OUTER" ],
+    "flags": [ "STURDY", "AURA" ],
     "use_action": {
       "type": "transform",
       "msg": "你激发了音波铛的符箓，周身荡漾着一个透明护盾，持续时间3分钟。",
@@ -334,17 +341,20 @@
     "color": "yellow",
     "ammo": "destiny_copper_type",
     "pocket_data": [ { "pocket_type": "MAGAZINE", "holster": true, "rigid": true, "ammo_restriction": { "destiny_copper_type": 15 } } ],
-    "relic_data": { "charge_info": { "regenerate_ammo": true } },
     "charges_per_use": 1,
     "turns_per_charge": 2,
     "revert_to": "GS_eq_int2_bell",
     "revert_msg": "音波铛的能量用尽，护盾缓缓消失。",
-    "covers": [ "HEAD", "MOUTH", "EYES", "TORSO", "ARMS", "HANDS", "LEGS", "FEET" ],
-    "flags": [ "ALLOWS_NATURAL_ATTACKS", "STURDY", "OUTER" ],
-    "encumbrance": 0,
+    "flags": [ "ALLOWS_NATURAL_ATTACKS", "STURDY", "AURA" ],
     "environmental_protection": 5,
-    "coverage": 100,
-    "material_thickness": 1
+    "armor": [
+      {
+        "covers": [ "head", "mouth", "eyes", "torso", "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l", "foot_r" ],
+        "coverage": 100,
+        "material_thickness": 1,
+        "encumbrance": 0
+      }
+    ]
   },
   {
     "id": "GS_eq_int3_bell",
@@ -361,8 +371,7 @@
     "environmental_protection": 10,
     "ammo": "destiny_copper_type",
     "pocket_data": [ { "pocket_type": "MAGAZINE", "holster": true, "rigid": true, "ammo_restriction": { "destiny_copper_type": 15 } } ],
-    "relic_data": { "charge_info": { "regenerate_ammo": true } },
-    "flags": [ "STURDY", "OUTER" ],
+    "flags": [ "STURDY", "AURA" ],
     "use_action": {
       "type": "transform",
       "msg": "你激发了金刚铛的符箓，周身荡漾着一个透明护盾，持续时间3分钟。",
@@ -388,15 +397,18 @@
     "charges_per_use": 1,
     "turns_per_charge": 2,
     "pocket_data": [ { "pocket_type": "MAGAZINE", "holster": true, "rigid": true, "ammo_restriction": { "destiny_copper_type": 15 } } ],
-    "relic_data": { "charge_info": { "regenerate_ammo": true } },
     "revert_to": "GS_eq_int3_bell",
     "revert_msg": "金刚铛的能量用尽，护盾缓缓消失。",
-    "covers": [ "HEAD", "MOUTH", "EYES", "TORSO", "ARMS", "HANDS", "LEGS", "FEET" ],
-    "flags": [ "ALLOWS_NATURAL_ATTACKS", "STURDY", "OUTER" ],
-    "encumbrance": 0,
+    "flags": [ "ALLOWS_NATURAL_ATTACKS", "STURDY", "AURA" ],
     "environmental_protection": 10,
-    "coverage": 100,
-    "material_thickness": 2
+    "armor": [
+      {
+        "covers": [ "head", "mouth", "eyes", "torso", "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l", "foot_r" ],
+        "coverage": 100,
+        "material_thickness": 2,
+        "encumbrance": 0
+      }
+    ]
   },
   {
     "id": "GS_eq_per2_song",
@@ -457,7 +469,6 @@
     "color": "light_gray",
     "ammo": "destiny_copper_type",
     "pocket_data": [ { "pocket_type": "MAGAZINE", "holster": true, "rigid": true, "ammo_restriction": { "destiny_copper_type": 60 } } ],
-    "relic_data": { "charge_info": { "regenerate_ammo": true } },
     "use_action": {
       "type": "transform",
       "msg": "你的身体变得透明，如融入背景般消失不见。",
@@ -483,7 +494,6 @@
     "charges_per_use": 2,
     "turns_per_charge": 1,
     "pocket_data": [ { "pocket_type": "MAGAZINE", "holster": true, "rigid": true, "ammo_restriction": { "destiny_copper_type": 60 } } ],
-    "relic_data": { "charge_info": { "regenerate_ammo": true } },
     "use_action": {
       "type": "transform",
       "msg": "隐形效果消失，你的身体显影而出。",
@@ -502,17 +512,12 @@
     "weight": "666 g",
     "volume": "15 L",
     "material": [ "GS_int_sheild", "super_mt" ],
-    "material_thickness": 2,
     "symbol": "[",
     "color": "white",
-    "covers": [ "LEGS", "TORSO", "ARMS" ],
-    "coverage": 95,
-    "encumbrance": 5,
     "environmental_protection": 8,
     "artifact_data": { "effects_worn": [ "AEP_PSYSHIELD", "AEP_STEALTH" ] },
     "ammo": "destiny_copper_type",
     "pocket_data": [ { "pocket_type": "MAGAZINE", "holster": true, "rigid": true, "ammo_restriction": { "destiny_copper_type": 100 } } ],
-    "relic_data": { "charge_info": { "regenerate_ammo": true } },
     "use_action": {
       "type": "transform",
       "msg": "「无」特质发动，你的身体倏地透明。",
@@ -521,6 +526,14 @@
       "need_charges": 3,
       "need_charges_msg": "灵质轻音袍需要足够的天命币才能启动。"
     },
+    "armor": [
+      {
+        "covers": [ "torso", "leg_l", "leg_r", "arm_l", "arm_r"],
+        "coverage": 95,
+        "material_thickness": 2,
+        "encumbrance": 5
+      }
+    ],
     "flags": [ "VARSIZE", "OUTER", "STURDY", "HOOD", "RAD_RESIST", "WATERPROOF", "RAINPROOF", "SUPER_FANCY" ]
   },
   {
@@ -532,29 +545,32 @@
     "weight": "666 g",
     "volume": "15 L",
     "material": [ "GS_int_sheild", "super_mt" ],
-    "material_thickness": 2,
     "symbol": "[",
     "color": "white",
-    "covers": [ "LEGS", "TORSO", "ARMS" ],
-    "coverage": 90,
-    "encumbrance": 5,
     "environmental_protection": 8,
     "artifact_data": { "effects_worn": [ "AEP_PSYSHIELD", "AEP_STEALTH", "AEP_INVISIBLE" ] },
     "ammo": "destiny_copper_type",
     "charges_per_use": 2,
     "turns_per_charge": 1,
     "pocket_data": [ { "pocket_type": "MAGAZINE", "holster": true, "rigid": true, "ammo_restriction": { "destiny_copper_type": 100 } } ],
-    "relic_data": { "charge_info": { "regenerate_ammo": true } },
     "use_action": { "type": "transform", "msg": "隐身效果消失，你的身体显影而出。", "target": "GS_eq_per4_robe_quiet" },
     "revert_to": "GS_eq_per4_robe_quiet",
     "revert_msg": "轻音袍的能量用尽，隐形效果消失。",
+    "armor": [
+      {
+        "covers": [ "torso", "leg_l", "leg_r", "arm_l", "arm_r"],
+        "coverage": 90,
+        "material_thickness": 2,
+        "encumbrance": 5
+      }
+    ],
     "flags": [ "VARSIZE", "OUTER", "STURDY", "HOOD", "RAD_RESIST", "WATERPROOF", "RAINPROOF", "SUPER_FANCY" ]
   },
   {
     "id": "GS_eq_merit1_soul",
     "type": "ARMOR",
     "category": "GS_equipment",
-    "name": "功德灵(初阶)",
+    "name": "功德灵（初阶）",
     "description": "对功德之气有亲和力的特殊灵体，不惧阳光与驱邪法术，附身(W)时无视地形侦查，透过感官共享反馈周围事物。",
     "material": "merit_mt",
     "symbol": "g",
@@ -566,8 +582,8 @@
     "id": "GS_eq_merit2_furnace",
     "type": "TOOL",
     "category": "GS_tool",
-    "name": "炼魂炉(中阶)",
-    "description": "升级灵体的必要道具，将灵仆与灵质放入炼魂炉中温养融炼，一段时间后即可升级(a)。\n \n功德灵(中阶)：亲和功德之气的特殊灵体，不惧阳光及驱邪，可无视障壁侦查四周，保护主人免疫邪魅的精神攻击。",
+    "name": "炼魂炉（中阶）",
+    "description": "升级灵体的必要道具，将灵仆与灵质放入炼魂炉中温养融炼，一段时间后即可升级(a)。\n \n功德灵（中阶）：亲和功德之气的特殊灵体，不惧阳光及驱邪，可无视障壁侦查四周，保护主人免疫邪魅的精神攻击。",
     "material": [ "merit_mt" ],
     "symbol": "&",
     "color": "black",
@@ -586,7 +602,7 @@
     "id": "GS_eq_merit2_soul",
     "type": "ARMOR",
     "category": "GS_equipment",
-    "name": "功德灵(中阶)",
+    "name": "功德灵（中阶）",
     "description": "亲和功德之气的特殊灵体，不惧阳光及驱邪，可无视障壁侦查四周，保护主人免疫邪魅的精神攻击。",
     "material": "merit_mt",
     "symbol": "g",
@@ -598,8 +614,8 @@
     "id": "GS_eq_merit3_furnace",
     "type": "TOOL",
     "category": "GS_tool",
-    "name": "炼魂炉(高阶)",
-    "description": "升级灵体的必要道具，将灵仆与灵质放入炼魂炉中温养融炼，一段时间后即可升级。\n \n功德灵(高阶)：亲和功德之气的特殊灵体，不惧阳光及驱邪、无视障壁勘查四周并免疫邪魅的精神攻击。\n主动技能：功德金身，消耗功德之力塑造法相金身，大幅提升防御力及抗性，全能力+6、免疫电击、拥有天人视角。",
+    "name": "炼魂炉（高阶）",
+    "description": "升级灵体的必要道具，将灵仆与灵质放入炼魂炉中温养融炼，一段时间后即可升级。\n \n功德灵（高阶）：亲和功德之气的特殊灵体，不惧阳光及驱邪、无视障壁勘查四周并免疫邪魅的精神攻击。\n主动技能：功德金身，消耗功德之力塑造法相金身，大幅提升防御力及抗性，全能力+6、免疫电击、拥有天人视角。",
     "material": [ "merit_mt" ],
     "symbol": "&",
     "color": "black",
@@ -618,14 +634,13 @@
     "id": "GS_eq_merit3_soul",
     "type": "TOOL_ARMOR",
     "category": "GS_equipment",
-    "name": "功德灵(高阶)",
+    "name": "功德灵（高阶）",
     "description": "亲和功德之气的特殊灵体，不惧阳光及驱邪、无视障壁勘查四周并免疫邪魅的精神攻击。\n \n主动技能：功德金身，消耗功德之力塑造法相金身，大幅提升防御力及抗性，全能力+6、免疫电击、暂时拥有天人视角，每回合消耗2功德。\n \n※灵体等级已封顶。",
     "material": "merit_mt",
     "symbol": "g",
     "color": "yellow",
     "ammo": "merit_type",
     "pocket_data": [ { "pocket_type": "MAGAZINE", "holster": true, "rigid": true, "ammo_restriction": { "merit_type": 100 } } ],
-    "relic_data": { "charge_info": { "regenerate_ammo": true } },
     "artifact_data": { "effects_worn": [ "AEP_PSYSHIELD", "AEP_CLAIRVOYANCE" ] },
     "use_action": {
       "type": "transform",
@@ -646,19 +661,23 @@
     "name": "功德金身",
     "description": "以功德之气凝聚的法身，消耗信仰之力获得加成，具有强大的防御及抗性，全属性+6、免疫雷击、拥有天人视角。",
     "material": "merit_mt",
-    "material_thickness": 3,
     "symbol": "g",
     "color": "yellow",
-    "covers": [ "HEAD", "MOUTH", "EYES", "TORSO", "ARMS", "HANDS", "LEGS", "FEET" ],
-    "coverage": 100,
     "environmental_protection": 25,
     "ammo": "merit_type",
     "charges_per_use": 2,
     "turns_per_charge": 1,
     "pocket_data": [ { "pocket_type": "MAGAZINE", "holster": true, "rigid": true, "ammo_restriction": { "merit_type": 100 } } ],
-    "relic_data": { "charge_info": { "regenerate_ammo": true } },
     "revert_to": "GS_eq_merit3_soul",
     "revert_msg": "功德灵的灵力耗尽，恢复成普通状态。",
+    "armor": [
+      {
+        "covers": [ "head", "mouth", "eyes", "torso", "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l", "foot_r" ],
+        "coverage": 100,
+        "material_thickness": 3,
+        "encumbrance": 0
+      }
+    ],
     "artifact_data": {
       "effects_worn": [
         "AEP_PSYSHIELD",
