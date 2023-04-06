@@ -438,7 +438,7 @@
     "color": "red",
     "artifact_data": { "effects_wielded": [ "AEP_GLOW" ] },
     "use_action": [ { "type": "firestarter", "moves": 25 }, "HOTPLATE" ],
-    "flags": [ "FIRE", "FLAMING", "UNBREAKABLE_MELEE", "ZERO_WEIGHT" ]
+    "flags": [ "FIRE", "FLAMING", "UNBREAKABLE_MELEE", "UNARMED_WEAPON", "ZERO_WEIGHT" ]
   },
   {
     "id": "GS_tool_fireblock",
@@ -452,12 +452,12 @@
     "ammo": "destiny_copper_type",
     "charges_per_use": 15,
     "pocket_data": [ { "pocket_type": "MAGAZINE", "holster": true, "rigid": true, "ammo_restriction": { "destiny_copper_type": 30 } } ],
-    "relic_data": { "charge_info": { "regenerate_ammo": true } },
     "flags": [ "ZERO_WEIGHT" ],
     "use_action": [
       {
         "type": "consume_drug",
         "activation_message": "烧烤宝典启动！时效3分钟。",
+        "need_charges": 15,
         "effects": [ { "id": "book_fireblock", "duration": 30 } ],
         "moves": 0
       }
@@ -475,12 +475,12 @@
     "ammo": "destiny_copper_type",
     "charges_per_use": 10,
     "pocket_data": [ { "pocket_type": "MAGAZINE", "holster": true, "rigid": true, "ammo_restriction": { "destiny_copper_type": 30 } } ],
-    "relic_data": { "charge_info": { "regenerate_ammo": true } },
     "flags": [ "ZERO_WEIGHT" ],
     "use_action": [
       {
         "type": "consume_drug",
         "activation_message": "酸灼宝典启动！时效1分钟。",
+        "need_charges": 10,
         "effects": [ { "id": "book_acidblock", "duration": 30 } ],
         "moves": 0
       }
@@ -537,12 +537,12 @@
     "ammo": "destiny_copper_type",
     "charges_per_use": 10,
     "pocket_data": [ { "pocket_type": "MAGAZINE", "holster": true, "rigid": true, "ammo_restriction": { "destiny_copper_type": 30 } } ],
-    "relic_data": { "charge_info": { "regenerate_ammo": true } },
     "flags": [ "ZERO_WEIGHT" ],
     "use_action": [
       {
         "type": "consume_drug",
         "activation_message": "凝冰符启动，水雾在体表周围流转。",
+        "need_charges": 10,
         "effects": [ { "id": "GOS_block_hot", "duration": 200 } ],
         "moves": 0
       }
@@ -560,12 +560,12 @@
     "ammo": "destiny_copper_type",
     "charges_per_use": 10,
     "pocket_data": [ { "pocket_type": "MAGAZINE", "holster": true, "rigid": true, "ammo_restriction": { "destiny_copper_type": 30 } } ],
-    "relic_data": { "charge_info": { "regenerate_ammo": true } },
     "flags": [ "ZERO_WEIGHT" ],
     "use_action": [
       {
         "type": "consume_drug",
         "activation_message": "升阳符启动，一股暖劲驱除了寒意。",
+        "need_charges": 10,
         "effects": [ { "id": "GOS_block_cold", "duration": 200 } ],
         "moves": 0
       }

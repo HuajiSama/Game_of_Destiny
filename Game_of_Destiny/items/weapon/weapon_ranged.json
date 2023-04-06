@@ -19,7 +19,7 @@
       "material": [ { "type": "super_mt", "covered_by_mat": 100, "thickness": 1.0 } ],
       "encumbrance": 12,
       "coverage": 5,
-      "covers": [ "TORSO" ],
+      "covers": [ "torso" ],
       "specifically_covers": [ "torso_hanging_back" ]
     },
     "ranged_damage": { "damage_type": "stab", "amount": 10 },
@@ -52,7 +52,7 @@
       "material": [ { "type": "super_mt", "covered_by_mat": 100, "thickness": 1.0 } ],
       "encumbrance": 10,
       "coverage": 5,
-      "covers": [ "TORSO" ],
+      "covers": [ "torso" ],
       "specifically_covers": [ "torso_hanging_back" ]
     },
     "ranged_damage": { "damage_type": "stab", "amount": 14 },
@@ -85,7 +85,7 @@
       "material": [ { "type": "super_mt", "covered_by_mat": 100, "thickness": 1.0 } ],
       "encumbrance": 8,
       "coverage": 5,
-      "covers": [ "TORSO" ],
+      "covers": [ "torso" ],
       "specifically_covers": [ "torso_hanging_back" ]
     },
     "ranged_damage": { "damage_type": "stab", "amount": 18, "armor_penetration": 2 },
@@ -117,7 +117,7 @@
       "material": [ { "type": "super_mt", "covered_by_mat": 100, "thickness": 1.0 } ],
       "encumbrance": 6,
       "coverage": 5,
-      "covers": [ "TORSO" ],
+      "covers": [ "torso" ],
       "specifically_covers": [ "torso_hanging_back" ]
     },
     "min_strength": 7,

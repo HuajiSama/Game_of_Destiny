@@ -140,12 +140,12 @@
     "ammo": "destiny_copper_type",
     "charges_per_use": 10,
     "pocket_data": [ { "pocket_type": "MAGAZINE", "holster": true, "rigid": true, "ammo_restriction": { "destiny_copper_type": 30 } } ],
-    "relic_data": { "charge_info": { "regenerate_ammo": true } },
     "flags": [ "SPEAR", "REACH_ATTACK", "DURABLE_MELEE", "SHEATH_SWORD" ],
     "use_action": [
       {
         "type": "consume_drug",
         "activation_message": "以血换血！3分钟内提升力量、速度，随机损血。",
+        "need_charges": 10,
         "effects": [ { "id": "str_revange_1", "duration": 30 } ]
       }
     ]
@@ -169,12 +169,12 @@
     "ammo": "destiny_copper_type",
     "charges_per_use": 10,
     "pocket_data": [ { "pocket_type": "MAGAZINE", "holster": true, "rigid": true, "ammo_restriction": { "destiny_copper_type": 30 } } ],
-    "relic_data": { "charge_info": { "regenerate_ammo": true } },
     "flags": [ "SPEAR", "REACH_ATTACK", "REACH3", "DURABLE_MELEE", "SHEATH_SWORD" ],
     "use_action": [
       {
         "type": "consume_drug",
         "activation_message": "杀破狼！3分钟内提升力量、敏捷、速度，随机损血。",
+        "need_charges": 10,
         "effects": [ { "id": "str_revange_2", "duration": 30 } ]
       }
     ]
@@ -187,20 +187,27 @@
     "category": "GS_weapon",
     "name": "嗜血武士刀",
     "description": "特质「血祭」的天命武装，会侵蚀主人的鲜血，要伤敌，先伤己！激活可解放妖刀之力。",
-    "price": 0,    
-    "bashing": 5,
-    "cutting": 31,
+    "price": 0,
     "material": [ "super_mt" ],
-    "extend": { "flags": [ "blood_katana_1_eoc_flags" ] },
-    "chat_topics": [ "blood_katana_1_eoc_talk" ],
-    "use_action": {"type": "effect_on_conditions",
-      "description": "进入自刀面板",
-      "effect_on_conditions": [ 
+    "ammo": "battery",
+    "pocket_data": [
       {
-        "id": "blood_katana_1_eoc_talk",
-        "effect": [ "open_dialogue" ]
-      }]
-    }
+        "pocket_type": "MAGAZINE_WELL",
+        "rigid": true,
+        "flag_restriction": [ "BATTERY_MEDIUM", "BATTERY_HEAVY" ],
+        "default_magazine": "medium_battery_cell"
+      }
+    ],
+    "artifact_data": { "charge_type": "ARTC_HP" },
+    "use_action": {
+      "type": "transform",
+      "target": "GS_wp_str3_katana_bloodly_active",
+      "need_charges": 30,
+      "need_charges_msg": "这把刀需要更多鲜血喂养。",
+      "msg": "嗜血的刀意解封，狂暴肆虐！",
+      "active": true
+    },
+    "extend": { "flags": [ "NO_UNLOAD" ] }
   },
   {
     "id": "GS_wp_str3_katana_bloodly_active",
@@ -242,7 +249,7 @@
     "type": "TOOL",
     "category": "GS_weapon",
     "name": "千子村正",
-    "description": "特质「血祭」的进阶武装，以自身鲜血喂养，激活后释放最大威力！\n\n※武装等级已封顶。",
+    "description": "特质「血祭」的进阶武装，以自身鲜血喂养，激活后释放最大威力！\n \n※此刀可吸收活物的鲜血恢复宿主生命\n※武装等级已封顶。",
     "weight": "1133 g",
     "volume": 8,
     "price": 0,
@@ -254,16 +261,25 @@
     "bashing": 4,
     "cutting": 38,
     "to_hit": 1,
-    "extend": { "flags": [ "blood_katana_2_eoc_flags","DURABLE_MELEE", "SHEATH_SWORD", "NO_UNLOAD" ] },
-    "chat_topics": [ "blood_katana_2_eoc_talk" ],
-    "use_action": {
-      "type": "effect_on_conditions",
-      "description": "进入自刀面板",
-      "effect_on_conditions": [ 
+    "ammo": "battery",
+    "pocket_data": [
       {
-        "id": "blood_katana_2_eoc_talk",
-        "effect": [ "open_dialogue" ]
-      }] }
+        "pocket_type": "MAGAZINE_WELL",
+        "rigid": true,
+        "flag_restriction": [ "BATTERY_MEDIUM", "BATTERY_HEAVY" ],
+        "default_magazine": "medium_battery_cell"
+      }
+    ],
+    "artifact_data": { "charge_type": "ARTC_HP", "effects_wielded": [ "AEP_SAP_LIFE" ] },
+    "use_action": {
+      "type": "transform",
+      "target": "GS_wp_str5_katana_Muramasa_active",
+      "need_charges": 45,
+      "need_charges_msg": "这把刀还需要更多鲜血喂养。",
+      "msg": "村正的刀意解封，狂暴肆虐！",
+      "active": true
+    },
+    "flags": [ "DURABLE_MELEE", "SHEATH_SWORD", "NO_UNLOAD" ]
   },
   {
     "id": "GS_wp_str5_katana_Muramasa_active",
@@ -317,7 +333,6 @@
     "to_hit": 2,
     "ammo": "merit_type",
     "pocket_data": [ { "pocket_type": "MAGAZINE", "holster": true, "rigid": true, "ammo_restriction": { "merit_type": 50 } } ],
-    "relic_data": { "charge_info": { "regenerate_ammo": true } },
     "use_action": {
       "type": "transform",
       "target": "GS_wp_merit2_sword_dispel_active",
@@ -347,7 +362,6 @@
     "charges_per_use": 1,
     "turns_per_charge": 3,
     "pocket_data": [ { "pocket_type": "MAGAZINE", "holster": true, "rigid": true, "ammo_restriction": { "merit_type": 50 } } ],
-    "relic_data": { "charge_info": { "regenerate_ammo": true } },
     "revert_to": "GS_wp_merit2_sword_dispel",
     "revert_msg": "千阳刀恢复成原本的钝刃。",
     "use_action": {
