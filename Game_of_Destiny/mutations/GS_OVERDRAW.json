@@ -8,14 +8,15 @@
     "material": [ "super_mt" ],
     "symbol": "*",
     "color": "dark_gray",
+    "ammo": "destiny_silver_type",
     "charges_per_use": 5,
     "pocket_data": [ { "pocket_type": "MAGAZINE", "holster": true, "rigid": true, "ammo_restriction": { "destiny_silver_type": 5 } } ],
-    "relic_data": { "charge_info": { "regenerate_ammo": true } },
     "chat_topics": [ "TALK_SP_OVERDRAW_MUTAGEN" ],
     "use_action": [
       {
         "type": "effect_on_conditions",
         "description": "特质凝结",
+        "need_charges": 5,
         "effect_on_conditions": [
           {
             "id": "TALK_SP_OVERDRAW_MUTAGEN",
