@@ -438,7 +438,7 @@
     "color": "red",
     "artifact_data": { "effects_wielded": [ "AEP_GLOW" ] },
     "use_action": [ { "type": "firestarter", "moves": 25 }, "HOTPLATE" ],
-    "flags": [ "FIRE", "FLAMING", "UNBREAKABLE_MELEE", "ZERO_WEIGHT" ]
+    "flags": [ "FIRE", "FLAMING", "UNBREAKABLE_MELEE", "UNARMED_WEAPON", "ZERO_WEIGHT" ]
   },
   {
     "id": "GS_tool_fireblock",

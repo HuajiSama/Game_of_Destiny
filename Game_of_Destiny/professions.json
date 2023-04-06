@@ -30,8 +30,8 @@
         "sneakers",
         "bandages",
         "bandages",
-        "1st_aid_box",
-        "1st_aid_box",
+        "1st_aid",
+        "1st_aid",
         "scalpel",
         "water_clean"
       ],
@@ -125,7 +125,7 @@
           { "item": "water_clean", "container-item": "canteen" },
           { "item": "lighter", "charges": 100 },
           { "item": "knife_combat", "container-item": "sheath" },
-          { "item": "acr_300blk", "ammo-item": "556", "charges": 30, "contents-item": [ "shoulder_strap", "rifle_scope" ] },
+          { "item": "acr", "ammo-item": "556", "charges": 30, "contents-item": [ "shoulder_strap", "rifle_scope" ] },
           { "item": "stanag30", "ammo-item": "556", "charges": 30, "count": 2 }
         ]
       },

@@ -1,7 +1,7 @@
 [
   {
     "type": "recipe",
-    "result": "manual_computer",
+    "result": "manual_computers",
     "category": "CC_超凡",
     "subcategory": "CSC_超凡_无界",
     "skill_used": "electronics",
@@ -11,19 +11,6 @@
     "autolearn": true,
     "tools": [ [ [ "GS_book_freedom", -1 ] ] ],
     "components": [ [ [ "destiny_copper", 50 ] ] ]
-  },
-  {
-    "type": "recipe",
-    "result": "hackerman_computer",
-    "category": "CC_超凡",
-    "subcategory": "CSC_超凡_无界",
-    "skill_used": "electronics",
-    "skills_required": [ [ "GS_int", 4 ], [ "computer", 0 ] ],
-    "difficulty": 0,
-    "time": 15000,
-    "autolearn": true,
-    "tools": [ [ [ "GS_book_freedom", -1 ] ] ],
-    "components": [ [ [ "destiny_copper", 75 ] ] ]
   },
   {
     "type": "recipe",
