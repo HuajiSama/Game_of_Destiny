@@ -1,0 +1,112 @@
+[
+{
+    "id": "blood_katana_2_eoc_talk_spell_suicide10",
+    "//": "小刀",
+    "type": "SPELL",
+    "name": { "str": "村正自刀10%" },
+    "description": "你不该看到这个",
+    "valid_targets": [ "self" ],
+    "flags": [ "SILENT" ],
+    "effect": "attack",
+    "damage_type": "pure",
+    "shape": "blast",
+    "max_level": 0,
+    "base_casting_time": 100,
+    "min_damage": 
+    {
+        "global_val": "var",
+        "var_name": "hpmax10", 
+        "type": "int",
+        "default": 1
+    },
+    "max_damage": 
+    {
+        "global_val": "var",
+        "var_name": "hpmax10",
+        "type": "int",
+        "default": 1
+    }
+},
+
+
+
+
+{
+    "id": "blood_katana_2_eoc_talk_spell_suicide30",
+    "//": "中刀",
+    "type": "SPELL",
+    "name": { "str": "村正自刀30%" },
+    "description": "你不该看到这个",
+    "valid_targets": [ "self" ],
+    "flags": [ "SILENT" ],
+    "effect": "attack",
+    "damage_type": "pure",
+    "shape": "blast",
+    "max_level": 0,
+    "base_casting_time": 100,
+    "min_damage": 
+    {
+        "global_val": "var",
+        "var_name": "hpmax30", 
+        "type": "int",
+        "default": 1
+    },
+    "max_damage": 
+    {
+        "global_val": "var",
+        "var_name": "hpmax30",
+        "type": "int",
+        "default": 1
+    }
+},
+
+
+
+
+
+
+{
+    "id": "blood_katana_2_eoc_talk_spell_suicide50",
+    "//": "大刀",
+    "type": "SPELL",
+    "name": { "str": "村正自刀50%" },
+    "description": "你不该看到这个",
+    "valid_targets": [ "self" ],
+    "flags": [ "SILENT" ],
+    "effect": "attack",
+    "damage_type": "pure",
+    "shape": "blast",
+    "max_level": 0,
+    "base_casting_time": 100,
+    "min_damage": 
+    {
+        "global_val": "var",
+        "var_name": "hpmax50", 
+        "type": "int",
+        "default": 1
+    },
+    "max_damage": 
+    {
+        "global_val": "var",
+        "var_name": "hpmax50",
+        "type": "int",
+        "default": 1
+    }
+},
+
+{
+    "id": "blood_katana_2_eoc_talk_spell_suicideall",
+    "//": "大刀",
+    "type": "SPELL",
+    "name": { "str": "村正自刀专用分流" },
+    "description": "你不该看到这个",
+    "valid_targets": [ "self" ],
+    "flags": [ "SILENT" ],
+    "effect": "pain_split",
+    "damage_type": "pure",
+    "shape": "blast",
+    "max_level": 0
+}
+
+
+]

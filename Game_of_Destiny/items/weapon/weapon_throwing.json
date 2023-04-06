@@ -32,7 +32,7 @@
     },
     "ammo_effects": [ "NEVER_MISFIRES", "WIDE", "BLINDS_EYES" ],
     "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "thrown": 6 } } ],
-    "flags": [ "PRIMITIVE_RANGED_WEAPON", "RELOAD_ONE", "STR_DRAW", "UNARMED_WEAPON", "DURABLE_MELEE", "STURDY", "BELTED" ]
+    "flags": [ "PRIMITIVE_RANGED_WEAPON", "RELOAD_ONE", "STR_DRAW", "DURABLE_MELEE", "STURDY", "BELTED" ]
   },
   {
     "id": "GS_wp_dex4_glove_throwing",

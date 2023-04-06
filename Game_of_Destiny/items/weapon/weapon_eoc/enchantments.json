@@ -1,0 +1,22 @@
+[
+    {
+        "type": "enchantment",
+        "id": "blood_katana_1_enchantment",
+        "name": { "str": "狂暴武士刀" },
+        "values": 
+        [  
+        { "value": "ITEM_DAMAGE_CUT", "add": 14 },
+        { "value": "ITEM_DAMAGE_BASH", "add": 5 }
+        ]
+    },
+    {
+        "type": "enchantment",
+        "id": "blood_katana_2_enchantment",
+        "name": { "str": "妖刀村正" },
+        "values": 
+        [  
+        { "value": "ITEM_DAMAGE_CUT", "add": 28 },
+        { "value": "ITEM_DAMAGE_BASH", "add": 0 }
+        ]
+    }
+]

@@ -229,8 +229,8 @@
         [ "copper", 100 ],
         [ "scrap_copper", 1 ],
         [ "material_aluminium_ingot", 1 ],
-        [ "can_drink_unsealed", 1 ],
-        [ "can_food_unsealed", 1 ],
+        [ "can_drink", 2 ],
+        [ "can_food", 1 ],
         [ "canister_empty", 1 ],
         [ "rebar", 1 ],
         [ "nail", 100 ],
@@ -256,6 +256,6 @@
     "time": 1200,
     "book_learn": [ [ "GS_book_alchemy3", 0 ] ],
     "flags": [ "BLIND_EASY" ],
-    "components": [ [ [ "sheet_metal", 1 ], [ "metal_tank_little", 1 ], [ "steel_lump", 1 ] ] ]
+    "components": [ [ [ "sheet_metal", 1 ], [ "metal_tank_little", 1 ], [ "steel_lump", 1 ],[ "can_medium", 1 ],[ "can_food_big", 1 ] ] ]
   }
 ]

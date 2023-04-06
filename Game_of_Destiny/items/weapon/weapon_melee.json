@@ -187,27 +187,20 @@
     "category": "GS_weapon",
     "name": "嗜血武士刀",
     "description": "特质「血祭」的天命武装，会侵蚀主人的鲜血，要伤敌，先伤己！激活可解放妖刀之力。",
-    "price": 0,
+    "price": 0,    
+    "bashing": 5,
+    "cutting": 31,
     "material": [ "super_mt" ],
-    "ammo": "battery",
-    "pocket_data": [
+    "extend": { "flags": [ "blood_katana_1_eoc_flags" ] },
+    "chat_topics": [ "blood_katana_1_eoc_talk" ],
+    "use_action": {"type": "effect_on_conditions",
+      "description": "进入自刀面板",
+      "effect_on_conditions": [ 
       {
-        "pocket_type": "MAGAZINE_WELL",
-        "rigid": true,
-        "flag_restriction": [ "BATTERY_MEDIUM", "BATTERY_HEAVY" ],
-        "default_magazine": "medium_battery_cell"
-      }
-    ],
-    "artifact_data": { "charge_type": "ARTC_HP" },
-    "use_action": {
-      "type": "transform",
-      "target": "GS_wp_str3_katana_bloodly_active",
-      "need_charges": 30,
-      "need_charges_msg": "这把刀需要更多鲜血喂养。",
-      "msg": "嗜血的刀意解封，狂暴肆虐！",
-      "active": true
-    },
-    "extend": { "flags": [ "NO_UNLOAD" ] }
+        "id": "blood_katana_1_eoc_talk",
+        "effect": [ "open_dialogue" ]
+      }]
+    }
   },
   {
     "id": "GS_wp_str3_katana_bloodly_active",
@@ -249,7 +242,7 @@
     "type": "TOOL",
     "category": "GS_weapon",
     "name": "千子村正",
-    "description": "特质「血祭」的进阶武装，以自身鲜血喂养，激活后释放最大威力！\n \n※此刀可吸收活物的鲜血恢复宿主生命\n※武装等级已封顶。",
+    "description": "特质「血祭」的进阶武装，以自身鲜血喂养，激活后释放最大威力！\n\n※武装等级已封顶。",
     "weight": "1133 g",
     "volume": 8,
     "price": 0,
@@ -261,25 +254,16 @@
     "bashing": 4,
     "cutting": 38,
     "to_hit": 1,
-    "ammo": "battery",
-    "pocket_data": [
-      {
-        "pocket_type": "MAGAZINE_WELL",
-        "rigid": true,
-        "flag_restriction": [ "BATTERY_MEDIUM", "BATTERY_HEAVY" ],
-        "default_magazine": "medium_battery_cell"
-      }
-    ],
-    "artifact_data": { "charge_type": "ARTC_HP", "effects_wielded": [ "AEP_SAP_LIFE" ] },
+    "extend": { "flags": [ "blood_katana_2_eoc_flags","DURABLE_MELEE", "SHEATH_SWORD", "NO_UNLOAD" ] },
+    "chat_topics": [ "blood_katana_2_eoc_talk" ],
     "use_action": {
-      "type": "transform",
-      "target": "GS_wp_str5_katana_Muramasa_active",
-      "need_charges": 45,
-      "need_charges_msg": "这把刀还需要更多鲜血喂养。",
-      "msg": "村正的刀意解封，狂暴肆虐！",
-      "active": true
-    },
-    "flags": [ "DURABLE_MELEE", "SHEATH_SWORD", "NO_UNLOAD" ]
+      "type": "effect_on_conditions",
+      "description": "进入自刀面板",
+      "effect_on_conditions": [ 
+      {
+        "id": "blood_katana_2_eoc_talk",
+        "effect": [ "open_dialogue" ]
+      }] }
   },
   {
     "id": "GS_wp_str5_katana_Muramasa_active",
