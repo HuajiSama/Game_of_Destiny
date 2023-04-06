@@ -145,7 +145,7 @@
       [ [ "welder", 10 ], [ "welder_crude", 15 ], [ "toolset", 15 ], [ "oxy_torch", 2 ] ]
     ],
     "book_learn": [ [ "glassblowing_book", 0 ] ],
-    "components": [ [ [ "glass_shard", 20 ], [ "flask_glass", 4 ], [ "jar_glass", 2 ] ] ]
+    "components": [ [ [ "glass_shard", 20 ], [ "flask_glass", 4 ], [ "jar_glass_sealed", 2 ] ] ]
   },
   {
     "type": "recipe",

@@ -341,7 +341,7 @@
   },
   {
     "type": "recipe",
-    "result": "kevlar_plate",
+    "result": "sheet_kevlar_layered",
     "id_suffix": "from element_fabric",
     "category": "CC_超凡",
     "subcategory": "CSC_超凡_炼金",
