@@ -1,5 +1,30 @@
 [
   {
+    "id": "GOS_imaged_throwing_dagger",
+    "copy-from": "throwing_knife",
+    "type": "AMMO",
+    "ammo_type": "thrown",
+    "name": { "str": "飞刀(具现)", "str_pl": "飞刀(具现)" },
+    "description": "具现化能力制造的一次性飞刀。",
+    "price": 0,
+    "material": [ "glass" ],
+    "//": "保证只能砸1次,但材质似乎与投掷威力掛勾...加入威力补正",
+    "effects": [ "RECOVER_1", "ZERO_WEIGHT " ],
+    "thrown_damage": [ { "damage_type": "cut", "amount": 14 } ]
+  },
+  {
+    "id": "GOS_imaged_throwing_axe",
+    "copy-from": "throwing_axe",
+    "type": "AMMO",
+    "ammo_type": "thrown",
+    "name": { "str": "投斧(具现)", "str_pl": "投斧(具现)" },
+    "description": "具现化能力制造的一次性投斧。",
+    "price": 0,
+    "material": [ "glass" ],
+    "effects": [ "RECOVER_1", "ZERO_WEIGHT " ],
+    "thrown_damage": [ { "damage_type": "bash", "amount": 6 }, { "damage_type": "cut", "amount": 16 } ]
+  },
+  {
     "id": "GS_int_imaged_arrow",
     "copy-from": "arrow_metal",
     "type": "AMMO",

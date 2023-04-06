@@ -1,0 +1,27 @@
+[
+  {
+    "id": "throwing_knife",
+    "copy-from": "throwing_knife",
+    "type": "AMMO",
+    "ammo_type": "thrown",
+    "name": { "str": "throwing knife", "str_pl": "throwing knife" },
+    "weight": "75 g",
+    "volume": "15 ml",
+    "thrown_damage": [ { "damage_type": "cut", "amount": 14 } ]
+  },
+  {
+    "id": "throwing_axe",
+    "copy-from": "throwing_axe",
+    "type": "AMMO",
+    "ammo_type": "thrown",
+    "name": { "str": "throwing axe", "str_pl": "throwing axe" },
+    "thrown_damage": [ { "damage_type": "bash", "amount": 6 }, { "damage_type": "cut", "amount": 16 } ]
+  },
+  {
+    "id": "lawn_dart",
+    "copy-from": "lawn_dart",
+    "type": "AMMO",
+    "ammo_type": "thrown",
+    "name": { "str": "lawn dart", "str_pl": "lawn dart" }
+  }
+]

@@ -2,7 +2,7 @@
   {
     "type": "mutation",
     "id": "IMMORTAL_1",
-    "name": "肉身成圣(一级)",
+    "name": "肉身成圣（一级）",
     "points": 8,
     "description": "利用天命淬炼肉身、易筋洗髓。提升体质、全属性+1、全负荷-5。",
     "passive_mods": { "str_mod": 1, "dex_mod": 1, "int_mod": 1, "per_mod": 1 },
@@ -32,7 +32,7 @@
   {
     "type": "mutation",
     "id": "IMMORTAL_2",
-    "name": "肉身成圣(二级)",
+    "name": "肉身成圣（二级）",
     "points": 15,
     "description": "利用天命淬炼肉身、易筋洗髓。提升体质、全属性+2、全身负荷-10。",
     "passive_mods": { "str_mod": 2, "dex_mod": 2, "int_mod": 2, "per_mod": 2 },
@@ -63,7 +63,7 @@
   {
     "type": "mutation",
     "id": "IMMORTAL_3",
-    "name": "肉身成圣(满级)",
+    "name": "肉身成圣（满级）",
     "points": 20,
     "description": "利用天命淬炼肉身、易筋洗髓。提升体质、全属性+3、全身负荷-15。",
     "passive_mods": { "str_mod": 3, "dex_mod": 3, "int_mod": 3, "per_mod": 3 },

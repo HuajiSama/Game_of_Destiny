@@ -4,7 +4,7 @@
     "id": "Game_of_Destiny",
     "name": "超凡者游戏",
     "authors": [ "桂溪" ],
-    "maintainers": [ "青青子衿", "血色苍穹", "滑稽sama" , "Ticorwk"],
+    "maintainers": [ "青青子衿", "血色苍穹", "滑稽sama", "Ticorwk" ],
     "description": "为了自己的命运，在未知的世界全力一搏！\n改编小说《超凡者游戏》，击杀强敌、收集天命强化自身，制作天命装备与进化特质。\n内置属性随技能增长Mod与弓弩扩展包Mod,请勿重复添加. \n由于仅修复载入游戏报错及闪退问题,并未进行长时间的游戏测试,可能仍然有些bug存在,请见谅. \n遇到bug请到github.com/HuajiSama/Game_of_Destiny上反馈\n测试的游戏版本:0.G实验版2023-04-05-1435",
     "category": "content",
     "dependencies": [ "dda" ]
