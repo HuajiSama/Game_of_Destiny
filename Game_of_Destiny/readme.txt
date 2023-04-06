@@ -18,8 +18,8 @@
 ※基於七尺居士的小說《超凡者遊戲》改編之同人作品。
 https://book.qidian.com/info/3372864
 
-※遊戲本體來源：Coolthulhu's patches
-http://smf.cataclysmdda.com/index.php?topic=14767.0
+https://discourse.cataclysmdda.org/t/coolthulhus-patches/14023
+（旧网站貌似会跳转到钓鱼网站）http://smf.cataclysmdda.com/index.php?topic=14767.0
 
 MOD作者 桂溪
 分享於百度貼吧cataclysmdda
