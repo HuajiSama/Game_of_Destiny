@@ -1,10 +1,10 @@
 [
-{
+  {
     "type": "json_flag",
     "id": "blood_katana_1_eoc_flags"
-},
-{
+  },
+  {
     "type": "json_flag",
     "id": "blood_katana_2_eoc_flags"
-}
+  }
 ]

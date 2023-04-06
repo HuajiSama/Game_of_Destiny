@@ -1,5 +1,5 @@
 [
-{
+  {
     "id": "blood_katana_2_eoc_talk_spell_suicide10",
     "//": "小刀",
     "type": "SPELL",
@@ -12,26 +12,10 @@
     "shape": "blast",
     "max_level": 0,
     "base_casting_time": 100,
-    "min_damage": 
-    {
-        "global_val": "var",
-        "var_name": "hpmax10", 
-        "type": "int",
-        "default": 1
-    },
-    "max_damage": 
-    {
-        "global_val": "var",
-        "var_name": "hpmax10",
-        "type": "int",
-        "default": 1
-    }
-},
-
-
-
-
-{
+    "min_damage": { "global_val": "var", "var_name": "hpmax10", "type": "int", "default": 1 },
+    "max_damage": { "global_val": "var", "var_name": "hpmax10", "type": "int", "default": 1 }
+  },
+  {
     "id": "blood_katana_2_eoc_talk_spell_suicide30",
     "//": "中刀",
     "type": "SPELL",
@@ -44,28 +28,10 @@
     "shape": "blast",
     "max_level": 0,
     "base_casting_time": 100,
-    "min_damage": 
-    {
-        "global_val": "var",
-        "var_name": "hpmax30", 
-        "type": "int",
-        "default": 1
-    },
-    "max_damage": 
-    {
-        "global_val": "var",
-        "var_name": "hpmax30",
-        "type": "int",
-        "default": 1
-    }
-},
-
-
-
-
-
-
-{
+    "min_damage": { "global_val": "var", "var_name": "hpmax30", "type": "int", "default": 1 },
+    "max_damage": { "global_val": "var", "var_name": "hpmax30", "type": "int", "default": 1 }
+  },
+  {
     "id": "blood_katana_2_eoc_talk_spell_suicide50",
     "//": "大刀",
     "type": "SPELL",
@@ -78,23 +44,10 @@
     "shape": "blast",
     "max_level": 0,
     "base_casting_time": 100,
-    "min_damage": 
-    {
-        "global_val": "var",
-        "var_name": "hpmax50", 
-        "type": "int",
-        "default": 1
-    },
-    "max_damage": 
-    {
-        "global_val": "var",
-        "var_name": "hpmax50",
-        "type": "int",
-        "default": 1
-    }
-},
-
-{
+    "min_damage": { "global_val": "var", "var_name": "hpmax50", "type": "int", "default": 1 },
+    "max_damage": { "global_val": "var", "var_name": "hpmax50", "type": "int", "default": 1 }
+  },
+  {
     "id": "blood_katana_2_eoc_talk_spell_suicideall",
     "//": "大刀",
     "type": "SPELL",
@@ -106,7 +59,5 @@
     "damage_type": "pure",
     "shape": "blast",
     "max_level": 0
-}
-
-
+  }
 ]
