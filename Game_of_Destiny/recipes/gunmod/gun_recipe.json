@@ -1,7 +1,7 @@
 [
   {
     "type": "recipe",
-    "result": "l_lookout_9mm",
+    "result": "sw_619",
     "id_suffix": "from GS_book_int_gun",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_RANGED",

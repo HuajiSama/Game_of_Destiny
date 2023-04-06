@@ -168,7 +168,7 @@
     "time": 1000,
     "book_learn": [ [ "GS_book_alchemy3", 0 ] ],
     "flags": [ "BLIND_EASY" ],
-    "components": [ [ [ "kevlar_plate", 1 ], [ "nomex", 1 ] ] ]
+    "components": [ [ [ "sheet_kevlar_layered", 1 ], [ "nomex", 1 ] ] ]
   },
   {
     "type": "recipe",
