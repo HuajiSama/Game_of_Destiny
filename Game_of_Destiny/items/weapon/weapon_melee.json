@@ -18,7 +18,10 @@
     "material_thickness": 25,
     "armor": [
       {
-        "material": [ { "type": "super_mt", "covered_by_mat": 100, "thickness": 25.0 } ],
+        "material": [
+        { "type": "super_mt", "covered_by_mat": 100, "thickness": 25.0 },
+        { "type": "cotton", "covered_by_mat": 80, "thickness": 1.0 } 
+      ],
         "encumbrance": 0,
         "coverage": 100,
         "covers": [ "hand_l", "hand_r" ],
@@ -34,7 +37,10 @@
         ]
       },
       {
-        "material": [ { "type": "super_mt", "covered_by_mat": 100, "thickness": 25.0 } ],
+        "material": [
+          { "type": "super_mt", "covered_by_mat": 100, "thickness": 25.0 },
+          { "type": "cotton", "covered_by_mat": 80, "thickness": 1.0 } 
+        ],
         "encumbrance": 0,
         "coverage": 100,
         "covers": [ "arm_l", "arm_r" ],
@@ -67,19 +73,19 @@
   {
     "//1": "定位：力量系终极武装─高达甲的搭配，小说中具备离合领域，以能源冲击表现，补强爆发/穿透力。",
     "//2": "远程武器穿戴时默认部位为躯干，没法改到手上，因此以离合手甲作为容器。",
+    "//3": "版本更新后手持武器无法触发徒手/武术效果，故把离合手甲作为手部装甲+枪套，离合军手作为远程武器",
     "id": "GS_wp_str5_glove",
-    "type": "ARMOR",
+    "type": "TOOL",
     "category": "GS_weapon",
     "name": "离合军手",
-    "description": "力量系特质「死缠」进化的武装，控制物质间的引斥力，使用UPS电力瞬发能量冲击(f)，作为近身武器时有机率擒抓对手、格挡攻击、缴械。\n \n※武装等级已封顶。",
-    "copy-from": "GS_wp_str2_glove",
+    "description": "「离合手甲」的远程模块，力量系特质「死缠」进化的武装，控制物质间的引斥力，手持可以使用UPS电力瞬发能量冲击(f)，但将无法使用武术/徒手流派攻击。\n！！！使用后记得回收「离合军手」！！！\n \n※武装等级已封顶。",
     "weight": "1000 g",
     "volume": "400 ml",
     "symbol": "[",
     "color": "light_gray",
+    "longest_side": "10 cm",
     "bashing": 35,
     "to_hit": 3,
-    "ammo": [ "ups" ],
     "gun_data": {
       "skill": "melee",
       "range": 5,
@@ -100,25 +106,66 @@
     "type": "ARMOR",
     "category": "GS_equipment",
     "name": "离合手甲",
-    "description": "进阶特质「离合」的天命武装，全覆盖式的护手，专门收纳「离合军手」。",
-    "weight": 500,
-    "volume": 3,
+    "description": "进阶特质「离合」的天命武装，全覆盖式的护手，专用于收纳配套远程模块「离合军手」，装备后攻击时有机率擒抓对手、格挡攻击、缴械。\n激活可以收纳/弹出远程模块「离合军手」，但会无法使用武术/徒手流派攻击。\n！！！使用后记得回收「离合军手」！！！",
+    "weight": "1000 g",
+    "volume": "400 ml",
     "material": [ "super_mt" ],
     "symbol": "[",
     "color": "dark_gray",
-    "covers": [ "HANDS" ],
-    "coverage": 100,
-    "material_thickness": 2,
     "environmental_protection": 5,
+    "pocket_data": [
+      {
+      "max_contains_volume": "800ml",
+      "max_contains_weight": "2000 g",
+      "max_item_length": "20 cm",
+      "moves": 0,
+      "holster": true,
+      "item_restriction" :["GS_wp_str5_glove"]
+      }
+    ],
     "use_action": {
       "type": "holster",
       "holster_prompt": "收回离合军手",
-      "max_volume": 4,
-      "min_volume": 4,
-      "draw_cost": 50,
+      "holster_msg": "你将离合手甲的远程部位收回，现在可以自由发挥你的徒手武术了！",
+      "draw_cost": 0,
       "skills": [ "melee" ]
     },
-    "flags": [ "STURDY", "BELTED", "WATERPROOF" ]
+    "flags": [ "STURDY", "BELTED", "WATERPROOF", "BLOCK_WHILE_WORN", "DURABLE_MELEE", "ALLOWS_TALONS", "OUTER"],
+    "techniques": [ "tec_judo_break", "DEF_DISARM", "tec_brawl_power" ],
+    "bashing": 35,
+    "to_hit": 3,
+    "material_thickness": 25,
+    "armor": [
+      {
+        "material": [ 
+        { "type": "super_mt", "covered_by_mat": 100, "thickness": 25.0 },
+        { "type": "cotton", "covered_by_mat": 80, "thickness": 1.0 }
+       ],
+        "encumbrance": 0,
+        "coverage": 100,
+        "covers": [ "hand_l", "hand_r" ],
+        "specifically_covers": [
+          "hand_wrist_l",
+          "hand_wrist_r",
+          "hand_palm_l",
+          "hand_palm_r",
+          "hand_back_l",
+          "hand_back_r",
+          "hand_fingers_l",
+          "hand_fingers_r"
+        ]
+      },
+      {
+        "material": [ 
+        { "type": "super_mt", "covered_by_mat": 100, "thickness": 25.0 },
+        { "type": "cotton", "covered_by_mat": 80, "thickness": 1.0 }
+       ],
+        "encumbrance": 0,
+        "coverage": 100,
+        "covers": [ "arm_l", "arm_r" ],
+        "specifically_covers": [ "arm_lower_l", "arm_lower_r", "arm_elbow_r", "arm_elbow_l","arm_upper_r","arm_upper_l"]
+      }
+    ]
   },
   {
     "//": "定位：长距离、高伤害、无防御的长兵器，Buff损人伤己，投掷爆伤害。※互相伤害阿！",
