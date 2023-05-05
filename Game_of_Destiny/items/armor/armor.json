@@ -112,7 +112,7 @@
     "symbol": "[",
     "color": "brown",
     "techniques": [ "WBLOCK_1", "BRUTAL" ],
-    "bashing": 25,
+    "melee_damage": { "bash": 25 },
     "to_hit": -1,
     "environmental_protection": 5,
     "armor": [
@@ -137,7 +137,7 @@
     "symbol": "[",
     "color": "light_gray",
     "techniques": [ "WBLOCK_2", "BRUTAL" ],
-    "bashing": 32,
+    "melee_damage": { "bash": 32 },
     "to_hit": -1,
     "environmental_protection": 5,
     "armor": [

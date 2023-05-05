@@ -30,22 +30,22 @@
     "type": "technique",
     "id": "warlock_bash",
     "name": "秘法冲击",
+    "skill_requirements": [ { "name": "GS_int", "level": 8 } ],
     "unarmed_allowed": true,
     "melee_allowed": true,
-    "min_GS_int": 8,
     "crit_tec": true,
-    "bash_mult": 1.5,
     "knockback_dist": 1,
     "knockback_spread": 1,
-    "messages": [ "你蓄积咒力冲击 %s ！", "<npcname> 蓄积咒力冲击 %s！" ]
+    "messages": [ "你蓄积咒力冲击 %s ！", "<npcname> 蓄积咒力冲击 %s！" ],
+    "mult_bonuses": [ { "stat": "damage", "type": "bash", "scale": 1.5 } ]
   },
   {
     "type": "technique",
     "id": "warlock_wide",
     "name": "闪电风暴",
+    "skill_requirements": [ { "name": "GS_int", "level": 10 } ],
     "unarmed_allowed": true,
     "melee_allowed": true,
-    "min_GS_int": 10,
     "crit_tec": true,
     "mult_bonuses": [
       { "stat": "movecost", "scale": 1.5 },
@@ -68,7 +68,7 @@
     "color": "blue",
     "material": [ "paper" ],
     "intelligence": 12,
-    "time": 30,
+    "time": "1 s",
     "required_level": 0,
     "use_action": "MA_MANUAL",
     "flags": [ "ZERO_WEIGHT" ]
@@ -81,7 +81,7 @@
     "skill_used": "melee",
     "skills_required": [ [ "GS_int", 6 ], [ "GS_per", 6 ] ],
     "difficulty": 0,
-    "time": 30000,
+    "time": "30 m",
     "reversible": false,
     "autolearn": true,
     "components": [ [ [ "destiny_silver", 2 ] ] ]

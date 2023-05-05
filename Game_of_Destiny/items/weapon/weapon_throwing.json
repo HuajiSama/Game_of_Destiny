@@ -11,7 +11,7 @@
     "material": [ "super_mt" ],
     "symbol": "(",
     "color": "brown",
-    "bashing": 10,
+    "melee_damage": { "bash": 10 },
     "to_hit": -1,
     "skill": "throw",
     "min_strength": 6,

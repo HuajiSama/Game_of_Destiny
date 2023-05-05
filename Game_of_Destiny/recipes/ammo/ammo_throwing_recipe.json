@@ -7,7 +7,7 @@
     "skill_used": "throw",
     "skills_required": [ "GS_int", 2 ],
     "difficulty": 0,
-    "time": 100,
+    "time": "1 m",
     "autolearn": true,
     "flags": [ "BLIND_EASY" ],
     "components": [ [ [ "destiny_copper", 5 ] ] ]
@@ -20,7 +20,7 @@
     "skill_used": "throw",
     "skills_required": [ "GS_int", 2 ],
     "difficulty": 0,
-    "time": 100,
+    "time": "1 m",
     "autolearn": true,
     "flags": [ "BLIND_EASY" ],
     "components": [ [ [ "destiny_copper", 5 ] ] ]
@@ -34,7 +34,7 @@
     "skill_used": "fabrication",
     "skills_required": [ "GS_int", 4 ],
     "difficulty": 0,
-    "time": 15000,
+    "time": "15 m",
     "autolearn": true,
     "qualities": [ { "id": "HAMMER", "level": 3 } ],
     "components": [ [ [ "steel_chunk", 3 ], [ "scrap", 15 ], [ "element_steel", 3 ] ] ]
@@ -48,7 +48,7 @@
     "skill_used": "fabrication",
     "skills_required": [ "GS_int", 4 ],
     "difficulty": 0,
-    "time": 15000,
+    "time": "15 m",
     "autolearn": true,
     "qualities": [ { "id": "HAMMER", "level": 3 }, { "id": "CUT", "level": 1 } ],
     "components": [

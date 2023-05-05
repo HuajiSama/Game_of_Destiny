@@ -6,7 +6,7 @@
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_OTHER",
     "difficulty": 2,
-    "time": 20000,
+    "time": "300 m",
     "qualities": [ { "id": "HAMMER", "level": 1 }, { "id": "SAW_W", "level": 1 }, { "id": "CUT", "level": 1 } ],
     "reversible": true,
     "autolearn": true,

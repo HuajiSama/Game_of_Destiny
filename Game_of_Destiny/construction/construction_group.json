@@ -1,12 +1,12 @@
 [
   {
     "type": "construction_group",
-    "id": "bulid_xhkt",
+    "id": "GS_bulid_downstair",
     "name": "建设：下行楼梯"
   },
   {
     "type": "construction_group",
-    "id": "bulid_shkt",
+    "id": "GS_bulid_upstair",
     "name": "建设：上行楼梯"
   },
   {

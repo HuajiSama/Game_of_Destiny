@@ -11,17 +11,21 @@
     "symbol": "&",
     "color": "brown",
     "armor_data": {
-      "covers": [ "torso" ],
-      "coverage": 30,
-      "material_thickness": 2,
-      "encumbrance": 10
+      "armor": [
+        {
+          "covers": [ "torso" ],
+          "coverage": 30,
+          "material_thickness": 2,
+          "encumbrance": 10
+        }
+      ]
     },
     "flags": [ "BELTED" ]
   },
   {
     "type": "uncraft",
     "result": "GS_Scavenger_PSK",
-    "time": 2000,
+    "time": "2 m",
     "flags": [ "BLIND_HARD" ],
     "components": [
       [ [ "backpack_leather", 1 ] ],

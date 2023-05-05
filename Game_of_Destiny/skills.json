@@ -1,0 +1,40 @@
+[
+  {
+    "type": "skill_display_type",
+    "id": "display_GS",
+    "display_string": "超凡技能"
+  },
+  {
+    "type": "skill",
+    "id": "GS_str",
+    "name": "超凡力量",
+    "description": "超凡者的力量属性。代表精神力的强度，包括情绪、欲望、执着等意念的爆发力，以及忍受痛苦、持续作战的心理素质。",
+    "display_category": "display_GS",
+    "sort_rank": -1919,
+    "tags": [ "combat_skill" ]
+  },
+  {
+    "type": "skill",
+    "id": "GS_dex",
+    "name": "超凡敏捷",
+    "description": "超凡者的反射属性。思维的敏锐程度，包括对意念控制的精准度、思考或行动的效率，影响对超凡力量的操控力和协调度。",
+    "display_category": "display_GS",
+    "sort_rank": -514
+  },
+  {
+    "type": "skill",
+    "id": "GS_int",
+    "name": "超凡智力",
+    "description": "超凡者的智力属性。大脑皮质的开发程度，包含语言、数理、逻辑、记忆能力以及对自然规则的理解等等。可以用意念具现物质，或进一步在科学领域引导出异能。",
+    "display_category": "display_GS",
+    "sort_rank": -14
+  },
+  {
+    "type": "skill",
+    "id": "GS_per",
+    "name": "超凡感知",
+    "description": "超凡者的感知属性。对色彩、空间、艺术的感受力，还有洞察异常、感知危险的敏锐度。感性可以渲染特效，显化没有固定形体的元素(例如火焰)。",
+    "display_category": "display_GS",
+    "sort_rank": -1
+  }
+]

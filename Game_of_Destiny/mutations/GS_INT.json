@@ -63,7 +63,7 @@
   {
     "type": "mutation",
     "id": "ROBUST",
-    "copy-from": "ROBUSH",
+    "copy-from": "ROBUST",
     "extend": { "category": [ "SP_INTELLIGENCE" ] }
   }
 ]
