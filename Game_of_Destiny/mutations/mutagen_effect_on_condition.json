@@ -612,7 +612,7 @@
         "text": "超凡新人王",
         "condition": { "and": [ { "not": { "u_has_trait": "SP_NOVICE1" } }, { "not": { "u_has_trait": "SP_NOVICE2" } } ] },
         "topic": "TALK_DONE",
-        "effect": { "u_add_trait": "IMMORTAL_1" }
+        "effect": { "u_add_trait": "SP_NOVICE1" }
       },
       {
         "text": "至尊新人王",
